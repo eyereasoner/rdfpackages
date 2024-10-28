@@ -8,9 +8,9 @@ NORMAL="\e[0;39m"
 OK=0
 FAILED=0
 
-echo -e "${YELLOW}---------------------${NORMAL}"
-echo -e "${YELLOW}Running rdflogic test${NORMAL}"
-echo -e "${YELLOW}---------------------${NORMAL}"
+echo -e "${YELLOW}-------------------------${NORMAL}"
+echo -e "${YELLOW}Running rdfdatasets-tests${NORMAL}"
+echo -e "${YELLOW}-------------------------${NORMAL}"
 echo ""
 
 pad () {
