@@ -1,0 +1,32 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:test :is true.
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:bng_2.
+_:bng_3 log:proves _:bng_2.
+
+_:bng_1 {
+    :Alice a :Cat.
+}
+
+_:bng_2 {
+    _:bng_4 log:implies _:e_bng_4_1.
+}
+
+_:bng_3 {
+    :Minka a :Cat.
+}
+
+_:bng_4 {
+    var:x_0 a :Dog.
+}
+
+_:e_bng_4_1 {
+    :test :is true.
+}

@@ -1,0 +1,67 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+
+:test :for :PolicyX.
+:test :is true.
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:bng_2.
+_:bng_3 log:proves _:bng_4.
+_:bng_5 log:proves _:bng_6.
+
+_:bng_1 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (_:bng_7 _:bng_8) log:forAllIn ((<file:///home/jdroo/github.com/eyereasoner/rdfdatasets-tests/acp.trig>) 1).
+}
+
+_:bng_2 {
+    :PolicyX :pass :allOfTest.
+}
+
+_:bng_3 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (var:x_0 _:bng_9 (:C)) log:collectAllIn ((<file:///home/jdroo/github.com/eyereasoner/rdfdatasets-tests/acp.trig>) 1).
+    (:C) list:length 1 .
+    (1) log:notEqualTo (0).
+}
+
+_:bng_4 {
+    :PolicyX :pass :anyOfTest.
+}
+
+_:bng_5 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (var:x_0 _:bng_10 ()) log:collectAllIn ((<file:///home/jdroo/github.com/eyereasoner/rdfdatasets-tests/acp.trig>) 1).
+    () list:length 0 .
+    (0) log:equalTo (0).
+}
+
+_:bng_6 {
+    :PolicyX :pass :noneOfTest.
+}
+
+_:bng_7 {
+    :PolicyX :allOf var:x_0.
+}
+
+_:bng_8 {
+    :test1 :has var:x_0.
+}
+
+_:bng_9 {
+    :PolicyX :anyOf var:x_0.
+    :test1 :has var:x_0.
+}
+
+_:bng_10 {
+    :PolicyX :noneOf var:x_0.
+    :test1 :has var:x_0.
+}

@@ -1,0 +1,25 @@
+@prefix : <http://example.org/#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix time: <http://www.w3.org/2000/10/swap/time#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+
+:patH :ageAbove "P80Y"^^xsd:duration.
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:bng_2.
+
+_:bng_1 {
+    :patH :birthDay "1944-08-21"^^xsd:date.
+    [] rdf:value ""; time:localTime "2024-10-29T18:56:58.273Z"^^xsd:dateTime.
+    ("2024-10-29T18:56:58.273Z"^^xsd:dateTime "1944-08-21"^^xsd:date) math:difference 2530637818.273 .
+    [] rdf:value 2530637818.273; math:greaterThan "P80Y"^^xsd:duration.
+}
+
+_:bng_2 {
+    :patH :ageAbove "P80Y"^^xsd:duration.
+}

@@ -1,0 +1,46 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:Fabian :believes _:e_bng_5_1.
+:northStar :notNecessarilyA :gold.
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:bng_2.
+_:bng_1 log:proves _:e_bng_5_1.
+_:bng_3 log:proves _:bng_4.
+
+_:e_bng_5_1 {
+    _:e_bng_6_1 log:implies _:e_bng_7_1.
+}
+
+_:bng_1 {
+    :Einstein :says _:e_bng_5_1.
+}
+
+_:bng_2 {
+    :Fabian :believes _:e_bng_5_1.
+}
+
+_:e_bng_5_1 {
+    _:e_bng_6_1 log:implies _:e_bng_7_1.
+}
+
+_:bng_3 {
+    :northStar a :glitter.
+}
+
+_:bng_4 {
+    :northStar :notNecessarilyA :gold.
+}
+
+_:e_bng_6_1 {
+    var:x a :glitter.
+}
+
+_:e_bng_7_1 {
+    var:x :notNecessarilyA :gold.
+}

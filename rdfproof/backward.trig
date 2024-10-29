@@ -1,0 +1,20 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+
+[] rdf:value 5; :moreInterestingThan 3 .
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:e_bng_3_1.
+
+_:bng_1 {
+    [] rdf:value 5; math:greaterThan 3.
+}
+
+_:e_bng_3_1 {
+    [] rdf:value 5; :moreInterestingThan 3.
+}

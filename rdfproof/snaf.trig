@@ -1,0 +1,23 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+
+:Alice :hates :Nobody.
+
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:e_bng_2_1.
+
+_:bng_1 {
+    ((<file:///home/jdroo/github.com/eyereasoner/rdfdatasets-tests/snaf.trig>) 1) log:notIncludes _:bng_2.
+    :Bob a :Person.
+}
+
+_:e_bng_2_1 {
+    :Alice :hates :Nobody.
+}
+
+_:bng_2 {
+    :Alice :hates :Bob.
+}
