@@ -1,8 +1,43 @@
 @prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix graph: <http://www.w3.org/2000/10/swap/graph#>.
 
 :result :is _:sk_2.
 
+#
+# rdfproof
+#
+
+_:bng_1 log:proves _:bng_2.
+
 _:sk_2 {
+    :A :B :C.
+    :A :X :C.
+    :D :E :F.
+    :A :Y :C.
+}
+
+_:bng_1 {
+    (_:e_bng_1_1 _:e_bng_2_1) graph:union _:bng_3.
+}
+
+_:bng_2 {
+    :result :is _:sk_2.
+    _:sk_2 graph:statement _:bng_3.
+}
+
+_:e_bng_1_1 {
+    :A :B :C.
+    :A :X :C.
+    :D :E :F.
+}
+
+_:e_bng_2_1 {
+    :A :Y :C.
+    :A :B :C.
+}
+
+_:bng_3 {
     :A :B :C.
     :A :X :C.
     :D :E :F.

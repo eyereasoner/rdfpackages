@@ -79,13 +79,14 @@ _:bng_116 log:proves _:bng_117.
 _:bng_118 log:proves _:bng_119.
 _:bng_120 log:proves _:bng_121.
 _:bng_122 log:proves _:bng_123.
-
-_:bng_124 {
-    () :mi (_:e_question_graph3_1).
-}
+_:bng_123 log:proves _:e_question_graph3_1.
 
 _:e_question_graph3_1 {
     () :natnum (:s (:s (:s (:s (:s (0)))))).
+}
+
+_:bng_124 {
+    () :mi (_:e_question_graph3_1).
 }
 
 _:bng_128 {
