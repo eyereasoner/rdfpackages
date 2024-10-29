@@ -1,8 +1,8 @@
-# RDF Datasets
+# RDF Proof
 
 ## Reasoning and querying in RDF TriG
 
-### RDF Datasets supports reasoning with forward rules described in RDF as
+### RDF Proof supports reasoning with forward rules described in RDF as
 ```
 _:bng_1 log:implies _:bng_2.
 
@@ -15,7 +15,7 @@ _:bng_2 {
 }
 ```
 
-### RDF Datasets supports reasoning with backward rules described in RDF as
+### RDF Proof supports reasoning with backward rules described in RDF as
 ```
 _:bng_1 log:isImpliedBy _:bng_2.
 
@@ -28,7 +28,7 @@ _:bng_2 {
 }
 ```
 
-### RDF Datasets supports querying with queries described in RDF as
+### RDF Proof supports querying with queries described in RDF as
 ```
 _:bng_1 log:query _:bng_2.
 
@@ -41,7 +41,7 @@ _:bng_2 {
 }
 ```
 
-### RDF Datasets supports reasoning with rdfsurfaces described in RDF as
+### RDF Proof supports reasoning with rdfsurfaces described in RDF as
 ```
 ( graffiti ) log:onNegativeSurface _:bng_1.
 
