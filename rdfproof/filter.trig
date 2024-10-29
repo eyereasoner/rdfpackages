@@ -12,7 +12,7 @@
 _:bng_1 log:proves _:bng_2.
 
 _:bng_1 {
-    (_:sk_3 _:bng_3 ("Huey" "Dewey")) log:collectAllIn ((<file:///home/jdroo/github.com/eyereasoner/rdfproof/filter.trig>) 1).
+    (_:sk_3 _:bng_3 ("Huey" "Dewey")) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/filter.trig>) 1).
     ("Huey" "Dewey") list:length 2.
 }
 

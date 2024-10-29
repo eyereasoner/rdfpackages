@@ -10,7 +10,7 @@
 _:bng_1 log:proves _:e_bng_2_1.
 
 _:bng_1 {
-    ((<file:///home/jdroo/github.com/eyereasoner/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_2.
+    ((<https://eyereasoner.github.io/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_2.
     :Bob a :Person.
 }
 
