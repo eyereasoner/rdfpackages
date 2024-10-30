@@ -46,7 +46,9 @@ variables that are interpreted as universally quantified variables except for
 forward rule conclusion-only variables which are interpreted existentially.
 
 RDF proofs are composed of
-`(rule_or_query instantiated_premise) log:proves instantiated_conclusion.`
+```
+(rule_or_query instantiated_premise) log:proves instantiated_conclusion.
+```
 triples.
 
 Literal subjects are described as
