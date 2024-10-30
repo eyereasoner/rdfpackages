@@ -226,6 +226,7 @@
 (_:bng_389 _:bng_438) log:proves _:bng_439.
 (_:bng_389 _:bng_440) log:proves _:bng_441.
 (_:bng_389 _:bng_442) log:proves _:bng_443.
+(_:bng_444 _:e_bng_19_1) log:proves _:e_bng_19_1.
 
 _:bng_1 {
     _:e_bng_1_1 log:implies _:e_bng_2_1.
@@ -3758,6 +3759,14 @@ _:bng_443 {
     _:sk_94 :rel10 _:sk_95.
     _:sk_94 :rel10 _:sk_95.
     _:sk_94 :relGoal _:sk_95.
+}
+
+_:bng_444 {
+    _:e_bng_19_1 log:query _:e_bng_19_1.
+}
+
+_:e_bng_19_1 {
+    :x :relGoal :y.
 }
 
 _:e_bng_1_1 {

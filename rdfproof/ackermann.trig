@@ -73,6 +73,7 @@
 (_:bng_4 _:bng_108) log:proves _:bng_109.
 (_:bng_31 _:bng_110) log:proves _:bng_111.
 (_:bng_4 _:bng_112) log:proves _:bng_113.
+(_:bng_114 _:bng_115) log:proves _:bng_115.
 
 _:bng_1 {
     _:e_bng_3_1 log:isImpliedBy _:e_bng_4_1.
@@ -632,6 +633,23 @@ _:bng_113 {
     (4 1) :ackermann 65533.
 }
 
+_:bng_114 {
+    _:e_bng_14_1 log:query _:e_bng_14_1.
+}
+
+_:bng_115 {
+    (0 0) :ackermann 1 .
+    (0 6) :ackermann 7 .
+    (1 2) :ackermann 4 .
+    (1 7) :ackermann 9 .
+    (2 2) :ackermann 7 .
+    (2 9) :ackermann 21 .
+    (3 4) :ackermann 125 .
+    (3 14) :ackermann 131069 .
+    (4 0) :ackermann 13 .
+    (4 1) :ackermann 65533.
+}
+
 _:e_bng_3_1 {
     (0 var:Y var:Z) :ackermann var:A.
 }
@@ -678,4 +696,17 @@ _:e_bng_12_1 {
     (var:X var:B var:Z) :ackermann var:C.
     (var:X 1) math:difference var:D.
     (var:D var:C var:Z) :ackermann var:A.
+}
+
+_:e_bng_14_1 {
+    (0 0) :ackermann var:A0.
+    (0 6) :ackermann var:A1.
+    (1 2) :ackermann var:A2.
+    (1 7) :ackermann var:A3.
+    (2 2) :ackermann var:A4.
+    (2 9) :ackermann var:A5.
+    (3 4) :ackermann var:A6.
+    (3 14) :ackermann var:A7.
+    (4 0) :ackermann var:A8.
+    (4 1) :ackermann var:A9.
 }

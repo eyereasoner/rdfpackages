@@ -28,17 +28,21 @@
 (_:bng_22 _:bng_31) log:proves _:bng_32.
 (_:bng_22 _:bng_33) log:proves _:bng_34.
 (_:bng_22 _:bng_35) log:proves _:bng_36.
-(_:bng_22 _:bng_37) log:proves _:bng_38.
-(_:bng_22 _:bng_39) log:proves _:bng_40.
-(_:bng_22 _:bng_41) log:proves _:bng_38.
-(_:bng_22 _:bng_42) log:proves _:bng_43.
-(_:bng_22 _:bng_44) log:proves _:bng_38.
-(_:bng_22 _:bng_45) log:proves _:bng_40.
-(_:bng_22 _:bng_46) log:proves _:bng_38.
-(_:bng_22 _:bng_47) log:proves _:bng_48.
-(_:bng_22 _:bng_49) log:proves _:bng_43.
-(_:bng_22 _:bng_50) log:proves _:bng_48.
-(_:bng_22 _:bng_51) log:proves _:bng_48.
+(_:bng_37 _:bng_21) log:proves _:bng_21.
+(_:bng_37 _:bng_36) log:proves _:bng_36.
+(_:bng_22 _:bng_38) log:proves _:bng_39.
+(_:bng_22 _:bng_40) log:proves _:bng_41.
+(_:bng_22 _:bng_42) log:proves _:bng_39.
+(_:bng_22 _:bng_43) log:proves _:bng_44.
+(_:bng_22 _:bng_45) log:proves _:bng_39.
+(_:bng_22 _:bng_46) log:proves _:bng_41.
+(_:bng_22 _:bng_47) log:proves _:bng_39.
+(_:bng_22 _:bng_48) log:proves _:bng_49.
+(_:bng_22 _:bng_50) log:proves _:bng_44.
+(_:bng_37 _:bng_44) log:proves _:bng_44.
+(_:bng_37 _:bng_49) log:proves _:bng_49.
+(_:bng_22 _:bng_51) log:proves _:bng_49.
+(_:bng_22 _:bng_52) log:proves _:bng_49.
 
 _:bng_1 {
     _:e_bng_1_1 log:implies _:e_bng_2_1.
@@ -192,72 +196,76 @@ _:bng_36 {
 }
 
 _:bng_37 {
+    _:e_bng_5_1 log:query _:e_bng_5_1.
+}
+
+_:bng_38 {
     :paris :path :orleans.
     :orleans :path :tours.
 }
 
-_:bng_38 {
+_:bng_39 {
     :paris :path :tours.
 }
 
-_:bng_39 {
+_:bng_40 {
     :paris :path :chartres.
     :chartres :path :angers.
 }
 
-_:bng_40 {
+_:bng_41 {
     :paris :path :angers.
 }
 
-_:bng_41 {
+_:bng_42 {
     :paris :path :chartres.
     :chartres :path :tours.
 }
 
-_:bng_42 {
+_:bng_43 {
     :chartres :path :lemans.
     :lemans :path :nantes.
 }
 
-_:bng_43 {
+_:bng_44 {
     :chartres :path :nantes.
 }
 
-_:bng_44 {
+_:bng_45 {
     :paris :path :blois.
     :blois :path :tours.
 }
 
-_:bng_45 {
+_:bng_46 {
     :paris :path :lemans.
     :lemans :path :angers.
 }
 
-_:bng_46 {
+_:bng_47 {
     :paris :path :lemans.
     :lemans :path :tours.
 }
 
-_:bng_47 {
+_:bng_48 {
     :paris :path :lemans.
     :lemans :path :nantes.
 }
 
-_:bng_48 {
+_:bng_49 {
     :paris :path :nantes.
 }
 
-_:bng_49 {
+_:bng_50 {
     :chartres :path :angers.
     :angers :path :nantes.
 }
 
-_:bng_50 {
+_:bng_51 {
     :paris :path :chartres.
     :chartres :path :nantes.
 }
 
-_:bng_51 {
+_:bng_52 {
     :paris :path :angers.
     :angers :path :nantes.
 }
@@ -277,4 +285,8 @@ _:e_bng_3_1 {
 
 _:e_bng_4_1 {
     var:A :path var:C.
+}
+
+_:e_bng_5_1 {
+    var:A :path :nantes.
 }

@@ -22,6 +22,7 @@
 (_:bng_1 _:bng_20) log:proves _:bng_21.
 (_:bng_1 _:bng_22) log:proves _:bng_23.
 (_:bng_1 _:bng_24) log:proves _:bng_25.
+(_:bng_26 _:bng_25) log:proves _:bng_25.
 
 _:bng_1 {
     _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
@@ -171,6 +172,10 @@ _:bng_25 {
     (6 :left :right :center) :moves ((:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right)).
 }
 
+_:bng_26 {
+    _:e_bng_4_1 log:query _:e_bng_4_1.
+}
+
 _:e_bng_1_1 {
     (var:N var:X var:Y var:Z) :moves var:M.
 }
@@ -181,4 +186,8 @@ _:e_bng_2_1 {
     (var:N1 var:X var:Z var:Y) :moves var:M1.
     (var:N1 var:Z var:Y var:X) :moves var:M2.
     (var:M1 ((var:X var:Y)) var:M2) list:append var:M.
+}
+
+_:e_bng_4_1 {
+    (6 :left :right :center) :moves var:M.
 }

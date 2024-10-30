@@ -127,6 +127,7 @@
 (_:bng_35 _:bng_201) log:proves _:bng_202.
 (_:bng_32 _:bng_203) log:proves _:bng_204.
 (_:bng_205 _:bng_206) log:proves _:bng_207.
+(_:bng_208 _:bng_209) log:proves _:bng_209.
 
 _:bng_1 {
     _:e_bng_18_1 log:isImpliedBy _:e_bng_19_1.
@@ -1081,6 +1082,17 @@ _:bng_207 {
     () :compute (1 "#").
 }
 
+_:bng_208 {
+    _:e_bng_23_1 log:query _:e_bng_23_1.
+}
+
+_:bng_209 {
+    (1 0 1 0 0 1) :compute (1 0 1 0 1 0 "#").
+    (1 0 1 1 1 1) :compute (1 1 0 0 0 0 "#").
+    (1 1 1 1 1 1) :compute (1 0 0 0 0 0 0 "#").
+    () :compute (1 "#").
+}
+
 _:e_bng_18_1 {
     (:right var:Left var:Cell var:List var:L var:Head var:Tail) :move true.
 }
@@ -1170,4 +1182,11 @@ _:e_bng_1_1 {
 _:e_bng_2_1 {
     var:Machine :start var:I.
     (var:I () "#" ()) :find var:OutTape.
+}
+
+_:e_bng_23_1 {
+    (1 0 1 0 0 1) :compute var:A1.
+    (1 0 1 1 1 1) :compute var:A2.
+    (1 1 1 1 1 1) :compute var:A3.
+    () :compute var:A4.
 }

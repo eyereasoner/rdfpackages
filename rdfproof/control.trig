@@ -13,6 +13,8 @@
 (_:bng_1 _:bng_2) log:proves _:bng_3.
 (_:bng_4 _:bng_5) log:proves _:bng_6.
 (_:bng_7 _:bng_8) log:proves _:bng_9.
+(_:bng_10 _:bng_6) log:proves _:bng_6.
+(_:bng_10 _:bng_9) log:proves _:bng_9.
 
 _:bng_1 {
     _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
@@ -67,6 +69,10 @@ _:bng_9 {
     :actuator2 :control1 26.08.
 }
 
+_:bng_10 {
+    _:e_bng_9_1 log:query _:e_bng_9_1.
+}
+
 _:e_bng_5_1 {
     var:I :measurement10 var:M.
 }
@@ -106,4 +112,8 @@ _:e_bng_3_1 {
 
 _:e_bng_4_1 {
     :actuator2 :control1 var:C.
+}
+
+_:e_bng_9_1 {
+    var:O :control1 var:C.
 }

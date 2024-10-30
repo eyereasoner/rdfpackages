@@ -39,6 +39,7 @@
 (_:bng_44 _:bng_57) log:proves _:bng_58.
 (_:bng_44 _:bng_59) log:proves _:bng_60.
 (_:bng_44 _:bng_61) log:proves _:bng_62.
+(_:bng_63 _:bng_62) log:proves _:bng_62.
 
 _:bng_1 {
     _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
@@ -411,6 +412,10 @@ _:bng_62 {
     ((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc ((0 0 1) (0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
 }
 
+_:bng_63 {
+    _:e_bng_12_1 log:query _:e_bng_12_1.
+}
+
 _:e_bng_5_1 {
     (var:A var:B var:C) :netb (var:Q1 var:Q2).
 }
@@ -458,4 +463,8 @@ _:e_bng_11_1 {
     var:Nc list:firstRest (var:N var:Ns).
     (var:C var:S) :gcc var:N.
     (var:Cs var:N) :testgcc var:Ns.
+}
+
+_:e_bng_12_1 {
+    ((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc var:Q.
 }

@@ -1,5 +1,6 @@
 @prefix : <http://example.org/#>.
 @prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix graph: <http://www.w3.org/2000/10/swap/graph#>.
 @prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 :Fabian :believes _:e_bng_5_1.
@@ -10,8 +11,10 @@
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
-(_:bng_4 _:bng_2) log:proves _:e_bng_5_1.
-(_:e_bng_5_1 _:bng_5) log:proves _:bng_6.
+(_:bng_4 _:bng_5) log:proves _:bng_5.
+(_:bng_6 _:bng_2) log:proves _:e_bng_5_1.
+(_:e_bng_5_1 _:bng_7) log:proves _:bng_8.
+(_:bng_9 _:bng_8) log:proves _:bng_8.
 
 _:e_bng_6_1 {
     var:x a :glitter.
@@ -42,15 +45,28 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:bng_2 log:implies _:e_bng_5_1.
+    _:e_bng_8_1 log:query _:e_bng_8_1.
 }
 
 _:bng_5 {
-    :northStar a :glitter.
+    :Fabian :believes _:e_bng_5_1.
+    _:e_bng_5_1 graph:statement _:bng_10.
 }
 
 _:bng_6 {
+    _:bng_2 log:implies _:e_bng_5_1.
+}
+
+_:bng_7 {
+    :northStar a :glitter.
+}
+
+_:bng_8 {
     :northStar :notNecessarilyA :gold.
+}
+
+_:bng_9 {
+    _:e_bng_9_1 log:query _:e_bng_9_1.
 }
 
 _:e_bng_6_1 {
@@ -73,6 +89,19 @@ _:e_bng_2_1 {
     :Einstein :says var:phi.
 }
 
+_:e_bng_8_1 {
+    :Fabian :believes var:what.
+    var:what graph:statement var:content.
+}
+
+_:bng_10 {
+    _:e_bng_6_1 log:implies _:e_bng_7_1.
+}
+
 _:bng_2 {
     :Einstein :says _:e_bng_5_1.
+}
+
+_:e_bng_9_1 {
+    var:x :notNecessarilyA var:what.
 }

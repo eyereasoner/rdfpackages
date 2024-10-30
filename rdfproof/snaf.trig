@@ -9,6 +9,7 @@
 #
 
 (_:bng_1 _:bng_2) log:proves _:e_bng_2_1.
+(_:bng_3 _:e_bng_2_1) log:proves _:e_bng_2_1.
 
 _:e_bng_3_1 {
     :Alice :hates var:X.
@@ -19,7 +20,7 @@ _:bng_1 {
 }
 
 _:bng_2 {
-    ((<https://eyereasoner.github.io/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_3.
+    ((<https://eyereasoner.github.io/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_4.
     :Bob a :Person.
 }
 
@@ -27,11 +28,19 @@ _:e_bng_2_1 {
     :Alice :hates :Nobody.
 }
 
+_:bng_3 {
+    _:e_bng_4_1 log:query _:e_bng_4_1.
+}
+
 _:e_bng_1_1 {
     var:SCOPE log:notIncludes _:e_bng_3_1.
     var:X a :Person.
 }
 
-_:bng_3 {
+_:bng_4 {
     :Alice :hates :Bob.
+}
+
+_:e_bng_4_1 {
+    var:s :hates var:o.
 }

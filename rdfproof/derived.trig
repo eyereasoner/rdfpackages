@@ -10,9 +10,14 @@
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
 (_:bng_1 _:bng_4) log:proves _:bng_3.
+(_:bng_5 _:e_bng_4_1) log:proves _:e_bng_4_1.
 
 _:e_bng_3_1 {
     var:dog a :Dog.
+}
+
+_:e_bng_4_1 {
+    :test :is true.
 }
 
 _:bng_1 {
@@ -24,11 +29,15 @@ _:bng_2 {
 }
 
 _:bng_3 {
-    _:bng_5 log:implies _:e_bng_4_1.
+    _:bng_6 log:implies _:e_bng_4_1.
 }
 
 _:bng_4 {
     :Minka a :Cat.
+}
+
+_:bng_5 {
+    _:e_bng_5_1 log:query _:e_bng_5_1.
 }
 
 _:e_bng_1_1 {
@@ -39,10 +48,14 @@ _:e_bng_2_1 {
     _:e_bng_3_1 log:implies _:e_bng_4_1.
 }
 
-_:bng_5 {
+_:bng_6 {
     var:x_0 a :Dog.
 }
 
 _:e_bng_4_1 {
     :test :is true.
+}
+
+_:e_bng_5_1 {
+    :test :is var:result.
 }

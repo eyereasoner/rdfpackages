@@ -26,6 +26,7 @@
 (_:bng_7 _:bng_23) log:proves _:bng_24.
 (_:bng_25 _:bng_26) log:proves _:bng_27.
 (_:bng_28 _:bng_29) log:proves _:bng_30.
+(_:bng_31 _:bng_32) log:proves _:bng_32.
 
 _:bng_1 {
     _:e_bng_11_1 log:isImpliedBy _:e_bng_12_1.
@@ -259,6 +260,19 @@ _:bng_30 {
     (2 0) complex:acos (0.0 -1.3169578969248166).
 }
 
+_:bng_31 {
+    _:e_bng_17_1 log:query _:e_bng_17_1.
+}
+
+_:bng_32 {
+    ((-1 0) (0.5 0)) complex:exponentiation (6.123233995736766e-17 1.0).
+    ((2.718281828459045 0) (0 3.141592653589793)) complex:exponentiation (-1.0 1.2246467991473532e-16).
+    ((0 1) (0 1)) complex:exponentiation (0.20787957635076193 0.0).
+    ((2.718281828459045 0) (-1.57079632679 0)) complex:exponentiation (0.20787957635177984 0.0).
+    (2 0) complex:asin (1.5707963267948966 1.3169578969248166).
+    (2 0) complex:acos (0.0 -1.3169578969248166).
+}
+
 _:e_bng_11_1 {
     (var:X var:Y var:T) complex:dial var:Tp.
 }
@@ -365,4 +379,13 @@ _:e_bng_6_1 {
     (var:F var:Z14) math:sum var:Z15.
     (2.718281828459045 var:U) math:exponentiation var:Z15.
     var:U math:negation var:D.
+}
+
+_:e_bng_17_1 {
+    ((-1 0) (0.5 0)) complex:exponentiation var:C1.
+    ((2.718281828459045 0) (0 3.141592653589793)) complex:exponentiation var:C2.
+    ((0 1) (0 1)) complex:exponentiation var:C3.
+    ((2.718281828459045 0) (-1.57079632679 0)) complex:exponentiation var:C4.
+    (2 0) complex:asin var:C5.
+    (2 0) complex:acos var:C6.
 }
