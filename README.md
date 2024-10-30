@@ -45,8 +45,9 @@ The var: prefix is <http://www.w3.org/2000/10/swap/var#> and is used for
 variables that are interpreted as universally quantified variables except for
 forward rule conclusion-only variables which are interpreted existentially.
 
-RDF proofs are composed of `log:proves` triples where the subject graph
-proves the object graph by using a varables substitution for a rule or query.
+RDF proofs are composed of
+`(rule_or_query instantiated_premise) log:proves instantiated_conclusion.`
+triples.
 
 Literal subjects are described as
 ```
