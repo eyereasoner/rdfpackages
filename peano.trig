@@ -75,8 +75,8 @@ _:bng_11 {
 _:bng_12 log:query _:bng_13.
 
 _:bng_12 {
-    ((:s 0) (:s (:s 0))) :add var:A.
-    (var:A (:s (:s 0))) :multiply var:B.
+    ((:s 0) (:s (:s (:s 0)))) :multiply var:A.
+    (var:A (:s (:s 0))) :add var:B.
     var:B :factorial var:C.
 }
 

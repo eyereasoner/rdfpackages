@@ -51,5 +51,5 @@ _:bng_5 {
 _:bng_6 log:query _:bng_6.
 
 _:bng_6 {
-    (5000 var:Pi) :pi true.
+    (2500 var:Pi) :pi true.
 }
