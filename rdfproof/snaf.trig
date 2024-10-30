@@ -1,5 +1,6 @@
 @prefix : <http://example.org/#>.
 @prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 :Alice :hates :Nobody.
 
@@ -7,10 +8,18 @@
 # rdfproof
 #
 
-_:bng_1 log:proves _:e_bng_2_1.
+(_:bng_1 _:bng_2) log:proves _:e_bng_2_1.
+
+_:e_bng_3_1 {
+    :Alice :hates var:X.
+}
 
 _:bng_1 {
-    ((<https://eyereasoner.github.io/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_2.
+    _:e_bng_1_1 log:implies _:e_bng_2_1.
+}
+
+_:bng_2 {
+    ((<https://eyereasoner.github.io/rdfproof/snaf.trig>) 1) log:notIncludes _:bng_3.
     :Bob a :Person.
 }
 
@@ -18,6 +27,11 @@ _:e_bng_2_1 {
     :Alice :hates :Nobody.
 }
 
-_:bng_2 {
+_:e_bng_1_1 {
+    var:SCOPE log:notIncludes _:e_bng_3_1.
+    var:X a :Person.
+}
+
+_:bng_3 {
     :Alice :hates :Bob.
 }

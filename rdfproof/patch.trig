@@ -1,5 +1,6 @@
 @prefix : <http://example.org/#>.
 @prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 :pers001 :familyName "Garcia".
 :pers001 :givenName "Alex".
@@ -10,17 +11,34 @@
 # rdfproof
 #
 
-_:bng_1 log:proves true.
+(_:bng_1 _:bng_2) log:proves true.
+
+_:e_bng_2_1 {
+    var:person :givenName "Claudia".
+}
+
+_:e_bng_3_1 {
+    var:person :givenName "Alex".
+}
 
 _:bng_1 {
-    :pers001 :familyName "Garcia".
-    _:bng_2 log:becomes _:bng_3.
+    _:e_bng_1_1 log:implies true.
 }
 
 _:bng_2 {
-    :pers001 :givenName "Claudia".
+    :pers001 :familyName "Garcia".
+    _:bng_3 log:becomes _:bng_4.
+}
+
+_:e_bng_1_1 {
+    var:person :familyName "Garcia".
+    _:e_bng_2_1 log:becomes _:e_bng_3_1.
 }
 
 _:bng_3 {
+    :pers001 :givenName "Claudia".
+}
+
+_:bng_4 {
     :pers001 :givenName "Alex".
 }

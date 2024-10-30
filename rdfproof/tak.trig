@@ -2,6 +2,7 @@
 @prefix log: <http://www.w3.org/2000/10/swap/log#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 (18 13 8) :tak 13 .
 
@@ -9,264 +10,276 @@
 # rdfproof
 #
 
-_:bng_1 log:proves _:bng_2.
-_:bng_3 log:proves _:bng_4.
-_:bng_5 log:proves _:bng_6.
-_:bng_7 log:proves _:bng_8.
-_:bng_3 log:proves _:bng_9.
-_:bng_10 log:proves _:bng_11.
-_:bng_12 log:proves _:bng_13.
-_:bng_14 log:proves _:bng_15.
-_:bng_3 log:proves _:bng_16.
-_:bng_17 log:proves _:bng_18.
-_:bng_19 log:proves _:bng_20.
-_:bng_21 log:proves _:bng_22.
-_:bng_3 log:proves _:bng_23.
-_:bng_24 log:proves _:bng_25.
-_:bng_26 log:proves _:bng_27.
-_:bng_28 log:proves _:bng_29.
-_:bng_3 log:proves _:bng_30.
-_:bng_31 log:proves _:bng_32.
-_:bng_33 log:proves _:bng_34.
-_:bng_35 log:proves _:bng_36.
-_:bng_7 log:proves _:bng_37.
-_:bng_38 log:proves _:bng_39.
-_:bng_40 log:proves _:bng_41.
-_:bng_42 log:proves _:bng_43.
-_:bng_38 log:proves _:bng_44.
-_:bng_45 log:proves _:bng_46.
-_:bng_47 log:proves _:bng_48.
-_:bng_38 log:proves _:bng_49.
-_:bng_50 log:proves _:bng_51.
-_:bng_52 log:proves _:bng_53.
-_:bng_38 log:proves _:bng_54.
-_:bng_55 log:proves _:bng_56.
-_:bng_57 log:proves _:bng_58.
-_:bng_38 log:proves _:bng_59.
-_:bng_60 log:proves _:bng_61.
-_:bng_62 log:proves _:bng_63.
-_:bng_64 log:proves _:bng_65.
-_:bng_66 log:proves _:bng_67.
-_:bng_5 log:proves _:bng_68.
-_:bng_69 log:proves _:bng_70.
-_:bng_71 log:proves _:bng_72.
-_:bng_17 log:proves _:bng_73.
-_:bng_74 log:proves _:bng_75.
-_:bng_76 log:proves _:bng_77.
-_:bng_24 log:proves _:bng_78.
-_:bng_7 log:proves _:bng_79.
-_:bng_12 log:proves _:bng_80.
-_:bng_69 log:proves _:bng_81.
-_:bng_82 log:proves _:bng_83.
-_:bng_84 log:proves _:bng_85.
-_:bng_86 log:proves _:bng_87.
-_:bng_31 log:proves _:bng_88.
-_:bng_89 log:proves _:bng_90.
-_:bng_40 log:proves _:bng_91.
-_:bng_92 log:proves _:bng_93.
-_:bng_5 log:proves _:bng_94.
-_:bng_95 log:proves _:bng_96.
-_:bng_97 log:proves _:bng_98.
-_:bng_24 log:proves _:bng_99.
-_:bng_12 log:proves _:bng_100.
-_:bng_101 log:proves _:bng_102.
-_:bng_103 log:proves _:bng_104.
-_:bng_31 log:proves _:bng_105.
-_:bng_7 log:proves _:bng_106.
-_:bng_45 log:proves _:bng_107.
-_:bng_19 log:proves _:bng_108.
-_:bng_109 log:proves _:bng_110.
-_:bng_111 log:proves _:bng_112.
-_:bng_45 log:proves _:bng_113.
-_:bng_114 log:proves _:bng_115.
-_:bng_116 log:proves _:bng_117.
-_:bng_118 log:proves _:bng_119.
-_:bng_120 log:proves _:bng_121.
-_:bng_5 log:proves _:bng_122.
-_:bng_123 log:proves _:bng_124.
-_:bng_19 log:proves _:bng_125.
-_:bng_126 log:proves _:bng_127.
-_:bng_31 log:proves _:bng_128.
-_:bng_45 log:proves _:bng_129.
-_:bng_130 log:proves _:bng_131.
-_:bng_26 log:proves _:bng_132.
-_:bng_133 log:proves _:bng_134.
-_:bng_5 log:proves _:bng_135.
-_:bng_50 log:proves _:bng_136.
-_:bng_137 log:proves _:bng_138.
-_:bng_3 log:proves _:bng_139.
-_:bng_140 log:proves _:bng_141.
-_:bng_142 log:proves _:bng_143.
-_:bng_38 log:proves _:bng_144.
-_:bng_145 log:proves _:bng_146.
-_:bng_147 log:proves _:bng_148.
-_:bng_149 log:proves _:bng_150.
-_:bng_151 log:proves _:bng_152.
-_:bng_140 log:proves _:bng_153.
-_:bng_154 log:proves _:bng_155.
-_:bng_156 log:proves _:bng_157.
-_:bng_140 log:proves _:bng_158.
-_:bng_40 log:proves _:bng_159.
-_:bng_160 log:proves _:bng_161.
-_:bng_162 log:proves _:bng_163.
-_:bng_140 log:proves _:bng_164.
-_:bng_7 log:proves _:bng_165.
-_:bng_50 log:proves _:bng_166.
-_:bng_69 log:proves _:bng_167.
-_:bng_114 log:proves _:bng_168.
-_:bng_169 log:proves _:bng_170.
-_:bng_40 log:proves _:bng_171.
-_:bng_26 log:proves _:bng_172.
-_:bng_173 log:proves _:bng_174.
-_:bng_175 log:proves _:bng_176.
-_:bng_177 log:proves _:bng_178.
-_:bng_50 log:proves _:bng_179.
-_:bng_95 log:proves _:bng_180.
-_:bng_181 log:proves _:bng_182.
-_:bng_50 log:proves _:bng_183.
-_:bng_184 log:proves _:bng_185.
-_:bng_186 log:proves _:bng_187.
-_:bng_188 log:proves _:bng_189.
-_:bng_190 log:proves _:bng_191.
-_:bng_140 log:proves _:bng_192.
-_:bng_7 log:proves _:bng_193.
-_:bng_55 log:proves _:bng_194.
-_:bng_195 log:proves _:bng_196.
-_:bng_40 log:proves _:bng_197.
-_:bng_33 log:proves _:bng_198.
-_:bng_199 log:proves _:bng_200.
-_:bng_201 log:proves _:bng_202.
-_:bng_203 log:proves _:bng_204.
-_:bng_55 log:proves _:bng_205.
-_:bng_206 log:proves _:bng_207.
-_:bng_114 log:proves _:bng_208.
-_:bng_209 log:proves _:bng_210.
-_:bng_55 log:proves _:bng_211.
-_:bng_123 log:proves _:bng_212.
-_:bng_213 log:proves _:bng_214.
-_:bng_55 log:proves _:bng_215.
-_:bng_216 log:proves _:bng_217.
-_:bng_218 log:proves _:bng_219.
-_:bng_220 log:proves _:bng_221.
-_:bng_3 log:proves _:bng_222.
-_:bng_223 log:proves _:bng_224.
-_:bng_225 log:proves _:bng_226.
-_:bng_38 log:proves _:bng_227.
-_:bng_228 log:proves _:bng_229.
-_:bng_230 log:proves _:bng_231.
-_:bng_232 log:proves _:bng_233.
-_:bng_234 log:proves _:bng_235.
-_:bng_223 log:proves _:bng_236.
-_:bng_237 log:proves _:bng_238.
-_:bng_239 log:proves _:bng_240.
-_:bng_223 log:proves _:bng_241.
-_:bng_242 log:proves _:bng_243.
-_:bng_244 log:proves _:bng_245.
-_:bng_223 log:proves _:bng_246.
-_:bng_19 log:proves _:bng_247.
-_:bng_248 log:proves _:bng_249.
-_:bng_250 log:proves _:bng_251.
-_:bng_223 log:proves _:bng_252.
-_:bng_26 log:proves _:bng_253.
-_:bng_254 log:proves _:bng_255.
-_:bng_3 log:proves _:bng_256.
-_:bng_257 log:proves _:bng_258.
-_:bng_259 log:proves _:bng_260.
-_:bng_38 log:proves _:bng_261.
-_:bng_262 log:proves _:bng_263.
-_:bng_264 log:proves _:bng_265.
-_:bng_266 log:proves _:bng_267.
-_:bng_268 log:proves _:bng_269.
-_:bng_257 log:proves _:bng_270.
-_:bng_271 log:proves _:bng_272.
-_:bng_273 log:proves _:bng_274.
-_:bng_257 log:proves _:bng_275.
-_:bng_276 log:proves _:bng_277.
-_:bng_278 log:proves _:bng_279.
-_:bng_257 log:proves _:bng_280.
-_:bng_281 log:proves _:bng_282.
-_:bng_283 log:proves _:bng_284.
-_:bng_257 log:proves _:bng_285.
-_:bng_286 log:proves _:bng_287.
-_:bng_3 log:proves _:bng_288.
-_:bng_289 log:proves _:bng_290.
-_:bng_291 log:proves _:bng_292.
-_:bng_38 log:proves _:bng_293.
-_:bng_294 log:proves _:bng_295.
-_:bng_296 log:proves _:bng_297.
-_:bng_298 log:proves _:bng_299.
-_:bng_300 log:proves _:bng_301.
-_:bng_289 log:proves _:bng_302.
-_:bng_303 log:proves _:bng_304.
-_:bng_305 log:proves _:bng_306.
-_:bng_289 log:proves _:bng_307.
-_:bng_308 log:proves _:bng_309.
-_:bng_310 log:proves _:bng_311.
-_:bng_289 log:proves _:bng_312.
-_:bng_313 log:proves _:bng_314.
-_:bng_315 log:proves _:bng_316.
-_:bng_289 log:proves _:bng_317.
-_:bng_318 log:proves _:bng_319.
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_6) log:proves _:bng_7.
+(_:bng_1 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_4) log:proves _:bng_10.
+(_:bng_1 _:bng_11) log:proves _:bng_12.
+(_:bng_1 _:bng_13) log:proves _:bng_14.
+(_:bng_15 _:bng_16) log:proves _:bng_17.
+(_:bng_1 _:bng_4) log:proves _:bng_18.
+(_:bng_1 _:bng_19) log:proves _:bng_20.
+(_:bng_1 _:bng_21) log:proves _:bng_22.
+(_:bng_15 _:bng_23) log:proves _:bng_24.
+(_:bng_1 _:bng_4) log:proves _:bng_25.
+(_:bng_1 _:bng_26) log:proves _:bng_27.
+(_:bng_1 _:bng_28) log:proves _:bng_29.
+(_:bng_15 _:bng_30) log:proves _:bng_31.
+(_:bng_1 _:bng_4) log:proves _:bng_32.
+(_:bng_1 _:bng_33) log:proves _:bng_34.
+(_:bng_1 _:bng_35) log:proves _:bng_36.
+(_:bng_15 _:bng_37) log:proves _:bng_38.
+(_:bng_1 _:bng_8) log:proves _:bng_39.
+(_:bng_1 _:bng_40) log:proves _:bng_41.
+(_:bng_1 _:bng_42) log:proves _:bng_43.
+(_:bng_15 _:bng_44) log:proves _:bng_45.
+(_:bng_1 _:bng_40) log:proves _:bng_46.
+(_:bng_1 _:bng_47) log:proves _:bng_48.
+(_:bng_15 _:bng_49) log:proves _:bng_50.
+(_:bng_1 _:bng_40) log:proves _:bng_51.
+(_:bng_1 _:bng_52) log:proves _:bng_53.
+(_:bng_15 _:bng_54) log:proves _:bng_55.
+(_:bng_1 _:bng_40) log:proves _:bng_56.
+(_:bng_1 _:bng_57) log:proves _:bng_58.
+(_:bng_15 _:bng_59) log:proves _:bng_60.
+(_:bng_1 _:bng_40) log:proves _:bng_61.
+(_:bng_1 _:bng_62) log:proves _:bng_63.
+(_:bng_1 _:bng_64) log:proves _:bng_65.
+(_:bng_15 _:bng_66) log:proves _:bng_67.
+(_:bng_15 _:bng_68) log:proves _:bng_69.
+(_:bng_1 _:bng_6) log:proves _:bng_70.
+(_:bng_1 _:bng_71) log:proves _:bng_72.
+(_:bng_15 _:bng_73) log:proves _:bng_74.
+(_:bng_1 _:bng_19) log:proves _:bng_75.
+(_:bng_15 _:bng_76) log:proves _:bng_77.
+(_:bng_15 _:bng_78) log:proves _:bng_79.
+(_:bng_1 _:bng_26) log:proves _:bng_80.
+(_:bng_1 _:bng_8) log:proves _:bng_81.
+(_:bng_1 _:bng_13) log:proves _:bng_82.
+(_:bng_1 _:bng_71) log:proves _:bng_83.
+(_:bng_15 _:bng_84) log:proves _:bng_85.
+(_:bng_15 _:bng_86) log:proves _:bng_87.
+(_:bng_15 _:bng_88) log:proves _:bng_89.
+(_:bng_1 _:bng_33) log:proves _:bng_90.
+(_:bng_15 _:bng_91) log:proves _:bng_92.
+(_:bng_1 _:bng_42) log:proves _:bng_93.
+(_:bng_15 _:bng_94) log:proves _:bng_95.
+(_:bng_1 _:bng_6) log:proves _:bng_96.
+(_:bng_1 _:bng_97) log:proves _:bng_98.
+(_:bng_15 _:bng_99) log:proves _:bng_100.
+(_:bng_1 _:bng_26) log:proves _:bng_101.
+(_:bng_1 _:bng_13) log:proves _:bng_102.
+(_:bng_15 _:bng_103) log:proves _:bng_104.
+(_:bng_15 _:bng_105) log:proves _:bng_106.
+(_:bng_1 _:bng_33) log:proves _:bng_107.
+(_:bng_1 _:bng_8) log:proves _:bng_108.
+(_:bng_1 _:bng_47) log:proves _:bng_109.
+(_:bng_1 _:bng_21) log:proves _:bng_110.
+(_:bng_15 _:bng_111) log:proves _:bng_112.
+(_:bng_15 _:bng_113) log:proves _:bng_114.
+(_:bng_1 _:bng_47) log:proves _:bng_115.
+(_:bng_1 _:bng_116) log:proves _:bng_117.
+(_:bng_15 _:bng_118) log:proves _:bng_119.
+(_:bng_15 _:bng_120) log:proves _:bng_121.
+(_:bng_15 _:bng_122) log:proves _:bng_123.
+(_:bng_1 _:bng_6) log:proves _:bng_124.
+(_:bng_1 _:bng_125) log:proves _:bng_126.
+(_:bng_1 _:bng_21) log:proves _:bng_127.
+(_:bng_15 _:bng_128) log:proves _:bng_129.
+(_:bng_1 _:bng_33) log:proves _:bng_130.
+(_:bng_1 _:bng_47) log:proves _:bng_131.
+(_:bng_15 _:bng_132) log:proves _:bng_133.
+(_:bng_1 _:bng_28) log:proves _:bng_134.
+(_:bng_15 _:bng_135) log:proves _:bng_136.
+(_:bng_1 _:bng_6) log:proves _:bng_137.
+(_:bng_1 _:bng_52) log:proves _:bng_138.
+(_:bng_15 _:bng_139) log:proves _:bng_140.
+(_:bng_1 _:bng_4) log:proves _:bng_141.
+(_:bng_1 _:bng_142) log:proves _:bng_143.
+(_:bng_15 _:bng_144) log:proves _:bng_145.
+(_:bng_1 _:bng_40) log:proves _:bng_146.
+(_:bng_1 _:bng_147) log:proves _:bng_148.
+(_:bng_1 _:bng_149) log:proves _:bng_150.
+(_:bng_15 _:bng_151) log:proves _:bng_152.
+(_:bng_15 _:bng_153) log:proves _:bng_154.
+(_:bng_1 _:bng_142) log:proves _:bng_155.
+(_:bng_15 _:bng_156) log:proves _:bng_157.
+(_:bng_15 _:bng_158) log:proves _:bng_159.
+(_:bng_1 _:bng_142) log:proves _:bng_160.
+(_:bng_1 _:bng_42) log:proves _:bng_161.
+(_:bng_15 _:bng_162) log:proves _:bng_163.
+(_:bng_15 _:bng_164) log:proves _:bng_165.
+(_:bng_1 _:bng_142) log:proves _:bng_166.
+(_:bng_1 _:bng_8) log:proves _:bng_167.
+(_:bng_1 _:bng_52) log:proves _:bng_168.
+(_:bng_1 _:bng_71) log:proves _:bng_169.
+(_:bng_1 _:bng_116) log:proves _:bng_170.
+(_:bng_15 _:bng_171) log:proves _:bng_172.
+(_:bng_1 _:bng_42) log:proves _:bng_173.
+(_:bng_1 _:bng_28) log:proves _:bng_174.
+(_:bng_1 _:bng_175) log:proves _:bng_176.
+(_:bng_15 _:bng_177) log:proves _:bng_178.
+(_:bng_15 _:bng_179) log:proves _:bng_180.
+(_:bng_1 _:bng_52) log:proves _:bng_181.
+(_:bng_1 _:bng_97) log:proves _:bng_182.
+(_:bng_15 _:bng_183) log:proves _:bng_184.
+(_:bng_1 _:bng_52) log:proves _:bng_185.
+(_:bng_1 _:bng_186) log:proves _:bng_187.
+(_:bng_15 _:bng_188) log:proves _:bng_189.
+(_:bng_15 _:bng_190) log:proves _:bng_191.
+(_:bng_15 _:bng_192) log:proves _:bng_193.
+(_:bng_1 _:bng_142) log:proves _:bng_194.
+(_:bng_1 _:bng_8) log:proves _:bng_195.
+(_:bng_1 _:bng_57) log:proves _:bng_196.
+(_:bng_15 _:bng_197) log:proves _:bng_198.
+(_:bng_1 _:bng_42) log:proves _:bng_199.
+(_:bng_1 _:bng_35) log:proves _:bng_200.
+(_:bng_1 _:bng_201) log:proves _:bng_202.
+(_:bng_15 _:bng_203) log:proves _:bng_204.
+(_:bng_15 _:bng_205) log:proves _:bng_206.
+(_:bng_1 _:bng_57) log:proves _:bng_207.
+(_:bng_15 _:bng_208) log:proves _:bng_209.
+(_:bng_1 _:bng_116) log:proves _:bng_210.
+(_:bng_15 _:bng_211) log:proves _:bng_212.
+(_:bng_1 _:bng_57) log:proves _:bng_213.
+(_:bng_1 _:bng_125) log:proves _:bng_214.
+(_:bng_15 _:bng_215) log:proves _:bng_216.
+(_:bng_1 _:bng_57) log:proves _:bng_217.
+(_:bng_1 _:bng_218) log:proves _:bng_219.
+(_:bng_15 _:bng_220) log:proves _:bng_221.
+(_:bng_15 _:bng_222) log:proves _:bng_223.
+(_:bng_1 _:bng_4) log:proves _:bng_224.
+(_:bng_1 _:bng_225) log:proves _:bng_226.
+(_:bng_15 _:bng_227) log:proves _:bng_228.
+(_:bng_1 _:bng_40) log:proves _:bng_229.
+(_:bng_1 _:bng_230) log:proves _:bng_231.
+(_:bng_1 _:bng_232) log:proves _:bng_233.
+(_:bng_15 _:bng_234) log:proves _:bng_235.
+(_:bng_15 _:bng_236) log:proves _:bng_237.
+(_:bng_1 _:bng_225) log:proves _:bng_238.
+(_:bng_15 _:bng_239) log:proves _:bng_240.
+(_:bng_15 _:bng_241) log:proves _:bng_242.
+(_:bng_1 _:bng_225) log:proves _:bng_243.
+(_:bng_15 _:bng_244) log:proves _:bng_245.
+(_:bng_15 _:bng_246) log:proves _:bng_247.
+(_:bng_1 _:bng_225) log:proves _:bng_248.
+(_:bng_1 _:bng_21) log:proves _:bng_249.
+(_:bng_15 _:bng_250) log:proves _:bng_251.
+(_:bng_15 _:bng_252) log:proves _:bng_253.
+(_:bng_1 _:bng_225) log:proves _:bng_254.
+(_:bng_1 _:bng_28) log:proves _:bng_255.
+(_:bng_15 _:bng_256) log:proves _:bng_257.
+(_:bng_1 _:bng_4) log:proves _:bng_258.
+(_:bng_1 _:bng_259) log:proves _:bng_260.
+(_:bng_15 _:bng_261) log:proves _:bng_262.
+(_:bng_1 _:bng_40) log:proves _:bng_263.
+(_:bng_1 _:bng_264) log:proves _:bng_265.
+(_:bng_1 _:bng_266) log:proves _:bng_267.
+(_:bng_15 _:bng_268) log:proves _:bng_269.
+(_:bng_15 _:bng_270) log:proves _:bng_271.
+(_:bng_1 _:bng_259) log:proves _:bng_272.
+(_:bng_15 _:bng_273) log:proves _:bng_274.
+(_:bng_15 _:bng_275) log:proves _:bng_276.
+(_:bng_1 _:bng_259) log:proves _:bng_277.
+(_:bng_15 _:bng_278) log:proves _:bng_279.
+(_:bng_15 _:bng_280) log:proves _:bng_281.
+(_:bng_1 _:bng_259) log:proves _:bng_282.
+(_:bng_15 _:bng_283) log:proves _:bng_284.
+(_:bng_15 _:bng_285) log:proves _:bng_286.
+(_:bng_1 _:bng_259) log:proves _:bng_287.
+(_:bng_15 _:bng_288) log:proves _:bng_289.
+(_:bng_1 _:bng_4) log:proves _:bng_290.
+(_:bng_1 _:bng_291) log:proves _:bng_292.
+(_:bng_15 _:bng_293) log:proves _:bng_294.
+(_:bng_1 _:bng_40) log:proves _:bng_295.
+(_:bng_1 _:bng_296) log:proves _:bng_297.
+(_:bng_1 _:bng_298) log:proves _:bng_299.
+(_:bng_15 _:bng_300) log:proves _:bng_301.
+(_:bng_15 _:bng_302) log:proves _:bng_303.
+(_:bng_1 _:bng_291) log:proves _:bng_304.
+(_:bng_15 _:bng_305) log:proves _:bng_306.
+(_:bng_15 _:bng_307) log:proves _:bng_308.
+(_:bng_1 _:bng_291) log:proves _:bng_309.
+(_:bng_15 _:bng_310) log:proves _:bng_311.
+(_:bng_15 _:bng_312) log:proves _:bng_313.
+(_:bng_1 _:bng_291) log:proves _:bng_314.
+(_:bng_15 _:bng_315) log:proves _:bng_316.
+(_:bng_15 _:bng_317) log:proves _:bng_318.
+(_:bng_1 _:bng_291) log:proves _:bng_319.
+(_:bng_15 _:bng_320) log:proves _:bng_321.
+
+_:e_bng_3_1 {
+    var:X math:notGreaterThan var:Y.
+}
 
 _:bng_1 {
-    _:bng_320 log:call true.
-    [] rdf:value true; log:callWithCut true.
+    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
 }
 
 _:bng_2 {
-    (13 13 8) :tak 8.
-}
-
-_:bng_3 {
-    _:bng_321 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_4 {
-    (8 8 14) :tak 14.
-}
-
-_:bng_5 {
     _:bng_322 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_6 {
-    (7 14 9) :tak 9.
+_:bng_3 {
+    (13 13 8) :tak 8.
 }
 
-_:bng_7 {
+_:bng_4 {
     _:bng_323 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_8 {
-    (9 9 8) :tak 8.
+_:bng_5 {
+    (8 8 14) :tak 14.
 }
 
-_:bng_9 {
-    (8 8 10) :tak 10.
-}
-
-_:bng_10 {
+_:bng_6 {
     _:bng_324 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_11 {
-    (7 10 9) :tak 9.
+_:bng_7 {
+    (7 14 9) :tak 9.
 }
 
-_:bng_12 {
+_:bng_8 {
     _:bng_325 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
+_:bng_9 {
+    (9 9 8) :tak 8.
+}
+
+_:bng_10 {
+    (8 8 10) :tak 10.
+}
+
+_:bng_11 {
+    _:bng_326 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_12 {
+    (7 10 9) :tak 9.
+}
+
 _:bng_13 {
-    (8 10 9) :tak 9.
+    _:bng_327 log:call true.
+    [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_14 {
+    (8 10 9) :tak 9.
+}
+
+_:bng_15 {
+    _:e_bng_4_1 log:isImpliedBy _:e_bng_5_1.
+}
+
+_:bng_16 {
     (10 1) math:difference 9 .
     (9 9 8) :tak 8 .
     (9 1) math:difference 8 .
@@ -276,33 +289,33 @@ _:bng_14 {
     (8 10 9) :tak 9.
 }
 
-_:bng_15 {
+_:bng_17 {
     (10 9 8) :tak 9.
 }
 
-_:bng_16 {
+_:bng_18 {
     (8 8 11) :tak 11.
 }
 
-_:bng_17 {
-    _:bng_326 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_18 {
-    (7 11 9) :tak 9.
-}
-
 _:bng_19 {
-    _:bng_327 log:call true.
+    _:bng_328 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_20 {
-    (9 11 9) :tak 9.
+    (7 11 9) :tak 9.
 }
 
 _:bng_21 {
+    _:bng_329 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_22 {
+    (9 11 9) :tak 9.
+}
+
+_:bng_23 {
     (11 1) math:difference 10 .
     (10 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -312,33 +325,33 @@ _:bng_21 {
     (9 11 9) :tak 9.
 }
 
-_:bng_22 {
+_:bng_24 {
     (11 9 8) :tak 9.
 }
 
-_:bng_23 {
+_:bng_25 {
     (8 8 12) :tak 12.
 }
 
-_:bng_24 {
-    _:bng_328 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_25 {
-    (7 12 9) :tak 9.
-}
-
 _:bng_26 {
-    _:bng_329 log:call true.
+    _:bng_330 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_27 {
-    (9 12 9) :tak 9.
+    (7 12 9) :tak 9.
 }
 
 _:bng_28 {
+    _:bng_331 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_29 {
+    (9 12 9) :tak 9.
+}
+
+_:bng_30 {
     (12 1) math:difference 11 .
     (11 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -348,33 +361,33 @@ _:bng_28 {
     (9 12 9) :tak 9.
 }
 
-_:bng_29 {
+_:bng_31 {
     (12 9 8) :tak 9.
 }
 
-_:bng_30 {
+_:bng_32 {
     (8 8 13) :tak 13.
 }
 
-_:bng_31 {
-    _:bng_330 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_32 {
-    (7 13 9) :tak 9.
-}
-
 _:bng_33 {
-    _:bng_331 log:call true.
+    _:bng_332 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_34 {
-    (9 13 9) :tak 9.
+    (7 13 9) :tak 9.
 }
 
 _:bng_35 {
+    _:bng_333 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_36 {
+    (9 13 9) :tak 9.
+}
+
+_:bng_37 {
     (13 1) math:difference 12 .
     (12 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -384,33 +397,33 @@ _:bng_35 {
     (9 13 9) :tak 9.
 }
 
-_:bng_36 {
+_:bng_38 {
     (13 9 8) :tak 9.
 }
 
-_:bng_37 {
+_:bng_39 {
     (9 9 9) :tak 9.
 }
 
-_:bng_38 {
-    _:bng_332 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_39 {
-    (8 9 10) :tak 10.
-}
-
 _:bng_40 {
-    _:bng_333 log:call true.
+    _:bng_334 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_41 {
-    (9 10 9) :tak 9.
+    (8 9 10) :tak 10.
 }
 
 _:bng_42 {
+    _:bng_335 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_43 {
+    (9 10 9) :tak 9.
+}
+
+_:bng_44 {
     (10 1) math:difference 9 .
     (9 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -420,24 +433,24 @@ _:bng_42 {
     (9 10 9) :tak 9.
 }
 
-_:bng_43 {
+_:bng_45 {
     (10 9 9) :tak 9.
 }
 
-_:bng_44 {
+_:bng_46 {
     (8 9 11) :tak 11.
 }
 
-_:bng_45 {
-    _:bng_334 log:call true.
+_:bng_47 {
+    _:bng_336 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_46 {
+_:bng_48 {
     (8 11 9) :tak 9.
 }
 
-_:bng_47 {
+_:bng_49 {
     (11 1) math:difference 10 .
     (10 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -447,24 +460,24 @@ _:bng_47 {
     (9 11 9) :tak 9.
 }
 
-_:bng_48 {
+_:bng_50 {
     (11 9 9) :tak 9.
 }
 
-_:bng_49 {
+_:bng_51 {
     (8 9 12) :tak 12.
 }
 
-_:bng_50 {
-    _:bng_335 log:call true.
+_:bng_52 {
+    _:bng_337 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_51 {
+_:bng_53 {
     (8 12 9) :tak 9.
 }
 
-_:bng_52 {
+_:bng_54 {
     (12 1) math:difference 11 .
     (11 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -474,24 +487,24 @@ _:bng_52 {
     (9 12 9) :tak 9.
 }
 
-_:bng_53 {
+_:bng_55 {
     (12 9 9) :tak 9.
 }
 
-_:bng_54 {
+_:bng_56 {
     (8 9 13) :tak 13.
 }
 
-_:bng_55 {
-    _:bng_336 log:call true.
+_:bng_57 {
+    _:bng_338 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_56 {
+_:bng_58 {
     (8 13 9) :tak 9.
 }
 
-_:bng_57 {
+_:bng_59 {
     (13 1) math:difference 12 .
     (12 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -501,33 +514,33 @@ _:bng_57 {
     (9 13 9) :tak 9.
 }
 
-_:bng_58 {
+_:bng_60 {
     (13 9 9) :tak 9.
 }
 
-_:bng_59 {
+_:bng_61 {
     (8 9 14) :tak 14.
 }
 
-_:bng_60 {
-    _:bng_337 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_61 {
-    (8 14 9) :tak 9.
-}
-
 _:bng_62 {
-    _:bng_338 log:call true.
+    _:bng_339 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_63 {
-    (9 14 9) :tak 9.
+    (8 14 9) :tak 9.
 }
 
 _:bng_64 {
+    _:bng_340 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_65 {
+    (9 14 9) :tak 9.
+}
+
+_:bng_66 {
     (14 1) math:difference 13 .
     (13 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -537,11 +550,11 @@ _:bng_64 {
     (9 14 9) :tak 9.
 }
 
-_:bng_65 {
+_:bng_67 {
     (14 9 9) :tak 9.
 }
 
-_:bng_66 {
+_:bng_68 {
     (9 1) math:difference 8 .
     (8 8 14) :tak 14 .
     (8 1) math:difference 7 .
@@ -551,24 +564,24 @@ _:bng_66 {
     (14 9 9) :tak 9.
 }
 
-_:bng_67 {
+_:bng_69 {
     (9 8 14) :tak 9.
 }
 
-_:bng_68 {
+_:bng_70 {
     (7 14 10) :tak 10.
 }
 
-_:bng_69 {
-    _:bng_339 log:call true.
+_:bng_71 {
+    _:bng_341 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_70 {
+_:bng_72 {
     (10 10 8) :tak 8.
 }
 
-_:bng_71 {
+_:bng_73 {
     (9 1) math:difference 8 .
     (8 8 11) :tak 11 .
     (8 1) math:difference 7 .
@@ -578,15 +591,15 @@ _:bng_71 {
     (11 9 9) :tak 9.
 }
 
-_:bng_72 {
+_:bng_74 {
     (9 8 11) :tak 9.
 }
 
-_:bng_73 {
+_:bng_75 {
     (7 11 10) :tak 10.
 }
 
-_:bng_74 {
+_:bng_76 {
     (11 1) math:difference 10 .
     (10 10 8) :tak 8 .
     (10 1) math:difference 9 .
@@ -596,11 +609,11 @@ _:bng_74 {
     (8 9 10) :tak 10.
 }
 
-_:bng_75 {
+_:bng_77 {
     (11 10 8) :tak 10.
 }
 
-_:bng_76 {
+_:bng_78 {
     (9 1) math:difference 8 .
     (8 8 12) :tak 12 .
     (8 1) math:difference 7 .
@@ -610,27 +623,27 @@ _:bng_76 {
     (12 9 9) :tak 9.
 }
 
-_:bng_77 {
+_:bng_79 {
     (9 8 12) :tak 9.
 }
 
-_:bng_78 {
+_:bng_80 {
     (7 12 10) :tak 10.
 }
 
-_:bng_79 {
+_:bng_81 {
     (9 9 10) :tak 10.
 }
 
-_:bng_80 {
+_:bng_82 {
     (8 10 10) :tak 10.
 }
 
-_:bng_81 {
+_:bng_83 {
     (10 10 9) :tak 9.
 }
 
-_:bng_82 {
+_:bng_84 {
     (10 1) math:difference 9 .
     (9 9 10) :tak 10 .
     (9 1) math:difference 8 .
@@ -640,11 +653,11 @@ _:bng_82 {
     (10 10 9) :tak 9.
 }
 
-_:bng_83 {
+_:bng_85 {
     (10 9 10) :tak 9.
 }
 
-_:bng_84 {
+_:bng_86 {
     (12 1) math:difference 11 .
     (11 10 8) :tak 10 .
     (10 1) math:difference 9 .
@@ -654,11 +667,11 @@ _:bng_84 {
     (10 9 10) :tak 9.
 }
 
-_:bng_85 {
+_:bng_87 {
     (12 10 8) :tak 9.
 }
 
-_:bng_86 {
+_:bng_88 {
     (9 1) math:difference 8 .
     (8 8 13) :tak 13 .
     (8 1) math:difference 7 .
@@ -668,15 +681,15 @@ _:bng_86 {
     (13 9 9) :tak 9.
 }
 
-_:bng_87 {
+_:bng_89 {
     (9 8 13) :tak 9.
 }
 
-_:bng_88 {
+_:bng_90 {
     (7 13 10) :tak 10.
 }
 
-_:bng_89 {
+_:bng_91 {
     (13 1) math:difference 12 .
     (12 10 8) :tak 9 .
     (10 1) math:difference 9 .
@@ -686,15 +699,15 @@ _:bng_89 {
     (9 9 10) :tak 10.
 }
 
-_:bng_90 {
+_:bng_92 {
     (13 10 8) :tak 10.
 }
 
-_:bng_91 {
+_:bng_93 {
     (9 10 10) :tak 10.
 }
 
-_:bng_92 {
+_:bng_94 {
     (10 1) math:difference 9 .
     (9 8 14) :tak 9 .
     (8 1) math:difference 7 .
@@ -704,24 +717,24 @@ _:bng_92 {
     (9 10 10) :tak 10.
 }
 
-_:bng_93 {
+_:bng_95 {
     (10 8 14) :tak 10.
 }
 
-_:bng_94 {
+_:bng_96 {
     (7 14 11) :tak 11.
 }
 
-_:bng_95 {
-    _:bng_340 log:call true.
+_:bng_97 {
+    _:bng_342 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_96 {
+_:bng_98 {
     (11 11 8) :tak 8.
 }
 
-_:bng_97 {
+_:bng_99 {
     (10 1) math:difference 9 .
     (9 8 12) :tak 9 .
     (8 1) math:difference 7 .
@@ -731,19 +744,19 @@ _:bng_97 {
     (9 10 10) :tak 10.
 }
 
-_:bng_98 {
+_:bng_100 {
     (10 8 12) :tak 10.
 }
 
-_:bng_99 {
+_:bng_101 {
     (7 12 11) :tak 11.
 }
 
-_:bng_100 {
+_:bng_102 {
     (8 10 11) :tak 11.
 }
 
-_:bng_101 {
+_:bng_103 {
     (12 1) math:difference 11 .
     (11 11 8) :tak 8 .
     (11 1) math:difference 10 .
@@ -753,11 +766,11 @@ _:bng_101 {
     (8 10 11) :tak 11.
 }
 
-_:bng_102 {
+_:bng_104 {
     (12 11 8) :tak 11.
 }
 
-_:bng_103 {
+_:bng_105 {
     (10 1) math:difference 9 .
     (9 8 13) :tak 9 .
     (8 1) math:difference 7 .
@@ -767,41 +780,41 @@ _:bng_103 {
     (9 10 9) :tak 9.
 }
 
-_:bng_104 {
+_:bng_106 {
     (10 8 13) :tak 9.
 }
 
-_:bng_105 {
+_:bng_107 {
     (7 13 11) :tak 11.
 }
 
-_:bng_106 {
+_:bng_108 {
     (9 9 11) :tak 11.
 }
 
-_:bng_107 {
+_:bng_109 {
     (8 11 10) :tak 10.
 }
 
-_:bng_108 {
-    (9 11 10) :tak 10.
-}
-
-_:bng_109 {
-    (11 1) math:difference 10 .
-    (10 10 9) :tak 9 .
-    (10 1) math:difference 9 .
-    (9 9 11) :tak 11 .
-    (9 1) math:difference 8 .
-    (8 11 10) :tak 10 .
-    (9 11 10) :tak 10.
-}
-
 _:bng_110 {
-    (11 10 9) :tak 10.
+    (9 11 10) :tak 10.
 }
 
 _:bng_111 {
+    (11 1) math:difference 10 .
+    (10 10 9) :tak 9 .
+    (10 1) math:difference 9 .
+    (9 9 11) :tak 11 .
+    (9 1) math:difference 8 .
+    (8 11 10) :tak 10 .
+    (9 11 10) :tak 10.
+}
+
+_:bng_112 {
+    (11 10 9) :tak 10.
+}
+
+_:bng_113 {
     (10 1) math:difference 9 .
     (9 9 11) :tak 11 .
     (9 1) math:difference 8 .
@@ -811,24 +824,24 @@ _:bng_111 {
     (11 10 9) :tak 10.
 }
 
-_:bng_112 {
+_:bng_114 {
     (10 9 11) :tak 10.
 }
 
-_:bng_113 {
+_:bng_115 {
     (8 11 11) :tak 11.
 }
 
-_:bng_114 {
-    _:bng_341 log:call true.
+_:bng_116 {
+    _:bng_343 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_115 {
+_:bng_117 {
     (10 11 9) :tak 9.
 }
 
-_:bng_116 {
+_:bng_118 {
     (11 1) math:difference 10 .
     (10 9 11) :tak 10 .
     (9 1) math:difference 8 .
@@ -838,11 +851,11 @@ _:bng_116 {
     (10 11 9) :tak 9.
 }
 
-_:bng_117 {
+_:bng_119 {
     (11 9 11) :tak 9.
 }
 
-_:bng_118 {
+_:bng_120 {
     (13 1) math:difference 12 .
     (12 11 8) :tak 11 .
     (11 1) math:difference 10 .
@@ -852,11 +865,11 @@ _:bng_118 {
     (11 9 11) :tak 9.
 }
 
-_:bng_119 {
+_:bng_121 {
     (13 11 8) :tak 9.
 }
 
-_:bng_120 {
+_:bng_122 {
     (11 1) math:difference 10 .
     (10 8 14) :tak 10 .
     (8 1) math:difference 7 .
@@ -866,28 +879,28 @@ _:bng_120 {
     (10 11 9) :tak 9.
 }
 
-_:bng_121 {
+_:bng_123 {
     (11 8 14) :tak 9.
 }
 
-_:bng_122 {
+_:bng_124 {
     (7 14 12) :tak 12.
 }
 
-_:bng_123 {
-    _:bng_342 log:call true.
+_:bng_125 {
+    _:bng_344 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_124 {
+_:bng_126 {
     (12 12 8) :tak 8.
 }
 
-_:bng_125 {
+_:bng_127 {
     (9 11 11) :tak 11.
 }
 
-_:bng_126 {
+_:bng_128 {
     (11 1) math:difference 10 .
     (10 8 13) :tak 9 .
     (8 1) math:difference 7 .
@@ -897,19 +910,19 @@ _:bng_126 {
     (9 11 11) :tak 11.
 }
 
-_:bng_127 {
+_:bng_129 {
     (11 8 13) :tak 11.
 }
 
-_:bng_128 {
+_:bng_130 {
     (7 13 12) :tak 12.
 }
 
-_:bng_129 {
+_:bng_131 {
     (8 11 12) :tak 12.
 }
 
-_:bng_130 {
+_:bng_132 {
     (13 1) math:difference 12 .
     (12 12 8) :tak 8 .
     (12 1) math:difference 11 .
@@ -919,15 +932,15 @@ _:bng_130 {
     (8 11 12) :tak 12.
 }
 
-_:bng_131 {
+_:bng_133 {
     (13 12 8) :tak 12.
 }
 
-_:bng_132 {
+_:bng_134 {
     (9 12 12) :tak 12.
 }
 
-_:bng_133 {
+_:bng_135 {
     (12 1) math:difference 11 .
     (11 8 14) :tak 9 .
     (8 1) math:difference 7 .
@@ -937,19 +950,19 @@ _:bng_133 {
     (9 12 12) :tak 12.
 }
 
-_:bng_134 {
+_:bng_136 {
     (12 8 14) :tak 12.
 }
 
-_:bng_135 {
+_:bng_137 {
     (7 14 13) :tak 13.
 }
 
-_:bng_136 {
+_:bng_138 {
     (8 12 13) :tak 13.
 }
 
-_:bng_137 {
+_:bng_139 {
     (14 1) math:difference 13 .
     (13 13 8) :tak 8 .
     (13 1) math:difference 12 .
@@ -959,24 +972,24 @@ _:bng_137 {
     (8 12 13) :tak 13.
 }
 
-_:bng_138 {
+_:bng_140 {
     (14 13 8) :tak 13.
 }
 
-_:bng_139 {
+_:bng_141 {
     (8 8 15) :tak 15.
 }
 
-_:bng_140 {
-    _:bng_343 log:call true.
+_:bng_142 {
+    _:bng_345 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_141 {
+_:bng_143 {
     (7 15 9) :tak 9.
 }
 
-_:bng_142 {
+_:bng_144 {
     (14 1) math:difference 13 .
     (13 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -986,33 +999,33 @@ _:bng_142 {
     (9 14 9) :tak 9.
 }
 
-_:bng_143 {
+_:bng_145 {
     (14 9 8) :tak 9.
 }
 
-_:bng_144 {
+_:bng_146 {
     (8 9 15) :tak 15.
 }
 
-_:bng_145 {
-    _:bng_344 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_146 {
-    (8 15 9) :tak 9.
-}
-
 _:bng_147 {
-    _:bng_345 log:call true.
+    _:bng_346 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_148 {
-    (9 15 9) :tak 9.
+    (8 15 9) :tak 9.
 }
 
 _:bng_149 {
+    _:bng_347 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_150 {
+    (9 15 9) :tak 9.
+}
+
+_:bng_151 {
     (15 1) math:difference 14 .
     (14 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -1022,11 +1035,11 @@ _:bng_149 {
     (9 15 9) :tak 9.
 }
 
-_:bng_150 {
+_:bng_152 {
     (15 9 9) :tak 9.
 }
 
-_:bng_151 {
+_:bng_153 {
     (9 1) math:difference 8 .
     (8 8 15) :tak 15 .
     (8 1) math:difference 7 .
@@ -1036,15 +1049,15 @@ _:bng_151 {
     (15 9 9) :tak 9.
 }
 
-_:bng_152 {
+_:bng_154 {
     (9 8 15) :tak 9.
 }
 
-_:bng_153 {
+_:bng_155 {
     (7 15 10) :tak 10.
 }
 
-_:bng_154 {
+_:bng_156 {
     (14 1) math:difference 13 .
     (13 10 8) :tak 10 .
     (10 1) math:difference 9 .
@@ -1054,11 +1067,11 @@ _:bng_154 {
     (10 9 10) :tak 9.
 }
 
-_:bng_155 {
+_:bng_157 {
     (14 10 8) :tak 9.
 }
 
-_:bng_156 {
+_:bng_158 {
     (10 1) math:difference 9 .
     (9 8 15) :tak 9 .
     (8 1) math:difference 7 .
@@ -1068,19 +1081,19 @@ _:bng_156 {
     (9 10 9) :tak 9.
 }
 
-_:bng_157 {
+_:bng_159 {
     (10 8 15) :tak 9.
 }
 
-_:bng_158 {
+_:bng_160 {
     (7 15 11) :tak 11.
 }
 
-_:bng_159 {
+_:bng_161 {
     (9 10 11) :tak 11.
 }
 
-_:bng_160 {
+_:bng_162 {
     (14 1) math:difference 13 .
     (13 11 8) :tak 9 .
     (11 1) math:difference 10 .
@@ -1090,11 +1103,11 @@ _:bng_160 {
     (9 10 11) :tak 11.
 }
 
-_:bng_161 {
+_:bng_163 {
     (14 11 8) :tak 11.
 }
 
-_:bng_162 {
+_:bng_164 {
     (11 1) math:difference 10 .
     (10 8 15) :tak 9 .
     (8 1) math:difference 7 .
@@ -1104,31 +1117,31 @@ _:bng_162 {
     (9 11 11) :tak 11.
 }
 
-_:bng_163 {
+_:bng_165 {
     (11 8 15) :tak 11.
 }
 
-_:bng_164 {
+_:bng_166 {
     (7 15 12) :tak 12.
 }
 
-_:bng_165 {
+_:bng_167 {
     (9 9 12) :tak 12.
 }
 
-_:bng_166 {
+_:bng_168 {
     (8 12 10) :tak 10.
 }
 
-_:bng_167 {
+_:bng_169 {
     (10 10 10) :tak 10.
 }
 
-_:bng_168 {
+_:bng_170 {
     (10 11 10) :tak 10.
 }
 
-_:bng_169 {
+_:bng_171 {
     (11 1) math:difference 10 .
     (10 10 10) :tak 10 .
     (10 1) math:difference 9 .
@@ -1138,28 +1151,28 @@ _:bng_169 {
     (10 11 10) :tak 10.
 }
 
-_:bng_170 {
+_:bng_172 {
     (11 10 10) :tak 10.
 }
 
-_:bng_171 {
+_:bng_173 {
     (9 10 12) :tak 12.
 }
 
-_:bng_172 {
+_:bng_174 {
     (9 12 10) :tak 10.
 }
 
-_:bng_173 {
-    _:bng_346 log:call true.
+_:bng_175 {
+    _:bng_348 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_174 {
+_:bng_176 {
     (10 12 10) :tak 10.
 }
 
-_:bng_175 {
+_:bng_177 {
     (12 1) math:difference 11 .
     (11 10 10) :tak 10 .
     (10 1) math:difference 9 .
@@ -1169,11 +1182,11 @@ _:bng_175 {
     (10 12 10) :tak 10.
 }
 
-_:bng_176 {
+_:bng_178 {
     (12 10 10) :tak 10.
 }
 
-_:bng_177 {
+_:bng_179 {
     (10 1) math:difference 9 .
     (9 9 12) :tak 12 .
     (9 1) math:difference 8 .
@@ -1183,19 +1196,19 @@ _:bng_177 {
     (12 10 10) :tak 10.
 }
 
-_:bng_178 {
+_:bng_180 {
     (10 9 12) :tak 10.
 }
 
-_:bng_179 {
+_:bng_181 {
     (8 12 11) :tak 11.
 }
 
-_:bng_180 {
+_:bng_182 {
     (11 11 9) :tak 9.
 }
 
-_:bng_181 {
+_:bng_183 {
     (11 1) math:difference 10 .
     (10 9 12) :tak 10 .
     (9 1) math:difference 8 .
@@ -1205,24 +1218,24 @@ _:bng_181 {
     (10 11 9) :tak 9.
 }
 
-_:bng_182 {
+_:bng_184 {
     (11 9 12) :tak 9.
 }
 
-_:bng_183 {
+_:bng_185 {
     (8 12 12) :tak 12.
 }
 
-_:bng_184 {
-    _:bng_347 log:call true.
+_:bng_186 {
+    _:bng_349 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_185 {
+_:bng_187 {
     (11 12 9) :tak 9.
 }
 
-_:bng_186 {
+_:bng_188 {
     (12 1) math:difference 11 .
     (11 9 12) :tak 9 .
     (9 1) math:difference 8 .
@@ -1232,11 +1245,11 @@ _:bng_186 {
     (9 12 9) :tak 9.
 }
 
-_:bng_187 {
+_:bng_189 {
     (12 9 12) :tak 9.
 }
 
-_:bng_188 {
+_:bng_190 {
     (14 1) math:difference 13 .
     (13 12 8) :tak 12 .
     (12 1) math:difference 11 .
@@ -1246,11 +1259,11 @@ _:bng_188 {
     (12 9 12) :tak 9.
 }
 
-_:bng_189 {
+_:bng_191 {
     (14 12 8) :tak 9.
 }
 
-_:bng_190 {
+_:bng_192 {
     (12 1) math:difference 11 .
     (11 8 15) :tak 11 .
     (8 1) math:difference 7 .
@@ -1260,23 +1273,23 @@ _:bng_190 {
     (11 12 9) :tak 9.
 }
 
-_:bng_191 {
+_:bng_193 {
     (12 8 15) :tak 9.
 }
 
-_:bng_192 {
+_:bng_194 {
     (7 15 13) :tak 13.
 }
 
-_:bng_193 {
+_:bng_195 {
     (9 9 13) :tak 13.
 }
 
-_:bng_194 {
+_:bng_196 {
     (8 13 10) :tak 10.
 }
 
-_:bng_195 {
+_:bng_197 {
     (12 1) math:difference 11 .
     (11 10 9) :tak 10 .
     (10 1) math:difference 9 .
@@ -1286,28 +1299,28 @@ _:bng_195 {
     (10 12 10) :tak 10.
 }
 
-_:bng_196 {
+_:bng_198 {
     (12 10 9) :tak 10.
 }
 
-_:bng_197 {
+_:bng_199 {
     (9 10 13) :tak 13.
 }
 
-_:bng_198 {
+_:bng_200 {
     (9 13 10) :tak 10.
 }
 
-_:bng_199 {
-    _:bng_348 log:call true.
+_:bng_201 {
+    _:bng_350 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_200 {
+_:bng_202 {
     (10 13 10) :tak 10.
 }
 
-_:bng_201 {
+_:bng_203 {
     (13 1) math:difference 12 .
     (12 10 10) :tak 10 .
     (10 1) math:difference 9 .
@@ -1317,11 +1330,11 @@ _:bng_201 {
     (10 13 10) :tak 10.
 }
 
-_:bng_202 {
+_:bng_204 {
     (13 10 10) :tak 10.
 }
 
-_:bng_203 {
+_:bng_205 {
     (10 1) math:difference 9 .
     (9 9 13) :tak 13 .
     (9 1) math:difference 8 .
@@ -1331,15 +1344,15 @@ _:bng_203 {
     (13 10 10) :tak 10.
 }
 
-_:bng_204 {
+_:bng_206 {
     (10 9 13) :tak 10.
 }
 
-_:bng_205 {
+_:bng_207 {
     (8 13 11) :tak 11.
 }
 
-_:bng_206 {
+_:bng_208 {
     (12 1) math:difference 11 .
     (11 11 9) :tak 9 .
     (11 1) math:difference 10 .
@@ -1349,15 +1362,15 @@ _:bng_206 {
     (9 10 11) :tak 11.
 }
 
-_:bng_207 {
+_:bng_209 {
     (12 11 9) :tak 11.
 }
 
-_:bng_208 {
+_:bng_210 {
     (10 11 11) :tak 11.
 }
 
-_:bng_209 {
+_:bng_211 {
     (11 1) math:difference 10 .
     (10 9 13) :tak 10 .
     (9 1) math:difference 8 .
@@ -1367,19 +1380,19 @@ _:bng_209 {
     (10 11 11) :tak 11.
 }
 
-_:bng_210 {
+_:bng_212 {
     (11 9 13) :tak 11.
 }
 
-_:bng_211 {
+_:bng_213 {
     (8 13 12) :tak 12.
 }
 
-_:bng_212 {
+_:bng_214 {
     (12 12 9) :tak 9.
 }
 
-_:bng_213 {
+_:bng_215 {
     (12 1) math:difference 11 .
     (11 9 13) :tak 11 .
     (9 1) math:difference 8 .
@@ -1389,24 +1402,24 @@ _:bng_213 {
     (11 12 9) :tak 9.
 }
 
-_:bng_214 {
+_:bng_216 {
     (12 9 13) :tak 9.
 }
 
-_:bng_215 {
+_:bng_217 {
     (8 13 13) :tak 13.
 }
 
-_:bng_216 {
-    _:bng_349 log:call true.
+_:bng_218 {
+    _:bng_351 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_217 {
+_:bng_219 {
     (12 13 9) :tak 9.
 }
 
-_:bng_218 {
+_:bng_220 {
     (13 1) math:difference 12 .
     (12 9 13) :tak 9 .
     (9 1) math:difference 8 .
@@ -1416,11 +1429,11 @@ _:bng_218 {
     (9 13 9) :tak 9.
 }
 
-_:bng_219 {
+_:bng_221 {
     (13 9 13) :tak 9.
 }
 
-_:bng_220 {
+_:bng_222 {
     (15 1) math:difference 14 .
     (14 13 8) :tak 13 .
     (13 1) math:difference 12 .
@@ -1430,24 +1443,24 @@ _:bng_220 {
     (13 9 13) :tak 9.
 }
 
-_:bng_221 {
+_:bng_223 {
     (15 13 8) :tak 9.
 }
 
-_:bng_222 {
+_:bng_224 {
     (8 8 16) :tak 16.
 }
 
-_:bng_223 {
-    _:bng_350 log:call true.
+_:bng_225 {
+    _:bng_352 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_224 {
+_:bng_226 {
     (7 16 9) :tak 9.
 }
 
-_:bng_225 {
+_:bng_227 {
     (15 1) math:difference 14 .
     (14 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -1457,33 +1470,33 @@ _:bng_225 {
     (9 15 9) :tak 9.
 }
 
-_:bng_226 {
+_:bng_228 {
     (15 9 8) :tak 9.
 }
 
-_:bng_227 {
+_:bng_229 {
     (8 9 16) :tak 16.
 }
 
-_:bng_228 {
-    _:bng_351 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_229 {
-    (8 16 9) :tak 9.
-}
-
 _:bng_230 {
-    _:bng_352 log:call true.
+    _:bng_353 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_231 {
-    (9 16 9) :tak 9.
+    (8 16 9) :tak 9.
 }
 
 _:bng_232 {
+    _:bng_354 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_233 {
+    (9 16 9) :tak 9.
+}
+
+_:bng_234 {
     (16 1) math:difference 15 .
     (15 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -1493,11 +1506,11 @@ _:bng_232 {
     (9 16 9) :tak 9.
 }
 
-_:bng_233 {
+_:bng_235 {
     (16 9 9) :tak 9.
 }
 
-_:bng_234 {
+_:bng_236 {
     (9 1) math:difference 8 .
     (8 8 16) :tak 16 .
     (8 1) math:difference 7 .
@@ -1507,15 +1520,15 @@ _:bng_234 {
     (16 9 9) :tak 9.
 }
 
-_:bng_235 {
+_:bng_237 {
     (9 8 16) :tak 9.
 }
 
-_:bng_236 {
+_:bng_238 {
     (7 16 10) :tak 10.
 }
 
-_:bng_237 {
+_:bng_239 {
     (15 1) math:difference 14 .
     (14 10 8) :tak 9 .
     (10 1) math:difference 9 .
@@ -1525,11 +1538,11 @@ _:bng_237 {
     (9 9 10) :tak 10.
 }
 
-_:bng_238 {
+_:bng_240 {
     (15 10 8) :tak 10.
 }
 
-_:bng_239 {
+_:bng_241 {
     (10 1) math:difference 9 .
     (9 8 16) :tak 9 .
     (8 1) math:difference 7 .
@@ -1539,15 +1552,15 @@ _:bng_239 {
     (9 10 10) :tak 10.
 }
 
-_:bng_240 {
+_:bng_242 {
     (10 8 16) :tak 10.
 }
 
-_:bng_241 {
+_:bng_243 {
     (7 16 11) :tak 11.
 }
 
-_:bng_242 {
+_:bng_244 {
     (15 1) math:difference 14 .
     (14 11 8) :tak 11 .
     (11 1) math:difference 10 .
@@ -1557,11 +1570,11 @@ _:bng_242 {
     (11 9 11) :tak 9.
 }
 
-_:bng_243 {
+_:bng_245 {
     (15 11 8) :tak 9.
 }
 
-_:bng_244 {
+_:bng_246 {
     (11 1) math:difference 10 .
     (10 8 16) :tak 10 .
     (8 1) math:difference 7 .
@@ -1571,19 +1584,19 @@ _:bng_244 {
     (10 11 9) :tak 9.
 }
 
-_:bng_245 {
+_:bng_247 {
     (11 8 16) :tak 9.
 }
 
-_:bng_246 {
+_:bng_248 {
     (7 16 12) :tak 12.
 }
 
-_:bng_247 {
+_:bng_249 {
     (9 11 12) :tak 12.
 }
 
-_:bng_248 {
+_:bng_250 {
     (15 1) math:difference 14 .
     (14 12 8) :tak 9 .
     (12 1) math:difference 11 .
@@ -1593,11 +1606,11 @@ _:bng_248 {
     (9 11 12) :tak 12.
 }
 
-_:bng_249 {
+_:bng_251 {
     (15 12 8) :tak 12.
 }
 
-_:bng_250 {
+_:bng_252 {
     (12 1) math:difference 11 .
     (11 8 16) :tak 9 .
     (8 1) math:difference 7 .
@@ -1607,19 +1620,19 @@ _:bng_250 {
     (9 12 12) :tak 12.
 }
 
-_:bng_251 {
+_:bng_253 {
     (12 8 16) :tak 12.
 }
 
-_:bng_252 {
+_:bng_254 {
     (7 16 13) :tak 13.
 }
 
-_:bng_253 {
+_:bng_255 {
     (9 12 13) :tak 13.
 }
 
-_:bng_254 {
+_:bng_256 {
     (16 1) math:difference 15 .
     (15 13 8) :tak 9 .
     (13 1) math:difference 12 .
@@ -1629,24 +1642,24 @@ _:bng_254 {
     (9 12 13) :tak 13.
 }
 
-_:bng_255 {
+_:bng_257 {
     (16 13 8) :tak 13.
 }
 
-_:bng_256 {
+_:bng_258 {
     (8 8 17) :tak 17.
 }
 
-_:bng_257 {
-    _:bng_353 log:call true.
+_:bng_259 {
+    _:bng_355 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_258 {
+_:bng_260 {
     (7 17 9) :tak 9.
 }
 
-_:bng_259 {
+_:bng_261 {
     (16 1) math:difference 15 .
     (15 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -1656,33 +1669,33 @@ _:bng_259 {
     (9 16 9) :tak 9.
 }
 
-_:bng_260 {
+_:bng_262 {
     (16 9 8) :tak 9.
 }
 
-_:bng_261 {
+_:bng_263 {
     (8 9 17) :tak 17.
 }
 
-_:bng_262 {
-    _:bng_354 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_263 {
-    (8 17 9) :tak 9.
-}
-
 _:bng_264 {
-    _:bng_355 log:call true.
+    _:bng_356 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_265 {
-    (9 17 9) :tak 9.
+    (8 17 9) :tak 9.
 }
 
 _:bng_266 {
+    _:bng_357 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_267 {
+    (9 17 9) :tak 9.
+}
+
+_:bng_268 {
     (17 1) math:difference 16 .
     (16 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -1692,11 +1705,11 @@ _:bng_266 {
     (9 17 9) :tak 9.
 }
 
-_:bng_267 {
+_:bng_269 {
     (17 9 9) :tak 9.
 }
 
-_:bng_268 {
+_:bng_270 {
     (9 1) math:difference 8 .
     (8 8 17) :tak 17 .
     (8 1) math:difference 7 .
@@ -1706,15 +1719,15 @@ _:bng_268 {
     (17 9 9) :tak 9.
 }
 
-_:bng_269 {
+_:bng_271 {
     (9 8 17) :tak 9.
 }
 
-_:bng_270 {
+_:bng_272 {
     (7 17 10) :tak 10.
 }
 
-_:bng_271 {
+_:bng_273 {
     (16 1) math:difference 15 .
     (15 10 8) :tak 10 .
     (10 1) math:difference 9 .
@@ -1724,11 +1737,11 @@ _:bng_271 {
     (10 9 10) :tak 9.
 }
 
-_:bng_272 {
+_:bng_274 {
     (16 10 8) :tak 9.
 }
 
-_:bng_273 {
+_:bng_275 {
     (10 1) math:difference 9 .
     (9 8 17) :tak 9 .
     (8 1) math:difference 7 .
@@ -1738,15 +1751,15 @@ _:bng_273 {
     (9 10 9) :tak 9.
 }
 
-_:bng_274 {
+_:bng_276 {
     (10 8 17) :tak 9.
 }
 
-_:bng_275 {
+_:bng_277 {
     (7 17 11) :tak 11.
 }
 
-_:bng_276 {
+_:bng_278 {
     (16 1) math:difference 15 .
     (15 11 8) :tak 9 .
     (11 1) math:difference 10 .
@@ -1756,11 +1769,11 @@ _:bng_276 {
     (9 10 11) :tak 11.
 }
 
-_:bng_277 {
+_:bng_279 {
     (16 11 8) :tak 11.
 }
 
-_:bng_278 {
+_:bng_280 {
     (11 1) math:difference 10 .
     (10 8 17) :tak 9 .
     (8 1) math:difference 7 .
@@ -1770,15 +1783,15 @@ _:bng_278 {
     (9 11 11) :tak 11.
 }
 
-_:bng_279 {
+_:bng_281 {
     (11 8 17) :tak 11.
 }
 
-_:bng_280 {
+_:bng_282 {
     (7 17 12) :tak 12.
 }
 
-_:bng_281 {
+_:bng_283 {
     (16 1) math:difference 15 .
     (15 12 8) :tak 12 .
     (12 1) math:difference 11 .
@@ -1788,11 +1801,11 @@ _:bng_281 {
     (12 9 12) :tak 9.
 }
 
-_:bng_282 {
+_:bng_284 {
     (16 12 8) :tak 9.
 }
 
-_:bng_283 {
+_:bng_285 {
     (12 1) math:difference 11 .
     (11 8 17) :tak 11 .
     (8 1) math:difference 7 .
@@ -1802,15 +1815,15 @@ _:bng_283 {
     (11 12 9) :tak 9.
 }
 
-_:bng_284 {
+_:bng_286 {
     (12 8 17) :tak 9.
 }
 
-_:bng_285 {
+_:bng_287 {
     (7 17 13) :tak 13.
 }
 
-_:bng_286 {
+_:bng_288 {
     (17 1) math:difference 16 .
     (16 13 8) :tak 13 .
     (13 1) math:difference 12 .
@@ -1820,24 +1833,24 @@ _:bng_286 {
     (13 9 13) :tak 9.
 }
 
-_:bng_287 {
+_:bng_289 {
     (17 13 8) :tak 9.
 }
 
-_:bng_288 {
+_:bng_290 {
     (8 8 18) :tak 18.
 }
 
-_:bng_289 {
-    _:bng_356 log:call true.
+_:bng_291 {
+    _:bng_358 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
-_:bng_290 {
+_:bng_292 {
     (7 18 9) :tak 9.
 }
 
-_:bng_291 {
+_:bng_293 {
     (17 1) math:difference 16 .
     (16 9 8) :tak 9 .
     (9 1) math:difference 8 .
@@ -1847,33 +1860,33 @@ _:bng_291 {
     (9 17 9) :tak 9.
 }
 
-_:bng_292 {
+_:bng_294 {
     (17 9 8) :tak 9.
 }
 
-_:bng_293 {
+_:bng_295 {
     (8 9 18) :tak 18.
 }
 
-_:bng_294 {
-    _:bng_357 log:call true.
-    [] rdf:value true; log:callWithCut true.
-}
-
-_:bng_295 {
-    (8 18 9) :tak 9.
-}
-
 _:bng_296 {
-    _:bng_358 log:call true.
+    _:bng_359 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_297 {
-    (9 18 9) :tak 9.
+    (8 18 9) :tak 9.
 }
 
 _:bng_298 {
+    _:bng_360 log:call true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_299 {
+    (9 18 9) :tak 9.
+}
+
+_:bng_300 {
     (18 1) math:difference 17 .
     (17 9 9) :tak 9 .
     (9 1) math:difference 8 .
@@ -1883,11 +1896,11 @@ _:bng_298 {
     (9 18 9) :tak 9.
 }
 
-_:bng_299 {
+_:bng_301 {
     (18 9 9) :tak 9.
 }
 
-_:bng_300 {
+_:bng_302 {
     (9 1) math:difference 8 .
     (8 8 18) :tak 18 .
     (8 1) math:difference 7 .
@@ -1897,15 +1910,15 @@ _:bng_300 {
     (18 9 9) :tak 9.
 }
 
-_:bng_301 {
+_:bng_303 {
     (9 8 18) :tak 9.
 }
 
-_:bng_302 {
+_:bng_304 {
     (7 18 10) :tak 10.
 }
 
-_:bng_303 {
+_:bng_305 {
     (17 1) math:difference 16 .
     (16 10 8) :tak 9 .
     (10 1) math:difference 9 .
@@ -1915,11 +1928,11 @@ _:bng_303 {
     (9 9 10) :tak 10.
 }
 
-_:bng_304 {
+_:bng_306 {
     (17 10 8) :tak 10.
 }
 
-_:bng_305 {
+_:bng_307 {
     (10 1) math:difference 9 .
     (9 8 18) :tak 9 .
     (8 1) math:difference 7 .
@@ -1929,15 +1942,15 @@ _:bng_305 {
     (9 10 10) :tak 10.
 }
 
-_:bng_306 {
+_:bng_308 {
     (10 8 18) :tak 10.
 }
 
-_:bng_307 {
+_:bng_309 {
     (7 18 11) :tak 11.
 }
 
-_:bng_308 {
+_:bng_310 {
     (17 1) math:difference 16 .
     (16 11 8) :tak 11 .
     (11 1) math:difference 10 .
@@ -1947,11 +1960,11 @@ _:bng_308 {
     (11 9 11) :tak 9.
 }
 
-_:bng_309 {
+_:bng_311 {
     (17 11 8) :tak 9.
 }
 
-_:bng_310 {
+_:bng_312 {
     (11 1) math:difference 10 .
     (10 8 18) :tak 10 .
     (8 1) math:difference 7 .
@@ -1961,15 +1974,15 @@ _:bng_310 {
     (10 11 9) :tak 9.
 }
 
-_:bng_311 {
+_:bng_313 {
     (11 8 18) :tak 9.
 }
 
-_:bng_312 {
+_:bng_314 {
     (7 18 12) :tak 12.
 }
 
-_:bng_313 {
+_:bng_315 {
     (17 1) math:difference 16 .
     (16 12 8) :tak 9 .
     (12 1) math:difference 11 .
@@ -1979,11 +1992,11 @@ _:bng_313 {
     (9 11 12) :tak 12.
 }
 
-_:bng_314 {
+_:bng_316 {
     (17 12 8) :tak 12.
 }
 
-_:bng_315 {
+_:bng_317 {
     (12 1) math:difference 11 .
     (11 8 18) :tak 9 .
     (8 1) math:difference 7 .
@@ -1993,15 +2006,15 @@ _:bng_315 {
     (9 12 12) :tak 12.
 }
 
-_:bng_316 {
+_:bng_318 {
     (12 8 18) :tak 12.
 }
 
-_:bng_317 {
+_:bng_319 {
     (7 18 13) :tak 13.
 }
 
-_:bng_318 {
+_:bng_320 {
     (18 1) math:difference 17 .
     (17 13 8) :tak 9 .
     (13 1) math:difference 12 .
@@ -2011,162 +2024,185 @@ _:bng_318 {
     (9 12 13) :tak 13.
 }
 
-_:bng_319 {
+_:bng_321 {
     (18 13 8) :tak 13.
 }
 
-_:bng_320 {
-    [] rdf:value 13; math:notGreaterThan 13.
+_:e_bng_1_1 {
+    (var:X var:Y var:Z) :tak var:Z.
 }
 
-_:bng_321 {
-    [] rdf:value 8; math:notGreaterThan 8.
+_:e_bng_2_1 {
+    _:e_bng_3_1 log:call true.
+    [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_322 {
-    [] rdf:value 7; math:notGreaterThan 14.
+    [] rdf:value 13; math:notGreaterThan 13.
 }
 
 _:bng_323 {
-    [] rdf:value 9; math:notGreaterThan 9.
+    [] rdf:value 8; math:notGreaterThan 8.
 }
 
 _:bng_324 {
-    [] rdf:value 7; math:notGreaterThan 10.
+    [] rdf:value 7; math:notGreaterThan 14.
 }
 
 _:bng_325 {
-    [] rdf:value 8; math:notGreaterThan 10.
+    [] rdf:value 9; math:notGreaterThan 9.
 }
 
 _:bng_326 {
-    [] rdf:value 7; math:notGreaterThan 11.
+    [] rdf:value 7; math:notGreaterThan 10.
 }
 
 _:bng_327 {
-    [] rdf:value 9; math:notGreaterThan 11.
+    [] rdf:value 8; math:notGreaterThan 10.
+}
+
+_:e_bng_4_1 {
+    (var:X var:Y var:Z) :tak var:A.
+}
+
+_:e_bng_5_1 {
+    (var:X 1) math:difference var:X1.
+    (var:X1 var:Y var:Z) :tak var:A1.
+    (var:Y 1) math:difference var:Y1.
+    (var:Y1 var:Z var:X) :tak var:A2.
+    (var:Z 1) math:difference var:Z1.
+    (var:Z1 var:X var:Y) :tak var:A3.
+    (var:A1 var:A2 var:A3) :tak var:A.
 }
 
 _:bng_328 {
-    [] rdf:value 7; math:notGreaterThan 12.
+    [] rdf:value 7; math:notGreaterThan 11.
 }
 
 _:bng_329 {
-    [] rdf:value 9; math:notGreaterThan 12.
+    [] rdf:value 9; math:notGreaterThan 11.
 }
 
 _:bng_330 {
-    [] rdf:value 7; math:notGreaterThan 13.
+    [] rdf:value 7; math:notGreaterThan 12.
 }
 
 _:bng_331 {
-    [] rdf:value 9; math:notGreaterThan 13.
+    [] rdf:value 9; math:notGreaterThan 12.
 }
 
 _:bng_332 {
-    [] rdf:value 8; math:notGreaterThan 9.
+    [] rdf:value 7; math:notGreaterThan 13.
 }
 
 _:bng_333 {
-    [] rdf:value 9; math:notGreaterThan 10.
+    [] rdf:value 9; math:notGreaterThan 13.
 }
 
 _:bng_334 {
-    [] rdf:value 8; math:notGreaterThan 11.
+    [] rdf:value 8; math:notGreaterThan 9.
 }
 
 _:bng_335 {
-    [] rdf:value 8; math:notGreaterThan 12.
+    [] rdf:value 9; math:notGreaterThan 10.
 }
 
 _:bng_336 {
-    [] rdf:value 8; math:notGreaterThan 13.
+    [] rdf:value 8; math:notGreaterThan 11.
 }
 
 _:bng_337 {
-    [] rdf:value 8; math:notGreaterThan 14.
+    [] rdf:value 8; math:notGreaterThan 12.
 }
 
 _:bng_338 {
-    [] rdf:value 9; math:notGreaterThan 14.
+    [] rdf:value 8; math:notGreaterThan 13.
 }
 
 _:bng_339 {
-    [] rdf:value 10; math:notGreaterThan 10.
+    [] rdf:value 8; math:notGreaterThan 14.
 }
 
 _:bng_340 {
-    [] rdf:value 11; math:notGreaterThan 11.
+    [] rdf:value 9; math:notGreaterThan 14.
 }
 
 _:bng_341 {
-    [] rdf:value 10; math:notGreaterThan 11.
+    [] rdf:value 10; math:notGreaterThan 10.
 }
 
 _:bng_342 {
-    [] rdf:value 12; math:notGreaterThan 12.
+    [] rdf:value 11; math:notGreaterThan 11.
 }
 
 _:bng_343 {
-    [] rdf:value 7; math:notGreaterThan 15.
+    [] rdf:value 10; math:notGreaterThan 11.
 }
 
 _:bng_344 {
-    [] rdf:value 8; math:notGreaterThan 15.
+    [] rdf:value 12; math:notGreaterThan 12.
 }
 
 _:bng_345 {
-    [] rdf:value 9; math:notGreaterThan 15.
+    [] rdf:value 7; math:notGreaterThan 15.
 }
 
 _:bng_346 {
-    [] rdf:value 10; math:notGreaterThan 12.
+    [] rdf:value 8; math:notGreaterThan 15.
 }
 
 _:bng_347 {
-    [] rdf:value 11; math:notGreaterThan 12.
+    [] rdf:value 9; math:notGreaterThan 15.
 }
 
 _:bng_348 {
-    [] rdf:value 10; math:notGreaterThan 13.
+    [] rdf:value 10; math:notGreaterThan 12.
 }
 
 _:bng_349 {
-    [] rdf:value 12; math:notGreaterThan 13.
+    [] rdf:value 11; math:notGreaterThan 12.
 }
 
 _:bng_350 {
-    [] rdf:value 7; math:notGreaterThan 16.
+    [] rdf:value 10; math:notGreaterThan 13.
 }
 
 _:bng_351 {
-    [] rdf:value 8; math:notGreaterThan 16.
+    [] rdf:value 12; math:notGreaterThan 13.
 }
 
 _:bng_352 {
-    [] rdf:value 9; math:notGreaterThan 16.
+    [] rdf:value 7; math:notGreaterThan 16.
 }
 
 _:bng_353 {
-    [] rdf:value 7; math:notGreaterThan 17.
+    [] rdf:value 8; math:notGreaterThan 16.
 }
 
 _:bng_354 {
-    [] rdf:value 8; math:notGreaterThan 17.
+    [] rdf:value 9; math:notGreaterThan 16.
 }
 
 _:bng_355 {
-    [] rdf:value 9; math:notGreaterThan 17.
+    [] rdf:value 7; math:notGreaterThan 17.
 }
 
 _:bng_356 {
-    [] rdf:value 7; math:notGreaterThan 18.
+    [] rdf:value 8; math:notGreaterThan 17.
 }
 
 _:bng_357 {
-    [] rdf:value 8; math:notGreaterThan 18.
+    [] rdf:value 9; math:notGreaterThan 17.
 }
 
 _:bng_358 {
+    [] rdf:value 7; math:notGreaterThan 18.
+}
+
+_:bng_359 {
+    [] rdf:value 8; math:notGreaterThan 18.
+}
+
+_:bng_360 {
     [] rdf:value 9; math:notGreaterThan 18.
 }

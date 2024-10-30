@@ -1,6 +1,7 @@
 @prefix : <http://example.org/#>.
 @prefix log: <http://www.w3.org/2000/10/swap/log#>.
 @prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 (1 0 1 0 0 1) :compute (1 0 1 0 1 0 "#").
 (1 0 1 1 1 1) :compute (1 1 0 0 0 0 "#").
@@ -11,1031 +12,1162 @@
 # rdfproof
 #
 
-_:bng_1 log:proves _:bng_2.
-_:bng_3 log:proves _:bng_4.
-_:bng_5 log:proves _:bng_6.
-_:bng_7 log:proves _:bng_8.
-_:bng_9 log:proves _:bng_10.
-_:bng_11 log:proves _:bng_12.
-_:bng_13 log:proves _:bng_14.
-_:bng_15 log:proves _:bng_16.
-_:bng_17 log:proves _:bng_18.
-_:bng_19 log:proves _:bng_20.
-_:bng_21 log:proves _:bng_22.
-_:bng_23 log:proves _:bng_24.
-_:bng_25 log:proves _:bng_26.
-_:bng_27 log:proves _:bng_28.
-_:bng_28 log:proves _:bng_29.
-_:bng_30 log:proves _:bng_31.
-_:bng_31 log:proves _:bng_32.
-_:bng_33 log:proves _:bng_34.
-_:bng_34 log:proves _:bng_35.
-_:bng_36 log:proves _:bng_37.
-_:bng_37 log:proves _:bng_38.
-_:bng_39 log:proves _:bng_40.
-_:bng_40 log:proves _:bng_41.
-_:bng_42 log:proves _:bng_43.
-_:bng_43 log:proves _:bng_44.
-_:bng_45 log:proves _:bng_46.
-_:bng_46 log:proves _:bng_47.
-_:bng_48 log:proves _:bng_49.
-_:bng_49 log:proves _:bng_50.
-_:bng_51 log:proves _:bng_52.
-_:bng_53 log:proves _:bng_54.
-_:bng_55 log:proves _:bng_56.
-_:bng_57 log:proves _:bng_58.
-_:bng_59 log:proves _:bng_60.
-_:bng_61 log:proves _:bng_62.
-_:bng_63 log:proves _:bng_64.
-_:bng_65 log:proves _:bng_66.
-_:bng_67 log:proves _:bng_68.
-_:bng_69 log:proves _:bng_70.
-_:bng_71 log:proves _:bng_72.
-_:bng_73 log:proves _:bng_74.
-_:bng_75 log:proves _:bng_76.
-_:bng_77 log:proves _:bng_78.
-_:bng_79 log:proves _:bng_80.
-_:bng_80 log:proves _:bng_81.
-_:bng_82 log:proves _:bng_83.
-_:bng_83 log:proves _:bng_84.
-_:bng_85 log:proves _:bng_86.
-_:bng_86 log:proves _:bng_87.
-_:bng_88 log:proves _:bng_89.
-_:bng_89 log:proves _:bng_90.
-_:bng_91 log:proves _:bng_92.
-_:bng_92 log:proves _:bng_93.
-_:bng_94 log:proves _:bng_95.
-_:bng_95 log:proves _:bng_96.
-_:bng_97 log:proves _:bng_98.
-_:bng_98 log:proves _:bng_99.
-_:bng_100 log:proves _:bng_101.
-_:bng_101 log:proves _:bng_102.
-_:bng_103 log:proves _:bng_104.
-_:bng_104 log:proves _:bng_105.
-_:bng_106 log:proves _:bng_107.
-_:bng_107 log:proves _:bng_108.
-_:bng_109 log:proves _:bng_110.
-_:bng_110 log:proves _:bng_111.
-_:bng_112 log:proves _:bng_113.
-_:bng_114 log:proves _:bng_115.
-_:bng_116 log:proves _:bng_117.
-_:bng_118 log:proves _:bng_119.
-_:bng_120 log:proves _:bng_121.
-_:bng_122 log:proves _:bng_123.
-_:bng_124 log:proves _:bng_125.
-_:bng_126 log:proves _:bng_127.
-_:bng_128 log:proves _:bng_129.
-_:bng_130 log:proves _:bng_131.
-_:bng_132 log:proves _:bng_133.
-_:bng_134 log:proves _:bng_135.
-_:bng_136 log:proves _:bng_137.
-_:bng_138 log:proves _:bng_139.
-_:bng_140 log:proves _:bng_141.
-_:bng_142 log:proves _:bng_143.
-_:bng_144 log:proves _:bng_145.
-_:bng_145 log:proves _:bng_146.
-_:bng_147 log:proves _:bng_148.
-_:bng_148 log:proves _:bng_149.
-_:bng_150 log:proves _:bng_151.
-_:bng_151 log:proves _:bng_152.
-_:bng_153 log:proves _:bng_154.
-_:bng_154 log:proves _:bng_155.
-_:bng_156 log:proves _:bng_157.
-_:bng_157 log:proves _:bng_158.
-_:bng_159 log:proves _:bng_160.
-_:bng_160 log:proves _:bng_161.
-_:bng_162 log:proves _:bng_163.
-_:bng_163 log:proves _:bng_164.
-_:bng_165 log:proves _:bng_166.
-_:bng_166 log:proves _:bng_167.
-_:bng_168 log:proves _:bng_169.
-_:bng_169 log:proves _:bng_170.
-_:bng_171 log:proves _:bng_172.
-_:bng_172 log:proves _:bng_173.
-_:bng_174 log:proves _:bng_175.
-_:bng_175 log:proves _:bng_176.
-_:bng_177 log:proves _:bng_178.
-_:bng_178 log:proves _:bng_179.
-_:bng_180 log:proves _:bng_181.
-_:bng_181 log:proves _:bng_182.
-_:bng_183 log:proves _:bng_184.
-_:bng_185 log:proves _:bng_186.
-_:bng_187 log:proves _:bng_188.
-_:bng_189 log:proves _:bng_190.
-_:bng_191 log:proves _:bng_192.
-_:bng_192 log:proves _:bng_193.
-_:bng_194 log:proves _:bng_195.
-_:bng_196 log:proves _:bng_197.
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_6) log:proves _:bng_7.
+(_:bng_1 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_12 _:bng_13) log:proves _:bng_14.
+(_:bng_15 _:bng_16) log:proves _:bng_17.
+(_:bng_15 _:bng_18) log:proves _:bng_19.
+(_:bng_20 _:bng_21) log:proves _:bng_22.
+(_:bng_20 _:bng_23) log:proves _:bng_24.
+(_:bng_20 _:bng_25) log:proves _:bng_26.
+(_:bng_20 _:bng_27) log:proves _:bng_28.
+(_:bng_29 _:bng_30) log:proves _:bng_31.
+(_:bng_32 _:bng_33) log:proves _:bng_34.
+(_:bng_35 _:bng_34) log:proves _:bng_36.
+(_:bng_32 _:bng_37) log:proves _:bng_38.
+(_:bng_35 _:bng_38) log:proves _:bng_39.
+(_:bng_32 _:bng_40) log:proves _:bng_41.
+(_:bng_35 _:bng_41) log:proves _:bng_42.
+(_:bng_32 _:bng_43) log:proves _:bng_44.
+(_:bng_35 _:bng_44) log:proves _:bng_45.
+(_:bng_32 _:bng_46) log:proves _:bng_47.
+(_:bng_35 _:bng_47) log:proves _:bng_48.
+(_:bng_32 _:bng_49) log:proves _:bng_50.
+(_:bng_35 _:bng_50) log:proves _:bng_51.
+(_:bng_32 _:bng_52) log:proves _:bng_53.
+(_:bng_35 _:bng_53) log:proves _:bng_54.
+(_:bng_32 _:bng_55) log:proves _:bng_56.
+(_:bng_35 _:bng_56) log:proves _:bng_57.
+(_:bng_32 _:bng_58) log:proves _:bng_59.
+(_:bng_60 _:bng_61) log:proves _:bng_62.
+(_:bng_1 _:bng_63) log:proves _:bng_64.
+(_:bng_1 _:bng_65) log:proves _:bng_66.
+(_:bng_1 _:bng_67) log:proves _:bng_68.
+(_:bng_1 _:bng_69) log:proves _:bng_70.
+(_:bng_1 _:bng_71) log:proves _:bng_72.
+(_:bng_12 _:bng_73) log:proves _:bng_74.
+(_:bng_15 _:bng_75) log:proves _:bng_76.
+(_:bng_15 _:bng_77) log:proves _:bng_78.
+(_:bng_15 _:bng_79) log:proves _:bng_80.
+(_:bng_15 _:bng_81) log:proves _:bng_82.
+(_:bng_15 _:bng_83) log:proves _:bng_84.
+(_:bng_29 _:bng_85) log:proves _:bng_86.
+(_:bng_32 _:bng_87) log:proves _:bng_88.
+(_:bng_35 _:bng_88) log:proves _:bng_89.
+(_:bng_32 _:bng_90) log:proves _:bng_91.
+(_:bng_35 _:bng_91) log:proves _:bng_92.
+(_:bng_32 _:bng_93) log:proves _:bng_94.
+(_:bng_35 _:bng_94) log:proves _:bng_95.
+(_:bng_32 _:bng_96) log:proves _:bng_97.
+(_:bng_35 _:bng_97) log:proves _:bng_98.
+(_:bng_32 _:bng_99) log:proves _:bng_100.
+(_:bng_35 _:bng_100) log:proves _:bng_101.
+(_:bng_32 _:bng_102) log:proves _:bng_103.
+(_:bng_35 _:bng_103) log:proves _:bng_104.
+(_:bng_32 _:bng_105) log:proves _:bng_106.
+(_:bng_35 _:bng_106) log:proves _:bng_107.
+(_:bng_32 _:bng_108) log:proves _:bng_109.
+(_:bng_35 _:bng_109) log:proves _:bng_110.
+(_:bng_32 _:bng_111) log:proves _:bng_112.
+(_:bng_35 _:bng_112) log:proves _:bng_113.
+(_:bng_32 _:bng_114) log:proves _:bng_115.
+(_:bng_35 _:bng_115) log:proves _:bng_116.
+(_:bng_32 _:bng_117) log:proves _:bng_118.
+(_:bng_35 _:bng_118) log:proves _:bng_119.
+(_:bng_32 _:bng_120) log:proves _:bng_121.
+(_:bng_60 _:bng_122) log:proves _:bng_123.
+(_:bng_1 _:bng_124) log:proves _:bng_125.
+(_:bng_1 _:bng_126) log:proves _:bng_127.
+(_:bng_1 _:bng_128) log:proves _:bng_129.
+(_:bng_1 _:bng_130) log:proves _:bng_131.
+(_:bng_1 _:bng_132) log:proves _:bng_133.
+(_:bng_12 _:bng_134) log:proves _:bng_135.
+(_:bng_15 _:bng_136) log:proves _:bng_137.
+(_:bng_15 _:bng_138) log:proves _:bng_139.
+(_:bng_15 _:bng_140) log:proves _:bng_141.
+(_:bng_15 _:bng_142) log:proves _:bng_143.
+(_:bng_15 _:bng_144) log:proves _:bng_145.
+(_:bng_15 _:bng_146) log:proves _:bng_147.
+(_:bng_148 _:bng_149) log:proves _:bng_150.
+(_:bng_29 _:bng_151) log:proves _:bng_152.
+(_:bng_32 _:bng_153) log:proves _:bng_154.
+(_:bng_35 _:bng_154) log:proves _:bng_155.
+(_:bng_32 _:bng_156) log:proves _:bng_157.
+(_:bng_35 _:bng_157) log:proves _:bng_158.
+(_:bng_32 _:bng_159) log:proves _:bng_160.
+(_:bng_35 _:bng_160) log:proves _:bng_161.
+(_:bng_32 _:bng_162) log:proves _:bng_163.
+(_:bng_35 _:bng_163) log:proves _:bng_164.
+(_:bng_32 _:bng_165) log:proves _:bng_166.
+(_:bng_35 _:bng_166) log:proves _:bng_167.
+(_:bng_32 _:bng_168) log:proves _:bng_169.
+(_:bng_35 _:bng_169) log:proves _:bng_170.
+(_:bng_32 _:bng_171) log:proves _:bng_172.
+(_:bng_35 _:bng_172) log:proves _:bng_173.
+(_:bng_32 _:bng_174) log:proves _:bng_175.
+(_:bng_35 _:bng_175) log:proves _:bng_176.
+(_:bng_32 _:bng_177) log:proves _:bng_178.
+(_:bng_35 _:bng_178) log:proves _:bng_179.
+(_:bng_32 _:bng_180) log:proves _:bng_181.
+(_:bng_35 _:bng_181) log:proves _:bng_182.
+(_:bng_32 _:bng_183) log:proves _:bng_184.
+(_:bng_35 _:bng_184) log:proves _:bng_185.
+(_:bng_32 _:bng_186) log:proves _:bng_187.
+(_:bng_35 _:bng_187) log:proves _:bng_188.
+(_:bng_32 _:bng_189) log:proves _:bng_190.
+(_:bng_35 _:bng_190) log:proves _:bng_191.
+(_:bng_32 _:bng_192) log:proves _:bng_193.
+(_:bng_60 _:bng_194) log:proves _:bng_195.
+(_:bng_148 _:bng_196) log:proves _:bng_197.
+(_:bng_29 _:bng_198) log:proves _:bng_199.
+(_:bng_32 _:bng_200) log:proves _:bng_201.
+(_:bng_35 _:bng_201) log:proves _:bng_202.
+(_:bng_32 _:bng_203) log:proves _:bng_204.
+(_:bng_205 _:bng_206) log:proves _:bng_207.
 
 _:bng_1 {
+    _:e_bng_18_1 log:isImpliedBy _:e_bng_19_1.
+}
+
+_:bng_2 {
     (0 1 0 0 1) list:firstRest (0 (1 0 0 1)).
     (1) list:firstRest (1 ()).
 }
 
-_:bng_2 {
+_:bng_3 {
     (:right () 1 (0 1 0 0 1) (1) 0 (1 0 0 1)) :move true.
 }
 
-_:bng_3 {
+_:bng_4 {
     (1 0 0 1) list:firstRest (1 (0 0 1)).
     (0 1) list:firstRest (0 (1)).
 }
 
-_:bng_4 {
+_:bng_5 {
     (:right (1) 0 (1 0 0 1) (0 1) 1 (0 0 1)) :move true.
 }
 
-_:bng_5 {
+_:bng_6 {
     (0 0 1) list:firstRest (0 (0 1)).
     (1 0 1) list:firstRest (1 (0 1)).
 }
 
-_:bng_6 {
+_:bng_7 {
     (:right (0 1) 1 (0 0 1) (1 0 1) 0 (0 1)) :move true.
 }
 
-_:bng_7 {
+_:bng_8 {
     (0 1) list:firstRest (0 (1)).
     (0 1 0 1) list:firstRest (0 (1 0 1)).
 }
 
-_:bng_8 {
+_:bng_9 {
     (:right (1 0 1) 0 (0 1) (0 1 0 1) 0 (1)) :move true.
 }
 
-_:bng_9 {
+_:bng_10 {
     (1) list:firstRest (1 ()).
     (0 0 1 0 1) list:firstRest (0 (0 1 0 1)).
 }
 
-_:bng_10 {
+_:bng_11 {
     (:right (0 1 0 1) 0 (1) (0 0 1 0 1) 1 ()) :move true.
 }
 
-_:bng_11 {
-    (1 0 0 1 0 1) list:firstRest (1 (0 0 1 0 1)).
-}
-
 _:bng_12 {
-    (:right (0 0 1 0 1) 1 () (1 0 0 1 0 1) "#" ()) :move true.
+    _:e_bng_16_1 log:isImpliedBy _:e_bng_17_1.
 }
 
 _:bng_13 {
     (1 0 0 1 0 1) list:firstRest (1 (0 0 1 0 1)).
-    ("#") list:firstRest ("#" ()).
 }
 
 _:bng_14 {
-    (:left (1 0 0 1 0 1) "#" () (0 0 1 0 1) 1 ("#")) :move true.
+    (:right (0 0 1 0 1) 1 () (1 0 0 1 0 1) "#" ()) :move true.
 }
 
 _:bng_15 {
+    _:e_bng_13_1 log:isImpliedBy _:e_bng_14_1.
+}
+
+_:bng_16 {
+    (1 0 0 1 0 1) list:firstRest (1 (0 0 1 0 1)).
+    ("#") list:firstRest ("#" ()).
+}
+
+_:bng_17 {
+    (:left (1 0 0 1 0 1) "#" () (0 0 1 0 1) 1 ("#")) :move true.
+}
+
+_:bng_18 {
     (0 0 1 0 1) list:firstRest (0 (0 1 0 1)).
     (0 "#") list:firstRest (0 ("#")).
 }
 
-_:bng_16 {
+_:bng_19 {
     (:left (0 0 1 0 1) 0 ("#") (0 1 0 1) 0 (0 "#")) :move true.
 }
 
-_:bng_17 {
+_:bng_20 {
+    _:e_bng_21_1 log:isImpliedBy _:e_bng_22_1.
+}
+
+_:bng_21 {
     (1) list:firstRest (1 ()).
     () :reverse ().
     (() (1)) list:append (1).
 }
 
-_:bng_18 {
+_:bng_22 {
     (1) :reverse (1).
 }
 
-_:bng_19 {
+_:bng_23 {
     (0 1) list:firstRest (0 (1)).
     (1) :reverse (1).
     ((1) (0)) list:append (1 0).
 }
 
-_:bng_20 {
+_:bng_24 {
     (0 1) :reverse (1 0).
 }
 
-_:bng_21 {
+_:bng_25 {
     (1 0 1) list:firstRest (1 (0 1)).
     (0 1) :reverse (1 0).
     ((1 0) (1)) list:append (1 0 1).
 }
 
-_:bng_22 {
+_:bng_26 {
     (1 0 1) :reverse (1 0 1).
 }
 
-_:bng_23 {
+_:bng_27 {
     (0 1 0 1) list:firstRest (0 (1 0 1)).
     (1 0 1) :reverse (1 0 1).
     ((1 0 1) (0)) list:append (1 0 1 0).
 }
 
-_:bng_24 {
+_:bng_28 {
     (0 1 0 1) :reverse (1 0 1 0).
 }
 
-_:bng_25 {
+_:bng_29 {
+    _:e_bng_7_1 log:isImpliedBy _:e_bng_8_1.
+}
+
+_:bng_30 {
     (0 1 0 1) :reverse (1 0 1 0).
     (1 0 "#") list:firstRest (1 (0 "#")).
     ((1 0 1 0) (1 0 "#")) list:append (1 0 1 0 1 0 "#").
 }
 
-_:bng_26 {
+_:bng_31 {
     (:halt (0 1 0 1) 1 (0 "#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_27 {
+_:bng_32 {
+    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+}
+
+_:bng_33 {
     (1 0 1 :stop) :tape :halt.
     (:stop (0 1 0 1) 1 (0 "#") (0 1 0 1) 1 (0 "#")) :move true.
     (:halt (0 1 0 1) 1 (0 "#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_28 {
+_:bng_34 {
     (1 (0 1 0 1) 0 (0 "#")) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_29 {
+_:bng_35 {
+    _:e_bng_9_1 log:isImpliedBy _:e_bng_10_1.
+}
+
+_:bng_36 {
     (1 (0 1 0 1) 0 (0 "#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_30 {
+_:bng_37 {
     (1 1 0 :left) :tape 1 .
     (:left (0 0 1 0 1) 0 ("#") (0 1 0 1) 0 (0 "#")) :move true.
     (1 (0 1 0 1) 0 (0 "#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_31 {
+_:bng_38 {
     (1 (0 0 1 0 1) 1 ("#")) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_32 {
+_:bng_39 {
     (1 (0 0 1 0 1) 1 ("#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_33 {
+_:bng_40 {
     (0 "#" "#" :left) :tape 1 .
     (:left (1 0 0 1 0 1) "#" () (0 0 1 0 1) 1 ("#")) :move true.
     (1 (0 0 1 0 1) 1 ("#")) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_34 {
+_:bng_41 {
     (0 (1 0 0 1 0 1) "#" ()) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_35 {
+_:bng_42 {
     (0 (1 0 0 1 0 1) "#" ()) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_36 {
+_:bng_43 {
     (0 1 1 :right) :tape 0 .
     (:right (0 0 1 0 1) 1 () (1 0 0 1 0 1) "#" ()) :move true.
     (0 (1 0 0 1 0 1) "#" ()) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_37 {
+_:bng_44 {
     (0 (0 0 1 0 1) 1 ()) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_38 {
+_:bng_45 {
     (0 (0 0 1 0 1) 1 ()) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_39 {
+_:bng_46 {
     (0 0 0 :right) :tape 0 .
     (:right (0 1 0 1) 0 (1) (0 0 1 0 1) 1 ()) :move true.
     (0 (0 0 1 0 1) 1 ()) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_40 {
+_:bng_47 {
     (0 (0 1 0 1) 0 (1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_41 {
+_:bng_48 {
     (0 (0 1 0 1) 0 (1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_42 {
+_:bng_49 {
     (0 0 0 :right) :tape 0 .
     (:right (1 0 1) 0 (0 1) (0 1 0 1) 0 (1)) :move true.
     (0 (0 1 0 1) 0 (1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_43 {
+_:bng_50 {
     (0 (1 0 1) 0 (0 1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_44 {
+_:bng_51 {
     (0 (1 0 1) 0 (0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_45 {
+_:bng_52 {
     (0 1 1 :right) :tape 0 .
     (:right (0 1) 1 (0 0 1) (1 0 1) 0 (0 1)) :move true.
     (0 (1 0 1) 0 (0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_46 {
+_:bng_53 {
     (0 (0 1) 1 (0 0 1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_47 {
+_:bng_54 {
     (0 (0 1) 1 (0 0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_48 {
+_:bng_55 {
     (0 0 0 :right) :tape 0 .
     (:right (1) 0 (1 0 0 1) (0 1) 1 (0 0 1)) :move true.
     (0 (0 1) 1 (0 0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_49 {
+_:bng_56 {
     (0 (1) 0 (1 0 0 1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_50 {
+_:bng_57 {
     (0 (1) 0 (1 0 0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_51 {
+_:bng_58 {
     (0 1 1 :right) :tape 0 .
     (:right () 1 (0 1 0 0 1) (1) 0 (1 0 0 1)) :move true.
     (0 (1) 0 (1 0 0 1)) :continue (1 0 1 0 1 0 "#").
 }
 
-_:bng_52 {
+_:bng_59 {
     (0 () 1 (0 1 0 0 1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_53 {
+_:bng_60 {
+    _:e_bng_3_1 log:isImpliedBy _:e_bng_4_1.
+}
+
+_:bng_61 {
     (1 0 1 0 0 1) list:firstRest (1 (0 1 0 0 1)).
     :add1 :start 0 .
     (0 () 1 (0 1 0 0 1)) :find (1 0 1 0 1 0 "#").
 }
 
-_:bng_54 {
+_:bng_62 {
     (1 0 1 0 0 1) :compute (1 0 1 0 1 0 "#").
 }
 
-_:bng_55 {
+_:bng_63 {
     (0 1 1 1 1) list:firstRest (0 (1 1 1 1)).
     (1) list:firstRest (1 ()).
 }
 
-_:bng_56 {
+_:bng_64 {
     (:right () 1 (0 1 1 1 1) (1) 0 (1 1 1 1)) :move true.
 }
 
-_:bng_57 {
+_:bng_65 {
     (1 1 1 1) list:firstRest (1 (1 1 1)).
     (0 1) list:firstRest (0 (1)).
 }
 
-_:bng_58 {
+_:bng_66 {
     (:right (1) 0 (1 1 1 1) (0 1) 1 (1 1 1)) :move true.
 }
 
-_:bng_59 {
+_:bng_67 {
     (1 1 1) list:firstRest (1 (1 1)).
     (1 0 1) list:firstRest (1 (0 1)).
 }
 
-_:bng_60 {
+_:bng_68 {
     (:right (0 1) 1 (1 1 1) (1 0 1) 1 (1 1)) :move true.
 }
 
-_:bng_61 {
+_:bng_69 {
     (1 1) list:firstRest (1 (1)).
     (1 1 0 1) list:firstRest (1 (1 0 1)).
 }
 
-_:bng_62 {
+_:bng_70 {
     (:right (1 0 1) 1 (1 1) (1 1 0 1) 1 (1)) :move true.
 }
 
-_:bng_63 {
+_:bng_71 {
     (1) list:firstRest (1 ()).
     (1 1 1 0 1) list:firstRest (1 (1 1 0 1)).
 }
 
-_:bng_64 {
+_:bng_72 {
     (:right (1 1 0 1) 1 (1) (1 1 1 0 1) 1 ()) :move true.
 }
 
-_:bng_65 {
+_:bng_73 {
     (1 1 1 1 0 1) list:firstRest (1 (1 1 1 0 1)).
 }
 
-_:bng_66 {
+_:bng_74 {
     (:right (1 1 1 0 1) 1 () (1 1 1 1 0 1) "#" ()) :move true.
 }
 
-_:bng_67 {
+_:bng_75 {
     (1 1 1 1 0 1) list:firstRest (1 (1 1 1 0 1)).
     ("#") list:firstRest ("#" ()).
 }
 
-_:bng_68 {
+_:bng_76 {
     (:left (1 1 1 1 0 1) "#" () (1 1 1 0 1) 1 ("#")) :move true.
 }
 
-_:bng_69 {
+_:bng_77 {
     (1 1 1 0 1) list:firstRest (1 (1 1 0 1)).
     (0 "#") list:firstRest (0 ("#")).
 }
 
-_:bng_70 {
+_:bng_78 {
     (:left (1 1 1 0 1) 0 ("#") (1 1 0 1) 1 (0 "#")) :move true.
 }
 
-_:bng_71 {
+_:bng_79 {
     (1 1 0 1) list:firstRest (1 (1 0 1)).
     (0 0 "#") list:firstRest (0 (0 "#")).
 }
 
-_:bng_72 {
+_:bng_80 {
     (:left (1 1 0 1) 0 (0 "#") (1 0 1) 1 (0 0 "#")) :move true.
 }
 
-_:bng_73 {
+_:bng_81 {
     (1 0 1) list:firstRest (1 (0 1)).
     (0 0 0 "#") list:firstRest (0 (0 0 "#")).
 }
 
-_:bng_74 {
+_:bng_82 {
     (:left (1 0 1) 0 (0 0 "#") (0 1) 1 (0 0 0 "#")) :move true.
 }
 
-_:bng_75 {
+_:bng_83 {
     (0 1) list:firstRest (0 (1)).
     (0 0 0 0 "#") list:firstRest (0 (0 0 0 "#")).
 }
 
-_:bng_76 {
+_:bng_84 {
     (:left (0 1) 0 (0 0 0 "#") (1) 0 (0 0 0 0 "#")) :move true.
 }
 
-_:bng_77 {
+_:bng_85 {
     (1) :reverse (1).
     (1 0 0 0 0 "#") list:firstRest (1 (0 0 0 0 "#")).
     ((1) (1 0 0 0 0 "#")) list:append (1 1 0 0 0 0 "#").
 }
 
-_:bng_78 {
+_:bng_86 {
     (:halt (1) 1 (0 0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_79 {
+_:bng_87 {
     (1 0 1 :stop) :tape :halt.
     (:stop (1) 1 (0 0 0 0 "#") (1) 1 (0 0 0 0 "#")) :move true.
     (:halt (1) 1 (0 0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_80 {
+_:bng_88 {
     (1 (1) 0 (0 0 0 0 "#")) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_81 {
+_:bng_89 {
     (1 (1) 0 (0 0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_82 {
+_:bng_90 {
     (1 1 0 :left) :tape 1 .
     (:left (0 1) 0 (0 0 0 "#") (1) 0 (0 0 0 0 "#")) :move true.
     (1 (1) 0 (0 0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_83 {
+_:bng_91 {
     (1 (0 1) 1 (0 0 0 "#")) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_84 {
+_:bng_92 {
     (1 (0 1) 1 (0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_85 {
+_:bng_93 {
     (1 1 0 :left) :tape 1 .
     (:left (1 0 1) 0 (0 0 "#") (0 1) 1 (0 0 0 "#")) :move true.
     (1 (0 1) 1 (0 0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_86 {
+_:bng_94 {
     (1 (1 0 1) 1 (0 0 "#")) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_87 {
+_:bng_95 {
     (1 (1 0 1) 1 (0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_88 {
+_:bng_96 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1 0 1) 0 (0 "#") (1 0 1) 1 (0 0 "#")) :move true.
     (1 (1 0 1) 1 (0 0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_89 {
+_:bng_97 {
     (1 (1 1 0 1) 1 (0 "#")) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_90 {
+_:bng_98 {
     (1 (1 1 0 1) 1 (0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_91 {
+_:bng_99 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1 1 0 1) 0 ("#") (1 1 0 1) 1 (0 "#")) :move true.
     (1 (1 1 0 1) 1 (0 "#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_92 {
+_:bng_100 {
     (1 (1 1 1 0 1) 1 ("#")) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_93 {
+_:bng_101 {
     (1 (1 1 1 0 1) 1 ("#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_94 {
+_:bng_102 {
     (0 "#" "#" :left) :tape 1 .
     (:left (1 1 1 1 0 1) "#" () (1 1 1 0 1) 1 ("#")) :move true.
     (1 (1 1 1 0 1) 1 ("#")) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_95 {
+_:bng_103 {
     (0 (1 1 1 1 0 1) "#" ()) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_96 {
+_:bng_104 {
     (0 (1 1 1 1 0 1) "#" ()) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_97 {
+_:bng_105 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1 1 0 1) 1 () (1 1 1 1 0 1) "#" ()) :move true.
     (0 (1 1 1 1 0 1) "#" ()) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_98 {
+_:bng_106 {
     (0 (1 1 1 0 1) 1 ()) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_99 {
+_:bng_107 {
     (0 (1 1 1 0 1) 1 ()) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_100 {
+_:bng_108 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1 0 1) 1 (1) (1 1 1 0 1) 1 ()) :move true.
     (0 (1 1 1 0 1) 1 ()) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_101 {
+_:bng_109 {
     (0 (1 1 0 1) 1 (1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_102 {
+_:bng_110 {
     (0 (1 1 0 1) 1 (1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_103 {
+_:bng_111 {
     (0 1 1 :right) :tape 0 .
     (:right (1 0 1) 1 (1 1) (1 1 0 1) 1 (1)) :move true.
     (0 (1 1 0 1) 1 (1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_104 {
+_:bng_112 {
     (0 (1 0 1) 1 (1 1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_105 {
+_:bng_113 {
     (0 (1 0 1) 1 (1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_106 {
+_:bng_114 {
     (0 1 1 :right) :tape 0 .
     (:right (0 1) 1 (1 1 1) (1 0 1) 1 (1 1)) :move true.
     (0 (1 0 1) 1 (1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_107 {
+_:bng_115 {
     (0 (0 1) 1 (1 1 1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_108 {
+_:bng_116 {
     (0 (0 1) 1 (1 1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_109 {
+_:bng_117 {
     (0 0 0 :right) :tape 0 .
     (:right (1) 0 (1 1 1 1) (0 1) 1 (1 1 1)) :move true.
     (0 (0 1) 1 (1 1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_110 {
+_:bng_118 {
     (0 (1) 0 (1 1 1 1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_111 {
+_:bng_119 {
     (0 (1) 0 (1 1 1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_112 {
+_:bng_120 {
     (0 1 1 :right) :tape 0 .
     (:right () 1 (0 1 1 1 1) (1) 0 (1 1 1 1)) :move true.
     (0 (1) 0 (1 1 1 1)) :continue (1 1 0 0 0 0 "#").
 }
 
-_:bng_113 {
+_:bng_121 {
     (0 () 1 (0 1 1 1 1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_114 {
+_:bng_122 {
     (1 0 1 1 1 1) list:firstRest (1 (0 1 1 1 1)).
     :add1 :start 0 .
     (0 () 1 (0 1 1 1 1)) :find (1 1 0 0 0 0 "#").
 }
 
-_:bng_115 {
+_:bng_123 {
     (1 0 1 1 1 1) :compute (1 1 0 0 0 0 "#").
 }
 
-_:bng_116 {
-    (1 1 1 1 1) list:firstRest (1 (1 1 1 1)).
-    (1) list:firstRest (1 ()).
-}
-
-_:bng_117 {
-    (:right () 1 (1 1 1 1 1) (1) 1 (1 1 1 1)) :move true.
-}
-
-_:bng_118 {
-    (1 1 1 1) list:firstRest (1 (1 1 1)).
-    (1 1) list:firstRest (1 (1)).
-}
-
-_:bng_119 {
-    (:right (1) 1 (1 1 1 1) (1 1) 1 (1 1 1)) :move true.
-}
-
-_:bng_120 {
-    (1 1 1) list:firstRest (1 (1 1)).
-    (1 1 1) list:firstRest (1 (1 1)).
-}
-
-_:bng_121 {
-    (:right (1 1) 1 (1 1 1) (1 1 1) 1 (1 1)) :move true.
-}
-
-_:bng_122 {
-    (1 1) list:firstRest (1 (1)).
-    (1 1 1 1) list:firstRest (1 (1 1 1)).
-}
-
-_:bng_123 {
-    (:right (1 1 1) 1 (1 1) (1 1 1 1) 1 (1)) :move true.
-}
-
 _:bng_124 {
-    (1) list:firstRest (1 ()).
     (1 1 1 1 1) list:firstRest (1 (1 1 1 1)).
+    (1) list:firstRest (1 ()).
 }
 
 _:bng_125 {
-    (:right (1 1 1 1) 1 (1) (1 1 1 1 1) 1 ()) :move true.
+    (:right () 1 (1 1 1 1 1) (1) 1 (1 1 1 1)) :move true.
 }
 
 _:bng_126 {
-    (1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1)).
+    (1 1 1 1) list:firstRest (1 (1 1 1)).
+    (1 1) list:firstRest (1 (1)).
 }
 
 _:bng_127 {
-    (:right (1 1 1 1 1) 1 () (1 1 1 1 1 1) "#" ()) :move true.
+    (:right (1) 1 (1 1 1 1) (1 1) 1 (1 1 1)) :move true.
 }
 
 _:bng_128 {
+    (1 1 1) list:firstRest (1 (1 1)).
+    (1 1 1) list:firstRest (1 (1 1)).
+}
+
+_:bng_129 {
+    (:right (1 1) 1 (1 1 1) (1 1 1) 1 (1 1)) :move true.
+}
+
+_:bng_130 {
+    (1 1) list:firstRest (1 (1)).
+    (1 1 1 1) list:firstRest (1 (1 1 1)).
+}
+
+_:bng_131 {
+    (:right (1 1 1) 1 (1 1) (1 1 1 1) 1 (1)) :move true.
+}
+
+_:bng_132 {
+    (1) list:firstRest (1 ()).
+    (1 1 1 1 1) list:firstRest (1 (1 1 1 1)).
+}
+
+_:bng_133 {
+    (:right (1 1 1 1) 1 (1) (1 1 1 1 1) 1 ()) :move true.
+}
+
+_:bng_134 {
+    (1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1)).
+}
+
+_:bng_135 {
+    (:right (1 1 1 1 1) 1 () (1 1 1 1 1 1) "#" ()) :move true.
+}
+
+_:bng_136 {
     (1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1)).
     ("#") list:firstRest ("#" ()).
 }
 
-_:bng_129 {
+_:bng_137 {
     (:left (1 1 1 1 1 1) "#" () (1 1 1 1 1) 1 ("#")) :move true.
 }
 
-_:bng_130 {
+_:bng_138 {
     (1 1 1 1 1) list:firstRest (1 (1 1 1 1)).
     (0 "#") list:firstRest (0 ("#")).
 }
 
-_:bng_131 {
+_:bng_139 {
     (:left (1 1 1 1 1) 0 ("#") (1 1 1 1) 1 (0 "#")) :move true.
 }
 
-_:bng_132 {
+_:bng_140 {
     (1 1 1 1) list:firstRest (1 (1 1 1)).
     (0 0 "#") list:firstRest (0 (0 "#")).
 }
 
-_:bng_133 {
+_:bng_141 {
     (:left (1 1 1 1) 0 (0 "#") (1 1 1) 1 (0 0 "#")) :move true.
 }
 
-_:bng_134 {
+_:bng_142 {
     (1 1 1) list:firstRest (1 (1 1)).
     (0 0 0 "#") list:firstRest (0 (0 0 "#")).
 }
 
-_:bng_135 {
+_:bng_143 {
     (:left (1 1 1) 0 (0 0 "#") (1 1) 1 (0 0 0 "#")) :move true.
 }
 
-_:bng_136 {
+_:bng_144 {
     (1 1) list:firstRest (1 (1)).
     (0 0 0 0 "#") list:firstRest (0 (0 0 0 "#")).
 }
 
-_:bng_137 {
+_:bng_145 {
     (:left (1 1) 0 (0 0 0 "#") (1) 1 (0 0 0 0 "#")) :move true.
 }
 
-_:bng_138 {
+_:bng_146 {
     (1) list:firstRest (1 ()).
     (0 0 0 0 0 "#") list:firstRest (0 (0 0 0 0 "#")).
 }
 
-_:bng_139 {
+_:bng_147 {
     (:left (1) 0 (0 0 0 0 "#") () 1 (0 0 0 0 0 "#")) :move true.
 }
 
-_:bng_140 {
+_:bng_148 {
+    _:e_bng_11_1 log:isImpliedBy _:e_bng_12_1.
+}
+
+_:bng_149 {
     (0 0 0 0 0 0 "#") list:firstRest (0 (0 0 0 0 0 "#")).
 }
 
-_:bng_141 {
+_:bng_150 {
     (:left () 0 (0 0 0 0 0 "#") () "#" (0 0 0 0 0 0 "#")) :move true.
 }
 
-_:bng_142 {
+_:bng_151 {
     () :reverse ().
     (1 0 0 0 0 0 0 "#") list:firstRest (1 (0 0 0 0 0 0 "#")).
     (() (1 0 0 0 0 0 0 "#")) list:append (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_143 {
+_:bng_152 {
     (:halt () 1 (0 0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_144 {
+_:bng_153 {
     (1 "#" 1 :stop) :tape :halt.
     (:stop () 1 (0 0 0 0 0 0 "#") () 1 (0 0 0 0 0 0 "#")) :move true.
     (:halt () 1 (0 0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_145 {
+_:bng_154 {
     (1 () "#" (0 0 0 0 0 0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_146 {
+_:bng_155 {
     (1 () "#" (0 0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_147 {
+_:bng_156 {
     (1 1 0 :left) :tape 1 .
     (:left () 0 (0 0 0 0 0 "#") () "#" (0 0 0 0 0 0 "#")) :move true.
     (1 () "#" (0 0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_148 {
+_:bng_157 {
     (1 () 1 (0 0 0 0 0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_149 {
+_:bng_158 {
     (1 () 1 (0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_150 {
+_:bng_159 {
     (1 1 0 :left) :tape 1 .
     (:left (1) 0 (0 0 0 0 "#") () 1 (0 0 0 0 0 "#")) :move true.
     (1 () 1 (0 0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_151 {
+_:bng_160 {
     (1 (1) 1 (0 0 0 0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_152 {
+_:bng_161 {
     (1 (1) 1 (0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_153 {
+_:bng_162 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1) 0 (0 0 0 "#") (1) 1 (0 0 0 0 "#")) :move true.
     (1 (1) 1 (0 0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_154 {
+_:bng_163 {
     (1 (1 1) 1 (0 0 0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_155 {
+_:bng_164 {
     (1 (1 1) 1 (0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_156 {
+_:bng_165 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1 1) 0 (0 0 "#") (1 1) 1 (0 0 0 "#")) :move true.
     (1 (1 1) 1 (0 0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_157 {
+_:bng_166 {
     (1 (1 1 1) 1 (0 0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_158 {
+_:bng_167 {
     (1 (1 1 1) 1 (0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_159 {
+_:bng_168 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1 1 1) 0 (0 "#") (1 1 1) 1 (0 0 "#")) :move true.
     (1 (1 1 1) 1 (0 0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_160 {
+_:bng_169 {
     (1 (1 1 1 1) 1 (0 "#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_161 {
+_:bng_170 {
     (1 (1 1 1 1) 1 (0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_162 {
+_:bng_171 {
     (1 1 0 :left) :tape 1 .
     (:left (1 1 1 1 1) 0 ("#") (1 1 1 1) 1 (0 "#")) :move true.
     (1 (1 1 1 1) 1 (0 "#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_163 {
+_:bng_172 {
     (1 (1 1 1 1 1) 1 ("#")) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_164 {
+_:bng_173 {
     (1 (1 1 1 1 1) 1 ("#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_165 {
+_:bng_174 {
     (0 "#" "#" :left) :tape 1 .
     (:left (1 1 1 1 1 1) "#" () (1 1 1 1 1) 1 ("#")) :move true.
     (1 (1 1 1 1 1) 1 ("#")) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_166 {
+_:bng_175 {
     (0 (1 1 1 1 1 1) "#" ()) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_167 {
+_:bng_176 {
     (0 (1 1 1 1 1 1) "#" ()) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_168 {
+_:bng_177 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1 1 1 1) 1 () (1 1 1 1 1 1) "#" ()) :move true.
     (0 (1 1 1 1 1 1) "#" ()) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_169 {
+_:bng_178 {
     (0 (1 1 1 1 1) 1 ()) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_170 {
+_:bng_179 {
     (0 (1 1 1 1 1) 1 ()) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_171 {
+_:bng_180 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1 1 1) 1 (1) (1 1 1 1 1) 1 ()) :move true.
     (0 (1 1 1 1 1) 1 ()) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_172 {
+_:bng_181 {
     (0 (1 1 1 1) 1 (1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_173 {
+_:bng_182 {
     (0 (1 1 1 1) 1 (1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_174 {
+_:bng_183 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1 1) 1 (1 1) (1 1 1 1) 1 (1)) :move true.
     (0 (1 1 1 1) 1 (1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_175 {
+_:bng_184 {
     (0 (1 1 1) 1 (1 1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_176 {
+_:bng_185 {
     (0 (1 1 1) 1 (1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_177 {
+_:bng_186 {
     (0 1 1 :right) :tape 0 .
     (:right (1 1) 1 (1 1 1) (1 1 1) 1 (1 1)) :move true.
     (0 (1 1 1) 1 (1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_178 {
+_:bng_187 {
     (0 (1 1) 1 (1 1 1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_179 {
+_:bng_188 {
     (0 (1 1) 1 (1 1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_180 {
+_:bng_189 {
     (0 1 1 :right) :tape 0 .
     (:right (1) 1 (1 1 1 1) (1 1) 1 (1 1 1)) :move true.
     (0 (1 1) 1 (1 1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_181 {
+_:bng_190 {
     (0 (1) 1 (1 1 1 1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_182 {
+_:bng_191 {
     (0 (1) 1 (1 1 1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_183 {
+_:bng_192 {
     (0 1 1 :right) :tape 0 .
     (:right () 1 (1 1 1 1 1) (1) 1 (1 1 1 1)) :move true.
     (0 (1) 1 (1 1 1 1)) :continue (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_184 {
+_:bng_193 {
     (0 () 1 (1 1 1 1 1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_185 {
+_:bng_194 {
     (1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1)).
     :add1 :start 0 .
     (0 () 1 (1 1 1 1 1)) :find (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_186 {
+_:bng_195 {
     (1 1 1 1 1 1) :compute (1 0 0 0 0 0 0 "#").
 }
 
-_:bng_187 {
+_:bng_196 {
     ("#") list:firstRest ("#" ()).
 }
 
-_:bng_188 {
+_:bng_197 {
     (:left () "#" () () "#" ("#")) :move true.
 }
 
-_:bng_189 {
+_:bng_198 {
     () :reverse ().
     (1 "#") list:firstRest (1 ("#")).
     (() (1 "#")) list:append (1 "#").
 }
 
-_:bng_190 {
+_:bng_199 {
     (:halt () 1 ("#")) :continue (1 "#").
 }
 
-_:bng_191 {
+_:bng_200 {
     (1 "#" 1 :stop) :tape :halt.
     (:stop () 1 ("#") () 1 ("#")) :move true.
     (:halt () 1 ("#")) :continue (1 "#").
 }
 
-_:bng_192 {
+_:bng_201 {
     (1 () "#" ("#")) :find (1 "#").
 }
 
-_:bng_193 {
+_:bng_202 {
     (1 () "#" ("#")) :continue (1 "#").
 }
 
-_:bng_194 {
+_:bng_203 {
     (0 "#" "#" :left) :tape 1 .
     (:left () "#" () () "#" ("#")) :move true.
     (1 () "#" ("#")) :continue (1 "#").
 }
 
-_:bng_195 {
+_:bng_204 {
     (0 () "#" ()) :find (1 "#").
 }
 
-_:bng_196 {
+_:bng_205 {
+    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+}
+
+_:bng_206 {
     :add1 :start 0 .
     (0 () "#" ()) :find (1 "#").
 }
 
-_:bng_197 {
+_:bng_207 {
     () :compute (1 "#").
+}
+
+_:e_bng_18_1 {
+    (:right var:Left var:Cell var:List var:L var:Head var:Tail) :move true.
+}
+
+_:e_bng_19_1 {
+    var:List list:firstRest (var:Head var:Tail).
+    var:L list:firstRest (var:Cell var:Left).
+}
+
+_:e_bng_16_1 {
+    (:right var:Left var:Cell () var:L "#" ()) :move true.
+}
+
+_:e_bng_17_1 {
+    var:L list:firstRest (var:Cell var:Left).
+}
+
+_:e_bng_13_1 {
+    (:left var:List var:Cell var:Right var:Tail var:Head var:L) :move true.
+}
+
+_:e_bng_14_1 {
+    var:List list:firstRest (var:Head var:Tail).
+    var:L list:firstRest (var:Cell var:Right).
+}
+
+_:e_bng_21_1 {
+    var:List :reverse var:Reverse.
+}
+
+_:e_bng_22_1 {
+    var:List list:firstRest (var:Head var:Tail).
+    var:Tail :reverse var:R.
+    (var:R (var:Head)) list:append var:Reverse.
+}
+
+_:e_bng_7_1 {
+    (:halt var:Left var:Cell var:Right) :continue var:OutTape.
+}
+
+_:e_bng_8_1 {
+    var:Left :reverse var:R.
+    var:List list:firstRest (var:Cell var:Right).
+    (var:R var:List) list:append var:OutTape.
+}
+
+_:e_bng_5_1 {
+    (var:State var:Left var:Cell var:Right) :find var:OutTape.
+}
+
+_:e_bng_6_1 {
+    (var:State var:Cell var:Write var:Move) :tape var:Next.
+    (var:Move var:Left var:Write var:Right var:A var:B var:C) :move true.
+    (var:Next var:A var:B var:C) :continue var:OutTape.
+}
+
+_:e_bng_9_1 {
+    (var:State var:Left var:Cell var:Right) :continue var:OutTape.
+}
+
+_:e_bng_10_1 {
+    (var:State var:Left var:Cell var:Right) :find var:OutTape.
+}
+
+_:e_bng_3_1 {
+    var:List :compute var:OutTape.
+}
+
+_:e_bng_4_1 {
+    var:List list:firstRest (var:Head var:Tail).
+    var:Machine :start var:I.
+    (var:I () var:Head var:Tail) :find var:OutTape.
+}
+
+_:e_bng_11_1 {
+    (:left () var:Cell var:Right () "#" var:L) :move true.
+}
+
+_:e_bng_12_1 {
+    var:L list:firstRest (var:Cell var:Right).
+}
+
+_:e_bng_1_1 {
+    () :compute var:OutTape.
+}
+
+_:e_bng_2_1 {
+    var:Machine :start var:I.
+    (var:I () "#" ()) :find var:OutTape.
 }
