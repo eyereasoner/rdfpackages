@@ -5012,7 +5012,7 @@
 (_:bng_10003 _:bng_10002) log:proves _:bng_10002.
 
 _:bng_1 {
-    _:e_bng_4_1 log:isImpliedBy _:e_bng_5_1.
+    _:bng_4_1 log:isImpliedBy _:bng_5_1.
 }
 
 _:bng_2 {
@@ -89999,7 +89999,7 @@ _:bng_9999 {
 }
 
 _:bng_10000 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_10001 {
@@ -90013,14 +90013,14 @@ _:bng_10002 {
 }
 
 _:bng_10003 {
-    _:e_bng_6_1 log:query _:e_bng_6_1.
+    _:bng_6_1 log:query _:bng_6_1.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     (var:K var:N var:P0 var:P var:S) :pi true.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:K math:notEqualTo var:N.
     (var:K 1) math:sum var:K1.
     (2 var:K) math:product var:K2.
@@ -90033,16 +90033,16 @@ _:e_bng_5_1 {
     (var:K1 var:N var:P1 var:P var:S1) :pi true.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     (var:N var:Pi) :pi true.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (1 var:N 0 var:P 1) :pi true.
     (4 var:P) math:product var:A.
     (3 var:A) math:sum var:Pi.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     (5000 var:Pi) :pi true.
 }

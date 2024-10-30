@@ -13,16 +13,16 @@
 (_:bng_4 _:bng_5) log:proves _:bng_6.
 (_:bng_7 _:bng_3) log:proves _:bng_3.
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:o :value var:value.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     :s :value var:value.
 }
 
 _:bng_1 {
-    _:e_bng_1_1 log:implies _:e_bng_2_1.
+    _:bng_1_1 log:implies _:bng_2_1.
 }
 
 _:bng_2 {
@@ -34,7 +34,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_3_1 log:implies _:e_bng_4_1.
+    _:bng_3_1 log:implies _:bng_4_1.
 }
 
 _:bng_5 {
@@ -46,23 +46,23 @@ _:bng_6 {
 }
 
 _:bng_7 {
-    _:e_bng_2_1 log:query _:e_bng_2_1.
+    _:bng_2_1 log:query _:bng_2_1.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:s :value var:value.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:s a :Success.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     :s :copy var:o.
 }
 
-_:e_bng_4_1 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+_:bng_4_1 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_8 {

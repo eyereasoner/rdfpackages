@@ -92,7 +92,7 @@
 (_:bng_4 _:bng_83) log:proves _:bng_82.
 
 _:bng_1 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_2 {
@@ -137,7 +137,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_3_1 log:query _:e_bng_4_1.
+    _:bng_3_1 log:query _:bng_4_1.
 }
 
 _:bng_5 {
@@ -1368,11 +1368,11 @@ _:bng_83 {
     [] rdf:value 2050; :easter (10 4).
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:x0 :easter (var:x34 var:x32).
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (var:x0 19) math:remainder var:x1.
     (var:x0 100) math:integerQuotient var:x2.
     (var:x0 100) math:remainder var:x3.
@@ -1409,12 +1409,12 @@ _:e_bng_2_1 {
     (var:x33 1) math:sum var:x34.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     [] rdf:value 27; log:repeat var:x0.
     (2024 var:x0) math:sum var:x1.
     var:x1 :easter (var:x2 var:x3).
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     var:x1 :easter (var:x2 var:x3).
 }

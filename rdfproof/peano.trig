@@ -763,7 +763,7 @@
 (_:bng_792 _:bng_793) log:proves _:bng_791.
 
 _:bng_1 {
-    _:e_bng_2_1 log:isImpliedBy _:e_bng_3_1.
+    _:bng_2_1 log:isImpliedBy _:bng_3_1.
 }
 
 _:bng_2 {
@@ -779,7 +779,7 @@ _:bng_4 {
 }
 
 _:bng_5 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_6 {
@@ -3890,7 +3890,7 @@ _:bng_776 {
 }
 
 _:bng_777 {
-    _:e_bng_10_1 log:isImpliedBy _:e_bng_11_1.
+    _:bng_10_1 log:isImpliedBy _:bng_11_1.
 }
 
 _:bng_778 {
@@ -3948,7 +3948,7 @@ _:bng_789 {
 }
 
 _:bng_790 {
-    _:e_bng_7_1 log:isImpliedBy _:e_bng_8_1.
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
 }
 
 _:bng_791 {
@@ -3956,7 +3956,7 @@ _:bng_791 {
 }
 
 _:bng_792 {
-    _:e_bng_12_1 log:query _:e_bng_13_1.
+    _:bng_12_1 log:query _:bng_13_1.
 }
 
 _:bng_793 {
@@ -3965,46 +3965,46 @@ _:bng_793 {
     (:s (:s (:s (:s (:s (:s 0)))))) :factorial (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s (:s 0)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (var:A (:s var:B)) :add (:s var:C).
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     (var:A var:B) :add var:C.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     (var:A (:s var:B)) :multiply var:C.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     (var:A var:B) :multiply var:D.
     (var:A var:D) :add var:C.
 }
 
-_:e_bng_10_1 {
+_:bng_10_1 {
     ((:s var:A) var:B) :fac var:C.
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     (var:B (:s var:A)) :multiply var:D.
     (var:A var:D) :fac var:C.
 }
 
-_:e_bng_7_1 {
+_:bng_7_1 {
     var:A :factorial var:B.
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     (var:A (:s 0)) :fac var:B.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     ((:s 0) (:s (:s 0))) :add var:A.
     (var:A (:s (:s 0))) :multiply var:B.
     var:B :factorial var:C.
 }
 
-_:e_bng_13_1 {
+_:bng_13_1 {
     var:B :factorial var:C.
 }

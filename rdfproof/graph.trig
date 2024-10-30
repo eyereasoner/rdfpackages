@@ -45,7 +45,7 @@
 (_:bng_22 _:bng_52) log:proves _:bng_49.
 
 _:bng_1 {
-    _:e_bng_1_1 log:implies _:e_bng_2_1.
+    _:bng_1_1 log:implies _:bng_2_1.
 }
 
 _:bng_2 {
@@ -129,7 +129,7 @@ _:bng_21 {
 }
 
 _:bng_22 {
-    _:e_bng_3_1 log:implies _:e_bng_4_1.
+    _:bng_3_1 log:implies _:bng_4_1.
 }
 
 _:bng_23 {
@@ -196,7 +196,7 @@ _:bng_36 {
 }
 
 _:bng_37 {
-    _:e_bng_5_1 log:query _:e_bng_5_1.
+    _:bng_5_1 log:query _:bng_5_1.
 }
 
 _:bng_38 {
@@ -270,23 +270,23 @@ _:bng_52 {
     :angers :path :nantes.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:A :oneway var:B.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:A :path var:B.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     var:A :path var:B.
     var:B :path var:C.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     var:A :path var:C.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:A :path :nantes.
 }

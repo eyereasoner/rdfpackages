@@ -12,13 +12,13 @@
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     :Let :param var:param.
     var:param string:lessThan "Louie".
 }
 
 _:bng_1 {
-    _:e_bng_1_1 log:query _:e_bng_2_1.
+    _:bng_1_1 log:query _:bng_2_1.
 }
 
 _:bng_2 {
@@ -30,12 +30,12 @@ _:bng_3 {
     :result :is ("Huey" "Dewey").
 }
 
-_:e_bng_1_1 {
-    (var:param _:e_bng_3_1 var:filteredParams) log:collectAllIn var:scope.
+_:bng_1_1 {
+    (var:param _:bng_3_1 var:filteredParams) log:collectAllIn var:scope.
     var:filteredParams list:length 2.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     :result :is var:filteredParams.
 }
 

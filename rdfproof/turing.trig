@@ -130,7 +130,7 @@
 (_:bng_208 _:bng_209) log:proves _:bng_209.
 
 _:bng_1 {
-    _:e_bng_18_1 log:isImpliedBy _:e_bng_19_1.
+    _:bng_18_1 log:isImpliedBy _:bng_19_1.
 }
 
 _:bng_2 {
@@ -179,7 +179,7 @@ _:bng_11 {
 }
 
 _:bng_12 {
-    _:e_bng_16_1 log:isImpliedBy _:e_bng_17_1.
+    _:bng_16_1 log:isImpliedBy _:bng_17_1.
 }
 
 _:bng_13 {
@@ -191,7 +191,7 @@ _:bng_14 {
 }
 
 _:bng_15 {
-    _:e_bng_13_1 log:isImpliedBy _:e_bng_14_1.
+    _:bng_13_1 log:isImpliedBy _:bng_14_1.
 }
 
 _:bng_16 {
@@ -213,7 +213,7 @@ _:bng_19 {
 }
 
 _:bng_20 {
-    _:e_bng_21_1 log:isImpliedBy _:e_bng_22_1.
+    _:bng_21_1 log:isImpliedBy _:bng_22_1.
 }
 
 _:bng_21 {
@@ -257,7 +257,7 @@ _:bng_28 {
 }
 
 _:bng_29 {
-    _:e_bng_7_1 log:isImpliedBy _:e_bng_8_1.
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
 }
 
 _:bng_30 {
@@ -271,7 +271,7 @@ _:bng_31 {
 }
 
 _:bng_32 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_33 {
@@ -285,7 +285,7 @@ _:bng_34 {
 }
 
 _:bng_35 {
-    _:e_bng_9_1 log:isImpliedBy _:e_bng_10_1.
+    _:bng_9_1 log:isImpliedBy _:bng_10_1.
 }
 
 _:bng_36 {
@@ -401,7 +401,7 @@ _:bng_59 {
 }
 
 _:bng_60 {
-    _:e_bng_3_1 log:isImpliedBy _:e_bng_4_1.
+    _:bng_3_1 log:isImpliedBy _:bng_4_1.
 }
 
 _:bng_61 {
@@ -804,7 +804,7 @@ _:bng_147 {
 }
 
 _:bng_148 {
-    _:e_bng_11_1 log:isImpliedBy _:e_bng_12_1.
+    _:bng_11_1 log:isImpliedBy _:bng_12_1.
 }
 
 _:bng_149 {
@@ -1070,7 +1070,7 @@ _:bng_204 {
 }
 
 _:bng_205 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_206 {
@@ -1083,7 +1083,7 @@ _:bng_207 {
 }
 
 _:bng_208 {
-    _:e_bng_23_1 log:query _:e_bng_23_1.
+    _:bng_23_1 log:query _:bng_23_1.
 }
 
 _:bng_209 {
@@ -1093,98 +1093,98 @@ _:bng_209 {
     () :compute (1 "#").
 }
 
-_:e_bng_18_1 {
+_:bng_18_1 {
     (:right var:Left var:Cell var:List var:L var:Head var:Tail) :move true.
 }
 
-_:e_bng_19_1 {
+_:bng_19_1 {
     var:List list:firstRest (var:Head var:Tail).
     var:L list:firstRest (var:Cell var:Left).
 }
 
-_:e_bng_16_1 {
+_:bng_16_1 {
     (:right var:Left var:Cell () var:L "#" ()) :move true.
 }
 
-_:e_bng_17_1 {
+_:bng_17_1 {
     var:L list:firstRest (var:Cell var:Left).
 }
 
-_:e_bng_13_1 {
+_:bng_13_1 {
     (:left var:List var:Cell var:Right var:Tail var:Head var:L) :move true.
 }
 
-_:e_bng_14_1 {
+_:bng_14_1 {
     var:List list:firstRest (var:Head var:Tail).
     var:L list:firstRest (var:Cell var:Right).
 }
 
-_:e_bng_21_1 {
+_:bng_21_1 {
     var:List :reverse var:Reverse.
 }
 
-_:e_bng_22_1 {
+_:bng_22_1 {
     var:List list:firstRest (var:Head var:Tail).
     var:Tail :reverse var:R.
     (var:R (var:Head)) list:append var:Reverse.
 }
 
-_:e_bng_7_1 {
+_:bng_7_1 {
     (:halt var:Left var:Cell var:Right) :continue var:OutTape.
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     var:Left :reverse var:R.
     var:List list:firstRest (var:Cell var:Right).
     (var:R var:List) list:append var:OutTape.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     (var:State var:Left var:Cell var:Right) :find var:OutTape.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     (var:State var:Cell var:Write var:Move) :tape var:Next.
     (var:Move var:Left var:Write var:Right var:A var:B var:C) :move true.
     (var:Next var:A var:B var:C) :continue var:OutTape.
 }
 
-_:e_bng_9_1 {
+_:bng_9_1 {
     (var:State var:Left var:Cell var:Right) :continue var:OutTape.
 }
 
-_:e_bng_10_1 {
+_:bng_10_1 {
     (var:State var:Left var:Cell var:Right) :find var:OutTape.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     var:List :compute var:OutTape.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     var:List list:firstRest (var:Head var:Tail).
     var:Machine :start var:I.
     (var:I () var:Head var:Tail) :find var:OutTape.
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     (:left () var:Cell var:Right () "#" var:L) :move true.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     var:L list:firstRest (var:Cell var:Right).
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     () :compute var:OutTape.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:Machine :start var:I.
     (var:I () "#" ()) :find var:OutTape.
 }
 
-_:e_bng_23_1 {
+_:bng_23_1 {
     (1 0 1 0 0 1) :compute var:A1.
     (1 0 1 1 1 1) :compute var:A2.
     (1 1 1 1 1 1) :compute var:A3.

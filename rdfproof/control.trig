@@ -17,7 +17,7 @@
 (_:bng_10 _:bng_9) log:proves _:bng_9.
 
 _:bng_1 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_2 {
@@ -32,7 +32,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_1_1 log:implies _:e_bng_2_1.
+    _:bng_1_1 log:implies _:bng_2_1.
 }
 
 _:bng_5 {
@@ -49,7 +49,7 @@ _:bng_6 {
 }
 
 _:bng_7 {
-    _:e_bng_3_1 log:implies _:e_bng_4_1.
+    _:bng_3_1 log:implies _:bng_4_1.
 }
 
 _:bng_8 {
@@ -70,21 +70,21 @@ _:bng_9 {
 }
 
 _:bng_10 {
-    _:e_bng_9_1 log:query _:e_bng_9_1.
+    _:bng_9_1 log:query _:bng_9_1.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:I :measurement10 var:M.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     var:I :measurement1 (var:M1 var:M2).
     var:M1 math:lessThan var:M2.
     (var:M2 var:M1) math:difference var:M3.
     (var:M3 0.5) math:exponentiation var:M.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     :input1 :measurement10 var:M1.
     :input2 :measurement2 true.
     :disturbance1 :measurement3 var:D1.
@@ -93,11 +93,11 @@ _:e_bng_1_1 {
     (var:C1 var:C2) math:difference var:C.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     :actuator1 :control1 var:C.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     :input3 :measurement3 var:M3.
     :state3 :observation3 var:P3.
     :output2 :measurement4 var:M4.
@@ -110,10 +110,10 @@ _:e_bng_3_1 {
     (var:C1 var:C2) math:sum var:C.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     :actuator2 :control1 var:C.
 }
 
-_:e_bng_9_1 {
+_:bng_9_1 {
     var:O :control1 var:C.
 }

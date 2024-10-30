@@ -29,7 +29,7 @@
 (_:bng_31 _:bng_32) log:proves _:bng_32.
 
 _:bng_1 {
-    _:e_bng_11_1 log:isImpliedBy _:e_bng_12_1.
+    _:bng_11_1 log:isImpliedBy _:bng_12_1.
 }
 
 _:bng_2 {
@@ -43,7 +43,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_7_1 log:isImpliedBy _:e_bng_8_1.
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
 }
 
 _:bng_5 {
@@ -62,7 +62,7 @@ _:bng_6 {
 }
 
 _:bng_7 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_8 {
@@ -86,7 +86,7 @@ _:bng_9 {
 }
 
 _:bng_10 {
-    _:e_bng_9_1 log:isImpliedBy _:e_bng_10_1.
+    _:bng_9_1 log:isImpliedBy _:bng_10_1.
 }
 
 _:bng_11 {
@@ -200,7 +200,7 @@ _:bng_24 {
 }
 
 _:bng_25 {
-    _:e_bng_3_1 log:isImpliedBy _:e_bng_4_1.
+    _:bng_3_1 log:isImpliedBy _:bng_4_1.
 }
 
 _:bng_26 {
@@ -230,7 +230,7 @@ _:bng_27 {
 }
 
 _:bng_28 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_29 {
@@ -261,7 +261,7 @@ _:bng_30 {
 }
 
 _:bng_31 {
-    _:e_bng_17_1 log:query _:e_bng_17_1.
+    _:bng_17_1 log:query _:bng_17_1.
 }
 
 _:bng_32 {
@@ -273,21 +273,21 @@ _:bng_32 {
     (2 0) complex:acos (0.0 -1.3169578969248166).
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     (var:X var:Y var:T) complex:dial var:Tp.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     var:X math:lessThan 0 .
     var:Y math:notLessThan 0 .
     (3.141592653589793 var:T) math:difference var:Tp.
 }
 
-_:e_bng_7_1 {
+_:bng_7_1 {
     (var:X var:Y) complex:polar (var:R var:Tp).
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     (var:X 2) math:exponentiation var:Z1.
     (var:Y 2) math:exponentiation var:Z2.
     (var:Z1 var:Z2) math:sum var:Z3.
@@ -298,11 +298,11 @@ _:e_bng_8_1 {
     (var:X var:Y var:T) complex:dial var:Tp.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     ((var:A var:B) (var:C var:D)) complex:exponentiation (var:E var:F).
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (var:A var:B) complex:polar (var:R var:T).
     (var:R var:C) math:exponentiation var:Z1.
     var:D math:negation var:Z2.
@@ -318,21 +318,21 @@ _:e_bng_2_1 {
     (var:Z1 var:Z4 var:Z10) math:product var:F.
 }
 
-_:e_bng_9_1 {
+_:bng_9_1 {
     (var:X var:Y var:T) complex:dial var:Tp.
 }
 
-_:e_bng_10_1 {
+_:bng_10_1 {
     var:X math:notLessThan 0 .
     var:Y math:notLessThan 0 .
     (0 var:T) math:sum var:Tp.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     (var:A var:B) complex:asin (var:C var:D).
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     (1 var:A) math:sum var:Z1.
     (var:Z1 2) math:exponentiation var:Z2.
     (var:B 2) math:exponentiation var:Z3.
@@ -354,11 +354,11 @@ _:e_bng_4_1 {
     (2.718281828459045 var:D) math:exponentiation var:Z15.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     (var:A var:B) complex:acos (var:C var:D).
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     (1 var:A) math:sum var:Z1.
     (var:Z1 2) math:exponentiation var:Z2.
     (var:B 2) math:exponentiation var:Z3.
@@ -381,7 +381,7 @@ _:e_bng_6_1 {
     var:U math:negation var:D.
 }
 
-_:e_bng_17_1 {
+_:bng_17_1 {
     ((-1 0) (0.5 0)) complex:exponentiation var:C1.
     ((2.718281828459045 0) (0 3.141592653589793)) complex:exponentiation var:C2.
     ((0 1) (0 1)) complex:exponentiation var:C3.

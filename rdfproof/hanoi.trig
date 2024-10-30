@@ -25,7 +25,7 @@
 (_:bng_26 _:bng_25) log:proves _:bng_25.
 
 _:bng_1 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_2 {
@@ -173,14 +173,14 @@ _:bng_25 {
 }
 
 _:bng_26 {
-    _:e_bng_4_1 log:query _:e_bng_4_1.
+    _:bng_4_1 log:query _:bng_4_1.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     (var:N var:X var:Y var:Z) :moves var:M.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:N math:greaterThan 1 .
     (var:N 1) math:difference var:N1.
     (var:N1 var:X var:Z var:Y) :moves var:M1.
@@ -188,6 +188,6 @@ _:e_bng_2_1 {
     (var:M1 ((var:X var:Y)) var:M2) list:append var:M.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     (6 :left :right :center) :moves var:M.
 }

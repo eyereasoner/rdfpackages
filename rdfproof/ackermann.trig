@@ -76,7 +76,7 @@
 (_:bng_114 _:bng_115) log:proves _:bng_115.
 
 _:bng_1 {
-    _:e_bng_3_1 log:isImpliedBy _:e_bng_4_1.
+    _:bng_3_1 log:isImpliedBy _:bng_4_1.
 }
 
 _:bng_2 {
@@ -89,7 +89,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_5 {
@@ -122,7 +122,7 @@ _:bng_10 {
 }
 
 _:bng_11 {
-    _:e_bng_5_1 log:isImpliedBy _:e_bng_6_1.
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
 }
 
 _:bng_12 {
@@ -164,7 +164,7 @@ _:bng_19 {
 }
 
 _:bng_20 {
-    _:e_bng_7_1 log:isImpliedBy _:e_bng_8_1.
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
 }
 
 _:bng_21 {
@@ -215,7 +215,7 @@ _:bng_30 {
 }
 
 _:bng_31 {
-    _:e_bng_11_1 log:isImpliedBy _:e_bng_12_1.
+    _:bng_11_1 log:isImpliedBy _:bng_12_1.
 }
 
 _:bng_32 {
@@ -634,7 +634,7 @@ _:bng_113 {
 }
 
 _:bng_114 {
-    _:e_bng_14_1 log:query _:e_bng_14_1.
+    _:bng_14_1 log:query _:bng_14_1.
 }
 
 _:bng_115 {
@@ -650,55 +650,55 @@ _:bng_115 {
     (4 1) :ackermann 65533.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     (0 var:Y var:Z) :ackermann var:A.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     [] rdf:value true; log:callWithCut true.
     (var:Y 1) math:sum var:A.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     (var:X var:Y) :ackermann var:A.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (var:Y 3) math:sum var:B.
     (var:X var:B 2) :ackermann var:C.
     (var:C 3) math:difference var:A.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     (1 var:Y var:Z) :ackermann var:A.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     [] rdf:value true; log:callWithCut true.
     (var:Y var:Z) math:sum var:A.
 }
 
-_:e_bng_7_1 {
+_:bng_7_1 {
     (2 var:Y var:Z) :ackermann var:A.
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     [] rdf:value true; log:callWithCut true.
     (var:Y var:Z) math:product var:A.
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     (var:X var:Y var:Z) :ackermann var:A.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     (var:Y 1) math:difference var:B.
     (var:X var:B var:Z) :ackermann var:C.
     (var:X 1) math:difference var:D.
     (var:D var:C var:Z) :ackermann var:A.
 }
 
-_:e_bng_14_1 {
+_:bng_14_1 {
     (0 0) :ackermann var:A0.
     (0 6) :ackermann var:A1.
     (1 2) :ackermann var:A2.

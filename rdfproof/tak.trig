@@ -210,12 +210,12 @@
 (_:bng_15 _:bng_320) log:proves _:bng_321.
 (_:bng_322 _:bng_321) log:proves _:bng_321.
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     var:X math:notGreaterThan var:Y.
 }
 
 _:bng_1 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_2 {
@@ -277,7 +277,7 @@ _:bng_14 {
 }
 
 _:bng_15 {
-    _:e_bng_4_1 log:isImpliedBy _:e_bng_5_1.
+    _:bng_4_1 log:isImpliedBy _:bng_5_1.
 }
 
 _:bng_16 {
@@ -2030,15 +2030,15 @@ _:bng_321 {
 }
 
 _:bng_322 {
-    _:e_bng_6_1 log:query _:e_bng_6_1.
+    _:bng_6_1 log:query _:bng_6_1.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     (var:X var:Y var:Z) :tak var:Z.
 }
 
-_:e_bng_2_1 {
-    _:e_bng_3_1 log:call true.
+_:bng_2_1 {
+    _:bng_3_1 log:call true.
     [] rdf:value true; log:callWithCut true.
 }
 
@@ -2066,11 +2066,11 @@ _:bng_328 {
     [] rdf:value 8; math:notGreaterThan 10.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     (var:X var:Y var:Z) :tak var:A.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     (var:X 1) math:difference var:X1.
     (var:X1 var:Y var:Z) :tak var:A1.
     (var:Y 1) math:difference var:Y1.
@@ -2212,6 +2212,6 @@ _:bng_361 {
     [] rdf:value 9; math:notGreaterThan 18.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     (18 13 8) :tak var:A.
 }

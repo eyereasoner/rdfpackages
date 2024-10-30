@@ -15,7 +15,7 @@
 (_:bng_4 _:bng_3) log:proves _:bng_3.
 
 _:bng_1 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_2 {
@@ -30,20 +30,20 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_3_1 log:query _:e_bng_3_1.
+    _:bng_3_1 log:query _:bng_3_1.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:S :ageAbove var:A.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:S :birthDay var:B.
     var:D log:equalTo "2024-08-21T00:00:00.0Z"^^xsd:dateTime.
     (var:D var:B) math:difference var:F.
     var:F math:greaterThan var:A.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     var:S :ageAbove "P80Y"^^xsd:duration.
 }

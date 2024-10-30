@@ -19,11 +19,11 @@ _:sk_2 {
 }
 
 _:bng_1 {
-    _:e_bng_3_1 log:query _:e_bng_4_1.
+    _:bng_3_1 log:query _:bng_4_1.
 }
 
 _:bng_2 {
-    (_:e_bng_1_1 _:e_bng_2_1) graph:union _:bng_4.
+    (_:bng_1_1 _:bng_2_1) graph:union _:bng_4.
 }
 
 _:bng_3 {
@@ -31,22 +31,22 @@ _:bng_3 {
     _:sk_2 graph:statement _:bng_4.
 }
 
-_:e_bng_3_1 {
-    (_:e_bng_1_1 _:e_bng_2_1) graph:union var:U.
+_:bng_3_1 {
+    (_:bng_1_1 _:bng_2_1) graph:union var:U.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     :result :is var:R.
     var:R graph:statement var:U.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     :A :B :C.
     :A :X :C.
     :D :E :F.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     :A :Y :C.
     :A :B :C.
 }

@@ -226,10 +226,10 @@
 (_:bng_389 _:bng_438) log:proves _:bng_439.
 (_:bng_389 _:bng_440) log:proves _:bng_441.
 (_:bng_389 _:bng_442) log:proves _:bng_443.
-(_:bng_444 _:e_bng_19_1) log:proves _:e_bng_19_1.
+(_:bng_444 _:bng_19_1) log:proves _:bng_19_1.
 
 _:bng_1 {
-    _:e_bng_1_1 log:implies _:e_bng_2_1.
+    _:bng_1_1 log:implies _:bng_2_1.
 }
 
 _:bng_2 {
@@ -247,7 +247,7 @@ _:bng_3 {
 }
 
 _:bng_4 {
-    _:e_bng_3_1 log:implies _:e_bng_4_1.
+    _:bng_3_1 log:implies _:bng_4_1.
 }
 
 _:bng_5 {
@@ -683,7 +683,7 @@ _:bng_58 {
 }
 
 _:bng_59 {
-    _:e_bng_5_1 log:implies _:e_bng_6_1.
+    _:bng_5_1 log:implies _:bng_6_1.
 }
 
 _:bng_60 {
@@ -1119,7 +1119,7 @@ _:bng_113 {
 }
 
 _:bng_114 {
-    _:e_bng_7_1 log:implies _:e_bng_8_1.
+    _:bng_7_1 log:implies _:bng_8_1.
 }
 
 _:bng_115 {
@@ -1555,7 +1555,7 @@ _:bng_168 {
 }
 
 _:bng_169 {
-    _:e_bng_9_1 log:implies _:e_bng_10_1.
+    _:bng_9_1 log:implies _:bng_10_1.
 }
 
 _:bng_170 {
@@ -1991,7 +1991,7 @@ _:bng_223 {
 }
 
 _:bng_224 {
-    _:e_bng_11_1 log:implies _:e_bng_12_1.
+    _:bng_11_1 log:implies _:bng_12_1.
 }
 
 _:bng_225 {
@@ -2427,7 +2427,7 @@ _:bng_278 {
 }
 
 _:bng_279 {
-    _:e_bng_13_1 log:implies _:e_bng_14_1.
+    _:bng_13_1 log:implies _:bng_14_1.
 }
 
 _:bng_280 {
@@ -2863,7 +2863,7 @@ _:bng_333 {
 }
 
 _:bng_334 {
-    _:e_bng_15_1 log:implies _:e_bng_16_1.
+    _:bng_15_1 log:implies _:bng_16_1.
 }
 
 _:bng_335 {
@@ -3299,7 +3299,7 @@ _:bng_388 {
 }
 
 _:bng_389 {
-    _:e_bng_17_1 log:implies _:e_bng_18_1.
+    _:bng_17_1 log:implies _:bng_18_1.
 }
 
 _:bng_390 {
@@ -3762,18 +3762,18 @@ _:bng_443 {
 }
 
 _:bng_444 {
-    _:e_bng_19_1 log:query _:e_bng_19_1.
+    _:bng_19_1 log:query _:bng_19_1.
 }
 
-_:e_bng_19_1 {
+_:bng_19_1 {
     :x :relGoal :y.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:a1 :rel1 var:b1.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3783,13 +3783,13 @@ _:e_bng_2_1 {
     var:a3 :rel2 var:b3.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     var:a1 :rel2 var:b1.
     var:a2 :rel2 var:b2.
     var:a3 :rel2 var:b3.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3799,13 +3799,13 @@ _:e_bng_4_1 {
     var:a3 :rel3 var:b3.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:a1 :rel3 var:b1.
     var:a2 :rel3 var:b2.
     var:a3 :rel3 var:b3.
 }
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3815,13 +3815,13 @@ _:e_bng_6_1 {
     var:a3 :rel4 var:b3.
 }
 
-_:e_bng_7_1 {
+_:bng_7_1 {
     var:a1 :rel4 var:b1.
     var:a2 :rel4 var:b2.
     var:a3 :rel4 var:b3.
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3831,13 +3831,13 @@ _:e_bng_8_1 {
     var:a3 :rel5 var:b3.
 }
 
-_:e_bng_9_1 {
+_:bng_9_1 {
     var:a1 :rel5 var:b1.
     var:a2 :rel5 var:b2.
     var:a3 :rel5 var:b3.
 }
 
-_:e_bng_10_1 {
+_:bng_10_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3847,13 +3847,13 @@ _:e_bng_10_1 {
     var:a3 :rel6 var:b3.
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     var:a1 :rel6 var:b1.
     var:a2 :rel6 var:b2.
     var:a3 :rel6 var:b3.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3863,13 +3863,13 @@ _:e_bng_12_1 {
     var:a3 :rel7 var:b3.
 }
 
-_:e_bng_13_1 {
+_:bng_13_1 {
     var:a1 :rel7 var:b1.
     var:a2 :rel7 var:b2.
     var:a3 :rel7 var:b3.
 }
 
-_:e_bng_14_1 {
+_:bng_14_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3879,13 +3879,13 @@ _:e_bng_14_1 {
     var:a3 :rel8 var:b3.
 }
 
-_:e_bng_15_1 {
+_:bng_15_1 {
     var:a1 :rel8 var:b1.
     var:a2 :rel8 var:b2.
     var:a3 :rel8 var:b3.
 }
 
-_:e_bng_16_1 {
+_:bng_16_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.
@@ -3895,13 +3895,13 @@ _:e_bng_16_1 {
     var:a3 :rel9 var:b3.
 }
 
-_:e_bng_17_1 {
+_:bng_17_1 {
     var:a1 :rel9 var:b1.
     var:a2 :rel9 var:b2.
     var:a3 :rel9 var:b3.
 }
 
-_:e_bng_18_1 {
+_:bng_18_1 {
     var:request http:methodName "GET".
     var:request http:requestURI var:a1.
     var:request http:resp var:resp.

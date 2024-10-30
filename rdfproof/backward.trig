@@ -10,33 +10,33 @@
 # rdfproof
 #
 
-(_:bng_1 _:bng_2) log:proves _:e_bng_3_1.
-(_:bng_3 _:e_bng_3_1) log:proves _:e_bng_3_1.
+(_:bng_1 _:bng_2) log:proves _:bng_3_1.
+(_:bng_3 _:bng_3_1) log:proves _:bng_3_1.
 
 _:bng_1 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_2 {
     [] rdf:value 5; math:greaterThan 3.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     [] rdf:value 5; :moreInterestingThan 3.
 }
 
 _:bng_3 {
-    _:e_bng_3_1 log:query _:e_bng_3_1.
+    _:bng_3_1 log:query _:bng_3_1.
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:X :moreInterestingThan var:Y.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     var:X math:greaterThan var:Y.
 }
 
-_:e_bng_3_1 {
+_:bng_3_1 {
     [] rdf:value 5; :moreInterestingThan 3.
 }

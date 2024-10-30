@@ -10744,12 +10744,12 @@
 (_:bng_21 _:bng_17652) log:proves _:bng_17653.
 (_:bng_19 _:bng_17653) log:proves _:bng_17654.
 
-_:e_bng_6_1 {
+_:bng_6_1 {
     var:Q :attack var:Ps.
 }
 
 _:bng_1 {
-    _:e_bng_8_1 log:isImpliedBy _:e_bng_9_1.
+    _:bng_8_1 log:isImpliedBy _:bng_9_1.
 }
 
 _:bng_2 {
@@ -10830,7 +10830,7 @@ _:bng_15 {
 }
 
 _:bng_16 {
-    _:e_bng_12_1 log:isImpliedBy _:e_bng_13_1.
+    _:bng_12_1 log:isImpliedBy _:bng_13_1.
 }
 
 _:bng_17 {
@@ -10843,7 +10843,7 @@ _:bng_18 {
 }
 
 _:bng_19 {
-    _:e_bng_10_1 log:isImpliedBy _:e_bng_11_1.
+    _:bng_10_1 log:isImpliedBy _:bng_11_1.
 }
 
 _:bng_20 {
@@ -10851,7 +10851,7 @@ _:bng_20 {
 }
 
 _:bng_21 {
-    _:e_bng_14_1 log:isImpliedBy _:e_bng_15_1.
+    _:bng_14_1 log:isImpliedBy _:bng_15_1.
 }
 
 _:bng_22 {
@@ -10890,7 +10890,7 @@ _:bng_29 {
 }
 
 _:bng_30 {
-    _:e_bng_16_1 log:isImpliedBy _:e_bng_17_1.
+    _:bng_16_1 log:isImpliedBy _:bng_17_1.
 }
 
 _:bng_31 {
@@ -15666,7 +15666,7 @@ _:bng_1058 {
 }
 
 _:bng_1059 {
-    _:e_bng_4_1 log:isImpliedBy _:e_bng_5_1.
+    _:bng_4_1 log:isImpliedBy _:bng_5_1.
 }
 
 _:bng_1060 {
@@ -15758,7 +15758,7 @@ _:bng_1075 {
 }
 
 _:bng_1076 {
-    _:e_bng_1_1 log:isImpliedBy _:e_bng_2_1.
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
 }
 
 _:bng_1077 {
@@ -15771,7 +15771,7 @@ _:bng_1078 {
 }
 
 _:bng_1079 {
-    _:e_bng_18_1 log:query _:e_bng_18_1.
+    _:bng_18_1 log:query _:bng_18_1.
 }
 
 _:bng_1080 {
@@ -93827,60 +93827,60 @@ _:bng_17654 {
     [] rdf:value 7; :attack (8).
 }
 
-_:e_bng_8_1 {
+_:bng_8_1 {
     (var:I var:J) :range var:INs.
 }
 
-_:e_bng_9_1 {
+_:bng_9_1 {
     var:INs list:firstRest (var:I var:Ns).
     var:I math:lessThan var:J.
     (var:I 1) math:sum var:I1.
     (var:I1 var:J) :range var:Ns.
 }
 
-_:e_bng_12_1 {
+_:bng_12_1 {
     (var:X var:N) :attack3 var:YYs.
 }
 
-_:e_bng_13_1 {
+_:bng_13_1 {
     var:YYs list:firstRest (var:Y var:Ys).
     (var:Y var:N) math:sum var:X.
 }
 
-_:e_bng_10_1 {
+_:bng_10_1 {
     var:Q :attack var:Qs.
 }
 
-_:e_bng_11_1 {
+_:bng_11_1 {
     (var:Q 1) :attack3 var:Qs.
 }
 
-_:e_bng_14_1 {
+_:bng_14_1 {
     (var:X var:N) :attack3 var:YYs.
 }
 
-_:e_bng_15_1 {
+_:bng_15_1 {
     var:YYs list:firstRest (var:Y var:Ys).
     (var:Y var:N) math:difference var:X.
 }
 
-_:e_bng_16_1 {
+_:bng_16_1 {
     (var:X var:N) :attack3 var:YYs.
 }
 
-_:e_bng_17_1 {
+_:bng_17_1 {
     var:YYs list:firstRest (var:Y var:Ys).
     (var:N 1) math:sum var:N1.
     (var:X var:N1) :attack3 var:Ys.
 }
 
-_:e_bng_4_1 {
+_:bng_4_1 {
     (var:Us var:Ps) :queens3 var:Qs.
 }
 
-_:e_bng_5_1 {
+_:bng_5_1 {
     var:Us list:select (var:Q var:Us1).
-    (_:e_bng_6_1 false true) log:ifThenElseIn var:SCOPE.
+    (_:bng_6_1 false true) log:ifThenElseIn var:SCOPE.
     var:QPs list:firstRest (var:Q var:Ps).
     (var:Us1 var:QPs) :queens3 var:Qs.
 }
@@ -93917,16 +93917,16 @@ _:bng_17662 {
     [] rdf:value 1; :attack ().
 }
 
-_:e_bng_1_1 {
+_:bng_1_1 {
     var:N :queens var:Qs.
 }
 
-_:e_bng_2_1 {
+_:bng_2_1 {
     (1 var:N) :range var:Us.
     (var:Us ()) :queens3 var:Qs.
 }
 
-_:e_bng_18_1 {
+_:bng_18_1 {
     [] rdf:value 8; :queens var:Qs.
 }
 
