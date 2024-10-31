@@ -39,10 +39,6 @@ _:bng_3_1 {
     var:G log:includes _:bng_4_1.
 }
 
-_:bng_2_1 {
-    :Bob vcard:bday "2000-01-01T09:00:00.000Z"^^xsd:dateTime.
-}
-
 _:bng_1_1 {
     _:bn_2 pack:content _:bng_2_1.
     _:bn_2 pack:origin :Endpoint.

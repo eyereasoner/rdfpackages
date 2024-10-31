@@ -52,10 +52,6 @@ _:bng_6 {
     var:x_0 a :Dog.
 }
 
-_:bng_4_1 {
-    :test :is true.
-}
-
 _:bng_5_1 {
     :test :is var:result.
 }

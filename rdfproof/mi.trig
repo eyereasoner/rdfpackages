@@ -125,10 +125,6 @@ _:bng_137 {
     () :natnum (:s (:s (:s (:s (0))))).
 }
 
-_:bng_12 {
-    () :headBody (_:e_question_graph3_1 (_:bng_137) ()).
-}
-
 _:bng_138 {
     () :mi (_:bng_137).
 }
@@ -139,10 +135,6 @@ _:bng_141 {
 
 _:bng_144 {
     () :natnum (:s (:s (:s (0)))).
-}
-
-_:bng_23 {
-    () :headBody (_:bng_137 (_:bng_144) ()).
 }
 
 _:bng_145 {
@@ -157,10 +149,6 @@ _:bng_151 {
     () :natnum (:s (:s (0))).
 }
 
-_:bng_34 {
-    () :headBody (_:bng_144 (_:bng_151) ()).
-}
-
 _:bng_152 {
     () :mi (_:bng_151).
 }
@@ -171,10 +159,6 @@ _:bng_155 {
 
 _:bng_158 {
     () :natnum (:s (0)).
-}
-
-_:bng_45 {
-    () :headBody (_:bng_151 (_:bng_158) ()).
 }
 
 _:bng_159 {
@@ -189,10 +173,6 @@ _:e_natnum_hb_rule1_head_graph1_1 {
     () :natnum (0).
 }
 
-_:bng_56 {
-    () :headBody (_:bng_158 (_:e_natnum_hb_rule1_head_graph1_1) ()).
-}
-
 _:bng_165 {
     () :mi (_:e_natnum_hb_rule1_head_graph1_1).
 }
@@ -201,12 +181,32 @@ _:bng_168 {
     () :headBody (_:e_natnum_hb_rule1_head_graph1_1 var:x_0 ()).
 }
 
+_:e_mi_rule1_head_1 {
+    () :mi ().
+}
+
 _:bng_66 {
     () :headBody (_:e_natnum_hb_rule1_head_graph1_1 () ()).
 }
 
-_:e_mi_rule1_head_1 {
-    () :mi ().
+_:bng_56 {
+    () :headBody (_:bng_158 (_:e_natnum_hb_rule1_head_graph1_1) ()).
+}
+
+_:bng_45 {
+    () :headBody (_:bng_151 (_:bng_158) ()).
+}
+
+_:bng_34 {
+    () :headBody (_:bng_144 (_:bng_151) ()).
+}
+
+_:bng_23 {
+    () :headBody (_:bng_137 (_:bng_144) ()).
+}
+
+_:bng_12 {
+    () :headBody (_:e_question_graph3_1 (_:bng_137) ()).
 }
 
 _:e_question_graph1_1 {
@@ -793,30 +793,6 @@ _:bng_128 {
     _:e_question_1 log:query _:e_answer_1.
 }
 
-_:e_question_graph3_1 {
-    () :natnum (:s (:s (:s (:s (:s (0)))))).
-}
-
-_:bng_137 {
-    () :natnum (:s (:s (:s (:s (0))))).
-}
-
-_:bng_144 {
-    () :natnum (:s (:s (:s (0)))).
-}
-
-_:bng_151 {
-    () :natnum (:s (:s (0))).
-}
-
-_:bng_158 {
-    () :natnum (:s (0)).
-}
-
-_:e_natnum_hb_rule1_head_graph1_1 {
-    () :natnum (0).
-}
-
 _:e_question_graph2_1 {
     () :mi (_:e_question_graph3_1).
 }
@@ -831,24 +807,12 @@ _:e_hb_rule2_body_1 {
     var:C list:firstRest (_:e_hb_rule2_body_graph2_1 var:Rs).
 }
 
-_:bng_129 {
-    () :mi (_:e_question_graph3_1).
-}
-
 _:bng_130 {
     () :headBody (_:bng_129 var:x_0 ()).
 }
 
-_:bng_131 {
-    () :mi var:x_0.
-}
-
 _:bng_132 {
     () :mi (_:bng_129).
-}
-
-_:bng_133 {
-    () :headBody (_:e_question_graph3_1 var:x_0 ()).
 }
 
 _:e_hb_rule3_head_1 {
@@ -857,10 +821,6 @@ _:e_hb_rule3_head_1 {
 
 _:e_hb_rule3_body_1 {
     () :headBody (var:Head var:Goals0 var:Goals).
-}
-
-_:bng_5 {
-    () :headBody (_:bng_129 (_:bng_133 _:bng_131) ()).
 }
 
 _:bng_134 {
@@ -883,32 +843,12 @@ _:e_natnum_hb_rule2_body_1 {
     var:A list:firstRest (_:e_natnum_hb_rule2_body_graph1_1 var:Rs).
 }
 
-_:bng_12 {
-    () :headBody (_:e_question_graph3_1 (_:bng_137) ()).
-}
-
-_:bng_138 {
-    () :mi (_:bng_137).
-}
-
-_:bng_13 {
-    () :headBody (_:bng_12 (_:bng_138) (_:bng_138)).
-}
-
 _:bng_139 {
     () :mi (_:bng_138).
 }
 
 _:bng_140 {
     () :headBody (_:bng_138 var:x_0 ()).
-}
-
-_:bng_141 {
-    () :headBody (_:bng_137 var:x_0 ()).
-}
-
-_:bng_18 {
-    () :headBody (_:bng_138 (_:bng_141 _:bng_131) ()).
 }
 
 _:bng_142 {
@@ -919,32 +859,12 @@ _:bng_143 {
     () :headBody (_:bng_141 var:x_1 (_:bng_131)).
 }
 
-_:bng_23 {
-    () :headBody (_:bng_137 (_:bng_144) ()).
-}
-
-_:bng_145 {
-    () :mi (_:bng_144).
-}
-
-_:bng_24 {
-    () :headBody (_:bng_23 (_:bng_145) (_:bng_145)).
-}
-
 _:bng_146 {
     () :mi (_:bng_145).
 }
 
 _:bng_147 {
     () :headBody (_:bng_145 var:x_0 ()).
-}
-
-_:bng_148 {
-    () :headBody (_:bng_144 var:x_0 ()).
-}
-
-_:bng_29 {
-    () :headBody (_:bng_145 (_:bng_148 _:bng_131) ()).
 }
 
 _:bng_149 {
@@ -955,32 +875,12 @@ _:bng_150 {
     () :headBody (_:bng_148 var:x_1 (_:bng_131)).
 }
 
-_:bng_34 {
-    () :headBody (_:bng_144 (_:bng_151) ()).
-}
-
-_:bng_152 {
-    () :mi (_:bng_151).
-}
-
-_:bng_35 {
-    () :headBody (_:bng_34 (_:bng_152) (_:bng_152)).
-}
-
 _:bng_153 {
     () :mi (_:bng_152).
 }
 
 _:bng_154 {
     () :headBody (_:bng_152 var:x_0 ()).
-}
-
-_:bng_155 {
-    () :headBody (_:bng_151 var:x_0 ()).
-}
-
-_:bng_40 {
-    () :headBody (_:bng_152 (_:bng_155 _:bng_131) ()).
 }
 
 _:bng_156 {
@@ -991,32 +891,12 @@ _:bng_157 {
     () :headBody (_:bng_155 var:x_1 (_:bng_131)).
 }
 
-_:bng_45 {
-    () :headBody (_:bng_151 (_:bng_158) ()).
-}
-
-_:bng_159 {
-    () :mi (_:bng_158).
-}
-
-_:bng_46 {
-    () :headBody (_:bng_45 (_:bng_159) (_:bng_159)).
-}
-
 _:bng_160 {
     () :mi (_:bng_159).
 }
 
 _:bng_161 {
     () :headBody (_:bng_159 var:x_0 ()).
-}
-
-_:bng_162 {
-    () :headBody (_:bng_158 var:x_0 ()).
-}
-
-_:bng_51 {
-    () :headBody (_:bng_159 (_:bng_162 _:bng_131) ()).
 }
 
 _:bng_163 {
@@ -1027,32 +907,12 @@ _:bng_164 {
     () :headBody (_:bng_162 var:x_1 (_:bng_131)).
 }
 
-_:bng_56 {
-    () :headBody (_:bng_158 (_:e_natnum_hb_rule1_head_graph1_1) ()).
-}
-
-_:bng_165 {
-    () :mi (_:e_natnum_hb_rule1_head_graph1_1).
-}
-
-_:bng_57 {
-    () :headBody (_:bng_56 (_:bng_165) (_:bng_165)).
-}
-
 _:bng_166 {
     () :mi (_:bng_165).
 }
 
 _:bng_167 {
     () :headBody (_:bng_165 var:x_0 ()).
-}
-
-_:bng_168 {
-    () :headBody (_:e_natnum_hb_rule1_head_graph1_1 var:x_0 ()).
-}
-
-_:bng_62 {
-    () :headBody (_:bng_165 (_:bng_168 _:bng_131) ()).
 }
 
 _:bng_169 {
@@ -1063,24 +923,8 @@ _:bng_170 {
     () :headBody (_:bng_168 var:x_1 (_:bng_131)).
 }
 
-_:bng_66 {
-    () :headBody (_:e_natnum_hb_rule1_head_graph1_1 () ()).
-}
-
-_:e_mi_rule1_head_1 {
-    () :mi ().
-}
-
-_:bng_67 {
-    () :headBody (_:bng_66 (_:e_mi_rule1_head_1) (_:e_mi_rule1_head_1)).
-}
-
 _:bng_171 {
     () :headBody (_:e_mi_rule1_head_1 var:x_0 ()).
-}
-
-_:bng_71 {
-    () :headBody (_:e_mi_rule1_head_1 () ()).
 }
 
 _:e_mi_rule2_head_1 {
@@ -1091,10 +935,6 @@ _:e_mi_rule2_body_1 {
     var:A list:firstRest (var:G var:Gs).
     () :headBody (var:G var:Goals var:Gs).
     () :mi var:Goals.
-}
-
-_:bng_75 {
-    () :mi (_:e_mi_rule1_head_1).
 }
 
 _:bng_172 {

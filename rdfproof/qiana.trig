@@ -69,18 +69,6 @@ _:bng_9 {
     _:bng_9_1 log:query _:bng_9_1.
 }
 
-_:bng_6_1 {
-    var:x a :glitter.
-}
-
-_:bng_7_1 {
-    var:x :notNecessarilyA :gold.
-}
-
-_:bng_5_1 {
-    _:bng_6_1 log:implies _:bng_7_1.
-}
-
 _:bng_1_1 {
     var:x :believes var:phi.
 }
@@ -96,10 +84,6 @@ _:bng_8_1 {
 
 _:bng_10 {
     _:bng_6_1 log:implies _:bng_7_1.
-}
-
-_:bng_2 {
-    :Einstein :says _:bng_5_1.
 }
 
 _:bng_9_1 {

@@ -36,7 +36,3 @@ _:bng_1_1 {
 _:bng_2_1 {
     var:X math:greaterThan var:Y.
 }
-
-_:bng_3_1 {
-    [] rdf:value 5; :moreInterestingThan 3.
-}
