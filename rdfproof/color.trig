@@ -1,0 +1,219 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+:map :color ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)).
+
+#
+# rdfproof
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_6) log:proves _:bng_7.
+(_:bng_1 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_1 _:bng_12) log:proves _:bng_13.
+(_:bng_1 _:bng_14) log:proves _:bng_15.
+(_:bng_1 _:bng_16) log:proves _:bng_17.
+(_:bng_18 _:bng_19) log:proves _:bng_20.
+(_:bng_21 _:bng_20) log:proves _:bng_20.
+
+_:bng_7_1 {
+    var:TAIL list:member (var:NEIGHBOUR var:COLOR).
+    var:NEIGHBOURS list:member var:NEIGHBOUR.
+}
+
+_:bng_3_1 {
+    var:PLACE :neighbours var:Y.
+}
+
+_:bng_1 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
+}
+
+_:bng_2 {
+    ((:H :red)) list:firstRest ((:H :red) ()).
+    () :places true.
+    :H :neighbours (:C :B).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_22 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_3 {
+    ((:H :red)) :places true.
+}
+
+_:bng_4 {
+    ((:G :red) (:H :red)) list:firstRest ((:G :red) ((:H :red))).
+    ((:H :red)) :places true.
+    :G :neighbours (:A :E).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_23 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_5 {
+    ((:G :red) (:H :red)) :places true.
+}
+
+_:bng_6 {
+    ((:F :red) (:G :red) (:H :red)) list:firstRest ((:F :red) ((:G :red) (:H :red))).
+    ((:G :red) (:H :red)) :places true.
+    :F :neighbours (:A :D :E).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_24 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_7 {
+    ((:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_8 {
+    ((:E :green) (:F :red) (:G :red) (:H :red)) list:firstRest ((:E :green) ((:F :red) (:G :red) (:H :red))).
+    ((:F :red) (:G :red) (:H :red)) :places true.
+    :E :neighbours (:G :A :F :B :D).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_25 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_9 {
+    ((:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_10 {
+    ((:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:firstRest ((:D :blue) ((:E :green) (:F :red) (:G :red) (:H :red))).
+    ((:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+    :D :neighbours (:A :F :E).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_26 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_11 {
+    ((:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_12 {
+    ((:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:firstRest ((:C :green) ((:D :blue) (:E :green) (:F :red) (:G :red) (:H :red))).
+    ((:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+    :C :neighbours (:H).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_27 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_13 {
+    ((:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_14 {
+    ((:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:firstRest ((:B :blue) ((:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red))).
+    ((:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+    :B :neighbours (:E :H).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_28 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_15 {
+    ((:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_16 {
+    ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:firstRest ((:A :yellow) ((:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red))).
+    ((:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+    :A :neighbours (:D :G :F :E).
+    (:red :green :blue :yellow) list:member :yellow.
+    (1 _:bng_29 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+}
+
+_:bng_17 {
+    ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+}
+
+_:bng_18 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_19 {
+    ((var:x_0 var:x_1) _:bng_30 ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red))) log:collectAllIn ((<https://eyereasoner.github.io/rdfproof/color.trig>) 1).
+    ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) :places true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_20 {
+    :map :color ((:A :yellow) (:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)).
+}
+
+_:bng_21 {
+    _:bng_8_1 log:query _:bng_8_1.
+}
+
+_:bng_5_1 {
+    var:PLACES :places true.
+}
+
+_:bng_6_1 {
+    var:PLACES list:firstRest ((var:PLACE var:COLOR) var:TAIL).
+    var:TAIL :places true.
+    var:PLACE :neighbours var:NEIGHBOURS.
+    (:red :green :blue :yellow) list:member var:COLOR.
+    (1 _:bng_7_1 ()) log:collectAllIn var:SCOPE.
+}
+
+_:bng_22 {
+    () list:member (var:x_0 :red).
+    (:C :B) list:member var:x_0.
+}
+
+_:bng_23 {
+    ((:H :red)) list:member (var:x_0 :red).
+    (:A :E) list:member var:x_0.
+}
+
+_:bng_24 {
+    ((:G :red) (:H :red)) list:member (var:x_0 :red).
+    (:A :D :E) list:member var:x_0.
+}
+
+_:bng_25 {
+    ((:F :red) (:G :red) (:H :red)) list:member (var:x_0 :green).
+    (:G :A :F :B :D) list:member var:x_0.
+}
+
+_:bng_26 {
+    ((:E :green) (:F :red) (:G :red) (:H :red)) list:member (var:x_0 :blue).
+    (:A :F :E) list:member var:x_0.
+}
+
+_:bng_27 {
+    ((:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:member (var:x_0 :green).
+    (:H) list:member var:x_0.
+}
+
+_:bng_28 {
+    ((:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:member (var:x_0 :blue).
+    (:E :H) list:member var:x_0.
+}
+
+_:bng_29 {
+    ((:B :blue) (:C :green) (:D :blue) (:E :green) (:F :red) (:G :red) (:H :red)) list:member (var:x_0 :yellow).
+    (:D :G :F :E) list:member var:x_0.
+}
+
+_:bng_1_1 {
+    var:MAP :color var:PLACES.
+}
+
+_:bng_2_1 {
+    ((var:PLACE var:X) _:bng_3_1 var:PLACES) log:collectAllIn var:SCOPE.
+    var:PLACES :places true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_30 {
+    var:x_0 :neighbours var:x_2.
+}
+
+_:bng_8_1 {
+    :map :color var:PLACES.
+}

@@ -21,6 +21,7 @@ _:bng_1 {
 _:bng_2 {
     (1 var:N) :range var:Us.
     (var:Us ()) :queens3 var:Qs.
+    [] rdf:value true; log:callWithCut true.
 }
 
 _:bng_3 log:isImpliedBy true.
