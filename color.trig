@@ -10,15 +10,34 @@
 @prefix var: <http://www.w3.org/2000/10/swap/var#>.
 @prefix : <http://example.org/#>.
 
-# map
-:A :neighbours (:D :G :F :E).
-:B :neighbours (:E :H).
-:C :neighbours (:H).
-:D :neighbours (:A :F :E).
-:E :neighbours (:G :A :F :B :D).
-:F :neighbours (:A :D :E).
-:G :neighbours (:A :E).
-:H :neighbours (:C :B).
+# mapEU
+:Belgium :neighbours (:France :Netherlands :Luxemburg :Germany).
+:Netherlands :neighbours (:Belgium :Germany).
+:Luxemburg :neighbours (:Belgium :France :Germany).
+:France :neighbours (:Spain :Belgium :Luxemburg :Germany :Italy).
+:Germany :neighbours (:Netherlands :Belgium :Luxemburg :Denmark :France :Austria :Poland :Czech_Republic).
+:Italy :neighbours (:France :Austria :Slovenia).
+:Denmark :neighbours (:Germany :Sweden).
+:Ireland :neighbours ().
+:Greece :neighbours (:Bulgaria :Cyprus).
+:Spain :neighbours (:France :Portugal).
+:Portugal :neighbours (:Spain).
+:Austria :neighbours (:Czech_Republic :Germany :Hungary :Italy :Slovenia :Slovakia).
+:Sweden :neighbours (:Finland :Denmark).
+:Finland :neighbours (:Estonia :Sweden).
+:Cyprus :neighbours (:Greece).
+:Malta :neighbours ().
+:Poland :neighbours (:Germany :Czech_Republic :Slovakia :Lithuania).
+:Hungary :neighbours (:Austria :Slovakia :Romania :Croatia :Slovenia).
+:Czech_Republic :neighbours (:Germany :Poland :Slovakia :Austria).
+:Slovakia :neighbours (:Czech_Republic :Poland :Hungary :Austria).
+:Slovenia :neighbours (:Austria :Italy :Hungary :Croatia).
+:Estonia :neighbours (:Finland :Latvia :Lithuania).
+:Latvia :neighbours (:Estonia :Lithuania).
+:Lithuania :neighbours (:Estonia :Latvia :Poland).
+:Bulgaria :neighbours (:Romania :Greece).
+:Romania :neighbours (:Hungary :Bulgaria).
+:Croatia :neighbours (:Slovenia :Hungary).
 
 # rules
 _:bng_1 log:isImpliedBy _:bng_2.
@@ -66,5 +85,5 @@ _:bng_7 {
 _:bng_8 log:query _:bng_8.
 
 _:bng_8 {
-    :map :color var:PLACES.
+    :mapEU :color var:PLACES.
 }
