@@ -5587,7 +5587,7 @@ _:bng_1059 {
 
 _:bng_1060 {
     (4) list:select (4 ()).
-    (_:bng_1080 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1080 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (4 2 7 3 6 8 5 1) list:firstRest (4 (2 7 3 6 8 5 1)).
     (() (4 2 7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5598,7 +5598,7 @@ _:bng_1061 {
 
 _:bng_1062 {
     (2 4) list:select (2 (4)).
-    (_:bng_1081 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1081 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (2 7 3 6 8 5 1) list:firstRest (2 (7 3 6 8 5 1)).
     ((4) (2 7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5609,7 +5609,7 @@ _:bng_1063 {
 
 _:bng_1064 {
     (2 4 7) list:select (7 (2 4)).
-    (_:bng_1082 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1082 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (7 3 6 8 5 1) list:firstRest (7 (3 6 8 5 1)).
     ((2 4) (7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5620,7 +5620,7 @@ _:bng_1065 {
 
 _:bng_1066 {
     (2 3 4 7) list:select (3 (2 4 7)).
-    (_:bng_1083 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1083 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (3 6 8 5 1) list:firstRest (3 (6 8 5 1)).
     ((2 4 7) (3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5631,7 +5631,7 @@ _:bng_1067 {
 
 _:bng_1068 {
     (2 3 4 6 7) list:select (6 (2 3 4 7)).
-    (_:bng_1084 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1084 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (6 8 5 1) list:firstRest (6 (8 5 1)).
     ((2 3 4 7) (6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5642,7 +5642,7 @@ _:bng_1069 {
 
 _:bng_1070 {
     (2 3 4 6 7 8) list:select (8 (2 3 4 6 7)).
-    (_:bng_1085 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1085 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (8 5 1) list:firstRest (8 (5 1)).
     ((2 3 4 6 7) (8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5653,7 +5653,7 @@ _:bng_1071 {
 
 _:bng_1072 {
     (2 3 4 5 6 7 8) list:select (5 (2 3 4 6 7 8)).
-    (_:bng_1086 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1086 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (5 1) list:firstRest (5 (1)).
     ((2 3 4 6 7 8) (5 1)) :queens3 (4 2 7 3 6 8 5 1).
 }
@@ -5664,7 +5664,7 @@ _:bng_1073 {
 
 _:bng_1074 {
     (1 2 3 4 5 6 7 8) list:select (1 (2 3 4 5 6 7 8)).
-    (_:bng_1087 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproof/queens.trig>) 1).
+    (_:bng_1087 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/rdfproofs/queens.trig>) 1).
     (1) list:firstRest (1 ()).
     ((2 3 4 5 6 7 8) (1)) :queens3 (4 2 7 3 6 8 5 1).
 }
