@@ -1,6 +1,6 @@
 # Reasongraphs
 
-## Reasongraphs are proofs in RDF supported by reasoning and querying in RDF
+## Reasongraphs are proofs described in RDF supported by logic described in RDF
 
 ### Reasoning with forward rules described in RDF as
 ```
