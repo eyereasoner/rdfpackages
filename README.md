@@ -1,6 +1,6 @@
-# RDF proofs
+# Reasongraphs
 
-## RDF proofs are supported by reasoning and querying in RDF TriG
+## Reasongraphs are proofs in RDF supported by reasoning and querying in RDF
 
 ### Reasoning with forward rules described in RDF as
 ```
