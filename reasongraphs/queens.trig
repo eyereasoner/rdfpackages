@@ -1,0 +1,5796 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+[] rdf:value 8; :queens (4 2 7 3 6 8 5 1).
+
+#
+# reasongraphs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_6) log:proves _:bng_7.
+(_:bng_1 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_1 _:bng_12) log:proves _:bng_13.
+(_:bng_1 _:bng_14) log:proves _:bng_15.
+(_:bng_16 _:bng_17) log:proves _:bng_18.
+(_:bng_19 _:bng_18) log:proves _:bng_20.
+(_:bng_21 _:bng_22) log:proves _:bng_23.
+(_:bng_19 _:bng_23) log:proves _:bng_24.
+(_:bng_16 _:bng_25) log:proves _:bng_26.
+(_:bng_19 _:bng_26) log:proves _:bng_27.
+(_:bng_16 _:bng_28) log:proves _:bng_29.
+(_:bng_30 _:bng_31) log:proves _:bng_32.
+(_:bng_30 _:bng_33) log:proves _:bng_34.
+(_:bng_30 _:bng_35) log:proves _:bng_36.
+(_:bng_30 _:bng_37) log:proves _:bng_38.
+(_:bng_19 _:bng_38) log:proves _:bng_39.
+(_:bng_16 _:bng_40) log:proves _:bng_41.
+(_:bng_30 _:bng_42) log:proves _:bng_43.
+(_:bng_30 _:bng_44) log:proves _:bng_45.
+(_:bng_30 _:bng_46) log:proves _:bng_47.
+(_:bng_19 _:bng_47) log:proves _:bng_48.
+(_:bng_16 _:bng_49) log:proves _:bng_50.
+(_:bng_30 _:bng_51) log:proves _:bng_52.
+(_:bng_30 _:bng_53) log:proves _:bng_54.
+(_:bng_19 _:bng_54) log:proves _:bng_55.
+(_:bng_16 _:bng_56) log:proves _:bng_57.
+(_:bng_30 _:bng_58) log:proves _:bng_59.
+(_:bng_30 _:bng_60) log:proves _:bng_61.
+(_:bng_19 _:bng_61) log:proves _:bng_62.
+(_:bng_16 _:bng_63) log:proves _:bng_64.
+(_:bng_30 _:bng_65) log:proves _:bng_66.
+(_:bng_19 _:bng_66) log:proves _:bng_67.
+(_:bng_16 _:bng_68) log:proves _:bng_69.
+(_:bng_30 _:bng_70) log:proves _:bng_71.
+(_:bng_19 _:bng_71) log:proves _:bng_72.
+(_:bng_30 _:bng_73) log:proves _:bng_74.
+(_:bng_19 _:bng_74) log:proves _:bng_75.
+(_:bng_21 _:bng_76) log:proves _:bng_77.
+(_:bng_19 _:bng_77) log:proves _:bng_78.
+(_:bng_21 _:bng_79) log:proves _:bng_80.
+(_:bng_19 _:bng_80) log:proves _:bng_81.
+(_:bng_16 _:bng_82) log:proves _:bng_83.
+(_:bng_19 _:bng_83) log:proves _:bng_84.
+(_:bng_16 _:bng_85) log:proves _:bng_86.
+(_:bng_30 _:bng_87) log:proves _:bng_88.
+(_:bng_30 _:bng_89) log:proves _:bng_90.
+(_:bng_30 _:bng_91) log:proves _:bng_92.
+(_:bng_30 _:bng_93) log:proves _:bng_94.
+(_:bng_30 _:bng_95) log:proves _:bng_96.
+(_:bng_30 _:bng_97) log:proves _:bng_98.
+(_:bng_19 _:bng_98) log:proves _:bng_99.
+(_:bng_16 _:bng_100) log:proves _:bng_101.
+(_:bng_30 _:bng_102) log:proves _:bng_103.
+(_:bng_30 _:bng_104) log:proves _:bng_105.
+(_:bng_30 _:bng_106) log:proves _:bng_107.
+(_:bng_30 _:bng_108) log:proves _:bng_109.
+(_:bng_19 _:bng_109) log:proves _:bng_110.
+(_:bng_30 _:bng_111) log:proves _:bng_112.
+(_:bng_30 _:bng_113) log:proves _:bng_114.
+(_:bng_19 _:bng_114) log:proves _:bng_115.
+(_:bng_30 _:bng_116) log:proves _:bng_117.
+(_:bng_30 _:bng_118) log:proves _:bng_119.
+(_:bng_19 _:bng_119) log:proves _:bng_120.
+(_:bng_21 _:bng_121) log:proves _:bng_122.
+(_:bng_30 _:bng_123) log:proves _:bng_124.
+(_:bng_30 _:bng_125) log:proves _:bng_126.
+(_:bng_19 _:bng_126) log:proves _:bng_127.
+(_:bng_30 _:bng_128) log:proves _:bng_129.
+(_:bng_19 _:bng_129) log:proves _:bng_130.
+(_:bng_30 _:bng_131) log:proves _:bng_132.
+(_:bng_19 _:bng_132) log:proves _:bng_133.
+(_:bng_21 _:bng_134) log:proves _:bng_135.
+(_:bng_19 _:bng_135) log:proves _:bng_136.
+(_:bng_16 _:bng_137) log:proves _:bng_138.
+(_:bng_19 _:bng_138) log:proves _:bng_139.
+(_:bng_16 _:bng_140) log:proves _:bng_141.
+(_:bng_19 _:bng_141) log:proves _:bng_142.
+(_:bng_16 _:bng_143) log:proves _:bng_144.
+(_:bng_30 _:bng_145) log:proves _:bng_146.
+(_:bng_30 _:bng_147) log:proves _:bng_148.
+(_:bng_30 _:bng_149) log:proves _:bng_150.
+(_:bng_30 _:bng_151) log:proves _:bng_152.
+(_:bng_30 _:bng_153) log:proves _:bng_154.
+(_:bng_19 _:bng_154) log:proves _:bng_155.
+(_:bng_21 _:bng_156) log:proves _:bng_157.
+(_:bng_30 _:bng_158) log:proves _:bng_159.
+(_:bng_19 _:bng_159) log:proves _:bng_160.
+(_:bng_30 _:bng_161) log:proves _:bng_162.
+(_:bng_30 _:bng_163) log:proves _:bng_164.
+(_:bng_19 _:bng_164) log:proves _:bng_165.
+(_:bng_30 _:bng_166) log:proves _:bng_167.
+(_:bng_30 _:bng_168) log:proves _:bng_169.
+(_:bng_19 _:bng_169) log:proves _:bng_170.
+(_:bng_30 _:bng_171) log:proves _:bng_172.
+(_:bng_19 _:bng_172) log:proves _:bng_173.
+(_:bng_30 _:bng_174) log:proves _:bng_175.
+(_:bng_19 _:bng_175) log:proves _:bng_176.
+(_:bng_30 _:bng_177) log:proves _:bng_178.
+(_:bng_19 _:bng_178) log:proves _:bng_179.
+(_:bng_21 _:bng_180) log:proves _:bng_181.
+(_:bng_19 _:bng_181) log:proves _:bng_182.
+(_:bng_21 _:bng_183) log:proves _:bng_184.
+(_:bng_30 _:bng_185) log:proves _:bng_186.
+(_:bng_19 _:bng_186) log:proves _:bng_187.
+(_:bng_16 _:bng_188) log:proves _:bng_189.
+(_:bng_30 _:bng_190) log:proves _:bng_191.
+(_:bng_30 _:bng_192) log:proves _:bng_193.
+(_:bng_30 _:bng_194) log:proves _:bng_195.
+(_:bng_19 _:bng_195) log:proves _:bng_196.
+(_:bng_16 _:bng_197) log:proves _:bng_198.
+(_:bng_30 _:bng_199) log:proves _:bng_200.
+(_:bng_19 _:bng_200) log:proves _:bng_201.
+(_:bng_21 _:bng_202) log:proves _:bng_203.
+(_:bng_19 _:bng_203) log:proves _:bng_204.
+(_:bng_30 _:bng_205) log:proves _:bng_206.
+(_:bng_30 _:bng_207) log:proves _:bng_208.
+(_:bng_30 _:bng_209) log:proves _:bng_210.
+(_:bng_30 _:bng_211) log:proves _:bng_212.
+(_:bng_19 _:bng_212) log:proves _:bng_213.
+(_:bng_16 _:bng_214) log:proves _:bng_215.
+(_:bng_19 _:bng_215) log:proves _:bng_216.
+(_:bng_16 _:bng_217) log:proves _:bng_218.
+(_:bng_30 _:bng_219) log:proves _:bng_220.
+(_:bng_19 _:bng_220) log:proves _:bng_221.
+(_:bng_16 _:bng_222) log:proves _:bng_223.
+(_:bng_30 _:bng_224) log:proves _:bng_225.
+(_:bng_30 _:bng_226) log:proves _:bng_227.
+(_:bng_19 _:bng_227) log:proves _:bng_228.
+(_:bng_21 _:bng_229) log:proves _:bng_230.
+(_:bng_19 _:bng_230) log:proves _:bng_231.
+(_:bng_16 _:bng_232) log:proves _:bng_233.
+(_:bng_19 _:bng_233) log:proves _:bng_234.
+(_:bng_16 _:bng_235) log:proves _:bng_236.
+(_:bng_19 _:bng_236) log:proves _:bng_237.
+(_:bng_30 _:bng_238) log:proves _:bng_239.
+(_:bng_30 _:bng_240) log:proves _:bng_241.
+(_:bng_30 _:bng_242) log:proves _:bng_243.
+(_:bng_30 _:bng_244) log:proves _:bng_245.
+(_:bng_19 _:bng_245) log:proves _:bng_246.
+(_:bng_21 _:bng_247) log:proves _:bng_248.
+(_:bng_19 _:bng_248) log:proves _:bng_249.
+(_:bng_30 _:bng_250) log:proves _:bng_251.
+(_:bng_19 _:bng_251) log:proves _:bng_252.
+(_:bng_30 _:bng_253) log:proves _:bng_254.
+(_:bng_30 _:bng_255) log:proves _:bng_256.
+(_:bng_30 _:bng_257) log:proves _:bng_258.
+(_:bng_19 _:bng_258) log:proves _:bng_259.
+(_:bng_30 _:bng_260) log:proves _:bng_261.
+(_:bng_19 _:bng_261) log:proves _:bng_262.
+(_:bng_30 _:bng_263) log:proves _:bng_264.
+(_:bng_19 _:bng_264) log:proves _:bng_265.
+(_:bng_21 _:bng_266) log:proves _:bng_267.
+(_:bng_19 _:bng_267) log:proves _:bng_268.
+(_:bng_16 _:bng_269) log:proves _:bng_270.
+(_:bng_19 _:bng_270) log:proves _:bng_271.
+(_:bng_30 _:bng_272) log:proves _:bng_273.
+(_:bng_30 _:bng_274) log:proves _:bng_275.
+(_:bng_30 _:bng_276) log:proves _:bng_277.
+(_:bng_19 _:bng_277) log:proves _:bng_278.
+(_:bng_16 _:bng_279) log:proves _:bng_280.
+(_:bng_30 _:bng_281) log:proves _:bng_282.
+(_:bng_30 _:bng_283) log:proves _:bng_284.
+(_:bng_19 _:bng_284) log:proves _:bng_285.
+(_:bng_16 _:bng_286) log:proves _:bng_287.
+(_:bng_30 _:bng_288) log:proves _:bng_289.
+(_:bng_19 _:bng_289) log:proves _:bng_290.
+(_:bng_21 _:bng_291) log:proves _:bng_292.
+(_:bng_30 _:bng_293) log:proves _:bng_294.
+(_:bng_19 _:bng_294) log:proves _:bng_295.
+(_:bng_30 _:bng_296) log:proves _:bng_297.
+(_:bng_30 _:bng_298) log:proves _:bng_299.
+(_:bng_19 _:bng_299) log:proves _:bng_300.
+(_:bng_16 _:bng_301) log:proves _:bng_302.
+(_:bng_30 _:bng_303) log:proves _:bng_304.
+(_:bng_19 _:bng_304) log:proves _:bng_305.
+(_:bng_21 _:bng_306) log:proves _:bng_307.
+(_:bng_19 _:bng_307) log:proves _:bng_308.
+(_:bng_16 _:bng_309) log:proves _:bng_310.
+(_:bng_19 _:bng_310) log:proves _:bng_311.
+(_:bng_30 _:bng_312) log:proves _:bng_313.
+(_:bng_19 _:bng_313) log:proves _:bng_314.
+(_:bng_30 _:bng_315) log:proves _:bng_316.
+(_:bng_19 _:bng_316) log:proves _:bng_317.
+(_:bng_16 _:bng_318) log:proves _:bng_319.
+(_:bng_30 _:bng_320) log:proves _:bng_321.
+(_:bng_19 _:bng_321) log:proves _:bng_322.
+(_:bng_21 _:bng_323) log:proves _:bng_324.
+(_:bng_19 _:bng_324) log:proves _:bng_325.
+(_:bng_16 _:bng_326) log:proves _:bng_327.
+(_:bng_19 _:bng_327) log:proves _:bng_328.
+(_:bng_16 _:bng_329) log:proves _:bng_330.
+(_:bng_19 _:bng_330) log:proves _:bng_331.
+(_:bng_30 _:bng_332) log:proves _:bng_333.
+(_:bng_30 _:bng_334) log:proves _:bng_335.
+(_:bng_30 _:bng_336) log:proves _:bng_337.
+(_:bng_19 _:bng_337) log:proves _:bng_338.
+(_:bng_30 _:bng_339) log:proves _:bng_340.
+(_:bng_30 _:bng_341) log:proves _:bng_342.
+(_:bng_30 _:bng_343) log:proves _:bng_344.
+(_:bng_19 _:bng_344) log:proves _:bng_345.
+(_:bng_30 _:bng_346) log:proves _:bng_347.
+(_:bng_30 _:bng_348) log:proves _:bng_349.
+(_:bng_19 _:bng_349) log:proves _:bng_350.
+(_:bng_21 _:bng_351) log:proves _:bng_352.
+(_:bng_30 _:bng_353) log:proves _:bng_354.
+(_:bng_19 _:bng_354) log:proves _:bng_355.
+(_:bng_16 _:bng_356) log:proves _:bng_357.
+(_:bng_30 _:bng_358) log:proves _:bng_359.
+(_:bng_19 _:bng_359) log:proves _:bng_360.
+(_:bng_21 _:bng_361) log:proves _:bng_362.
+(_:bng_30 _:bng_363) log:proves _:bng_364.
+(_:bng_30 _:bng_365) log:proves _:bng_366.
+(_:bng_19 _:bng_366) log:proves _:bng_367.
+(_:bng_21 _:bng_368) log:proves _:bng_369.
+(_:bng_19 _:bng_369) log:proves _:bng_370.
+(_:bng_30 _:bng_371) log:proves _:bng_372.
+(_:bng_19 _:bng_372) log:proves _:bng_373.
+(_:bng_30 _:bng_374) log:proves _:bng_375.
+(_:bng_19 _:bng_375) log:proves _:bng_376.
+(_:bng_21 _:bng_377) log:proves _:bng_378.
+(_:bng_30 _:bng_379) log:proves _:bng_380.
+(_:bng_19 _:bng_380) log:proves _:bng_381.
+(_:bng_30 _:bng_382) log:proves _:bng_383.
+(_:bng_30 _:bng_384) log:proves _:bng_385.
+(_:bng_19 _:bng_385) log:proves _:bng_386.
+(_:bng_30 _:bng_387) log:proves _:bng_388.
+(_:bng_30 _:bng_389) log:proves _:bng_390.
+(_:bng_19 _:bng_390) log:proves _:bng_391.
+(_:bng_16 _:bng_392) log:proves _:bng_393.
+(_:bng_30 _:bng_394) log:proves _:bng_395.
+(_:bng_30 _:bng_396) log:proves _:bng_397.
+(_:bng_19 _:bng_397) log:proves _:bng_398.
+(_:bng_30 _:bng_399) log:proves _:bng_400.
+(_:bng_30 _:bng_401) log:proves _:bng_402.
+(_:bng_30 _:bng_403) log:proves _:bng_404.
+(_:bng_30 _:bng_405) log:proves _:bng_406.
+(_:bng_19 _:bng_406) log:proves _:bng_407.
+(_:bng_16 _:bng_408) log:proves _:bng_409.
+(_:bng_19 _:bng_409) log:proves _:bng_410.
+(_:bng_30 _:bng_411) log:proves _:bng_412.
+(_:bng_19 _:bng_412) log:proves _:bng_413.
+(_:bng_21 _:bng_414) log:proves _:bng_415.
+(_:bng_19 _:bng_415) log:proves _:bng_416.
+(_:bng_16 _:bng_417) log:proves _:bng_418.
+(_:bng_19 _:bng_418) log:proves _:bng_419.
+(_:bng_21 _:bng_420) log:proves _:bng_421.
+(_:bng_19 _:bng_421) log:proves _:bng_422.
+(_:bng_16 _:bng_423) log:proves _:bng_424.
+(_:bng_19 _:bng_424) log:proves _:bng_425.
+(_:bng_30 _:bng_426) log:proves _:bng_427.
+(_:bng_30 _:bng_428) log:proves _:bng_429.
+(_:bng_30 _:bng_430) log:proves _:bng_431.
+(_:bng_30 _:bng_432) log:proves _:bng_433.
+(_:bng_19 _:bng_433) log:proves _:bng_434.
+(_:bng_16 _:bng_435) log:proves _:bng_436.
+(_:bng_30 _:bng_437) log:proves _:bng_438.
+(_:bng_19 _:bng_438) log:proves _:bng_439.
+(_:bng_16 _:bng_440) log:proves _:bng_441.
+(_:bng_30 _:bng_442) log:proves _:bng_443.
+(_:bng_30 _:bng_444) log:proves _:bng_445.
+(_:bng_30 _:bng_446) log:proves _:bng_447.
+(_:bng_19 _:bng_447) log:proves _:bng_448.
+(_:bng_16 _:bng_449) log:proves _:bng_450.
+(_:bng_19 _:bng_450) log:proves _:bng_451.
+(_:bng_16 _:bng_452) log:proves _:bng_453.
+(_:bng_30 _:bng_454) log:proves _:bng_455.
+(_:bng_30 _:bng_456) log:proves _:bng_457.
+(_:bng_19 _:bng_457) log:proves _:bng_458.
+(_:bng_21 _:bng_459) log:proves _:bng_460.
+(_:bng_30 _:bng_461) log:proves _:bng_462.
+(_:bng_19 _:bng_462) log:proves _:bng_463.
+(_:bng_30 _:bng_464) log:proves _:bng_465.
+(_:bng_19 _:bng_465) log:proves _:bng_466.
+(_:bng_21 _:bng_467) log:proves _:bng_468.
+(_:bng_19 _:bng_468) log:proves _:bng_469.
+(_:bng_16 _:bng_470) log:proves _:bng_471.
+(_:bng_30 _:bng_472) log:proves _:bng_473.
+(_:bng_19 _:bng_473) log:proves _:bng_474.
+(_:bng_21 _:bng_475) log:proves _:bng_476.
+(_:bng_30 _:bng_477) log:proves _:bng_478.
+(_:bng_19 _:bng_478) log:proves _:bng_479.
+(_:bng_30 _:bng_480) log:proves _:bng_481.
+(_:bng_30 _:bng_482) log:proves _:bng_483.
+(_:bng_19 _:bng_483) log:proves _:bng_484.
+(_:bng_30 _:bng_485) log:proves _:bng_486.
+(_:bng_30 _:bng_487) log:proves _:bng_488.
+(_:bng_19 _:bng_488) log:proves _:bng_489.
+(_:bng_30 _:bng_490) log:proves _:bng_491.
+(_:bng_30 _:bng_492) log:proves _:bng_493.
+(_:bng_30 _:bng_494) log:proves _:bng_495.
+(_:bng_19 _:bng_495) log:proves _:bng_496.
+(_:bng_21 _:bng_497) log:proves _:bng_498.
+(_:bng_19 _:bng_498) log:proves _:bng_499.
+(_:bng_16 _:bng_500) log:proves _:bng_501.
+(_:bng_19 _:bng_501) log:proves _:bng_502.
+(_:bng_16 _:bng_503) log:proves _:bng_504.
+(_:bng_30 _:bng_505) log:proves _:bng_506.
+(_:bng_30 _:bng_507) log:proves _:bng_508.
+(_:bng_19 _:bng_508) log:proves _:bng_509.
+(_:bng_21 _:bng_510) log:proves _:bng_511.
+(_:bng_30 _:bng_512) log:proves _:bng_513.
+(_:bng_19 _:bng_513) log:proves _:bng_514.
+(_:bng_16 _:bng_515) log:proves _:bng_516.
+(_:bng_30 _:bng_517) log:proves _:bng_518.
+(_:bng_19 _:bng_518) log:proves _:bng_519.
+(_:bng_21 _:bng_520) log:proves _:bng_521.
+(_:bng_19 _:bng_521) log:proves _:bng_522.
+(_:bng_30 _:bng_523) log:proves _:bng_524.
+(_:bng_19 _:bng_524) log:proves _:bng_525.
+(_:bng_21 _:bng_526) log:proves _:bng_527.
+(_:bng_30 _:bng_528) log:proves _:bng_529.
+(_:bng_30 _:bng_530) log:proves _:bng_531.
+(_:bng_19 _:bng_531) log:proves _:bng_532.
+(_:bng_30 _:bng_533) log:proves _:bng_534.
+(_:bng_30 _:bng_535) log:proves _:bng_536.
+(_:bng_30 _:bng_537) log:proves _:bng_538.
+(_:bng_30 _:bng_539) log:proves _:bng_540.
+(_:bng_30 _:bng_541) log:proves _:bng_542.
+(_:bng_19 _:bng_542) log:proves _:bng_543.
+(_:bng_21 _:bng_544) log:proves _:bng_545.
+(_:bng_19 _:bng_545) log:proves _:bng_546.
+(_:bng_16 _:bng_547) log:proves _:bng_548.
+(_:bng_19 _:bng_548) log:proves _:bng_549.
+(_:bng_21 _:bng_550) log:proves _:bng_551.
+(_:bng_19 _:bng_551) log:proves _:bng_552.
+(_:bng_21 _:bng_553) log:proves _:bng_554.
+(_:bng_19 _:bng_554) log:proves _:bng_555.
+(_:bng_16 _:bng_556) log:proves _:bng_557.
+(_:bng_19 _:bng_557) log:proves _:bng_558.
+(_:bng_21 _:bng_559) log:proves _:bng_560.
+(_:bng_30 _:bng_561) log:proves _:bng_562.
+(_:bng_19 _:bng_562) log:proves _:bng_563.
+(_:bng_21 _:bng_564) log:proves _:bng_565.
+(_:bng_19 _:bng_565) log:proves _:bng_566.
+(_:bng_30 _:bng_567) log:proves _:bng_568.
+(_:bng_30 _:bng_569) log:proves _:bng_570.
+(_:bng_19 _:bng_570) log:proves _:bng_571.
+(_:bng_30 _:bng_572) log:proves _:bng_573.
+(_:bng_30 _:bng_574) log:proves _:bng_575.
+(_:bng_19 _:bng_575) log:proves _:bng_576.
+(_:bng_16 _:bng_577) log:proves _:bng_578.
+(_:bng_30 _:bng_579) log:proves _:bng_580.
+(_:bng_19 _:bng_580) log:proves _:bng_581.
+(_:bng_21 _:bng_582) log:proves _:bng_583.
+(_:bng_19 _:bng_583) log:proves _:bng_584.
+(_:bng_16 _:bng_585) log:proves _:bng_586.
+(_:bng_19 _:bng_586) log:proves _:bng_587.
+(_:bng_16 _:bng_588) log:proves _:bng_589.
+(_:bng_19 _:bng_589) log:proves _:bng_590.
+(_:bng_16 _:bng_591) log:proves _:bng_592.
+(_:bng_30 _:bng_593) log:proves _:bng_594.
+(_:bng_19 _:bng_594) log:proves _:bng_595.
+(_:bng_30 _:bng_596) log:proves _:bng_597.
+(_:bng_30 _:bng_598) log:proves _:bng_599.
+(_:bng_30 _:bng_600) log:proves _:bng_601.
+(_:bng_30 _:bng_602) log:proves _:bng_603.
+(_:bng_19 _:bng_603) log:proves _:bng_604.
+(_:bng_21 _:bng_605) log:proves _:bng_606.
+(_:bng_30 _:bng_607) log:proves _:bng_608.
+(_:bng_19 _:bng_608) log:proves _:bng_609.
+(_:bng_21 _:bng_610) log:proves _:bng_611.
+(_:bng_30 _:bng_612) log:proves _:bng_613.
+(_:bng_30 _:bng_614) log:proves _:bng_615.
+(_:bng_19 _:bng_615) log:proves _:bng_616.
+(_:bng_21 _:bng_617) log:proves _:bng_618.
+(_:bng_19 _:bng_618) log:proves _:bng_619.
+(_:bng_21 _:bng_620) log:proves _:bng_621.
+(_:bng_30 _:bng_622) log:proves _:bng_623.
+(_:bng_30 _:bng_624) log:proves _:bng_625.
+(_:bng_30 _:bng_626) log:proves _:bng_627.
+(_:bng_19 _:bng_627) log:proves _:bng_628.
+(_:bng_30 _:bng_629) log:proves _:bng_630.
+(_:bng_30 _:bng_631) log:proves _:bng_632.
+(_:bng_19 _:bng_632) log:proves _:bng_633.
+(_:bng_30 _:bng_634) log:proves _:bng_635.
+(_:bng_19 _:bng_635) log:proves _:bng_636.
+(_:bng_16 _:bng_637) log:proves _:bng_638.
+(_:bng_30 _:bng_639) log:proves _:bng_640.
+(_:bng_19 _:bng_640) log:proves _:bng_641.
+(_:bng_30 _:bng_642) log:proves _:bng_643.
+(_:bng_19 _:bng_643) log:proves _:bng_644.
+(_:bng_21 _:bng_645) log:proves _:bng_646.
+(_:bng_19 _:bng_646) log:proves _:bng_647.
+(_:bng_30 _:bng_648) log:proves _:bng_649.
+(_:bng_19 _:bng_649) log:proves _:bng_650.
+(_:bng_21 _:bng_651) log:proves _:bng_652.
+(_:bng_19 _:bng_652) log:proves _:bng_653.
+(_:bng_21 _:bng_654) log:proves _:bng_655.
+(_:bng_30 _:bng_656) log:proves _:bng_657.
+(_:bng_19 _:bng_657) log:proves _:bng_658.
+(_:bng_30 _:bng_659) log:proves _:bng_660.
+(_:bng_30 _:bng_661) log:proves _:bng_662.
+(_:bng_30 _:bng_663) log:proves _:bng_664.
+(_:bng_30 _:bng_665) log:proves _:bng_666.
+(_:bng_30 _:bng_667) log:proves _:bng_668.
+(_:bng_30 _:bng_669) log:proves _:bng_670.
+(_:bng_19 _:bng_670) log:proves _:bng_671.
+(_:bng_16 _:bng_672) log:proves _:bng_673.
+(_:bng_30 _:bng_674) log:proves _:bng_675.
+(_:bng_19 _:bng_675) log:proves _:bng_676.
+(_:bng_21 _:bng_677) log:proves _:bng_678.
+(_:bng_19 _:bng_678) log:proves _:bng_679.
+(_:bng_30 _:bng_680) log:proves _:bng_681.
+(_:bng_30 _:bng_682) log:proves _:bng_683.
+(_:bng_30 _:bng_684) log:proves _:bng_685.
+(_:bng_19 _:bng_685) log:proves _:bng_686.
+(_:bng_16 _:bng_687) log:proves _:bng_688.
+(_:bng_19 _:bng_688) log:proves _:bng_689.
+(_:bng_21 _:bng_690) log:proves _:bng_691.
+(_:bng_30 _:bng_692) log:proves _:bng_693.
+(_:bng_19 _:bng_693) log:proves _:bng_694.
+(_:bng_16 _:bng_695) log:proves _:bng_696.
+(_:bng_30 _:bng_697) log:proves _:bng_698.
+(_:bng_19 _:bng_698) log:proves _:bng_699.
+(_:bng_30 _:bng_700) log:proves _:bng_701.
+(_:bng_30 _:bng_702) log:proves _:bng_703.
+(_:bng_30 _:bng_704) log:proves _:bng_705.
+(_:bng_19 _:bng_705) log:proves _:bng_706.
+(_:bng_16 _:bng_707) log:proves _:bng_708.
+(_:bng_19 _:bng_708) log:proves _:bng_709.
+(_:bng_30 _:bng_710) log:proves _:bng_711.
+(_:bng_30 _:bng_712) log:proves _:bng_713.
+(_:bng_19 _:bng_713) log:proves _:bng_714.
+(_:bng_30 _:bng_715) log:proves _:bng_716.
+(_:bng_30 _:bng_717) log:proves _:bng_718.
+(_:bng_19 _:bng_718) log:proves _:bng_719.
+(_:bng_21 _:bng_720) log:proves _:bng_721.
+(_:bng_19 _:bng_721) log:proves _:bng_722.
+(_:bng_30 _:bng_723) log:proves _:bng_724.
+(_:bng_19 _:bng_724) log:proves _:bng_725.
+(_:bng_30 _:bng_726) log:proves _:bng_727.
+(_:bng_19 _:bng_727) log:proves _:bng_728.
+(_:bng_16 _:bng_729) log:proves _:bng_730.
+(_:bng_19 _:bng_730) log:proves _:bng_731.
+(_:bng_16 _:bng_732) log:proves _:bng_733.
+(_:bng_19 _:bng_733) log:proves _:bng_734.
+(_:bng_21 _:bng_735) log:proves _:bng_736.
+(_:bng_30 _:bng_737) log:proves _:bng_738.
+(_:bng_19 _:bng_738) log:proves _:bng_739.
+(_:bng_21 _:bng_740) log:proves _:bng_741.
+(_:bng_30 _:bng_742) log:proves _:bng_743.
+(_:bng_19 _:bng_743) log:proves _:bng_744.
+(_:bng_30 _:bng_745) log:proves _:bng_746.
+(_:bng_19 _:bng_746) log:proves _:bng_747.
+(_:bng_21 _:bng_748) log:proves _:bng_749.
+(_:bng_19 _:bng_749) log:proves _:bng_750.
+(_:bng_16 _:bng_751) log:proves _:bng_752.
+(_:bng_19 _:bng_752) log:proves _:bng_753.
+(_:bng_30 _:bng_754) log:proves _:bng_755.
+(_:bng_19 _:bng_755) log:proves _:bng_756.
+(_:bng_21 _:bng_757) log:proves _:bng_758.
+(_:bng_19 _:bng_758) log:proves _:bng_759.
+(_:bng_30 _:bng_760) log:proves _:bng_761.
+(_:bng_30 _:bng_762) log:proves _:bng_763.
+(_:bng_19 _:bng_763) log:proves _:bng_764.
+(_:bng_21 _:bng_765) log:proves _:bng_766.
+(_:bng_30 _:bng_767) log:proves _:bng_768.
+(_:bng_19 _:bng_768) log:proves _:bng_769.
+(_:bng_30 _:bng_770) log:proves _:bng_771.
+(_:bng_30 _:bng_772) log:proves _:bng_773.
+(_:bng_19 _:bng_773) log:proves _:bng_774.
+(_:bng_16 _:bng_775) log:proves _:bng_776.
+(_:bng_19 _:bng_776) log:proves _:bng_777.
+(_:bng_30 _:bng_778) log:proves _:bng_779.
+(_:bng_30 _:bng_780) log:proves _:bng_781.
+(_:bng_30 _:bng_782) log:proves _:bng_783.
+(_:bng_19 _:bng_783) log:proves _:bng_784.
+(_:bng_16 _:bng_785) log:proves _:bng_786.
+(_:bng_30 _:bng_787) log:proves _:bng_788.
+(_:bng_19 _:bng_788) log:proves _:bng_789.
+(_:bng_21 _:bng_790) log:proves _:bng_791.
+(_:bng_19 _:bng_791) log:proves _:bng_792.
+(_:bng_30 _:bng_793) log:proves _:bng_794.
+(_:bng_19 _:bng_794) log:proves _:bng_795.
+(_:bng_30 _:bng_796) log:proves _:bng_797.
+(_:bng_19 _:bng_797) log:proves _:bng_798.
+(_:bng_16 _:bng_799) log:proves _:bng_800.
+(_:bng_19 _:bng_800) log:proves _:bng_801.
+(_:bng_30 _:bng_802) log:proves _:bng_803.
+(_:bng_19 _:bng_803) log:proves _:bng_804.
+(_:bng_30 _:bng_805) log:proves _:bng_806.
+(_:bng_19 _:bng_806) log:proves _:bng_807.
+(_:bng_21 _:bng_808) log:proves _:bng_809.
+(_:bng_19 _:bng_809) log:proves _:bng_810.
+(_:bng_16 _:bng_811) log:proves _:bng_812.
+(_:bng_19 _:bng_812) log:proves _:bng_813.
+(_:bng_30 _:bng_814) log:proves _:bng_815.
+(_:bng_30 _:bng_816) log:proves _:bng_817.
+(_:bng_19 _:bng_817) log:proves _:bng_818.
+(_:bng_16 _:bng_819) log:proves _:bng_820.
+(_:bng_19 _:bng_820) log:proves _:bng_821.
+(_:bng_30 _:bng_822) log:proves _:bng_823.
+(_:bng_30 _:bng_824) log:proves _:bng_825.
+(_:bng_30 _:bng_826) log:proves _:bng_827.
+(_:bng_30 _:bng_828) log:proves _:bng_829.
+(_:bng_30 _:bng_830) log:proves _:bng_831.
+(_:bng_30 _:bng_832) log:proves _:bng_833.
+(_:bng_19 _:bng_833) log:proves _:bng_834.
+(_:bng_16 _:bng_835) log:proves _:bng_836.
+(_:bng_19 _:bng_836) log:proves _:bng_837.
+(_:bng_16 _:bng_838) log:proves _:bng_839.
+(_:bng_30 _:bng_840) log:proves _:bng_841.
+(_:bng_19 _:bng_841) log:proves _:bng_842.
+(_:bng_16 _:bng_843) log:proves _:bng_844.
+(_:bng_30 _:bng_845) log:proves _:bng_846.
+(_:bng_19 _:bng_846) log:proves _:bng_847.
+(_:bng_16 _:bng_848) log:proves _:bng_849.
+(_:bng_19 _:bng_849) log:proves _:bng_850.
+(_:bng_16 _:bng_851) log:proves _:bng_852.
+(_:bng_30 _:bng_853) log:proves _:bng_854.
+(_:bng_30 _:bng_855) log:proves _:bng_856.
+(_:bng_19 _:bng_856) log:proves _:bng_857.
+(_:bng_16 _:bng_858) log:proves _:bng_859.
+(_:bng_30 _:bng_860) log:proves _:bng_861.
+(_:bng_19 _:bng_861) log:proves _:bng_862.
+(_:bng_16 _:bng_863) log:proves _:bng_864.
+(_:bng_19 _:bng_864) log:proves _:bng_865.
+(_:bng_21 _:bng_866) log:proves _:bng_867.
+(_:bng_30 _:bng_868) log:proves _:bng_869.
+(_:bng_19 _:bng_869) log:proves _:bng_870.
+(_:bng_16 _:bng_871) log:proves _:bng_872.
+(_:bng_30 _:bng_873) log:proves _:bng_874.
+(_:bng_30 _:bng_875) log:proves _:bng_876.
+(_:bng_19 _:bng_876) log:proves _:bng_877.
+(_:bng_21 _:bng_878) log:proves _:bng_879.
+(_:bng_19 _:bng_879) log:proves _:bng_880.
+(_:bng_30 _:bng_881) log:proves _:bng_882.
+(_:bng_19 _:bng_882) log:proves _:bng_883.
+(_:bng_16 _:bng_884) log:proves _:bng_885.
+(_:bng_19 _:bng_885) log:proves _:bng_886.
+(_:bng_30 _:bng_887) log:proves _:bng_888.
+(_:bng_30 _:bng_889) log:proves _:bng_890.
+(_:bng_30 _:bng_891) log:proves _:bng_892.
+(_:bng_30 _:bng_893) log:proves _:bng_894.
+(_:bng_30 _:bng_895) log:proves _:bng_896.
+(_:bng_19 _:bng_896) log:proves _:bng_897.
+(_:bng_21 _:bng_898) log:proves _:bng_899.
+(_:bng_19 _:bng_899) log:proves _:bng_900.
+(_:bng_30 _:bng_901) log:proves _:bng_902.
+(_:bng_19 _:bng_902) log:proves _:bng_903.
+(_:bng_16 _:bng_904) log:proves _:bng_905.
+(_:bng_19 _:bng_905) log:proves _:bng_906.
+(_:bng_21 _:bng_907) log:proves _:bng_908.
+(_:bng_19 _:bng_908) log:proves _:bng_909.
+(_:bng_16 _:bng_910) log:proves _:bng_911.
+(_:bng_30 _:bng_912) log:proves _:bng_913.
+(_:bng_19 _:bng_913) log:proves _:bng_914.
+(_:bng_21 _:bng_915) log:proves _:bng_916.
+(_:bng_19 _:bng_916) log:proves _:bng_917.
+(_:bng_16 _:bng_918) log:proves _:bng_919.
+(_:bng_19 _:bng_919) log:proves _:bng_920.
+(_:bng_16 _:bng_921) log:proves _:bng_922.
+(_:bng_19 _:bng_922) log:proves _:bng_923.
+(_:bng_21 _:bng_924) log:proves _:bng_925.
+(_:bng_19 _:bng_925) log:proves _:bng_926.
+(_:bng_30 _:bng_927) log:proves _:bng_928.
+(_:bng_30 _:bng_929) log:proves _:bng_930.
+(_:bng_30 _:bng_931) log:proves _:bng_932.
+(_:bng_30 _:bng_933) log:proves _:bng_934.
+(_:bng_19 _:bng_934) log:proves _:bng_935.
+(_:bng_21 _:bng_936) log:proves _:bng_937.
+(_:bng_30 _:bng_938) log:proves _:bng_939.
+(_:bng_30 _:bng_940) log:proves _:bng_941.
+(_:bng_30 _:bng_942) log:proves _:bng_943.
+(_:bng_19 _:bng_943) log:proves _:bng_944.
+(_:bng_16 _:bng_945) log:proves _:bng_946.
+(_:bng_30 _:bng_947) log:proves _:bng_948.
+(_:bng_19 _:bng_948) log:proves _:bng_949.
+(_:bng_16 _:bng_950) log:proves _:bng_951.
+(_:bng_19 _:bng_951) log:proves _:bng_952.
+(_:bng_16 _:bng_953) log:proves _:bng_954.
+(_:bng_30 _:bng_955) log:proves _:bng_956.
+(_:bng_19 _:bng_956) log:proves _:bng_957.
+(_:bng_16 _:bng_958) log:proves _:bng_959.
+(_:bng_30 _:bng_960) log:proves _:bng_961.
+(_:bng_19 _:bng_961) log:proves _:bng_962.
+(_:bng_30 _:bng_963) log:proves _:bng_964.
+(_:bng_30 _:bng_965) log:proves _:bng_966.
+(_:bng_19 _:bng_966) log:proves _:bng_967.
+(_:bng_21 _:bng_968) log:proves _:bng_969.
+(_:bng_30 _:bng_970) log:proves _:bng_971.
+(_:bng_19 _:bng_971) log:proves _:bng_972.
+(_:bng_30 _:bng_973) log:proves _:bng_974.
+(_:bng_30 _:bng_975) log:proves _:bng_976.
+(_:bng_19 _:bng_976) log:proves _:bng_977.
+(_:bng_21 _:bng_978) log:proves _:bng_979.
+(_:bng_30 _:bng_980) log:proves _:bng_981.
+(_:bng_19 _:bng_981) log:proves _:bng_982.
+(_:bng_30 _:bng_983) log:proves _:bng_984.
+(_:bng_19 _:bng_984) log:proves _:bng_985.
+(_:bng_21 _:bng_986) log:proves _:bng_987.
+(_:bng_19 _:bng_987) log:proves _:bng_988.
+(_:bng_16 _:bng_989) log:proves _:bng_990.
+(_:bng_19 _:bng_990) log:proves _:bng_991.
+(_:bng_16 _:bng_992) log:proves _:bng_993.
+(_:bng_19 _:bng_993) log:proves _:bng_994.
+(_:bng_21 _:bng_995) log:proves _:bng_996.
+(_:bng_19 _:bng_996) log:proves _:bng_997.
+(_:bng_30 _:bng_998) log:proves _:bng_999.
+(_:bng_30 _:bng_1000) log:proves _:bng_1001.
+(_:bng_30 _:bng_1002) log:proves _:bng_1003.
+(_:bng_19 _:bng_1003) log:proves _:bng_1004.
+(_:bng_16 _:bng_1005) log:proves _:bng_1006.
+(_:bng_30 _:bng_1007) log:proves _:bng_1008.
+(_:bng_30 _:bng_1009) log:proves _:bng_1010.
+(_:bng_30 _:bng_1011) log:proves _:bng_1012.
+(_:bng_19 _:bng_1012) log:proves _:bng_1013.
+(_:bng_21 _:bng_1014) log:proves _:bng_1015.
+(_:bng_19 _:bng_1015) log:proves _:bng_1016.
+(_:bng_21 _:bng_1017) log:proves _:bng_1018.
+(_:bng_30 _:bng_1019) log:proves _:bng_1020.
+(_:bng_19 _:bng_1020) log:proves _:bng_1021.
+(_:bng_16 _:bng_1022) log:proves _:bng_1023.
+(_:bng_19 _:bng_1023) log:proves _:bng_1024.
+(_:bng_21 _:bng_1025) log:proves _:bng_1026.
+(_:bng_30 _:bng_1027) log:proves _:bng_1028.
+(_:bng_30 _:bng_1029) log:proves _:bng_1030.
+(_:bng_19 _:bng_1030) log:proves _:bng_1031.
+(_:bng_16 _:bng_1032) log:proves _:bng_1033.
+(_:bng_30 _:bng_1034) log:proves _:bng_1035.
+(_:bng_19 _:bng_1035) log:proves _:bng_1036.
+(_:bng_21 _:bng_1037) log:proves _:bng_1038.
+(_:bng_19 _:bng_1038) log:proves _:bng_1039.
+(_:bng_30 _:bng_1040) log:proves _:bng_1041.
+(_:bng_19 _:bng_1041) log:proves _:bng_1042.
+(_:bng_30 _:bng_1043) log:proves _:bng_1044.
+(_:bng_19 _:bng_1044) log:proves _:bng_1045.
+(_:bng_21 _:bng_1046) log:proves _:bng_1047.
+(_:bng_30 _:bng_1048) log:proves _:bng_1049.
+(_:bng_30 _:bng_1050) log:proves _:bng_1051.
+(_:bng_19 _:bng_1051) log:proves _:bng_1052.
+(_:bng_21 _:bng_1053) log:proves _:bng_1054.
+(_:bng_19 _:bng_1054) log:proves _:bng_1055.
+(_:bng_16 _:bng_1056) log:proves _:bng_1057.
+(_:bng_19 _:bng_1057) log:proves _:bng_1058.
+(_:bng_1059 _:bng_1060) log:proves _:bng_1061.
+(_:bng_1059 _:bng_1062) log:proves _:bng_1063.
+(_:bng_1059 _:bng_1064) log:proves _:bng_1065.
+(_:bng_1059 _:bng_1066) log:proves _:bng_1067.
+(_:bng_1059 _:bng_1068) log:proves _:bng_1069.
+(_:bng_1059 _:bng_1070) log:proves _:bng_1071.
+(_:bng_1059 _:bng_1072) log:proves _:bng_1073.
+(_:bng_1059 _:bng_1074) log:proves _:bng_1075.
+(_:bng_1076 _:bng_1077) log:proves _:bng_1078.
+(_:bng_1079 _:bng_1078) log:proves _:bng_1078.
+
+_:bng_6_1 {
+    var:Q :attack var:Ps.
+}
+
+_:bng_1 {
+    _:bng_8_1 log:isImpliedBy _:bng_9_1.
+}
+
+_:bng_2 {
+    (7 8) list:firstRest (7 (8)).
+    [] rdf:value 7; math:lessThan 8 .
+    (7 1) math:sum 8 .
+    (8 8) :range (8).
+}
+
+_:bng_3 {
+    (7 8) :range (7 8).
+}
+
+_:bng_4 {
+    (6 7 8) list:firstRest (6 (7 8)).
+    [] rdf:value 6; math:lessThan 8 .
+    (6 1) math:sum 7 .
+    (7 8) :range (7 8).
+}
+
+_:bng_5 {
+    (6 8) :range (6 7 8).
+}
+
+_:bng_6 {
+    (5 6 7 8) list:firstRest (5 (6 7 8)).
+    [] rdf:value 5; math:lessThan 8 .
+    (5 1) math:sum 6 .
+    (6 8) :range (6 7 8).
+}
+
+_:bng_7 {
+    (5 8) :range (5 6 7 8).
+}
+
+_:bng_8 {
+    (4 5 6 7 8) list:firstRest (4 (5 6 7 8)).
+    [] rdf:value 4; math:lessThan 8 .
+    (4 1) math:sum 5 .
+    (5 8) :range (5 6 7 8).
+}
+
+_:bng_9 {
+    (4 8) :range (4 5 6 7 8).
+}
+
+_:bng_10 {
+    (3 4 5 6 7 8) list:firstRest (3 (4 5 6 7 8)).
+    [] rdf:value 3; math:lessThan 8 .
+    (3 1) math:sum 4 .
+    (4 8) :range (4 5 6 7 8).
+}
+
+_:bng_11 {
+    (3 8) :range (3 4 5 6 7 8).
+}
+
+_:bng_12 {
+    (2 3 4 5 6 7 8) list:firstRest (2 (3 4 5 6 7 8)).
+    [] rdf:value 2; math:lessThan 8 .
+    (2 1) math:sum 3 .
+    (3 8) :range (3 4 5 6 7 8).
+}
+
+_:bng_13 {
+    (2 8) :range (2 3 4 5 6 7 8).
+}
+
+_:bng_14 {
+    (1 2 3 4 5 6 7 8) list:firstRest (1 (2 3 4 5 6 7 8)).
+    [] rdf:value 1; math:lessThan 8 .
+    (1 1) math:sum 2 .
+    (2 8) :range (2 3 4 5 6 7 8).
+}
+
+_:bng_15 {
+    (1 8) :range (1 2 3 4 5 6 7 8).
+}
+
+_:bng_16 {
+    _:bng_12_1 log:isImpliedBy _:bng_13_1.
+}
+
+_:bng_17 {
+    (1) list:firstRest (1 ()).
+    (1 1) math:sum 2.
+}
+
+_:bng_18 {
+    (2 1) :attack3 (1).
+}
+
+_:bng_19 {
+    _:bng_10_1 log:isImpliedBy _:bng_11_1.
+}
+
+_:bng_20 {
+    [] rdf:value 2; :attack (1).
+}
+
+_:bng_21 {
+    _:bng_14_1 log:isImpliedBy _:bng_15_1.
+}
+
+_:bng_22 {
+    (3 1) list:firstRest (3 (1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_23 {
+    (2 1) :attack3 (3 1).
+}
+
+_:bng_24 {
+    [] rdf:value 2; :attack (3 1).
+}
+
+_:bng_25 {
+    (3 1) list:firstRest (3 (1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_26 {
+    (4 1) :attack3 (3 1).
+}
+
+_:bng_27 {
+    [] rdf:value 4; :attack (3 1).
+}
+
+_:bng_28 {
+    (1) list:firstRest (1 ()).
+    (1 5) math:sum 6.
+}
+
+_:bng_29 {
+    (6 5) :attack3 (1).
+}
+
+_:bng_30 {
+    _:bng_16_1 log:isImpliedBy _:bng_17_1.
+}
+
+_:bng_31 {
+    (3 1) list:firstRest (3 (1)).
+    (4 1) math:sum 5 .
+    (6 5) :attack3 (1).
+}
+
+_:bng_32 {
+    (6 4) :attack3 (3 1).
+}
+
+_:bng_33 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (3 1).
+}
+
+_:bng_34 {
+    (6 3) :attack3 (5 3 1).
+}
+
+_:bng_35 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (5 3 1).
+}
+
+_:bng_36 {
+    (6 2) :attack3 (2 5 3 1).
+}
+
+_:bng_37 {
+    (4 2 5 3 1) list:firstRest (4 (2 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 5 3 1).
+}
+
+_:bng_38 {
+    (6 1) :attack3 (4 2 5 3 1).
+}
+
+_:bng_39 {
+    [] rdf:value 6; :attack (4 2 5 3 1).
+}
+
+_:bng_40 {
+    (3 1) list:firstRest (3 (1)).
+    (3 4) math:sum 7.
+}
+
+_:bng_41 {
+    (7 4) :attack3 (3 1).
+}
+
+_:bng_42 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (3 1).
+}
+
+_:bng_43 {
+    (7 3) :attack3 (5 3 1).
+}
+
+_:bng_44 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (5 3 1).
+}
+
+_:bng_45 {
+    (7 2) :attack3 (2 5 3 1).
+}
+
+_:bng_46 {
+    (4 2 5 3 1) list:firstRest (4 (2 5 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 5 3 1).
+}
+
+_:bng_47 {
+    (7 1) :attack3 (4 2 5 3 1).
+}
+
+_:bng_48 {
+    [] rdf:value 7; :attack (4 2 5 3 1).
+}
+
+_:bng_49 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 3) math:sum 8.
+}
+
+_:bng_50 {
+    (8 3) :attack3 (5 3 1).
+}
+
+_:bng_51 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (5 3 1).
+}
+
+_:bng_52 {
+    (8 2) :attack3 (2 5 3 1).
+}
+
+_:bng_53 {
+    (4 2 5 3 1) list:firstRest (4 (2 5 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (2 5 3 1).
+}
+
+_:bng_54 {
+    (8 1) :attack3 (4 2 5 3 1).
+}
+
+_:bng_55 {
+    [] rdf:value 8; :attack (4 2 5 3 1).
+}
+
+_:bng_56 {
+    (3 1) list:firstRest (3 (1)).
+    (3 3) math:sum 6.
+}
+
+_:bng_57 {
+    (6 3) :attack3 (3 1).
+}
+
+_:bng_58 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (3 1).
+}
+
+_:bng_59 {
+    (6 2) :attack3 (5 3 1).
+}
+
+_:bng_60 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 3 1).
+}
+
+_:bng_61 {
+    (6 1) :attack3 (2 5 3 1).
+}
+
+_:bng_62 {
+    [] rdf:value 6; :attack (2 5 3 1).
+}
+
+_:bng_63 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 2) math:sum 7.
+}
+
+_:bng_64 {
+    (7 2) :attack3 (5 3 1).
+}
+
+_:bng_65 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 3 1).
+}
+
+_:bng_66 {
+    (7 1) :attack3 (2 5 3 1).
+}
+
+_:bng_67 {
+    [] rdf:value 7; :attack (2 5 3 1).
+}
+
+_:bng_68 {
+    (2 5 3 1) list:firstRest (2 (5 3 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_69 {
+    (4 2) :attack3 (2 5 3 1).
+}
+
+_:bng_70 {
+    (8 2 5 3 1) list:firstRest (8 (2 5 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 5 3 1).
+}
+
+_:bng_71 {
+    (4 1) :attack3 (8 2 5 3 1).
+}
+
+_:bng_72 {
+    [] rdf:value 4; :attack (8 2 5 3 1).
+}
+
+_:bng_73 {
+    (8 2 5 3 1) list:firstRest (8 (2 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 5 3 1).
+}
+
+_:bng_74 {
+    (6 1) :attack3 (8 2 5 3 1).
+}
+
+_:bng_75 {
+    [] rdf:value 6; :attack (8 2 5 3 1).
+}
+
+_:bng_76 {
+    (8 2 5 3 1) list:firstRest (8 (2 5 3 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_77 {
+    (7 1) :attack3 (8 2 5 3 1).
+}
+
+_:bng_78 {
+    [] rdf:value 7; :attack (8 2 5 3 1).
+}
+
+_:bng_79 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 1) math:difference 4.
+}
+
+_:bng_80 {
+    (4 1) :attack3 (5 3 1).
+}
+
+_:bng_81 {
+    [] rdf:value 4; :attack (5 3 1).
+}
+
+_:bng_82 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_83 {
+    (6 1) :attack3 (5 3 1).
+}
+
+_:bng_84 {
+    [] rdf:value 6; :attack (5 3 1).
+}
+
+_:bng_85 {
+    (1) list:firstRest (1 ()).
+    (1 7) math:sum 8.
+}
+
+_:bng_86 {
+    (8 7) :attack3 (1).
+}
+
+_:bng_87 {
+    (3 1) list:firstRest (3 (1)).
+    (6 1) math:sum 7 .
+    (8 7) :attack3 (1).
+}
+
+_:bng_88 {
+    (8 6) :attack3 (3 1).
+}
+
+_:bng_89 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 1) math:sum 6 .
+    (8 6) :attack3 (3 1).
+}
+
+_:bng_90 {
+    (8 5) :attack3 (5 3 1).
+}
+
+_:bng_91 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (4 1) math:sum 5 .
+    (8 5) :attack3 (5 3 1).
+}
+
+_:bng_92 {
+    (8 4) :attack3 (7 5 3 1).
+}
+
+_:bng_93 {
+    (2 7 5 3 1) list:firstRest (2 (7 5 3 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (7 5 3 1).
+}
+
+_:bng_94 {
+    (8 3) :attack3 (2 7 5 3 1).
+}
+
+_:bng_95 {
+    (4 2 7 5 3 1) list:firstRest (4 (2 7 5 3 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (2 7 5 3 1).
+}
+
+_:bng_96 {
+    (8 2) :attack3 (4 2 7 5 3 1).
+}
+
+_:bng_97 {
+    (6 4 2 7 5 3 1) list:firstRest (6 (4 2 7 5 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (4 2 7 5 3 1).
+}
+
+_:bng_98 {
+    (8 1) :attack3 (6 4 2 7 5 3 1).
+}
+
+_:bng_99 {
+    [] rdf:value 8; :attack (6 4 2 7 5 3 1).
+}
+
+_:bng_100 {
+    (3 1) list:firstRest (3 (1)).
+    (3 5) math:sum 8.
+}
+
+_:bng_101 {
+    (8 5) :attack3 (3 1).
+}
+
+_:bng_102 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (4 1) math:sum 5 .
+    (8 5) :attack3 (3 1).
+}
+
+_:bng_103 {
+    (8 4) :attack3 (5 3 1).
+}
+
+_:bng_104 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (5 3 1).
+}
+
+_:bng_105 {
+    (8 3) :attack3 (7 5 3 1).
+}
+
+_:bng_106 {
+    (2 7 5 3 1) list:firstRest (2 (7 5 3 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (7 5 3 1).
+}
+
+_:bng_107 {
+    (8 2) :attack3 (2 7 5 3 1).
+}
+
+_:bng_108 {
+    (4 2 7 5 3 1) list:firstRest (4 (2 7 5 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (2 7 5 3 1).
+}
+
+_:bng_109 {
+    (8 1) :attack3 (4 2 7 5 3 1).
+}
+
+_:bng_110 {
+    [] rdf:value 8; :attack (4 2 7 5 3 1).
+}
+
+_:bng_111 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (5 3 1).
+}
+
+_:bng_112 {
+    (6 2) :attack3 (7 5 3 1).
+}
+
+_:bng_113 {
+    (2 7 5 3 1) list:firstRest (2 (7 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 5 3 1).
+}
+
+_:bng_114 {
+    (6 1) :attack3 (2 7 5 3 1).
+}
+
+_:bng_115 {
+    [] rdf:value 6; :attack (2 7 5 3 1).
+}
+
+_:bng_116 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (5 3 1).
+}
+
+_:bng_117 {
+    (8 2) :attack3 (7 5 3 1).
+}
+
+_:bng_118 {
+    (2 7 5 3 1) list:firstRest (2 (7 5 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 5 3 1).
+}
+
+_:bng_119 {
+    (8 1) :attack3 (2 7 5 3 1).
+}
+
+_:bng_120 {
+    [] rdf:value 8; :attack (2 7 5 3 1).
+}
+
+_:bng_121 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (5 3) math:difference 2.
+}
+
+_:bng_122 {
+    (2 3) :attack3 (5 3 1).
+}
+
+_:bng_123 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (2 1) math:sum 3 .
+    (2 3) :attack3 (5 3 1).
+}
+
+_:bng_124 {
+    (2 2) :attack3 (7 5 3 1).
+}
+
+_:bng_125 {
+    (4 7 5 3 1) list:firstRest (4 (7 5 3 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (7 5 3 1).
+}
+
+_:bng_126 {
+    (2 1) :attack3 (4 7 5 3 1).
+}
+
+_:bng_127 {
+    [] rdf:value 2; :attack (4 7 5 3 1).
+}
+
+_:bng_128 {
+    (4 7 5 3 1) list:firstRest (4 (7 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 5 3 1).
+}
+
+_:bng_129 {
+    (6 1) :attack3 (4 7 5 3 1).
+}
+
+_:bng_130 {
+    [] rdf:value 6; :attack (4 7 5 3 1).
+}
+
+_:bng_131 {
+    (4 7 5 3 1) list:firstRest (4 (7 5 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 5 3 1).
+}
+
+_:bng_132 {
+    (8 1) :attack3 (4 7 5 3 1).
+}
+
+_:bng_133 {
+    [] rdf:value 8; :attack (4 7 5 3 1).
+}
+
+_:bng_134 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_135 {
+    (6 1) :attack3 (7 5 3 1).
+}
+
+_:bng_136 {
+    [] rdf:value 6; :attack (7 5 3 1).
+}
+
+_:bng_137 {
+    (7 5 3 1) list:firstRest (7 (5 3 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_138 {
+    (8 1) :attack3 (7 5 3 1).
+}
+
+_:bng_139 {
+    [] rdf:value 8; :attack (7 5 3 1).
+}
+
+_:bng_140 {
+    (6 4 2 8 5 3 1) list:firstRest (6 (4 2 8 5 3 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_141 {
+    (7 1) :attack3 (6 4 2 8 5 3 1).
+}
+
+_:bng_142 {
+    [] rdf:value 7; :attack (6 4 2 8 5 3 1).
+}
+
+_:bng_143 {
+    (1) list:firstRest (1 ()).
+    (1 6) math:sum 7.
+}
+
+_:bng_144 {
+    (7 6) :attack3 (1).
+}
+
+_:bng_145 {
+    (3 1) list:firstRest (3 (1)).
+    (5 1) math:sum 6 .
+    (7 6) :attack3 (1).
+}
+
+_:bng_146 {
+    (7 5) :attack3 (3 1).
+}
+
+_:bng_147 {
+    (5 3 1) list:firstRest (5 (3 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (3 1).
+}
+
+_:bng_148 {
+    (7 4) :attack3 (5 3 1).
+}
+
+_:bng_149 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (5 3 1).
+}
+
+_:bng_150 {
+    (7 3) :attack3 (8 5 3 1).
+}
+
+_:bng_151 {
+    (2 8 5 3 1) list:firstRest (2 (8 5 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 5 3 1).
+}
+
+_:bng_152 {
+    (7 2) :attack3 (2 8 5 3 1).
+}
+
+_:bng_153 {
+    (4 2 8 5 3 1) list:firstRest (4 (2 8 5 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 8 5 3 1).
+}
+
+_:bng_154 {
+    (7 1) :attack3 (4 2 8 5 3 1).
+}
+
+_:bng_155 {
+    [] rdf:value 7; :attack (4 2 8 5 3 1).
+}
+
+_:bng_156 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_157 {
+    (6 2) :attack3 (8 5 3 1).
+}
+
+_:bng_158 {
+    (2 8 5 3 1) list:firstRest (2 (8 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 5 3 1).
+}
+
+_:bng_159 {
+    (6 1) :attack3 (2 8 5 3 1).
+}
+
+_:bng_160 {
+    [] rdf:value 6; :attack (2 8 5 3 1).
+}
+
+_:bng_161 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (5 3 1).
+}
+
+_:bng_162 {
+    (7 2) :attack3 (8 5 3 1).
+}
+
+_:bng_163 {
+    (2 8 5 3 1) list:firstRest (2 (8 5 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (8 5 3 1).
+}
+
+_:bng_164 {
+    (7 1) :attack3 (2 8 5 3 1).
+}
+
+_:bng_165 {
+    [] rdf:value 7; :attack (2 8 5 3 1).
+}
+
+_:bng_166 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (2 1) math:sum 3 .
+    (2 3) :attack3 (5 3 1).
+}
+
+_:bng_167 {
+    (2 2) :attack3 (8 5 3 1).
+}
+
+_:bng_168 {
+    (4 8 5 3 1) list:firstRest (4 (8 5 3 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (8 5 3 1).
+}
+
+_:bng_169 {
+    (2 1) :attack3 (4 8 5 3 1).
+}
+
+_:bng_170 {
+    [] rdf:value 2; :attack (4 8 5 3 1).
+}
+
+_:bng_171 {
+    (4 8 5 3 1) list:firstRest (4 (8 5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 5 3 1).
+}
+
+_:bng_172 {
+    (6 1) :attack3 (4 8 5 3 1).
+}
+
+_:bng_173 {
+    [] rdf:value 6; :attack (4 8 5 3 1).
+}
+
+_:bng_174 {
+    (4 8 5 3 1) list:firstRest (4 (8 5 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (8 5 3 1).
+}
+
+_:bng_175 {
+    (7 1) :attack3 (4 8 5 3 1).
+}
+
+_:bng_176 {
+    [] rdf:value 7; :attack (4 8 5 3 1).
+}
+
+_:bng_177 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 3 1).
+}
+
+_:bng_178 {
+    (6 1) :attack3 (8 5 3 1).
+}
+
+_:bng_179 {
+    [] rdf:value 6; :attack (8 5 3 1).
+}
+
+_:bng_180 {
+    (8 5 3 1) list:firstRest (8 (5 3 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_181 {
+    (7 1) :attack3 (8 5 3 1).
+}
+
+_:bng_182 {
+    [] rdf:value 7; :attack (8 5 3 1).
+}
+
+_:bng_183 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (6 2) math:difference 4.
+}
+
+_:bng_184 {
+    (4 2) :attack3 (6 3 1).
+}
+
+_:bng_185 {
+    (2 6 3 1) list:firstRest (2 (6 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (6 3 1).
+}
+
+_:bng_186 {
+    (4 1) :attack3 (2 6 3 1).
+}
+
+_:bng_187 {
+    [] rdf:value 4; :attack (2 6 3 1).
+}
+
+_:bng_188 {
+    (1) list:firstRest (1 ()).
+    (1 4) math:sum 5.
+}
+
+_:bng_189 {
+    (5 4) :attack3 (1).
+}
+
+_:bng_190 {
+    (3 1) list:firstRest (3 (1)).
+    (3 1) math:sum 4 .
+    (5 4) :attack3 (1).
+}
+
+_:bng_191 {
+    (5 3) :attack3 (3 1).
+}
+
+_:bng_192 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (3 1).
+}
+
+_:bng_193 {
+    (5 2) :attack3 (6 3 1).
+}
+
+_:bng_194 {
+    (2 6 3 1) list:firstRest (2 (6 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 3 1).
+}
+
+_:bng_195 {
+    (5 1) :attack3 (2 6 3 1).
+}
+
+_:bng_196 {
+    [] rdf:value 5; :attack (2 6 3 1).
+}
+
+_:bng_197 {
+    (2 6 3 1) list:firstRest (2 (6 3 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_198 {
+    (4 2) :attack3 (2 6 3 1).
+}
+
+_:bng_199 {
+    (7 2 6 3 1) list:firstRest (7 (2 6 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 6 3 1).
+}
+
+_:bng_200 {
+    (4 1) :attack3 (7 2 6 3 1).
+}
+
+_:bng_201 {
+    [] rdf:value 4; :attack (7 2 6 3 1).
+}
+
+_:bng_202 {
+    (5 7 2 6 3 1) list:firstRest (5 (7 2 6 3 1)).
+    (5 1) math:difference 4.
+}
+
+_:bng_203 {
+    (4 1) :attack3 (5 7 2 6 3 1).
+}
+
+_:bng_204 {
+    [] rdf:value 4; :attack (5 7 2 6 3 1).
+}
+
+_:bng_205 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (4 1) math:sum 5 .
+    (8 5) :attack3 (3 1).
+}
+
+_:bng_206 {
+    (8 4) :attack3 (6 3 1).
+}
+
+_:bng_207 {
+    (2 6 3 1) list:firstRest (2 (6 3 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (6 3 1).
+}
+
+_:bng_208 {
+    (8 3) :attack3 (2 6 3 1).
+}
+
+_:bng_209 {
+    (7 2 6 3 1) list:firstRest (7 (2 6 3 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (2 6 3 1).
+}
+
+_:bng_210 {
+    (8 2) :attack3 (7 2 6 3 1).
+}
+
+_:bng_211 {
+    (5 7 2 6 3 1) list:firstRest (5 (7 2 6 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 2 6 3 1).
+}
+
+_:bng_212 {
+    (8 1) :attack3 (5 7 2 6 3 1).
+}
+
+_:bng_213 {
+    [] rdf:value 8; :attack (5 7 2 6 3 1).
+}
+
+_:bng_214 {
+    (7 2 6 3 1) list:firstRest (7 (2 6 3 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_215 {
+    (8 1) :attack3 (7 2 6 3 1).
+}
+
+_:bng_216 {
+    [] rdf:value 8; :attack (7 2 6 3 1).
+}
+
+_:bng_217 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (6 2) math:sum 8.
+}
+
+_:bng_218 {
+    (8 2) :attack3 (6 3 1).
+}
+
+_:bng_219 {
+    (2 6 3 1) list:firstRest (2 (6 3 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (6 3 1).
+}
+
+_:bng_220 {
+    (8 1) :attack3 (2 6 3 1).
+}
+
+_:bng_221 {
+    [] rdf:value 8; :attack (2 6 3 1).
+}
+
+_:bng_222 {
+    (1) list:firstRest (1 ()).
+    (1 3) math:sum 4.
+}
+
+_:bng_223 {
+    (4 3) :attack3 (1).
+}
+
+_:bng_224 {
+    (3 1) list:firstRest (3 (1)).
+    (2 1) math:sum 3 .
+    (4 3) :attack3 (1).
+}
+
+_:bng_225 {
+    (4 2) :attack3 (3 1).
+}
+
+_:bng_226 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (3 1).
+}
+
+_:bng_227 {
+    (4 1) :attack3 (6 3 1).
+}
+
+_:bng_228 {
+    [] rdf:value 4; :attack (6 3 1).
+}
+
+_:bng_229 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (6 1) math:difference 5.
+}
+
+_:bng_230 {
+    (5 1) :attack3 (6 3 1).
+}
+
+_:bng_231 {
+    [] rdf:value 5; :attack (6 3 1).
+}
+
+_:bng_232 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_233 {
+    (7 1) :attack3 (6 3 1).
+}
+
+_:bng_234 {
+    [] rdf:value 7; :attack (6 3 1).
+}
+
+_:bng_235 {
+    (4 2 8 6 3 1) list:firstRest (4 (2 8 6 3 1)).
+    (4 1) math:sum 5.
+}
+
+_:bng_236 {
+    (5 1) :attack3 (4 2 8 6 3 1).
+}
+
+_:bng_237 {
+    [] rdf:value 5; :attack (4 2 8 6 3 1).
+}
+
+_:bng_238 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (3 1).
+}
+
+_:bng_239 {
+    (7 4) :attack3 (6 3 1).
+}
+
+_:bng_240 {
+    (8 6 3 1) list:firstRest (8 (6 3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (6 3 1).
+}
+
+_:bng_241 {
+    (7 3) :attack3 (8 6 3 1).
+}
+
+_:bng_242 {
+    (2 8 6 3 1) list:firstRest (2 (8 6 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 6 3 1).
+}
+
+_:bng_243 {
+    (7 2) :attack3 (2 8 6 3 1).
+}
+
+_:bng_244 {
+    (4 2 8 6 3 1) list:firstRest (4 (2 8 6 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 8 6 3 1).
+}
+
+_:bng_245 {
+    (7 1) :attack3 (4 2 8 6 3 1).
+}
+
+_:bng_246 {
+    [] rdf:value 7; :attack (4 2 8 6 3 1).
+}
+
+_:bng_247 {
+    (5 2 8 6 3 1) list:firstRest (5 (2 8 6 3 1)).
+    (5 1) math:difference 4.
+}
+
+_:bng_248 {
+    (4 1) :attack3 (5 2 8 6 3 1).
+}
+
+_:bng_249 {
+    [] rdf:value 4; :attack (5 2 8 6 3 1).
+}
+
+_:bng_250 {
+    (5 2 8 6 3 1) list:firstRest (5 (2 8 6 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 8 6 3 1).
+}
+
+_:bng_251 {
+    (7 1) :attack3 (5 2 8 6 3 1).
+}
+
+_:bng_252 {
+    [] rdf:value 7; :attack (5 2 8 6 3 1).
+}
+
+_:bng_253 {
+    (6 3 1) list:firstRest (6 (3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (3 1).
+}
+
+_:bng_254 {
+    (7 3) :attack3 (6 3 1).
+}
+
+_:bng_255 {
+    (8 6 3 1) list:firstRest (8 (6 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (6 3 1).
+}
+
+_:bng_256 {
+    (7 2) :attack3 (8 6 3 1).
+}
+
+_:bng_257 {
+    (2 8 6 3 1) list:firstRest (2 (8 6 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (8 6 3 1).
+}
+
+_:bng_258 {
+    (7 1) :attack3 (2 8 6 3 1).
+}
+
+_:bng_259 {
+    [] rdf:value 7; :attack (2 8 6 3 1).
+}
+
+_:bng_260 {
+    (8 6 3 1) list:firstRest (8 (6 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (6 3 1).
+}
+
+_:bng_261 {
+    (4 1) :attack3 (8 6 3 1).
+}
+
+_:bng_262 {
+    [] rdf:value 4; :attack (8 6 3 1).
+}
+
+_:bng_263 {
+    (8 6 3 1) list:firstRest (8 (6 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 3 1).
+}
+
+_:bng_264 {
+    (5 1) :attack3 (8 6 3 1).
+}
+
+_:bng_265 {
+    [] rdf:value 5; :attack (8 6 3 1).
+}
+
+_:bng_266 {
+    (8 6 3 1) list:firstRest (8 (6 3 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_267 {
+    (7 1) :attack3 (8 6 3 1).
+}
+
+_:bng_268 {
+    [] rdf:value 7; :attack (8 6 3 1).
+}
+
+_:bng_269 {
+    (4 2 7 3 1) list:firstRest (4 (2 7 3 1)).
+    (4 1) math:sum 5.
+}
+
+_:bng_270 {
+    (5 1) :attack3 (4 2 7 3 1).
+}
+
+_:bng_271 {
+    [] rdf:value 5; :attack (4 2 7 3 1).
+}
+
+_:bng_272 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (3 1).
+}
+
+_:bng_273 {
+    (6 3) :attack3 (7 3 1).
+}
+
+_:bng_274 {
+    (2 7 3 1) list:firstRest (2 (7 3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (7 3 1).
+}
+
+_:bng_275 {
+    (6 2) :attack3 (2 7 3 1).
+}
+
+_:bng_276 {
+    (4 2 7 3 1) list:firstRest (4 (2 7 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 7 3 1).
+}
+
+_:bng_277 {
+    (6 1) :attack3 (4 2 7 3 1).
+}
+
+_:bng_278 {
+    [] rdf:value 6; :attack (4 2 7 3 1).
+}
+
+_:bng_279 {
+    (2 7 3 1) list:firstRest (2 (7 3 1)).
+    (2 3) math:sum 5.
+}
+
+_:bng_280 {
+    (5 3) :attack3 (2 7 3 1).
+}
+
+_:bng_281 {
+    (4 2 7 3 1) list:firstRest (4 (2 7 3 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (2 7 3 1).
+}
+
+_:bng_282 {
+    (5 2) :attack3 (4 2 7 3 1).
+}
+
+_:bng_283 {
+    (8 4 2 7 3 1) list:firstRest (8 (4 2 7 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (4 2 7 3 1).
+}
+
+_:bng_284 {
+    (5 1) :attack3 (8 4 2 7 3 1).
+}
+
+_:bng_285 {
+    [] rdf:value 5; :attack (8 4 2 7 3 1).
+}
+
+_:bng_286 {
+    (4 2 7 3 1) list:firstRest (4 (2 7 3 1)).
+    (4 2) math:sum 6.
+}
+
+_:bng_287 {
+    (6 2) :attack3 (4 2 7 3 1).
+}
+
+_:bng_288 {
+    (8 4 2 7 3 1) list:firstRest (8 (4 2 7 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (4 2 7 3 1).
+}
+
+_:bng_289 {
+    (6 1) :attack3 (8 4 2 7 3 1).
+}
+
+_:bng_290 {
+    [] rdf:value 6; :attack (8 4 2 7 3 1).
+}
+
+_:bng_291 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (7 2) math:difference 5.
+}
+
+_:bng_292 {
+    (5 2) :attack3 (7 3 1).
+}
+
+_:bng_293 {
+    (2 7 3 1) list:firstRest (2 (7 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (7 3 1).
+}
+
+_:bng_294 {
+    (5 1) :attack3 (2 7 3 1).
+}
+
+_:bng_295 {
+    [] rdf:value 5; :attack (2 7 3 1).
+}
+
+_:bng_296 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (3 1).
+}
+
+_:bng_297 {
+    (6 2) :attack3 (7 3 1).
+}
+
+_:bng_298 {
+    (2 7 3 1) list:firstRest (2 (7 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 3 1).
+}
+
+_:bng_299 {
+    (6 1) :attack3 (2 7 3 1).
+}
+
+_:bng_300 {
+    [] rdf:value 6; :attack (2 7 3 1).
+}
+
+_:bng_301 {
+    (2 7 3 1) list:firstRest (2 (7 3 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_302 {
+    (4 2) :attack3 (2 7 3 1).
+}
+
+_:bng_303 {
+    (8 2 7 3 1) list:firstRest (8 (2 7 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 7 3 1).
+}
+
+_:bng_304 {
+    (4 1) :attack3 (8 2 7 3 1).
+}
+
+_:bng_305 {
+    [] rdf:value 4; :attack (8 2 7 3 1).
+}
+
+_:bng_306 {
+    (5 8 2 7 3 1) list:firstRest (5 (8 2 7 3 1)).
+    (5 1) math:difference 4.
+}
+
+_:bng_307 {
+    (4 1) :attack3 (5 8 2 7 3 1).
+}
+
+_:bng_308 {
+    [] rdf:value 4; :attack (5 8 2 7 3 1).
+}
+
+_:bng_309 {
+    (5 8 2 7 3 1) list:firstRest (5 (8 2 7 3 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_310 {
+    (6 1) :attack3 (5 8 2 7 3 1).
+}
+
+_:bng_311 {
+    [] rdf:value 6; :attack (5 8 2 7 3 1).
+}
+
+_:bng_312 {
+    (8 2 7 3 1) list:firstRest (8 (2 7 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 7 3 1).
+}
+
+_:bng_313 {
+    (6 1) :attack3 (8 2 7 3 1).
+}
+
+_:bng_314 {
+    [] rdf:value 6; :attack (8 2 7 3 1).
+}
+
+_:bng_315 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (3 1).
+}
+
+_:bng_316 {
+    (4 1) :attack3 (7 3 1).
+}
+
+_:bng_317 {
+    [] rdf:value 4; :attack (7 3 1).
+}
+
+_:bng_318 {
+    (3 1) list:firstRest (3 (1)).
+    (3 2) math:sum 5.
+}
+
+_:bng_319 {
+    (5 2) :attack3 (3 1).
+}
+
+_:bng_320 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (3 1).
+}
+
+_:bng_321 {
+    (5 1) :attack3 (7 3 1).
+}
+
+_:bng_322 {
+    [] rdf:value 5; :attack (7 3 1).
+}
+
+_:bng_323 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_324 {
+    (6 1) :attack3 (7 3 1).
+}
+
+_:bng_325 {
+    [] rdf:value 6; :attack (7 3 1).
+}
+
+_:bng_326 {
+    (7 3 1) list:firstRest (7 (3 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_327 {
+    (8 1) :attack3 (7 3 1).
+}
+
+_:bng_328 {
+    [] rdf:value 8; :attack (7 3 1).
+}
+
+_:bng_329 {
+    (4 2 8 3 1) list:firstRest (4 (2 8 3 1)).
+    (4 1) math:sum 5.
+}
+
+_:bng_330 {
+    (5 1) :attack3 (4 2 8 3 1).
+}
+
+_:bng_331 {
+    [] rdf:value 5; :attack (4 2 8 3 1).
+}
+
+_:bng_332 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (3 1).
+}
+
+_:bng_333 {
+    (6 3) :attack3 (8 3 1).
+}
+
+_:bng_334 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (8 3 1).
+}
+
+_:bng_335 {
+    (6 2) :attack3 (2 8 3 1).
+}
+
+_:bng_336 {
+    (4 2 8 3 1) list:firstRest (4 (2 8 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 8 3 1).
+}
+
+_:bng_337 {
+    (6 1) :attack3 (4 2 8 3 1).
+}
+
+_:bng_338 {
+    [] rdf:value 6; :attack (4 2 8 3 1).
+}
+
+_:bng_339 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (3 1).
+}
+
+_:bng_340 {
+    (7 3) :attack3 (8 3 1).
+}
+
+_:bng_341 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 3 1).
+}
+
+_:bng_342 {
+    (7 2) :attack3 (2 8 3 1).
+}
+
+_:bng_343 {
+    (4 2 8 3 1) list:firstRest (4 (2 8 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 8 3 1).
+}
+
+_:bng_344 {
+    (7 1) :attack3 (4 2 8 3 1).
+}
+
+_:bng_345 {
+    [] rdf:value 7; :attack (4 2 8 3 1).
+}
+
+_:bng_346 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (3 1).
+}
+
+_:bng_347 {
+    (5 2) :attack3 (8 3 1).
+}
+
+_:bng_348 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (8 3 1).
+}
+
+_:bng_349 {
+    (5 1) :attack3 (2 8 3 1).
+}
+
+_:bng_350 {
+    [] rdf:value 5; :attack (2 8 3 1).
+}
+
+_:bng_351 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_352 {
+    (6 2) :attack3 (8 3 1).
+}
+
+_:bng_353 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 3 1).
+}
+
+_:bng_354 {
+    (6 1) :attack3 (2 8 3 1).
+}
+
+_:bng_355 {
+    [] rdf:value 6; :attack (2 8 3 1).
+}
+
+_:bng_356 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_357 {
+    (4 2) :attack3 (2 8 3 1).
+}
+
+_:bng_358 {
+    (7 2 8 3 1) list:firstRest (7 (2 8 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 8 3 1).
+}
+
+_:bng_359 {
+    (4 1) :attack3 (7 2 8 3 1).
+}
+
+_:bng_360 {
+    [] rdf:value 4; :attack (7 2 8 3 1).
+}
+
+_:bng_361 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (8 3) math:difference 5.
+}
+
+_:bng_362 {
+    (5 3) :attack3 (8 3 1).
+}
+
+_:bng_363 {
+    (2 8 3 1) list:firstRest (2 (8 3 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (8 3 1).
+}
+
+_:bng_364 {
+    (5 2) :attack3 (2 8 3 1).
+}
+
+_:bng_365 {
+    (7 2 8 3 1) list:firstRest (7 (2 8 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (2 8 3 1).
+}
+
+_:bng_366 {
+    (5 1) :attack3 (7 2 8 3 1).
+}
+
+_:bng_367 {
+    [] rdf:value 5; :attack (7 2 8 3 1).
+}
+
+_:bng_368 {
+    (7 2 8 3 1) list:firstRest (7 (2 8 3 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_369 {
+    (6 1) :attack3 (7 2 8 3 1).
+}
+
+_:bng_370 {
+    [] rdf:value 6; :attack (7 2 8 3 1).
+}
+
+_:bng_371 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (3 1).
+}
+
+_:bng_372 {
+    (4 1) :attack3 (8 3 1).
+}
+
+_:bng_373 {
+    [] rdf:value 4; :attack (8 3 1).
+}
+
+_:bng_374 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (3 1).
+}
+
+_:bng_375 {
+    (5 1) :attack3 (8 3 1).
+}
+
+_:bng_376 {
+    [] rdf:value 5; :attack (8 3 1).
+}
+
+_:bng_377 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (6 2) math:difference 4.
+}
+
+_:bng_378 {
+    (4 2) :attack3 (6 8 3 1).
+}
+
+_:bng_379 {
+    (2 6 8 3 1) list:firstRest (2 (6 8 3 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (6 8 3 1).
+}
+
+_:bng_380 {
+    (4 1) :attack3 (2 6 8 3 1).
+}
+
+_:bng_381 {
+    [] rdf:value 4; :attack (2 6 8 3 1).
+}
+
+_:bng_382 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (8 3 1).
+}
+
+_:bng_383 {
+    (5 2) :attack3 (6 8 3 1).
+}
+
+_:bng_384 {
+    (2 6 8 3 1) list:firstRest (2 (6 8 3 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 8 3 1).
+}
+
+_:bng_385 {
+    (5 1) :attack3 (2 6 8 3 1).
+}
+
+_:bng_386 {
+    [] rdf:value 5; :attack (2 6 8 3 1).
+}
+
+_:bng_387 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 3 1).
+}
+
+_:bng_388 {
+    (7 2) :attack3 (6 8 3 1).
+}
+
+_:bng_389 {
+    (2 6 8 3 1) list:firstRest (2 (6 8 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 8 3 1).
+}
+
+_:bng_390 {
+    (7 1) :attack3 (2 6 8 3 1).
+}
+
+_:bng_391 {
+    [] rdf:value 7; :attack (2 6 8 3 1).
+}
+
+_:bng_392 {
+    (4 6 8 3 1) list:firstRest (4 (6 8 3 1)).
+    (4 3) math:sum 7.
+}
+
+_:bng_393 {
+    (7 3) :attack3 (4 6 8 3 1).
+}
+
+_:bng_394 {
+    (2 4 6 8 3 1) list:firstRest (2 (4 6 8 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (4 6 8 3 1).
+}
+
+_:bng_395 {
+    (7 2) :attack3 (2 4 6 8 3 1).
+}
+
+_:bng_396 {
+    (5 2 4 6 8 3 1) list:firstRest (5 (2 4 6 8 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 4 6 8 3 1).
+}
+
+_:bng_397 {
+    (7 1) :attack3 (5 2 4 6 8 3 1).
+}
+
+_:bng_398 {
+    [] rdf:value 7; :attack (5 2 4 6 8 3 1).
+}
+
+_:bng_399 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (3 1).
+}
+
+_:bng_400 {
+    (7 4) :attack3 (8 3 1).
+}
+
+_:bng_401 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (8 3 1).
+}
+
+_:bng_402 {
+    (7 3) :attack3 (6 8 3 1).
+}
+
+_:bng_403 {
+    (4 6 8 3 1) list:firstRest (4 (6 8 3 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (6 8 3 1).
+}
+
+_:bng_404 {
+    (7 2) :attack3 (4 6 8 3 1).
+}
+
+_:bng_405 {
+    (2 4 6 8 3 1) list:firstRest (2 (4 6 8 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (4 6 8 3 1).
+}
+
+_:bng_406 {
+    (7 1) :attack3 (2 4 6 8 3 1).
+}
+
+_:bng_407 {
+    [] rdf:value 7; :attack (2 4 6 8 3 1).
+}
+
+_:bng_408 {
+    (4 6 8 3 1) list:firstRest (4 (6 8 3 1)).
+    (4 1) math:sum 5.
+}
+
+_:bng_409 {
+    (5 1) :attack3 (4 6 8 3 1).
+}
+
+_:bng_410 {
+    [] rdf:value 5; :attack (4 6 8 3 1).
+}
+
+_:bng_411 {
+    (4 6 8 3 1) list:firstRest (4 (6 8 3 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 8 3 1).
+}
+
+_:bng_412 {
+    (7 1) :attack3 (4 6 8 3 1).
+}
+
+_:bng_413 {
+    [] rdf:value 7; :attack (4 6 8 3 1).
+}
+
+_:bng_414 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (6 1) math:difference 5.
+}
+
+_:bng_415 {
+    (5 1) :attack3 (6 8 3 1).
+}
+
+_:bng_416 {
+    [] rdf:value 5; :attack (6 8 3 1).
+}
+
+_:bng_417 {
+    (6 8 3 1) list:firstRest (6 (8 3 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_418 {
+    (7 1) :attack3 (6 8 3 1).
+}
+
+_:bng_419 {
+    [] rdf:value 7; :attack (6 8 3 1).
+}
+
+_:bng_420 {
+    (8 3 1) list:firstRest (8 (3 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_421 {
+    (7 1) :attack3 (8 3 1).
+}
+
+_:bng_422 {
+    [] rdf:value 7; :attack (8 3 1).
+}
+
+_:bng_423 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_424 {
+    (3 1) :attack3 (2 4 1).
+}
+
+_:bng_425 {
+    [] rdf:value 3; :attack (2 4 1).
+}
+
+_:bng_426 {
+    (4 1) list:firstRest (4 (1)).
+    (4 1) math:sum 5 .
+    (6 5) :attack3 (1).
+}
+
+_:bng_427 {
+    (6 4) :attack3 (4 1).
+}
+
+_:bng_428 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (4 1).
+}
+
+_:bng_429 {
+    (6 3) :attack3 (2 4 1).
+}
+
+_:bng_430 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (2 4 1).
+}
+
+_:bng_431 {
+    (6 2) :attack3 (5 2 4 1).
+}
+
+_:bng_432 {
+    (3 5 2 4 1) list:firstRest (3 (5 2 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 2 4 1).
+}
+
+_:bng_433 {
+    (6 1) :attack3 (3 5 2 4 1).
+}
+
+_:bng_434 {
+    [] rdf:value 6; :attack (3 5 2 4 1).
+}
+
+_:bng_435 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (5 2) math:sum 7.
+}
+
+_:bng_436 {
+    (7 2) :attack3 (5 2 4 1).
+}
+
+_:bng_437 {
+    (3 5 2 4 1) list:firstRest (3 (5 2 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 2 4 1).
+}
+
+_:bng_438 {
+    (7 1) :attack3 (3 5 2 4 1).
+}
+
+_:bng_439 {
+    [] rdf:value 7; :attack (3 5 2 4 1).
+}
+
+_:bng_440 {
+    (4 1) list:firstRest (4 (1)).
+    (4 4) math:sum 8.
+}
+
+_:bng_441 {
+    (8 4) :attack3 (4 1).
+}
+
+_:bng_442 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (4 1).
+}
+
+_:bng_443 {
+    (8 3) :attack3 (2 4 1).
+}
+
+_:bng_444 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (2 4 1).
+}
+
+_:bng_445 {
+    (8 2) :attack3 (5 2 4 1).
+}
+
+_:bng_446 {
+    (3 5 2 4 1) list:firstRest (3 (5 2 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (5 2 4 1).
+}
+
+_:bng_447 {
+    (8 1) :attack3 (3 5 2 4 1).
+}
+
+_:bng_448 {
+    [] rdf:value 8; :attack (3 5 2 4 1).
+}
+
+_:bng_449 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_450 {
+    (6 1) :attack3 (5 2 4 1).
+}
+
+_:bng_451 {
+    [] rdf:value 6; :attack (5 2 4 1).
+}
+
+_:bng_452 {
+    (4 1) list:firstRest (4 (1)).
+    (4 3) math:sum 7.
+}
+
+_:bng_453 {
+    (7 3) :attack3 (4 1).
+}
+
+_:bng_454 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (4 1).
+}
+
+_:bng_455 {
+    (7 2) :attack3 (2 4 1).
+}
+
+_:bng_456 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 4 1).
+}
+
+_:bng_457 {
+    (7 1) :attack3 (5 2 4 1).
+}
+
+_:bng_458 {
+    [] rdf:value 7; :attack (5 2 4 1).
+}
+
+_:bng_459 {
+    (5 2 4 1) list:firstRest (5 (2 4 1)).
+    (5 2) math:difference 3.
+}
+
+_:bng_460 {
+    (3 2) :attack3 (5 2 4 1).
+}
+
+_:bng_461 {
+    (8 5 2 4 1) list:firstRest (8 (5 2 4 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (5 2 4 1).
+}
+
+_:bng_462 {
+    (3 1) :attack3 (8 5 2 4 1).
+}
+
+_:bng_463 {
+    [] rdf:value 3; :attack (8 5 2 4 1).
+}
+
+_:bng_464 {
+    (8 5 2 4 1) list:firstRest (8 (5 2 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 2 4 1).
+}
+
+_:bng_465 {
+    (6 1) :attack3 (8 5 2 4 1).
+}
+
+_:bng_466 {
+    [] rdf:value 6; :attack (8 5 2 4 1).
+}
+
+_:bng_467 {
+    (8 5 2 4 1) list:firstRest (8 (5 2 4 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_468 {
+    (7 1) :attack3 (8 5 2 4 1).
+}
+
+_:bng_469 {
+    [] rdf:value 7; :attack (8 5 2 4 1).
+}
+
+_:bng_470 {
+    (4 1) list:firstRest (4 (1)).
+    (4 2) math:sum 6.
+}
+
+_:bng_471 {
+    (6 2) :attack3 (4 1).
+}
+
+_:bng_472 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (4 1).
+}
+
+_:bng_473 {
+    (6 1) :attack3 (2 4 1).
+}
+
+_:bng_474 {
+    [] rdf:value 6; :attack (2 4 1).
+}
+
+_:bng_475 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (7 2) math:difference 5.
+}
+
+_:bng_476 {
+    (5 2) :attack3 (7 2 4 1).
+}
+
+_:bng_477 {
+    (3 7 2 4 1) list:firstRest (3 (7 2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (7 2 4 1).
+}
+
+_:bng_478 {
+    (5 1) :attack3 (3 7 2 4 1).
+}
+
+_:bng_479 {
+    [] rdf:value 5; :attack (3 7 2 4 1).
+}
+
+_:bng_480 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (2 4 1).
+}
+
+_:bng_481 {
+    (6 2) :attack3 (7 2 4 1).
+}
+
+_:bng_482 {
+    (3 7 2 4 1) list:firstRest (3 (7 2 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 2 4 1).
+}
+
+_:bng_483 {
+    (6 1) :attack3 (3 7 2 4 1).
+}
+
+_:bng_484 {
+    [] rdf:value 6; :attack (3 7 2 4 1).
+}
+
+_:bng_485 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (2 4 1).
+}
+
+_:bng_486 {
+    (8 2) :attack3 (7 2 4 1).
+}
+
+_:bng_487 {
+    (3 7 2 4 1) list:firstRest (3 (7 2 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 2 4 1).
+}
+
+_:bng_488 {
+    (8 1) :attack3 (3 7 2 4 1).
+}
+
+_:bng_489 {
+    [] rdf:value 8; :attack (3 7 2 4 1).
+}
+
+_:bng_490 {
+    (4 1) list:firstRest (4 (1)).
+    (3 1) math:sum 4 .
+    (5 4) :attack3 (1).
+}
+
+_:bng_491 {
+    (5 3) :attack3 (4 1).
+}
+
+_:bng_492 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (4 1).
+}
+
+_:bng_493 {
+    (5 2) :attack3 (2 4 1).
+}
+
+_:bng_494 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (2 4 1).
+}
+
+_:bng_495 {
+    (5 1) :attack3 (7 2 4 1).
+}
+
+_:bng_496 {
+    [] rdf:value 5; :attack (7 2 4 1).
+}
+
+_:bng_497 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_498 {
+    (6 1) :attack3 (7 2 4 1).
+}
+
+_:bng_499 {
+    [] rdf:value 6; :attack (7 2 4 1).
+}
+
+_:bng_500 {
+    (7 2 4 1) list:firstRest (7 (2 4 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_501 {
+    (8 1) :attack3 (7 2 4 1).
+}
+
+_:bng_502 {
+    [] rdf:value 8; :attack (7 2 4 1).
+}
+
+_:bng_503 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (2 3) math:sum 5.
+}
+
+_:bng_504 {
+    (5 3) :attack3 (2 4 1).
+}
+
+_:bng_505 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (2 4 1).
+}
+
+_:bng_506 {
+    (5 2) :attack3 (8 2 4 1).
+}
+
+_:bng_507 {
+    (3 8 2 4 1) list:firstRest (3 (8 2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (8 2 4 1).
+}
+
+_:bng_508 {
+    (5 1) :attack3 (3 8 2 4 1).
+}
+
+_:bng_509 {
+    [] rdf:value 5; :attack (3 8 2 4 1).
+}
+
+_:bng_510 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_511 {
+    (6 2) :attack3 (8 2 4 1).
+}
+
+_:bng_512 {
+    (3 8 2 4 1) list:firstRest (3 (8 2 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 2 4 1).
+}
+
+_:bng_513 {
+    (6 1) :attack3 (3 8 2 4 1).
+}
+
+_:bng_514 {
+    [] rdf:value 6; :attack (3 8 2 4 1).
+}
+
+_:bng_515 {
+    (3 8 2 4 1) list:firstRest (3 (8 2 4 1)).
+    (3 2) math:sum 5.
+}
+
+_:bng_516 {
+    (5 2) :attack3 (3 8 2 4 1).
+}
+
+_:bng_517 {
+    (7 3 8 2 4 1) list:firstRest (7 (3 8 2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (3 8 2 4 1).
+}
+
+_:bng_518 {
+    (5 1) :attack3 (7 3 8 2 4 1).
+}
+
+_:bng_519 {
+    [] rdf:value 5; :attack (7 3 8 2 4 1).
+}
+
+_:bng_520 {
+    (7 3 8 2 4 1) list:firstRest (7 (3 8 2 4 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_521 {
+    (6 1) :attack3 (7 3 8 2 4 1).
+}
+
+_:bng_522 {
+    [] rdf:value 6; :attack (7 3 8 2 4 1).
+}
+
+_:bng_523 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (2 4 1).
+}
+
+_:bng_524 {
+    (5 1) :attack3 (8 2 4 1).
+}
+
+_:bng_525 {
+    [] rdf:value 5; :attack (8 2 4 1).
+}
+
+_:bng_526 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (8 3) math:difference 5.
+}
+
+_:bng_527 {
+    (5 3) :attack3 (8 2 4 1).
+}
+
+_:bng_528 {
+    (6 8 2 4 1) list:firstRest (6 (8 2 4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (8 2 4 1).
+}
+
+_:bng_529 {
+    (5 2) :attack3 (6 8 2 4 1).
+}
+
+_:bng_530 {
+    (3 6 8 2 4 1) list:firstRest (3 (6 8 2 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 8 2 4 1).
+}
+
+_:bng_531 {
+    (5 1) :attack3 (3 6 8 2 4 1).
+}
+
+_:bng_532 {
+    [] rdf:value 5; :attack (3 6 8 2 4 1).
+}
+
+_:bng_533 {
+    (4 1) list:firstRest (4 (1)).
+    (5 1) math:sum 6 .
+    (7 6) :attack3 (1).
+}
+
+_:bng_534 {
+    (7 5) :attack3 (4 1).
+}
+
+_:bng_535 {
+    (2 4 1) list:firstRest (2 (4 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (4 1).
+}
+
+_:bng_536 {
+    (7 4) :attack3 (2 4 1).
+}
+
+_:bng_537 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (2 4 1).
+}
+
+_:bng_538 {
+    (7 3) :attack3 (8 2 4 1).
+}
+
+_:bng_539 {
+    (6 8 2 4 1) list:firstRest (6 (8 2 4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 2 4 1).
+}
+
+_:bng_540 {
+    (7 2) :attack3 (6 8 2 4 1).
+}
+
+_:bng_541 {
+    (3 6 8 2 4 1) list:firstRest (3 (6 8 2 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 8 2 4 1).
+}
+
+_:bng_542 {
+    (7 1) :attack3 (3 6 8 2 4 1).
+}
+
+_:bng_543 {
+    [] rdf:value 7; :attack (3 6 8 2 4 1).
+}
+
+_:bng_544 {
+    (6 8 2 4 1) list:firstRest (6 (8 2 4 1)).
+    (6 1) math:difference 5.
+}
+
+_:bng_545 {
+    (5 1) :attack3 (6 8 2 4 1).
+}
+
+_:bng_546 {
+    [] rdf:value 5; :attack (6 8 2 4 1).
+}
+
+_:bng_547 {
+    (6 8 2 4 1) list:firstRest (6 (8 2 4 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_548 {
+    (7 1) :attack3 (6 8 2 4 1).
+}
+
+_:bng_549 {
+    [] rdf:value 7; :attack (6 8 2 4 1).
+}
+
+_:bng_550 {
+    (8 2 4 1) list:firstRest (8 (2 4 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_551 {
+    (7 1) :attack3 (8 2 4 1).
+}
+
+_:bng_552 {
+    [] rdf:value 7; :attack (8 2 4 1).
+}
+
+_:bng_553 {
+    (4 1) list:firstRest (4 (1)).
+    (4 1) math:difference 3.
+}
+
+_:bng_554 {
+    (3 1) :attack3 (4 1).
+}
+
+_:bng_555 {
+    [] rdf:value 3; :attack (4 1).
+}
+
+_:bng_556 {
+    (4 1) list:firstRest (4 (1)).
+    (4 1) math:sum 5.
+}
+
+_:bng_557 {
+    (5 1) :attack3 (4 1).
+}
+
+_:bng_558 {
+    [] rdf:value 5; :attack (4 1).
+}
+
+_:bng_559 {
+    (4 1) list:firstRest (4 (1)).
+    (4 2) math:difference 2.
+}
+
+_:bng_560 {
+    (2 2) :attack3 (4 1).
+}
+
+_:bng_561 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (4 1).
+}
+
+_:bng_562 {
+    (2 1) :attack3 (6 4 1).
+}
+
+_:bng_563 {
+    [] rdf:value 2; :attack (6 4 1).
+}
+
+_:bng_564 {
+    (3 6 4 1) list:firstRest (3 (6 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_565 {
+    (2 1) :attack3 (3 6 4 1).
+}
+
+_:bng_566 {
+    [] rdf:value 2; :attack (3 6 4 1).
+}
+
+_:bng_567 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (4 1).
+}
+
+_:bng_568 {
+    (5 2) :attack3 (6 4 1).
+}
+
+_:bng_569 {
+    (3 6 4 1) list:firstRest (3 (6 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 4 1).
+}
+
+_:bng_570 {
+    (5 1) :attack3 (3 6 4 1).
+}
+
+_:bng_571 {
+    [] rdf:value 5; :attack (3 6 4 1).
+}
+
+_:bng_572 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (4 1).
+}
+
+_:bng_573 {
+    (7 2) :attack3 (6 4 1).
+}
+
+_:bng_574 {
+    (3 6 4 1) list:firstRest (3 (6 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 4 1).
+}
+
+_:bng_575 {
+    (7 1) :attack3 (3 6 4 1).
+}
+
+_:bng_576 {
+    [] rdf:value 7; :attack (3 6 4 1).
+}
+
+_:bng_577 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (6 2) math:sum 8.
+}
+
+_:bng_578 {
+    (8 2) :attack3 (6 4 1).
+}
+
+_:bng_579 {
+    (3 6 4 1) list:firstRest (3 (6 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (6 4 1).
+}
+
+_:bng_580 {
+    (8 1) :attack3 (3 6 4 1).
+}
+
+_:bng_581 {
+    [] rdf:value 8; :attack (3 6 4 1).
+}
+
+_:bng_582 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (6 1) math:difference 5.
+}
+
+_:bng_583 {
+    (5 1) :attack3 (6 4 1).
+}
+
+_:bng_584 {
+    [] rdf:value 5; :attack (6 4 1).
+}
+
+_:bng_585 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_586 {
+    (7 1) :attack3 (6 4 1).
+}
+
+_:bng_587 {
+    [] rdf:value 7; :attack (6 4 1).
+}
+
+_:bng_588 {
+    (2 8 6 4 1) list:firstRest (2 (8 6 4 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_589 {
+    (3 1) :attack3 (2 8 6 4 1).
+}
+
+_:bng_590 {
+    [] rdf:value 3; :attack (2 8 6 4 1).
+}
+
+_:bng_591 {
+    (5 2 8 6 4 1) list:firstRest (5 (2 8 6 4 1)).
+    (5 2) math:sum 7.
+}
+
+_:bng_592 {
+    (7 2) :attack3 (5 2 8 6 4 1).
+}
+
+_:bng_593 {
+    (3 5 2 8 6 4 1) list:firstRest (3 (5 2 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 2 8 6 4 1).
+}
+
+_:bng_594 {
+    (7 1) :attack3 (3 5 2 8 6 4 1).
+}
+
+_:bng_595 {
+    [] rdf:value 7; :attack (3 5 2 8 6 4 1).
+}
+
+_:bng_596 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (4 1).
+}
+
+_:bng_597 {
+    (7 4) :attack3 (6 4 1).
+}
+
+_:bng_598 {
+    (8 6 4 1) list:firstRest (8 (6 4 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (6 4 1).
+}
+
+_:bng_599 {
+    (7 3) :attack3 (8 6 4 1).
+}
+
+_:bng_600 {
+    (2 8 6 4 1) list:firstRest (2 (8 6 4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 6 4 1).
+}
+
+_:bng_601 {
+    (7 2) :attack3 (2 8 6 4 1).
+}
+
+_:bng_602 {
+    (5 2 8 6 4 1) list:firstRest (5 (2 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (2 8 6 4 1).
+}
+
+_:bng_603 {
+    (7 1) :attack3 (5 2 8 6 4 1).
+}
+
+_:bng_604 {
+    [] rdf:value 7; :attack (5 2 8 6 4 1).
+}
+
+_:bng_605 {
+    (7 2 8 6 4 1) list:firstRest (7 (2 8 6 4 1)).
+    (7 2) math:difference 5.
+}
+
+_:bng_606 {
+    (5 2) :attack3 (7 2 8 6 4 1).
+}
+
+_:bng_607 {
+    (3 7 2 8 6 4 1) list:firstRest (3 (7 2 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (7 2 8 6 4 1).
+}
+
+_:bng_608 {
+    (5 1) :attack3 (3 7 2 8 6 4 1).
+}
+
+_:bng_609 {
+    [] rdf:value 5; :attack (3 7 2 8 6 4 1).
+}
+
+_:bng_610 {
+    (8 6 4 1) list:firstRest (8 (6 4 1)).
+    (8 3) math:difference 5.
+}
+
+_:bng_611 {
+    (5 3) :attack3 (8 6 4 1).
+}
+
+_:bng_612 {
+    (2 8 6 4 1) list:firstRest (2 (8 6 4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (8 6 4 1).
+}
+
+_:bng_613 {
+    (5 2) :attack3 (2 8 6 4 1).
+}
+
+_:bng_614 {
+    (7 2 8 6 4 1) list:firstRest (7 (2 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (2 8 6 4 1).
+}
+
+_:bng_615 {
+    (5 1) :attack3 (7 2 8 6 4 1).
+}
+
+_:bng_616 {
+    [] rdf:value 5; :attack (7 2 8 6 4 1).
+}
+
+_:bng_617 {
+    (3 8 6 4 1) list:firstRest (3 (8 6 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_618 {
+    (2 1) :attack3 (3 8 6 4 1).
+}
+
+_:bng_619 {
+    [] rdf:value 2; :attack (3 8 6 4 1).
+}
+
+_:bng_620 {
+    (6 4 1) list:firstRest (6 (4 1)).
+    (6 4) math:difference 2.
+}
+
+_:bng_621 {
+    (2 4) :attack3 (6 4 1).
+}
+
+_:bng_622 {
+    (8 6 4 1) list:firstRest (8 (6 4 1)).
+    (3 1) math:sum 4 .
+    (2 4) :attack3 (6 4 1).
+}
+
+_:bng_623 {
+    (2 3) :attack3 (8 6 4 1).
+}
+
+_:bng_624 {
+    (3 8 6 4 1) list:firstRest (3 (8 6 4 1)).
+    (2 1) math:sum 3 .
+    (2 3) :attack3 (8 6 4 1).
+}
+
+_:bng_625 {
+    (2 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_626 {
+    (5 3 8 6 4 1) list:firstRest (5 (3 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_627 {
+    (2 1) :attack3 (5 3 8 6 4 1).
+}
+
+_:bng_628 {
+    [] rdf:value 2; :attack (5 3 8 6 4 1).
+}
+
+_:bng_629 {
+    (3 8 6 4 1) list:firstRest (3 (8 6 4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 6 4 1).
+}
+
+_:bng_630 {
+    (7 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_631 {
+    (5 3 8 6 4 1) list:firstRest (5 (3 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_632 {
+    (7 1) :attack3 (5 3 8 6 4 1).
+}
+
+_:bng_633 {
+    [] rdf:value 7; :attack (5 3 8 6 4 1).
+}
+
+_:bng_634 {
+    (7 3 8 6 4 1) list:firstRest (7 (3 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_635 {
+    (2 1) :attack3 (7 3 8 6 4 1).
+}
+
+_:bng_636 {
+    [] rdf:value 2; :attack (7 3 8 6 4 1).
+}
+
+_:bng_637 {
+    (3 8 6 4 1) list:firstRest (3 (8 6 4 1)).
+    (3 2) math:sum 5.
+}
+
+_:bng_638 {
+    (5 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_639 {
+    (7 3 8 6 4 1) list:firstRest (7 (3 8 6 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (3 8 6 4 1).
+}
+
+_:bng_640 {
+    (5 1) :attack3 (7 3 8 6 4 1).
+}
+
+_:bng_641 {
+    [] rdf:value 5; :attack (7 3 8 6 4 1).
+}
+
+_:bng_642 {
+    (8 6 4 1) list:firstRest (8 (6 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (6 4 1).
+}
+
+_:bng_643 {
+    (5 1) :attack3 (8 6 4 1).
+}
+
+_:bng_644 {
+    [] rdf:value 5; :attack (8 6 4 1).
+}
+
+_:bng_645 {
+    (8 6 4 1) list:firstRest (8 (6 4 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_646 {
+    (7 1) :attack3 (8 6 4 1).
+}
+
+_:bng_647 {
+    [] rdf:value 7; :attack (8 6 4 1).
+}
+
+_:bng_648 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (4 1).
+}
+
+_:bng_649 {
+    (2 1) :attack3 (7 4 1).
+}
+
+_:bng_650 {
+    [] rdf:value 2; :attack (7 4 1).
+}
+
+_:bng_651 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_652 {
+    (2 1) :attack3 (3 7 4 1).
+}
+
+_:bng_653 {
+    [] rdf:value 2; :attack (3 7 4 1).
+}
+
+_:bng_654 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (7 2) math:difference 5.
+}
+
+_:bng_655 {
+    (5 2) :attack3 (7 4 1).
+}
+
+_:bng_656 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (7 4 1).
+}
+
+_:bng_657 {
+    (5 1) :attack3 (3 7 4 1).
+}
+
+_:bng_658 {
+    [] rdf:value 5; :attack (3 7 4 1).
+}
+
+_:bng_659 {
+    (4 1) list:firstRest (4 (1)).
+    (6 1) math:sum 7 .
+    (8 7) :attack3 (1).
+}
+
+_:bng_660 {
+    (8 6) :attack3 (4 1).
+}
+
+_:bng_661 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (5 1) math:sum 6 .
+    (8 6) :attack3 (4 1).
+}
+
+_:bng_662 {
+    (8 5) :attack3 (7 4 1).
+}
+
+_:bng_663 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (4 1) math:sum 5 .
+    (8 5) :attack3 (7 4 1).
+}
+
+_:bng_664 {
+    (8 4) :attack3 (3 7 4 1).
+}
+
+_:bng_665 {
+    (6 3 7 4 1) list:firstRest (6 (3 7 4 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (3 7 4 1).
+}
+
+_:bng_666 {
+    (8 3) :attack3 (6 3 7 4 1).
+}
+
+_:bng_667 {
+    (2 6 3 7 4 1) list:firstRest (2 (6 3 7 4 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (6 3 7 4 1).
+}
+
+_:bng_668 {
+    (8 2) :attack3 (2 6 3 7 4 1).
+}
+
+_:bng_669 {
+    (5 2 6 3 7 4 1) list:firstRest (5 (2 6 3 7 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (2 6 3 7 4 1).
+}
+
+_:bng_670 {
+    (8 1) :attack3 (5 2 6 3 7 4 1).
+}
+
+_:bng_671 {
+    [] rdf:value 8; :attack (5 2 6 3 7 4 1).
+}
+
+_:bng_672 {
+    (6 3 7 4 1) list:firstRest (6 (3 7 4 1)).
+    (6 2) math:sum 8.
+}
+
+_:bng_673 {
+    (8 2) :attack3 (6 3 7 4 1).
+}
+
+_:bng_674 {
+    (2 6 3 7 4 1) list:firstRest (2 (6 3 7 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (6 3 7 4 1).
+}
+
+_:bng_675 {
+    (8 1) :attack3 (2 6 3 7 4 1).
+}
+
+_:bng_676 {
+    [] rdf:value 8; :attack (2 6 3 7 4 1).
+}
+
+_:bng_677 {
+    (6 3 7 4 1) list:firstRest (6 (3 7 4 1)).
+    (6 1) math:difference 5.
+}
+
+_:bng_678 {
+    (5 1) :attack3 (6 3 7 4 1).
+}
+
+_:bng_679 {
+    [] rdf:value 5; :attack (6 3 7 4 1).
+}
+
+_:bng_680 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (4 1).
+}
+
+_:bng_681 {
+    (8 3) :attack3 (7 4 1).
+}
+
+_:bng_682 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (7 4 1).
+}
+
+_:bng_683 {
+    (8 2) :attack3 (3 7 4 1).
+}
+
+_:bng_684 {
+    (6 3 7 4 1) list:firstRest (6 (3 7 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (3 7 4 1).
+}
+
+_:bng_685 {
+    (8 1) :attack3 (6 3 7 4 1).
+}
+
+_:bng_686 {
+    [] rdf:value 8; :attack (6 3 7 4 1).
+}
+
+_:bng_687 {
+    (5 2 8 3 7 4 1) list:firstRest (5 (2 8 3 7 4 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_688 {
+    (6 1) :attack3 (5 2 8 3 7 4 1).
+}
+
+_:bng_689 {
+    [] rdf:value 6; :attack (5 2 8 3 7 4 1).
+}
+
+_:bng_690 {
+    (8 3 7 4 1) list:firstRest (8 (3 7 4 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_691 {
+    (6 2) :attack3 (8 3 7 4 1).
+}
+
+_:bng_692 {
+    (2 8 3 7 4 1) list:firstRest (2 (8 3 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 3 7 4 1).
+}
+
+_:bng_693 {
+    (6 1) :attack3 (2 8 3 7 4 1).
+}
+
+_:bng_694 {
+    [] rdf:value 6; :attack (2 8 3 7 4 1).
+}
+
+_:bng_695 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (3 2) math:sum 5.
+}
+
+_:bng_696 {
+    (5 2) :attack3 (3 7 4 1).
+}
+
+_:bng_697 {
+    (8 3 7 4 1) list:firstRest (8 (3 7 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (3 7 4 1).
+}
+
+_:bng_698 {
+    (5 1) :attack3 (8 3 7 4 1).
+}
+
+_:bng_699 {
+    [] rdf:value 5; :attack (8 3 7 4 1).
+}
+
+_:bng_700 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (4 1).
+}
+
+_:bng_701 {
+    (6 3) :attack3 (7 4 1).
+}
+
+_:bng_702 {
+    (3 7 4 1) list:firstRest (3 (7 4 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (7 4 1).
+}
+
+_:bng_703 {
+    (6 2) :attack3 (3 7 4 1).
+}
+
+_:bng_704 {
+    (8 3 7 4 1) list:firstRest (8 (3 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (3 7 4 1).
+}
+
+_:bng_705 {
+    (6 1) :attack3 (8 3 7 4 1).
+}
+
+_:bng_706 {
+    [] rdf:value 6; :attack (8 3 7 4 1).
+}
+
+_:bng_707 {
+    (2 5 7 4 1) list:firstRest (2 (5 7 4 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_708 {
+    (3 1) :attack3 (2 5 7 4 1).
+}
+
+_:bng_709 {
+    [] rdf:value 3; :attack (2 5 7 4 1).
+}
+
+_:bng_710 {
+    (5 7 4 1) list:firstRest (5 (7 4 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (7 4 1).
+}
+
+_:bng_711 {
+    (6 2) :attack3 (5 7 4 1).
+}
+
+_:bng_712 {
+    (2 5 7 4 1) list:firstRest (2 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 7 4 1).
+}
+
+_:bng_713 {
+    (6 1) :attack3 (2 5 7 4 1).
+}
+
+_:bng_714 {
+    [] rdf:value 6; :attack (2 5 7 4 1).
+}
+
+_:bng_715 {
+    (5 7 4 1) list:firstRest (5 (7 4 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (7 4 1).
+}
+
+_:bng_716 {
+    (8 2) :attack3 (5 7 4 1).
+}
+
+_:bng_717 {
+    (2 5 7 4 1) list:firstRest (2 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (5 7 4 1).
+}
+
+_:bng_718 {
+    (8 1) :attack3 (2 5 7 4 1).
+}
+
+_:bng_719 {
+    [] rdf:value 8; :attack (2 5 7 4 1).
+}
+
+_:bng_720 {
+    (3 5 7 4 1) list:firstRest (3 (5 7 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_721 {
+    (2 1) :attack3 (3 5 7 4 1).
+}
+
+_:bng_722 {
+    [] rdf:value 2; :attack (3 5 7 4 1).
+}
+
+_:bng_723 {
+    (3 5 7 4 1) list:firstRest (3 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 7 4 1).
+}
+
+_:bng_724 {
+    (6 1) :attack3 (3 5 7 4 1).
+}
+
+_:bng_725 {
+    [] rdf:value 6; :attack (3 5 7 4 1).
+}
+
+_:bng_726 {
+    (3 5 7 4 1) list:firstRest (3 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (5 7 4 1).
+}
+
+_:bng_727 {
+    (8 1) :attack3 (3 5 7 4 1).
+}
+
+_:bng_728 {
+    [] rdf:value 8; :attack (3 5 7 4 1).
+}
+
+_:bng_729 {
+    (5 7 4 1) list:firstRest (5 (7 4 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_730 {
+    (6 1) :attack3 (5 7 4 1).
+}
+
+_:bng_731 {
+    [] rdf:value 6; :attack (5 7 4 1).
+}
+
+_:bng_732 {
+    (2 8 5 7 4 1) list:firstRest (2 (8 5 7 4 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_733 {
+    (3 1) :attack3 (2 8 5 7 4 1).
+}
+
+_:bng_734 {
+    [] rdf:value 3; :attack (2 8 5 7 4 1).
+}
+
+_:bng_735 {
+    (8 5 7 4 1) list:firstRest (8 (5 7 4 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_736 {
+    (6 2) :attack3 (8 5 7 4 1).
+}
+
+_:bng_737 {
+    (2 8 5 7 4 1) list:firstRest (2 (8 5 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 5 7 4 1).
+}
+
+_:bng_738 {
+    (6 1) :attack3 (2 8 5 7 4 1).
+}
+
+_:bng_739 {
+    [] rdf:value 6; :attack (2 8 5 7 4 1).
+}
+
+_:bng_740 {
+    (5 7 4 1) list:firstRest (5 (7 4 1)).
+    (5 2) math:difference 3.
+}
+
+_:bng_741 {
+    (3 2) :attack3 (5 7 4 1).
+}
+
+_:bng_742 {
+    (8 5 7 4 1) list:firstRest (8 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (5 7 4 1).
+}
+
+_:bng_743 {
+    (3 1) :attack3 (8 5 7 4 1).
+}
+
+_:bng_744 {
+    [] rdf:value 3; :attack (8 5 7 4 1).
+}
+
+_:bng_745 {
+    (8 5 7 4 1) list:firstRest (8 (5 7 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 7 4 1).
+}
+
+_:bng_746 {
+    (6 1) :attack3 (8 5 7 4 1).
+}
+
+_:bng_747 {
+    [] rdf:value 6; :attack (8 5 7 4 1).
+}
+
+_:bng_748 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_749 {
+    (6 1) :attack3 (7 4 1).
+}
+
+_:bng_750 {
+    [] rdf:value 6; :attack (7 4 1).
+}
+
+_:bng_751 {
+    (7 4 1) list:firstRest (7 (4 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_752 {
+    (8 1) :attack3 (7 4 1).
+}
+
+_:bng_753 {
+    [] rdf:value 8; :attack (7 4 1).
+}
+
+_:bng_754 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (4 1).
+}
+
+_:bng_755 {
+    (2 1) :attack3 (8 4 1).
+}
+
+_:bng_756 {
+    [] rdf:value 2; :attack (8 4 1).
+}
+
+_:bng_757 {
+    (3 8 4 1) list:firstRest (3 (8 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_758 {
+    (2 1) :attack3 (3 8 4 1).
+}
+
+_:bng_759 {
+    [] rdf:value 2; :attack (3 8 4 1).
+}
+
+_:bng_760 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (2 1) math:sum 3 .
+    (5 3) :attack3 (4 1).
+}
+
+_:bng_761 {
+    (5 2) :attack3 (8 4 1).
+}
+
+_:bng_762 {
+    (3 8 4 1) list:firstRest (3 (8 4 1)).
+    (1 1) math:sum 2 .
+    (5 2) :attack3 (8 4 1).
+}
+
+_:bng_763 {
+    (5 1) :attack3 (3 8 4 1).
+}
+
+_:bng_764 {
+    [] rdf:value 5; :attack (3 8 4 1).
+}
+
+_:bng_765 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_766 {
+    (6 2) :attack3 (8 4 1).
+}
+
+_:bng_767 {
+    (3 8 4 1) list:firstRest (3 (8 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 4 1).
+}
+
+_:bng_768 {
+    (6 1) :attack3 (3 8 4 1).
+}
+
+_:bng_769 {
+    [] rdf:value 6; :attack (3 8 4 1).
+}
+
+_:bng_770 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (4 1).
+}
+
+_:bng_771 {
+    (7 2) :attack3 (8 4 1).
+}
+
+_:bng_772 {
+    (3 8 4 1) list:firstRest (3 (8 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (8 4 1).
+}
+
+_:bng_773 {
+    (7 1) :attack3 (3 8 4 1).
+}
+
+_:bng_774 {
+    [] rdf:value 7; :attack (3 8 4 1).
+}
+
+_:bng_775 {
+    (2 5 8 4 1) list:firstRest (2 (5 8 4 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_776 {
+    (3 1) :attack3 (2 5 8 4 1).
+}
+
+_:bng_777 {
+    [] rdf:value 3; :attack (2 5 8 4 1).
+}
+
+_:bng_778 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (4 1).
+}
+
+_:bng_779 {
+    (6 3) :attack3 (8 4 1).
+}
+
+_:bng_780 {
+    (5 8 4 1) list:firstRest (5 (8 4 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (8 4 1).
+}
+
+_:bng_781 {
+    (6 2) :attack3 (5 8 4 1).
+}
+
+_:bng_782 {
+    (2 5 8 4 1) list:firstRest (2 (5 8 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 8 4 1).
+}
+
+_:bng_783 {
+    (6 1) :attack3 (2 5 8 4 1).
+}
+
+_:bng_784 {
+    [] rdf:value 6; :attack (2 5 8 4 1).
+}
+
+_:bng_785 {
+    (5 8 4 1) list:firstRest (5 (8 4 1)).
+    (5 2) math:sum 7.
+}
+
+_:bng_786 {
+    (7 2) :attack3 (5 8 4 1).
+}
+
+_:bng_787 {
+    (2 5 8 4 1) list:firstRest (2 (5 8 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 8 4 1).
+}
+
+_:bng_788 {
+    (7 1) :attack3 (2 5 8 4 1).
+}
+
+_:bng_789 {
+    [] rdf:value 7; :attack (2 5 8 4 1).
+}
+
+_:bng_790 {
+    (3 5 8 4 1) list:firstRest (3 (5 8 4 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_791 {
+    (2 1) :attack3 (3 5 8 4 1).
+}
+
+_:bng_792 {
+    [] rdf:value 2; :attack (3 5 8 4 1).
+}
+
+_:bng_793 {
+    (3 5 8 4 1) list:firstRest (3 (5 8 4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (5 8 4 1).
+}
+
+_:bng_794 {
+    (6 1) :attack3 (3 5 8 4 1).
+}
+
+_:bng_795 {
+    [] rdf:value 6; :attack (3 5 8 4 1).
+}
+
+_:bng_796 {
+    (3 5 8 4 1) list:firstRest (3 (5 8 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 8 4 1).
+}
+
+_:bng_797 {
+    (7 1) :attack3 (3 5 8 4 1).
+}
+
+_:bng_798 {
+    [] rdf:value 7; :attack (3 5 8 4 1).
+}
+
+_:bng_799 {
+    (5 8 4 1) list:firstRest (5 (8 4 1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_800 {
+    (6 1) :attack3 (5 8 4 1).
+}
+
+_:bng_801 {
+    [] rdf:value 6; :attack (5 8 4 1).
+}
+
+_:bng_802 {
+    (5 8 4 1) list:firstRest (5 (8 4 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (8 4 1).
+}
+
+_:bng_803 {
+    (7 1) :attack3 (5 8 4 1).
+}
+
+_:bng_804 {
+    [] rdf:value 7; :attack (5 8 4 1).
+}
+
+_:bng_805 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (4 1).
+}
+
+_:bng_806 {
+    (6 1) :attack3 (8 4 1).
+}
+
+_:bng_807 {
+    [] rdf:value 6; :attack (8 4 1).
+}
+
+_:bng_808 {
+    (8 4 1) list:firstRest (8 (4 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_809 {
+    (7 1) :attack3 (8 4 1).
+}
+
+_:bng_810 {
+    [] rdf:value 7; :attack (8 4 1).
+}
+
+_:bng_811 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_812 {
+    (3 1) :attack3 (2 5 1).
+}
+
+_:bng_813 {
+    [] rdf:value 3; :attack (2 5 1).
+}
+
+_:bng_814 {
+    (5 1) list:firstRest (5 (1)).
+    (2 1) math:sum 3 .
+    (4 3) :attack3 (1).
+}
+
+_:bng_815 {
+    (4 2) :attack3 (5 1).
+}
+
+_:bng_816 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (5 1).
+}
+
+_:bng_817 {
+    (4 1) :attack3 (2 5 1).
+}
+
+_:bng_818 {
+    [] rdf:value 4; :attack (2 5 1).
+}
+
+_:bng_819 {
+    (3 6 2 5 1) list:firstRest (3 (6 2 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_820 {
+    (4 1) :attack3 (3 6 2 5 1).
+}
+
+_:bng_821 {
+    [] rdf:value 4; :attack (3 6 2 5 1).
+}
+
+_:bng_822 {
+    (5 1) list:firstRest (5 (1)).
+    (6 1) math:sum 7 .
+    (8 7) :attack3 (1).
+}
+
+_:bng_823 {
+    (8 6) :attack3 (5 1).
+}
+
+_:bng_824 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (5 1) math:sum 6 .
+    (8 6) :attack3 (5 1).
+}
+
+_:bng_825 {
+    (8 5) :attack3 (2 5 1).
+}
+
+_:bng_826 {
+    (6 2 5 1) list:firstRest (6 (2 5 1)).
+    (4 1) math:sum 5 .
+    (8 5) :attack3 (2 5 1).
+}
+
+_:bng_827 {
+    (8 4) :attack3 (6 2 5 1).
+}
+
+_:bng_828 {
+    (3 6 2 5 1) list:firstRest (3 (6 2 5 1)).
+    (3 1) math:sum 4 .
+    (8 4) :attack3 (6 2 5 1).
+}
+
+_:bng_829 {
+    (8 3) :attack3 (3 6 2 5 1).
+}
+
+_:bng_830 {
+    (7 3 6 2 5 1) list:firstRest (7 (3 6 2 5 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (3 6 2 5 1).
+}
+
+_:bng_831 {
+    (8 2) :attack3 (7 3 6 2 5 1).
+}
+
+_:bng_832 {
+    (4 7 3 6 2 5 1) list:firstRest (4 (7 3 6 2 5 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 3 6 2 5 1).
+}
+
+_:bng_833 {
+    (8 1) :attack3 (4 7 3 6 2 5 1).
+}
+
+_:bng_834 {
+    [] rdf:value 8; :attack (4 7 3 6 2 5 1).
+}
+
+_:bng_835 {
+    (7 3 6 2 5 1) list:firstRest (7 (3 6 2 5 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_836 {
+    (8 1) :attack3 (7 3 6 2 5 1).
+}
+
+_:bng_837 {
+    [] rdf:value 8; :attack (7 3 6 2 5 1).
+}
+
+_:bng_838 {
+    (6 2 5 1) list:firstRest (6 (2 5 1)).
+    (6 2) math:sum 8.
+}
+
+_:bng_839 {
+    (8 2) :attack3 (6 2 5 1).
+}
+
+_:bng_840 {
+    (3 6 2 5 1) list:firstRest (3 (6 2 5 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (6 2 5 1).
+}
+
+_:bng_841 {
+    (8 1) :attack3 (3 6 2 5 1).
+}
+
+_:bng_842 {
+    [] rdf:value 8; :attack (3 6 2 5 1).
+}
+
+_:bng_843 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_844 {
+    (4 2) :attack3 (2 5 1).
+}
+
+_:bng_845 {
+    (6 2 5 1) list:firstRest (6 (2 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 5 1).
+}
+
+_:bng_846 {
+    (4 1) :attack3 (6 2 5 1).
+}
+
+_:bng_847 {
+    [] rdf:value 4; :attack (6 2 5 1).
+}
+
+_:bng_848 {
+    (6 2 5 1) list:firstRest (6 (2 5 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_849 {
+    (7 1) :attack3 (6 2 5 1).
+}
+
+_:bng_850 {
+    [] rdf:value 7; :attack (6 2 5 1).
+}
+
+_:bng_851 {
+    (5 1) list:firstRest (5 (1)).
+    (5 3) math:sum 8.
+}
+
+_:bng_852 {
+    (8 3) :attack3 (5 1).
+}
+
+_:bng_853 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (5 1).
+}
+
+_:bng_854 {
+    (8 2) :attack3 (2 5 1).
+}
+
+_:bng_855 {
+    (6 2 5 1) list:firstRest (6 (2 5 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (2 5 1).
+}
+
+_:bng_856 {
+    (8 1) :attack3 (6 2 5 1).
+}
+
+_:bng_857 {
+    [] rdf:value 8; :attack (6 2 5 1).
+}
+
+_:bng_858 {
+    (5 1) list:firstRest (5 (1)).
+    (5 2) math:sum 7.
+}
+
+_:bng_859 {
+    (7 2) :attack3 (5 1).
+}
+
+_:bng_860 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (5 1).
+}
+
+_:bng_861 {
+    (7 1) :attack3 (2 5 1).
+}
+
+_:bng_862 {
+    [] rdf:value 7; :attack (2 5 1).
+}
+
+_:bng_863 {
+    (3 8 2 5 1) list:firstRest (3 (8 2 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_864 {
+    (4 1) :attack3 (3 8 2 5 1).
+}
+
+_:bng_865 {
+    [] rdf:value 4; :attack (3 8 2 5 1).
+}
+
+_:bng_866 {
+    (8 2 5 1) list:firstRest (8 (2 5 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_867 {
+    (6 2) :attack3 (8 2 5 1).
+}
+
+_:bng_868 {
+    (3 8 2 5 1) list:firstRest (3 (8 2 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 2 5 1).
+}
+
+_:bng_869 {
+    (6 1) :attack3 (3 8 2 5 1).
+}
+
+_:bng_870 {
+    [] rdf:value 6; :attack (3 8 2 5 1).
+}
+
+_:bng_871 {
+    (3 8 2 5 1) list:firstRest (3 (8 2 5 1)).
+    (3 3) math:sum 6.
+}
+
+_:bng_872 {
+    (6 3) :attack3 (3 8 2 5 1).
+}
+
+_:bng_873 {
+    (7 3 8 2 5 1) list:firstRest (7 (3 8 2 5 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (3 8 2 5 1).
+}
+
+_:bng_874 {
+    (6 2) :attack3 (7 3 8 2 5 1).
+}
+
+_:bng_875 {
+    (4 7 3 8 2 5 1) list:firstRest (4 (7 3 8 2 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 3 8 2 5 1).
+}
+
+_:bng_876 {
+    (6 1) :attack3 (4 7 3 8 2 5 1).
+}
+
+_:bng_877 {
+    [] rdf:value 6; :attack (4 7 3 8 2 5 1).
+}
+
+_:bng_878 {
+    (7 3 8 2 5 1) list:firstRest (7 (3 8 2 5 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_879 {
+    (6 1) :attack3 (7 3 8 2 5 1).
+}
+
+_:bng_880 {
+    [] rdf:value 6; :attack (7 3 8 2 5 1).
+}
+
+_:bng_881 {
+    (8 2 5 1) list:firstRest (8 (2 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 5 1).
+}
+
+_:bng_882 {
+    (4 1) :attack3 (8 2 5 1).
+}
+
+_:bng_883 {
+    [] rdf:value 4; :attack (8 2 5 1).
+}
+
+_:bng_884 {
+    (3 6 8 2 5 1) list:firstRest (3 (6 8 2 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_885 {
+    (4 1) :attack3 (3 6 8 2 5 1).
+}
+
+_:bng_886 {
+    [] rdf:value 4; :attack (3 6 8 2 5 1).
+}
+
+_:bng_887 {
+    (5 1) list:firstRest (5 (1)).
+    (5 1) math:sum 6 .
+    (7 6) :attack3 (1).
+}
+
+_:bng_888 {
+    (7 5) :attack3 (5 1).
+}
+
+_:bng_889 {
+    (2 5 1) list:firstRest (2 (5 1)).
+    (4 1) math:sum 5 .
+    (7 5) :attack3 (5 1).
+}
+
+_:bng_890 {
+    (7 4) :attack3 (2 5 1).
+}
+
+_:bng_891 {
+    (8 2 5 1) list:firstRest (8 (2 5 1)).
+    (3 1) math:sum 4 .
+    (7 4) :attack3 (2 5 1).
+}
+
+_:bng_892 {
+    (7 3) :attack3 (8 2 5 1).
+}
+
+_:bng_893 {
+    (6 8 2 5 1) list:firstRest (6 (8 2 5 1)).
+    (2 1) math:sum 3 .
+    (7 3) :attack3 (8 2 5 1).
+}
+
+_:bng_894 {
+    (7 2) :attack3 (6 8 2 5 1).
+}
+
+_:bng_895 {
+    (3 6 8 2 5 1) list:firstRest (3 (6 8 2 5 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 8 2 5 1).
+}
+
+_:bng_896 {
+    (7 1) :attack3 (3 6 8 2 5 1).
+}
+
+_:bng_897 {
+    [] rdf:value 7; :attack (3 6 8 2 5 1).
+}
+
+_:bng_898 {
+    (4 6 8 2 5 1) list:firstRest (4 (6 8 2 5 1)).
+    (4 1) math:difference 3.
+}
+
+_:bng_899 {
+    (3 1) :attack3 (4 6 8 2 5 1).
+}
+
+_:bng_900 {
+    [] rdf:value 3; :attack (4 6 8 2 5 1).
+}
+
+_:bng_901 {
+    (4 6 8 2 5 1) list:firstRest (4 (6 8 2 5 1)).
+    (1 1) math:sum 2 .
+    (7 2) :attack3 (6 8 2 5 1).
+}
+
+_:bng_902 {
+    (7 1) :attack3 (4 6 8 2 5 1).
+}
+
+_:bng_903 {
+    [] rdf:value 7; :attack (4 6 8 2 5 1).
+}
+
+_:bng_904 {
+    (6 8 2 5 1) list:firstRest (6 (8 2 5 1)).
+    (6 1) math:sum 7.
+}
+
+_:bng_905 {
+    (7 1) :attack3 (6 8 2 5 1).
+}
+
+_:bng_906 {
+    [] rdf:value 7; :attack (6 8 2 5 1).
+}
+
+_:bng_907 {
+    (8 2 5 1) list:firstRest (8 (2 5 1)).
+    (8 1) math:difference 7.
+}
+
+_:bng_908 {
+    (7 1) :attack3 (8 2 5 1).
+}
+
+_:bng_909 {
+    [] rdf:value 7; :attack (8 2 5 1).
+}
+
+_:bng_910 {
+    (1) list:firstRest (1 ()).
+    (1 2) math:sum 3.
+}
+
+_:bng_911 {
+    (3 2) :attack3 (1).
+}
+
+_:bng_912 {
+    (5 1) list:firstRest (5 (1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (1).
+}
+
+_:bng_913 {
+    (3 1) :attack3 (5 1).
+}
+
+_:bng_914 {
+    [] rdf:value 3; :attack (5 1).
+}
+
+_:bng_915 {
+    (5 1) list:firstRest (5 (1)).
+    (5 1) math:difference 4.
+}
+
+_:bng_916 {
+    (4 1) :attack3 (5 1).
+}
+
+_:bng_917 {
+    [] rdf:value 4; :attack (5 1).
+}
+
+_:bng_918 {
+    (5 1) list:firstRest (5 (1)).
+    (5 1) math:sum 6.
+}
+
+_:bng_919 {
+    (6 1) :attack3 (5 1).
+}
+
+_:bng_920 {
+    [] rdf:value 6; :attack (5 1).
+}
+
+_:bng_921 {
+    (2 7 5 1) list:firstRest (2 (7 5 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_922 {
+    (3 1) :attack3 (2 7 5 1).
+}
+
+_:bng_923 {
+    [] rdf:value 3; :attack (2 7 5 1).
+}
+
+_:bng_924 {
+    (4 2 7 5 1) list:firstRest (4 (2 7 5 1)).
+    (4 1) math:difference 3.
+}
+
+_:bng_925 {
+    (3 1) :attack3 (4 2 7 5 1).
+}
+
+_:bng_926 {
+    [] rdf:value 3; :attack (4 2 7 5 1).
+}
+
+_:bng_927 {
+    (5 1) list:firstRest (5 (1)).
+    (4 1) math:sum 5 .
+    (6 5) :attack3 (1).
+}
+
+_:bng_928 {
+    (6 4) :attack3 (5 1).
+}
+
+_:bng_929 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (5 1).
+}
+
+_:bng_930 {
+    (6 3) :attack3 (7 5 1).
+}
+
+_:bng_931 {
+    (2 7 5 1) list:firstRest (2 (7 5 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (7 5 1).
+}
+
+_:bng_932 {
+    (6 2) :attack3 (2 7 5 1).
+}
+
+_:bng_933 {
+    (4 2 7 5 1) list:firstRest (4 (2 7 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 7 5 1).
+}
+
+_:bng_934 {
+    (6 1) :attack3 (4 2 7 5 1).
+}
+
+_:bng_935 {
+    [] rdf:value 6; :attack (4 2 7 5 1).
+}
+
+_:bng_936 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (7 4) math:difference 3.
+}
+
+_:bng_937 {
+    (3 4) :attack3 (7 5 1).
+}
+
+_:bng_938 {
+    (2 7 5 1) list:firstRest (2 (7 5 1)).
+    (3 1) math:sum 4 .
+    (3 4) :attack3 (7 5 1).
+}
+
+_:bng_939 {
+    (3 3) :attack3 (2 7 5 1).
+}
+
+_:bng_940 {
+    (4 2 7 5 1) list:firstRest (4 (2 7 5 1)).
+    (2 1) math:sum 3 .
+    (3 3) :attack3 (2 7 5 1).
+}
+
+_:bng_941 {
+    (3 2) :attack3 (4 2 7 5 1).
+}
+
+_:bng_942 {
+    (8 4 2 7 5 1) list:firstRest (8 (4 2 7 5 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (4 2 7 5 1).
+}
+
+_:bng_943 {
+    (3 1) :attack3 (8 4 2 7 5 1).
+}
+
+_:bng_944 {
+    [] rdf:value 3; :attack (8 4 2 7 5 1).
+}
+
+_:bng_945 {
+    (4 2 7 5 1) list:firstRest (4 (2 7 5 1)).
+    (4 2) math:sum 6.
+}
+
+_:bng_946 {
+    (6 2) :attack3 (4 2 7 5 1).
+}
+
+_:bng_947 {
+    (8 4 2 7 5 1) list:firstRest (8 (4 2 7 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (4 2 7 5 1).
+}
+
+_:bng_948 {
+    (6 1) :attack3 (8 4 2 7 5 1).
+}
+
+_:bng_949 {
+    [] rdf:value 6; :attack (8 4 2 7 5 1).
+}
+
+_:bng_950 {
+    (3 6 2 7 5 1) list:firstRest (3 (6 2 7 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_951 {
+    (4 1) :attack3 (3 6 2 7 5 1).
+}
+
+_:bng_952 {
+    [] rdf:value 4; :attack (3 6 2 7 5 1).
+}
+
+_:bng_953 {
+    (6 2 7 5 1) list:firstRest (6 (2 7 5 1)).
+    (6 2) math:sum 8.
+}
+
+_:bng_954 {
+    (8 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_955 {
+    (3 6 2 7 5 1) list:firstRest (3 (6 2 7 5 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_956 {
+    (8 1) :attack3 (3 6 2 7 5 1).
+}
+
+_:bng_957 {
+    [] rdf:value 8; :attack (3 6 2 7 5 1).
+}
+
+_:bng_958 {
+    (2 7 5 1) list:firstRest (2 (7 5 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_959 {
+    (4 2) :attack3 (2 7 5 1).
+}
+
+_:bng_960 {
+    (6 2 7 5 1) list:firstRest (6 (2 7 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 7 5 1).
+}
+
+_:bng_961 {
+    (4 1) :attack3 (6 2 7 5 1).
+}
+
+_:bng_962 {
+    [] rdf:value 4; :attack (6 2 7 5 1).
+}
+
+_:bng_963 {
+    (6 2 7 5 1) list:firstRest (6 (2 7 5 1)).
+    (2 1) math:sum 3 .
+    (3 3) :attack3 (2 7 5 1).
+}
+
+_:bng_964 {
+    (3 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_965 {
+    (8 6 2 7 5 1) list:firstRest (8 (6 2 7 5 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_966 {
+    (3 1) :attack3 (8 6 2 7 5 1).
+}
+
+_:bng_967 {
+    [] rdf:value 3; :attack (8 6 2 7 5 1).
+}
+
+_:bng_968 {
+    (6 2 7 5 1) list:firstRest (6 (2 7 5 1)).
+    (6 2) math:difference 4.
+}
+
+_:bng_969 {
+    (4 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_970 {
+    (8 6 2 7 5 1) list:firstRest (8 (6 2 7 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (6 2 7 5 1).
+}
+
+_:bng_971 {
+    (4 1) :attack3 (8 6 2 7 5 1).
+}
+
+_:bng_972 {
+    [] rdf:value 4; :attack (8 6 2 7 5 1).
+}
+
+_:bng_973 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (2 1) math:sum 3 .
+    (8 3) :attack3 (5 1).
+}
+
+_:bng_974 {
+    (8 2) :attack3 (7 5 1).
+}
+
+_:bng_975 {
+    (2 7 5 1) list:firstRest (2 (7 5 1)).
+    (1 1) math:sum 2 .
+    (8 2) :attack3 (7 5 1).
+}
+
+_:bng_976 {
+    (8 1) :attack3 (2 7 5 1).
+}
+
+_:bng_977 {
+    [] rdf:value 8; :attack (2 7 5 1).
+}
+
+_:bng_978 {
+    (5 1) list:firstRest (5 (1)).
+    (5 2) math:difference 3.
+}
+
+_:bng_979 {
+    (3 2) :attack3 (5 1).
+}
+
+_:bng_980 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (5 1).
+}
+
+_:bng_981 {
+    (3 1) :attack3 (7 5 1).
+}
+
+_:bng_982 {
+    [] rdf:value 3; :attack (7 5 1).
+}
+
+_:bng_983 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (5 1).
+}
+
+_:bng_984 {
+    (4 1) :attack3 (7 5 1).
+}
+
+_:bng_985 {
+    [] rdf:value 4; :attack (7 5 1).
+}
+
+_:bng_986 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_987 {
+    (6 1) :attack3 (7 5 1).
+}
+
+_:bng_988 {
+    [] rdf:value 6; :attack (7 5 1).
+}
+
+_:bng_989 {
+    (7 5 1) list:firstRest (7 (5 1)).
+    (7 1) math:sum 8.
+}
+
+_:bng_990 {
+    (8 1) :attack3 (7 5 1).
+}
+
+_:bng_991 {
+    [] rdf:value 8; :attack (7 5 1).
+}
+
+_:bng_992 {
+    (2 8 5 1) list:firstRest (2 (8 5 1)).
+    (2 1) math:sum 3.
+}
+
+_:bng_993 {
+    (3 1) :attack3 (2 8 5 1).
+}
+
+_:bng_994 {
+    [] rdf:value 3; :attack (2 8 5 1).
+}
+
+_:bng_995 {
+    (4 2 8 5 1) list:firstRest (4 (2 8 5 1)).
+    (4 1) math:difference 3.
+}
+
+_:bng_996 {
+    (3 1) :attack3 (4 2 8 5 1).
+}
+
+_:bng_997 {
+    [] rdf:value 3; :attack (4 2 8 5 1).
+}
+
+_:bng_998 {
+    (8 5 1) list:firstRest (8 (5 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (5 1).
+}
+
+_:bng_999 {
+    (6 3) :attack3 (8 5 1).
+}
+
+_:bng_1000 {
+    (2 8 5 1) list:firstRest (2 (8 5 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (8 5 1).
+}
+
+_:bng_1001 {
+    (6 2) :attack3 (2 8 5 1).
+}
+
+_:bng_1002 {
+    (4 2 8 5 1) list:firstRest (4 (2 8 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (2 8 5 1).
+}
+
+_:bng_1003 {
+    (6 1) :attack3 (4 2 8 5 1).
+}
+
+_:bng_1004 {
+    [] rdf:value 6; :attack (4 2 8 5 1).
+}
+
+_:bng_1005 {
+    (2 8 5 1) list:firstRest (2 (8 5 1)).
+    (2 4) math:sum 6.
+}
+
+_:bng_1006 {
+    (6 4) :attack3 (2 8 5 1).
+}
+
+_:bng_1007 {
+    (4 2 8 5 1) list:firstRest (4 (2 8 5 1)).
+    (3 1) math:sum 4 .
+    (6 4) :attack3 (2 8 5 1).
+}
+
+_:bng_1008 {
+    (6 3) :attack3 (4 2 8 5 1).
+}
+
+_:bng_1009 {
+    (7 4 2 8 5 1) list:firstRest (7 (4 2 8 5 1)).
+    (2 1) math:sum 3 .
+    (6 3) :attack3 (4 2 8 5 1).
+}
+
+_:bng_1010 {
+    (6 2) :attack3 (7 4 2 8 5 1).
+}
+
+_:bng_1011 {
+    (3 7 4 2 8 5 1) list:firstRest (3 (7 4 2 8 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (7 4 2 8 5 1).
+}
+
+_:bng_1012 {
+    (6 1) :attack3 (3 7 4 2 8 5 1).
+}
+
+_:bng_1013 {
+    [] rdf:value 6; :attack (3 7 4 2 8 5 1).
+}
+
+_:bng_1014 {
+    (7 4 2 8 5 1) list:firstRest (7 (4 2 8 5 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_1015 {
+    (6 1) :attack3 (7 4 2 8 5 1).
+}
+
+_:bng_1016 {
+    [] rdf:value 6; :attack (7 4 2 8 5 1).
+}
+
+_:bng_1017 {
+    (8 5 1) list:firstRest (8 (5 1)).
+    (8 2) math:difference 6.
+}
+
+_:bng_1018 {
+    (6 2) :attack3 (8 5 1).
+}
+
+_:bng_1019 {
+    (2 8 5 1) list:firstRest (2 (8 5 1)).
+    (1 1) math:sum 2 .
+    (6 2) :attack3 (8 5 1).
+}
+
+_:bng_1020 {
+    (6 1) :attack3 (2 8 5 1).
+}
+
+_:bng_1021 {
+    [] rdf:value 6; :attack (2 8 5 1).
+}
+
+_:bng_1022 {
+    (3 7 2 8 5 1) list:firstRest (3 (7 2 8 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_1023 {
+    (4 1) :attack3 (3 7 2 8 5 1).
+}
+
+_:bng_1024 {
+    [] rdf:value 4; :attack (3 7 2 8 5 1).
+}
+
+_:bng_1025 {
+    (7 2 8 5 1) list:firstRest (7 (2 8 5 1)).
+    (7 3) math:difference 4.
+}
+
+_:bng_1026 {
+    (4 3) :attack3 (7 2 8 5 1).
+}
+
+_:bng_1027 {
+    (3 7 2 8 5 1) list:firstRest (3 (7 2 8 5 1)).
+    (2 1) math:sum 3 .
+    (4 3) :attack3 (7 2 8 5 1).
+}
+
+_:bng_1028 {
+    (4 2) :attack3 (3 7 2 8 5 1).
+}
+
+_:bng_1029 {
+    (6 3 7 2 8 5 1) list:firstRest (6 (3 7 2 8 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (3 7 2 8 5 1).
+}
+
+_:bng_1030 {
+    (4 1) :attack3 (6 3 7 2 8 5 1).
+}
+
+_:bng_1031 {
+    [] rdf:value 4; :attack (6 3 7 2 8 5 1).
+}
+
+_:bng_1032 {
+    (2 8 5 1) list:firstRest (2 (8 5 1)).
+    (2 2) math:sum 4.
+}
+
+_:bng_1033 {
+    (4 2) :attack3 (2 8 5 1).
+}
+
+_:bng_1034 {
+    (7 2 8 5 1) list:firstRest (7 (2 8 5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (2 8 5 1).
+}
+
+_:bng_1035 {
+    (4 1) :attack3 (7 2 8 5 1).
+}
+
+_:bng_1036 {
+    [] rdf:value 4; :attack (7 2 8 5 1).
+}
+
+_:bng_1037 {
+    (7 2 8 5 1) list:firstRest (7 (2 8 5 1)).
+    (7 1) math:difference 6.
+}
+
+_:bng_1038 {
+    (6 1) :attack3 (7 2 8 5 1).
+}
+
+_:bng_1039 {
+    [] rdf:value 6; :attack (7 2 8 5 1).
+}
+
+_:bng_1040 {
+    (8 5 1) list:firstRest (8 (5 1)).
+    (1 1) math:sum 2 .
+    (3 2) :attack3 (5 1).
+}
+
+_:bng_1041 {
+    (3 1) :attack3 (8 5 1).
+}
+
+_:bng_1042 {
+    [] rdf:value 3; :attack (8 5 1).
+}
+
+_:bng_1043 {
+    (8 5 1) list:firstRest (8 (5 1)).
+    (1 1) math:sum 2 .
+    (4 2) :attack3 (5 1).
+}
+
+_:bng_1044 {
+    (4 1) :attack3 (8 5 1).
+}
+
+_:bng_1045 {
+    [] rdf:value 4; :attack (8 5 1).
+}
+
+_:bng_1046 {
+    (5 1) list:firstRest (5 (1)).
+    (5 3) math:difference 2.
+}
+
+_:bng_1047 {
+    (2 3) :attack3 (5 1).
+}
+
+_:bng_1048 {
+    (8 5 1) list:firstRest (8 (5 1)).
+    (2 1) math:sum 3 .
+    (2 3) :attack3 (5 1).
+}
+
+_:bng_1049 {
+    (2 2) :attack3 (8 5 1).
+}
+
+_:bng_1050 {
+    (6 8 5 1) list:firstRest (6 (8 5 1)).
+    (1 1) math:sum 2 .
+    (2 2) :attack3 (8 5 1).
+}
+
+_:bng_1051 {
+    (2 1) :attack3 (6 8 5 1).
+}
+
+_:bng_1052 {
+    [] rdf:value 2; :attack (6 8 5 1).
+}
+
+_:bng_1053 {
+    (3 6 8 5 1) list:firstRest (3 (6 8 5 1)).
+    (3 1) math:difference 2.
+}
+
+_:bng_1054 {
+    (2 1) :attack3 (3 6 8 5 1).
+}
+
+_:bng_1055 {
+    [] rdf:value 2; :attack (3 6 8 5 1).
+}
+
+_:bng_1056 {
+    (3 6 8 5 1) list:firstRest (3 (6 8 5 1)).
+    (3 1) math:sum 4.
+}
+
+_:bng_1057 {
+    (4 1) :attack3 (3 6 8 5 1).
+}
+
+_:bng_1058 {
+    [] rdf:value 4; :attack (3 6 8 5 1).
+}
+
+_:bng_1059 {
+    _:bng_4_1 log:isImpliedBy _:bng_5_1.
+}
+
+_:bng_1060 {
+    (4) list:select (4 ()).
+    (_:bng_1080 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (4 2 7 3 6 8 5 1) list:firstRest (4 (2 7 3 6 8 5 1)).
+    (() (4 2 7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1061 {
+    ((4) (2 7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1062 {
+    (2 4) list:select (2 (4)).
+    (_:bng_1081 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (2 7 3 6 8 5 1) list:firstRest (2 (7 3 6 8 5 1)).
+    ((4) (2 7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1063 {
+    ((2 4) (7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1064 {
+    (2 4 7) list:select (7 (2 4)).
+    (_:bng_1082 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (7 3 6 8 5 1) list:firstRest (7 (3 6 8 5 1)).
+    ((2 4) (7 3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1065 {
+    ((2 4 7) (3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1066 {
+    (2 3 4 7) list:select (3 (2 4 7)).
+    (_:bng_1083 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (3 6 8 5 1) list:firstRest (3 (6 8 5 1)).
+    ((2 4 7) (3 6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1067 {
+    ((2 3 4 7) (6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1068 {
+    (2 3 4 6 7) list:select (6 (2 3 4 7)).
+    (_:bng_1084 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (6 8 5 1) list:firstRest (6 (8 5 1)).
+    ((2 3 4 7) (6 8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1069 {
+    ((2 3 4 6 7) (8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1070 {
+    (2 3 4 6 7 8) list:select (8 (2 3 4 6 7)).
+    (_:bng_1085 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (8 5 1) list:firstRest (8 (5 1)).
+    ((2 3 4 6 7) (8 5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1071 {
+    ((2 3 4 6 7 8) (5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1072 {
+    (2 3 4 5 6 7 8) list:select (5 (2 3 4 6 7 8)).
+    (_:bng_1086 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (5 1) list:firstRest (5 (1)).
+    ((2 3 4 6 7 8) (5 1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1073 {
+    ((2 3 4 5 6 7 8) (1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1074 {
+    (1 2 3 4 5 6 7 8) list:select (1 (2 3 4 5 6 7 8)).
+    (_:bng_1087 false true) log:ifThenElseIn ((<https://eyereasoner.github.io/reasongraphs/queens.trig>) 1).
+    (1) list:firstRest (1 ()).
+    ((2 3 4 5 6 7 8) (1)) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1075 {
+    ((1 2 3 4 5 6 7 8) ()) :queens3 (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1076 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_1077 {
+    (1 8) :range (1 2 3 4 5 6 7 8).
+    ((1 2 3 4 5 6 7 8) ()) :queens3 (4 2 7 3 6 8 5 1).
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_1078 {
+    [] rdf:value 8; :queens (4 2 7 3 6 8 5 1).
+}
+
+_:bng_1079 {
+    _:bng_18_1 log:query _:bng_18_1.
+}
+
+_:bng_8_1 {
+    (var:I var:J) :range var:INs.
+}
+
+_:bng_9_1 {
+    var:INs list:firstRest (var:I var:Ns).
+    var:I math:lessThan var:J.
+    (var:I 1) math:sum var:I1.
+    (var:I1 var:J) :range var:Ns.
+}
+
+_:bng_12_1 {
+    (var:X var:N) :attack3 var:YYs.
+}
+
+_:bng_13_1 {
+    var:YYs list:firstRest (var:Y var:Ys).
+    (var:Y var:N) math:sum var:X.
+}
+
+_:bng_10_1 {
+    var:Q :attack var:Qs.
+}
+
+_:bng_11_1 {
+    (var:Q 1) :attack3 var:Qs.
+}
+
+_:bng_14_1 {
+    (var:X var:N) :attack3 var:YYs.
+}
+
+_:bng_15_1 {
+    var:YYs list:firstRest (var:Y var:Ys).
+    (var:Y var:N) math:difference var:X.
+}
+
+_:bng_16_1 {
+    (var:X var:N) :attack3 var:YYs.
+}
+
+_:bng_17_1 {
+    var:YYs list:firstRest (var:Y var:Ys).
+    (var:N 1) math:sum var:N1.
+    (var:X var:N1) :attack3 var:Ys.
+}
+
+_:bng_4_1 {
+    (var:Us var:Ps) :queens3 var:Qs.
+}
+
+_:bng_5_1 {
+    var:Us list:select (var:Q var:Us1).
+    (_:bng_6_1 false true) log:ifThenElseIn var:SCOPE.
+    var:QPs list:firstRest (var:Q var:Ps).
+    (var:Us1 var:QPs) :queens3 var:Qs.
+}
+
+_:bng_1080 {
+    [] rdf:value 4; :attack (2 7 3 6 8 5 1).
+}
+
+_:bng_1081 {
+    [] rdf:value 2; :attack (7 3 6 8 5 1).
+}
+
+_:bng_1082 {
+    [] rdf:value 7; :attack (3 6 8 5 1).
+}
+
+_:bng_1083 {
+    [] rdf:value 3; :attack (6 8 5 1).
+}
+
+_:bng_1084 {
+    [] rdf:value 6; :attack (8 5 1).
+}
+
+_:bng_1085 {
+    [] rdf:value 8; :attack (5 1).
+}
+
+_:bng_1086 {
+    [] rdf:value 5; :attack (1).
+}
+
+_:bng_1087 {
+    [] rdf:value 1; :attack ().
+}
+
+_:bng_1_1 {
+    var:N :queens var:Qs.
+}
+
+_:bng_2_1 {
+    (1 var:N) :range var:Us.
+    (var:Us ()) :queens3 var:Qs.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_18_1 {
+    [] rdf:value 8; :queens var:Qs.
+}

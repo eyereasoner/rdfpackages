@@ -1,0 +1,46 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:Alice :hates :Nobody.
+
+#
+# reasongraphs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_2_1.
+(_:bng_3 _:bng_2_1) log:proves _:bng_2_1.
+
+_:bng_3_1 {
+    :Alice :hates var:X.
+}
+
+_:bng_1 {
+    _:bng_1_1 log:implies _:bng_2_1.
+}
+
+_:bng_2 {
+    ((<https://eyereasoner.github.io/reasongraphs/snaf.trig>) 1) log:notIncludes _:bng_4.
+    :Bob a :Person.
+}
+
+_:bng_2_1 {
+    :Alice :hates :Nobody.
+}
+
+_:bng_3 {
+    _:bng_4_1 log:query _:bng_4_1.
+}
+
+_:bng_1_1 {
+    var:SCOPE log:notIncludes _:bng_3_1.
+    var:X a :Person.
+}
+
+_:bng_4 {
+    :Alice :hates :Bob.
+}
+
+_:bng_4_1 {
+    var:s :hates var:o.
+}

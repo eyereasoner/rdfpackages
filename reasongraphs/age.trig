@@ -1,0 +1,49 @@
+@prefix : <http://example.org/#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:patH :ageAbove "P80Y"^^xsd:duration.
+
+#
+# reasongraphs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_4 _:bng_3) log:proves _:bng_3.
+
+_:bng_1 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_2 {
+    :patH :birthDay "1944-08-21"^^xsd:date.
+    [] rdf:value "2024-08-21T00:00:00.0Z"^^xsd:dateTime; log:equalTo "2024-08-21T00:00:00.0Z"^^xsd:dateTime.
+    ("2024-08-21T00:00:00.0Z"^^xsd:dateTime "1944-08-21"^^xsd:date) math:difference 2524608000.0 .
+    [] rdf:value 2524608000.0; math:greaterThan "P80Y"^^xsd:duration.
+}
+
+_:bng_3 {
+    :patH :ageAbove "P80Y"^^xsd:duration.
+}
+
+_:bng_4 {
+    _:bng_3_1 log:query _:bng_3_1.
+}
+
+_:bng_1_1 {
+    var:S :ageAbove var:A.
+}
+
+_:bng_2_1 {
+    var:S :birthDay var:B.
+    var:D log:equalTo "2024-08-21T00:00:00.0Z"^^xsd:dateTime.
+    (var:D var:B) math:difference var:F.
+    var:F math:greaterThan var:A.
+}
+
+_:bng_3_1 {
+    var:S :ageAbove "P80Y"^^xsd:duration.
+}

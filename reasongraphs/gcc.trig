@@ -1,0 +1,470 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc ((0 0 1) (0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+
+#
+# reasongraphs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_7 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_7 _:bng_12) log:proves _:bng_13.
+(_:bng_1 _:bng_14) log:proves _:bng_15.
+(_:bng_4 _:bng_16) log:proves _:bng_17.
+(_:bng_7 _:bng_18) log:proves _:bng_19.
+(_:bng_1 _:bng_20) log:proves _:bng_21.
+(_:bng_7 _:bng_22) log:proves _:bng_23.
+(_:bng_1 _:bng_24) log:proves _:bng_25.
+(_:bng_4 _:bng_26) log:proves _:bng_27.
+(_:bng_7 _:bng_28) log:proves _:bng_29.
+(_:bng_1 _:bng_30) log:proves _:bng_31.
+(_:bng_7 _:bng_32) log:proves _:bng_33.
+(_:bng_1 _:bng_34) log:proves _:bng_35.
+(_:bng_4 _:bng_36) log:proves _:bng_37.
+(_:bng_7 _:bng_38) log:proves _:bng_39.
+(_:bng_1 _:bng_40) log:proves _:bng_41.
+(_:bng_7 _:bng_42) log:proves _:bng_43.
+(_:bng_44 _:bng_45) log:proves _:bng_46.
+(_:bng_44 _:bng_47) log:proves _:bng_48.
+(_:bng_44 _:bng_49) log:proves _:bng_50.
+(_:bng_44 _:bng_51) log:proves _:bng_52.
+(_:bng_44 _:bng_53) log:proves _:bng_54.
+(_:bng_44 _:bng_55) log:proves _:bng_56.
+(_:bng_44 _:bng_57) log:proves _:bng_58.
+(_:bng_44 _:bng_59) log:proves _:bng_60.
+(_:bng_44 _:bng_61) log:proves _:bng_62.
+(_:bng_63 _:bng_62) log:proves _:bng_62.
+
+_:bng_1 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
+}
+
+_:bng_2 {
+    (0 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (0 1) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (1 0) :and 0 .
+    (0 0) :or 0 .
+    (0 0) :or 0.
+}
+
+_:bng_3 {
+    (0 0 0) :netb (0 0).
+}
+
+_:bng_4 {
+    _:bng_3_1 log:isImpliedBy _:bng_4_1.
+}
+
+_:bng_5 {
+    (0 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    [] rdf:value 0; :inv 1 .
+    (1 1) :and 1 .
+    (0 1) :or 1.
+}
+
+_:bng_6 {
+    (0 0) :neta 1.
+}
+
+_:bng_7 {
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
+}
+
+_:bng_8 {
+    (0 0 0) :netb (0 0).
+    (0 0) :neta 1 .
+    (0 1 0) :dff 0 .
+    (0 1 0) :dff 0 .
+    (1 1 0) :dff 1.
+}
+
+_:bng_9 {
+    (1 (0 0 0)) :gcc (0 0 1).
+}
+
+_:bng_10 {
+    (0 1) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    (0 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (1 1) :and 1 .
+    (0 0) :or 0 .
+    (0 1) :or 1.
+}
+
+_:bng_11 {
+    (0 0 1) :netb (0 1).
+}
+
+_:bng_12 {
+    (0 0 1) :netb (0 1).
+    (0 0) :neta 1 .
+    (0 1 0) :dff 0 .
+    (1 1 0) :dff 1 .
+    (1 1 1) :dff 1.
+}
+
+_:bng_13 {
+    (1 (0 0 1)) :gcc (0 1 1).
+}
+
+_:bng_14 {
+    (0 1) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    (1 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (1 1) :and 1 .
+    (0 0) :or 0 .
+    (0 1) :or 1.
+}
+
+_:bng_15 {
+    (0 1 1) :netb (0 1).
+}
+
+_:bng_16 {
+    (0 1) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    [] rdf:value 1; :inv 0 .
+    (1 0) :and 0 .
+    (0 0) :or 0.
+}
+
+_:bng_17 {
+    (0 1) :neta 0.
+}
+
+_:bng_18 {
+    (0 1 1) :netb (0 1).
+    (0 1) :neta 0 .
+    (0 1 0) :dff 0 .
+    (1 1 1) :dff 1 .
+    (0 1 1) :dff 0.
+}
+
+_:bng_19 {
+    (1 (0 1 1)) :gcc (0 1 0).
+}
+
+_:bng_20 {
+    (0 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (1 1) :and 1 .
+    [] rdf:value 0; :inv 1 .
+    (1 0) :and 0 .
+    (0 1) :or 1 .
+    (1 0) :or 1.
+}
+
+_:bng_21 {
+    (0 1 0) :netb (1 1).
+}
+
+_:bng_22 {
+    (0 1 0) :netb (1 1).
+    (0 1) :neta 0 .
+    (1 1 0) :dff 1 .
+    (1 1 1) :dff 1 .
+    (0 1 0) :dff 0.
+}
+
+_:bng_23 {
+    (1 (0 1 0)) :gcc (1 1 0).
+}
+
+_:bng_24 {
+    (1 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (1 1) :and 1 .
+    [] rdf:value 1; :inv 0 .
+    (0 0) :and 0 .
+    (0 1) :or 1 .
+    (1 0) :or 1.
+}
+
+_:bng_25 {
+    (1 1 0) :netb (1 1).
+}
+
+_:bng_26 {
+    (1 1) :and 1 .
+    [] rdf:value 1; :inv 0 .
+    [] rdf:value 1; :inv 0 .
+    (0 0) :and 0 .
+    (1 0) :or 1.
+}
+
+_:bng_27 {
+    (1 1) :neta 1.
+}
+
+_:bng_28 {
+    (1 1 0) :netb (1 1).
+    (1 1) :neta 1 .
+    (1 1 1) :dff 1 .
+    (1 1 1) :dff 1 .
+    (1 1 0) :dff 1.
+}
+
+_:bng_29 {
+    (1 (1 1 0)) :gcc (1 1 1).
+}
+
+_:bng_30 {
+    (1 1) :and 1 .
+    [] rdf:value 1; :inv 0 .
+    (1 0) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    (0 1) :and 0 .
+    (1 0) :or 1 .
+    (0 0) :or 0.
+}
+
+_:bng_31 {
+    (1 1 1) :netb (1 0).
+}
+
+_:bng_32 {
+    (1 1 1) :netb (1 0).
+    (1 1) :neta 1 .
+    (1 1 1) :dff 1 .
+    (0 1 1) :dff 0 .
+    (1 1 1) :dff 1.
+}
+
+_:bng_33 {
+    (1 (1 1 1)) :gcc (1 0 1).
+}
+
+_:bng_34 {
+    (1 1) :and 1 .
+    [] rdf:value 1; :inv 0 .
+    (0 0) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    (0 1) :and 0 .
+    (1 0) :or 1 .
+    (0 0) :or 0.
+}
+
+_:bng_35 {
+    (1 0 1) :netb (1 0).
+}
+
+_:bng_36 {
+    (1 0) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    [] rdf:value 0; :inv 1 .
+    (0 1) :and 0 .
+    (0 0) :or 0.
+}
+
+_:bng_37 {
+    (1 0) :neta 0.
+}
+
+_:bng_38 {
+    (1 0 1) :netb (1 0).
+    (1 0) :neta 0 .
+    (1 1 1) :dff 1 .
+    (0 1 0) :dff 0 .
+    (0 1 1) :dff 0.
+}
+
+_:bng_39 {
+    (1 (1 0 1)) :gcc (1 0 0).
+}
+
+_:bng_40 {
+    (1 0) :and 0 .
+    [] rdf:value 0; :inv 1 .
+    (0 1) :and 0 .
+    [] rdf:value 1; :inv 0 .
+    (0 0) :and 0 .
+    (0 0) :or 0 .
+    (0 0) :or 0.
+}
+
+_:bng_41 {
+    (1 0 0) :netb (0 0).
+}
+
+_:bng_42 {
+    (1 0 0) :netb (0 0).
+    (1 0) :neta 0 .
+    (0 1 1) :dff 0 .
+    (0 1 0) :dff 0 .
+    (0 1 0) :dff 0.
+}
+
+_:bng_43 {
+    (1 (1 0 0)) :gcc (0 0 0).
+}
+
+_:bng_44 {
+    _:bng_10_1 log:isImpliedBy _:bng_11_1.
+}
+
+_:bng_45 {
+    (1) list:firstRest (1 ()).
+    ((0 0 1)) list:firstRest ((0 0 1) ()).
+    (1 (0 0 0)) :gcc (0 0 1).
+    (() (0 0 1)) :testgcc ().
+}
+
+_:bng_46 {
+    ((1) (0 0 0)) :testgcc ((0 0 1)).
+}
+
+_:bng_47 {
+    (1 1) list:firstRest (1 (1)).
+    ((0 0 0) (0 0 1)) list:firstRest ((0 0 0) ((0 0 1))).
+    (1 (1 0 0)) :gcc (0 0 0).
+    ((1) (0 0 0)) :testgcc ((0 0 1)).
+}
+
+_:bng_48 {
+    ((1 1) (1 0 0)) :testgcc ((0 0 0) (0 0 1)).
+}
+
+_:bng_49 {
+    (1 1 1) list:firstRest (1 (1 1)).
+    ((1 0 0) (0 0 0) (0 0 1)) list:firstRest ((1 0 0) ((0 0 0) (0 0 1))).
+    (1 (1 0 1)) :gcc (1 0 0).
+    ((1 1) (1 0 0)) :testgcc ((0 0 0) (0 0 1)).
+}
+
+_:bng_50 {
+    ((1 1 1) (1 0 1)) :testgcc ((1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_51 {
+    (1 1 1 1) list:firstRest (1 (1 1 1)).
+    ((1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((1 0 1) ((1 0 0) (0 0 0) (0 0 1))).
+    (1 (1 1 1)) :gcc (1 0 1).
+    ((1 1 1) (1 0 1)) :testgcc ((1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_52 {
+    ((1 1 1 1) (1 1 1)) :testgcc ((1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_53 {
+    (1 1 1 1 1) list:firstRest (1 (1 1 1 1)).
+    ((1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((1 1 1) ((1 0 1) (1 0 0) (0 0 0) (0 0 1))).
+    (1 (1 1 0)) :gcc (1 1 1).
+    ((1 1 1 1) (1 1 1)) :testgcc ((1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_54 {
+    ((1 1 1 1 1) (1 1 0)) :testgcc ((1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_55 {
+    (1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1)).
+    ((1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((1 1 0) ((1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1))).
+    (1 (0 1 0)) :gcc (1 1 0).
+    ((1 1 1 1 1) (1 1 0)) :testgcc ((1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_56 {
+    ((1 1 1 1 1 1) (0 1 0)) :testgcc ((1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_57 {
+    (1 1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1 1)).
+    ((0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((0 1 0) ((1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1))).
+    (1 (0 1 1)) :gcc (0 1 0).
+    ((1 1 1 1 1 1) (0 1 0)) :testgcc ((1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_58 {
+    ((1 1 1 1 1 1 1) (0 1 1)) :testgcc ((0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_59 {
+    (1 1 1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1 1 1)).
+    ((0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((0 1 1) ((0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1))).
+    (1 (0 0 1)) :gcc (0 1 1).
+    ((1 1 1 1 1 1 1) (0 1 1)) :testgcc ((0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_60 {
+    ((1 1 1 1 1 1 1 1) (0 0 1)) :testgcc ((0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_61 {
+    (1 1 1 1 1 1 1 1 1) list:firstRest (1 (1 1 1 1 1 1 1 1)).
+    ((0 0 1) (0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)) list:firstRest ((0 0 1) ((0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1))).
+    (1 (0 0 0)) :gcc (0 0 1).
+    ((1 1 1 1 1 1 1 1) (0 0 1)) :testgcc ((0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_62 {
+    ((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc ((0 0 1) (0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
+}
+
+_:bng_63 {
+    _:bng_12_1 log:query _:bng_12_1.
+}
+
+_:bng_5_1 {
+    (var:A var:B var:C) :netb (var:Q1 var:Q2).
+}
+
+_:bng_6_1 {
+    (var:A var:C) :and var:T1.
+    var:C :inv var:NC.
+    (var:B var:NC) :and var:T2.
+    var:A :inv var:NA.
+    (var:NA var:C) :and var:T3.
+    (var:T1 var:T2) :or var:Q1.
+    (var:T2 var:T3) :or var:Q2.
+}
+
+_:bng_3_1 {
+    (var:A var:B) :neta var:Q.
+}
+
+_:bng_4_1 {
+    (var:A var:B) :and var:T1.
+    var:A :inv var:NA.
+    var:B :inv var:NB.
+    (var:NA var:NB) :and var:T2.
+    (var:T1 var:T2) :or var:Q.
+}
+
+_:bng_7_1 {
+    (var:C (var:Qa var:Qb var:Qc)) :gcc (var:Za var:Zb var:Zc).
+}
+
+_:bng_8_1 {
+    (var:Qa var:Qb var:Qc) :netb (var:D1 var:D2).
+    (var:Qa var:Qb) :neta var:D3.
+    (var:D1 var:C var:Qa) :dff var:Za.
+    (var:D2 var:C var:Qb) :dff var:Zb.
+    (var:D3 var:C var:Qc) :dff var:Zc.
+}
+
+_:bng_10_1 {
+    (var:Cc var:S) :testgcc var:Nc.
+}
+
+_:bng_11_1 {
+    var:Cc list:firstRest (var:C var:Cs).
+    var:Nc list:firstRest (var:N var:Ns).
+    (var:C var:S) :gcc var:N.
+    (var:Cs var:N) :testgcc var:Ns.
+}
+
+_:bng_12_1 {
+    ((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc var:Q.
+}
