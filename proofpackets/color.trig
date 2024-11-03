@@ -61,7 +61,7 @@ _:bng_2 {
     () :places true.
     :Croatia :neighbours (:Slovenia :Hungary).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_66 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_66 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_3 {
@@ -73,7 +73,7 @@ _:bng_4 {
     ((:Croatia :red)) :places true.
     :Romania :neighbours (:Hungary :Bulgaria).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_67 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_67 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_5 {
@@ -85,7 +85,7 @@ _:bng_6 {
     ((:Romania :red) (:Croatia :red)) :places true.
     :Bulgaria :neighbours (:Romania :Greece).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_68 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_68 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_7 {
@@ -97,7 +97,7 @@ _:bng_8 {
     ((:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Lithuania :neighbours (:Latvia :Poland).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_69 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_69 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_9 {
@@ -109,7 +109,7 @@ _:bng_10 {
     ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Latvia :neighbours (:Estonia :Lithuania).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_70 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_70 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_11 {
@@ -121,7 +121,7 @@ _:bng_12 {
     ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Estonia :neighbours (:Latvia).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_71 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_71 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_13 {
@@ -133,7 +133,7 @@ _:bng_14 {
     ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Slovenia :neighbours (:Austria :Italy :Hungary :Croatia).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_72 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_72 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_15 {
@@ -145,7 +145,7 @@ _:bng_16 {
     ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Slovakia :neighbours (:Czech_Republic :Poland :Hungary :Austria).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_73 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_73 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_17 {
@@ -157,7 +157,7 @@ _:bng_18 {
     ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Czech_Republic :neighbours (:Germany :Poland :Slovakia :Austria).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_74 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_74 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_19 {
@@ -169,7 +169,7 @@ _:bng_20 {
     ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Hungary :neighbours (:Austria :Slovakia :Romania :Croatia :Slovenia).
     (:red :green :blue :yellow) list:member :blue.
-    (1 _:bng_75 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_75 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_21 {
@@ -181,7 +181,7 @@ _:bng_22 {
     ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Poland :neighbours (:Germany :Czech_Republic :Slovakia :Lithuania).
     (:red :green :blue :yellow) list:member :blue.
-    (1 _:bng_76 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_76 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_23 {
@@ -193,7 +193,7 @@ _:bng_24 {
     ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Malta :neighbours ().
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_77 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_77 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_25 {
@@ -205,7 +205,7 @@ _:bng_26 {
     ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Cyprus :neighbours ().
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_78 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_78 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_27 {
@@ -217,7 +217,7 @@ _:bng_28 {
     ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Finland :neighbours (:Sweden).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_79 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_79 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_29 {
@@ -229,7 +229,7 @@ _:bng_30 {
     ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Sweden :neighbours (:Finland).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_80 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_80 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_31 {
@@ -241,7 +241,7 @@ _:bng_32 {
     ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Austria :neighbours (:Czech_Republic :Germany :Hungary :Italy :Slovenia :Slovakia).
     (:red :green :blue :yellow) list:member :yellow.
-    (1 _:bng_81 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_81 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_33 {
@@ -253,7 +253,7 @@ _:bng_34 {
     ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Portugal :neighbours (:Spain).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_82 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_82 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_35 {
@@ -265,7 +265,7 @@ _:bng_36 {
     ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Spain :neighbours (:France :Portugal).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_83 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_83 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_37 {
@@ -277,7 +277,7 @@ _:bng_38 {
     ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Greece :neighbours (:Bulgaria).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_84 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_84 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_39 {
@@ -289,7 +289,7 @@ _:bng_40 {
     ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Ireland :neighbours ().
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_85 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_85 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_41 {
@@ -301,7 +301,7 @@ _:bng_42 {
     ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Denmark :neighbours (:Germany).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_86 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_86 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_43 {
@@ -313,7 +313,7 @@ _:bng_44 {
     ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Italy :neighbours (:France :Austria :Slovenia).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_87 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_87 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_45 {
@@ -325,7 +325,7 @@ _:bng_46 {
     ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Italy :neighbours (:France :Austria :Slovenia).
     (:red :green :blue :yellow) list:member :blue.
-    (1 _:bng_88 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_88 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_47 {
@@ -337,7 +337,7 @@ _:bng_48 {
     ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Denmark :neighbours (:Germany).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_89 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_89 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_49 {
@@ -349,7 +349,7 @@ _:bng_50 {
     ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Italy :neighbours (:France :Austria :Slovenia).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_90 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_90 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_51 {
@@ -361,7 +361,7 @@ _:bng_52 {
     ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Germany :neighbours (:Netherlands :Belgium :Luxemburg :Denmark :France :Austria :Poland :Czech_Republic).
     (:red :green :blue :yellow) list:member :red.
-    (1 _:bng_91 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_91 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_53 {
@@ -373,7 +373,7 @@ _:bng_54 {
     ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :France :neighbours (:Spain :Belgium :Luxemburg :Germany :Italy).
     (:red :green :blue :yellow) list:member :blue.
-    (1 _:bng_92 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_92 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_55 {
@@ -385,7 +385,7 @@ _:bng_56 {
     ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Luxemburg :neighbours (:Belgium :France :Germany).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_93 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_93 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_57 {
@@ -397,7 +397,7 @@ _:bng_58 {
     ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Netherlands :neighbours (:Belgium :Germany).
     (:red :green :blue :yellow) list:member :green.
-    (1 _:bng_94 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_94 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_59 {
@@ -409,7 +409,7 @@ _:bng_60 {
     ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     :Belgium :neighbours (:France :Netherlands :Luxemburg :Germany).
     (:red :green :blue :yellow) list:member :yellow.
-    (1 _:bng_95 ()) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    (1 _:bng_95 ()) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
 }
 
 _:bng_61 {
@@ -421,7 +421,7 @@ _:bng_62 {
 }
 
 _:bng_63 {
-    ((var:x_0 var:x_1) _:bng_96 ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/color.trig>) 1).
+    ((var:x_0 var:x_1) _:bng_96 ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/color.trig>) 1).
     ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
     [] rdf:value true; log:callWithCut true.
 }

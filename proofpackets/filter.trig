@@ -22,7 +22,7 @@ _:bng_1 {
 }
 
 _:bng_2 {
-    (_:sk_3 _:bng_4 ("Huey" "Dewey")) log:collectAllIn ((<https://eyereasoner.github.io/reasongraphs/filter.trig>) 1).
+    (_:sk_3 _:bng_4 ("Huey" "Dewey")) log:collectAllIn ((<https://eyereasoner.github.io/proofpackets/filter.trig>) 1).
     ("Huey" "Dewey") list:length 2.
 }
 
