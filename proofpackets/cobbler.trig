@@ -5,7 +5,7 @@
 _:e_x_1 :is (:good :Cobbler).
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_2.

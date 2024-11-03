@@ -6,7 +6,7 @@
 (1000 3.141592653839793) :pi true.
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

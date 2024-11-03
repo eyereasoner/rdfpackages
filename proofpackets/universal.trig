@@ -9,7 +9,7 @@
 skolem:t_0 :is :lonely.
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_6_1) log:proves _:bng_6_1.

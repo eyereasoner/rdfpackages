@@ -9,7 +9,7 @@
 :i1 gps:path ((:drive_gent_kortrijk :drive_kortrijk_brugge :drive_brugge_oostende) 4100.0 0.018000000000000002 0.903168 0.9801).
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

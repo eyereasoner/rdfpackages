@@ -7,7 +7,7 @@
 ((1 1 1 1 1 1 1 1 1) (0 0 0)) :testgcc ((0 0 1) (0 1 1) (0 1 0) (1 1 0) (1 1 1) (1 0 1) (1 0 0) (0 0 0) (0 0 1)).
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

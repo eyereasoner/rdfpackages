@@ -8,7 +8,7 @@
 :pers002 :givenName "Claudia".
 
 #
-# reasongraphs
+# proofpackets
 #
 
 (_:bng_1 _:bng_2) log:proves true.
