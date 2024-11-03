@@ -1,4 +1,5 @@
-# Proofpackets: proofs described in RDF supported by logic described in RDF
+# Proofpackets
+### Proofs described in RDF supported by logic described in RDF
 
 ## Reasoning with forward rules described in RDF as
 ```
