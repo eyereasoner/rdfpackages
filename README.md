@@ -40,7 +40,7 @@ _:bng_2 {
 }
 ```
 
-## Proofs are composed of `log:proves` described in RDF as
+## Proofs are described in RDF as
 ```
 (rule_or_query instantiated_premise) log:proves instantiated_conclusion.
 ```
