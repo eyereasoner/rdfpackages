@@ -38,7 +38,7 @@ _:bng_2 {
 
 ## Queries described in RDF
 e.g.
-```Turtle
+```
 # query for people above 80 years old
 _:bng_3 log:query _:bng_3.
 
