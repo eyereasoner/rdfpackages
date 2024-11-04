@@ -4,7 +4,7 @@ Proofpackets are proofs described in RDF supported by logic described in RDF.
 
 ## Forward rules described in RDF
 e.g.
-```trig
+```sparql
 # rdfs subclass
 _:bng_1 log:implies _:bng_2.
 
@@ -20,7 +20,7 @@ _:bng_2 {
 
 ## Backward rules described in RDF
 e.g.
-```trig
+```sparql
 # is the age of a person above some duration?
 _:bng_1 log:isImpliedBy _:bng_2.
 
@@ -38,7 +38,7 @@ _:bng_2 {
 
 ## Queries described in RDF
 e.g.
-```trig
+```sparql
 # query for people above 80 years old
 _:bng_3 log:query _:bng_3.
 
@@ -81,6 +81,6 @@ variables that are interpreted as universally quantified variables except for
 forward rule conclusion-only variables which are interpreted existentially.
 
 Literal subjects are described as
-```trig
+```sparql
 [] rdf:value "aha"; :p :o.
 ```
