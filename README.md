@@ -1,10 +1,10 @@
-# Proofpackets
+# RDF Proofs
 
-Proofpackets are proofs described in RDF supported by logic described in RDF.
+RDF Proofs are proofs described in RDF supported by logic described in RDF.
 
 ## Forward rules described in RDF
 e.g.
-```Turtle
+```
 # rdfs subclass
 _:bng_1 log:implies _:bng_2.
 
@@ -20,7 +20,7 @@ _:bng_2 {
 
 ## Backward rules described in RDF
 e.g.
-```Turtle
+```
 # is the age of a person above some duration?
 _:bng_1 log:isImpliedBy _:bng_2.
 
@@ -49,7 +49,7 @@ _:bng_3 {
 
 ## Proofs described in RDF
 e.g.
-```Turtle
+```
 # (rule instantiated_premise) log:proves instantiated_conclusion.
 (_:bng_1 _:bng_2) log:proves _:bng_3.
 
@@ -81,6 +81,6 @@ variables that are interpreted as universally quantified variables except for
 forward rule conclusion-only variables which are interpreted existentially.
 
 Literal subjects are described as
-```Turtle
+```
 [] rdf:value "aha"; :p :o.
 ```
