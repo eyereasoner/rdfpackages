@@ -1,0 +1,58 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+
+:test :is true.
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_6_1.
+
+_:bng_1_1 {
+    :A :B :C.
+    :D :E _:bng_2_1.
+}
+
+_:bng_3_1 {
+    :D :E _:bng_4_1.
+    :A :B :C.
+}
+
+_:bng_5 {
+    :F :G _:sk_2.
+}
+
+_:bng_1 {
+    _:bng_5_1 log:query _:bng_6_1.
+}
+
+_:bng_2 {
+    _:bng_3 log:equalTo _:bng_4.
+}
+
+_:bng_6_1 {
+    :test :is true.
+}
+
+_:bng_2_1 {
+    :F :G <http://www.w3.org/2000/10/swap/var#H>.
+}
+
+_:bng_4_1 {
+    :F :G <http://www.w3.org/2000/10/swap/var#I>.
+}
+
+_:bng_5_1 {
+    _:bng_1_1 log:equalTo _:bng_3_1.
+}
+
+_:bng_3 {
+    :A :B :C.
+    :D :E _:bng_5.
+}
+
+_:bng_4 {
+    :D :E _:bng_5.
+    :A :B :C.
+}

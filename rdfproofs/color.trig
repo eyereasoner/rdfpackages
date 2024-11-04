@@ -1,0 +1,615 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+:mapEU :color ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)).
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_6) log:proves _:bng_7.
+(_:bng_1 _:bng_8) log:proves _:bng_9.
+(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_1 _:bng_12) log:proves _:bng_13.
+(_:bng_1 _:bng_14) log:proves _:bng_15.
+(_:bng_1 _:bng_16) log:proves _:bng_17.
+(_:bng_1 _:bng_18) log:proves _:bng_19.
+(_:bng_1 _:bng_20) log:proves _:bng_21.
+(_:bng_1 _:bng_22) log:proves _:bng_23.
+(_:bng_1 _:bng_24) log:proves _:bng_25.
+(_:bng_1 _:bng_26) log:proves _:bng_27.
+(_:bng_1 _:bng_28) log:proves _:bng_29.
+(_:bng_1 _:bng_30) log:proves _:bng_31.
+(_:bng_1 _:bng_32) log:proves _:bng_33.
+(_:bng_1 _:bng_34) log:proves _:bng_35.
+(_:bng_1 _:bng_36) log:proves _:bng_37.
+(_:bng_1 _:bng_38) log:proves _:bng_39.
+(_:bng_1 _:bng_40) log:proves _:bng_41.
+(_:bng_1 _:bng_42) log:proves _:bng_43.
+(_:bng_1 _:bng_44) log:proves _:bng_45.
+(_:bng_1 _:bng_46) log:proves _:bng_47.
+(_:bng_1 _:bng_48) log:proves _:bng_49.
+(_:bng_1 _:bng_50) log:proves _:bng_51.
+(_:bng_1 _:bng_52) log:proves _:bng_53.
+(_:bng_1 _:bng_54) log:proves _:bng_55.
+(_:bng_1 _:bng_56) log:proves _:bng_57.
+(_:bng_1 _:bng_58) log:proves _:bng_59.
+(_:bng_1 _:bng_60) log:proves _:bng_61.
+(_:bng_62 _:bng_63) log:proves _:bng_64.
+(_:bng_65 _:bng_64) log:proves _:bng_64.
+
+_:bng_7_1 {
+    var:TAIL list:member (var:NEIGHBOUR var:COLOR).
+    var:NEIGHBOURS list:member var:NEIGHBOUR.
+}
+
+_:bng_3_1 {
+    var:PLACE :neighbours var:Y.
+}
+
+_:bng_1 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
+}
+
+_:bng_2 {
+    ((:Croatia :red)) list:firstRest ((:Croatia :red) ()).
+    () :places true.
+    :Croatia :neighbours (:Slovenia :Hungary).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_66 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_3 {
+    ((:Croatia :red)) :places true.
+}
+
+_:bng_4 {
+    ((:Romania :red) (:Croatia :red)) list:firstRest ((:Romania :red) ((:Croatia :red))).
+    ((:Croatia :red)) :places true.
+    :Romania :neighbours (:Hungary :Bulgaria).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_67 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_5 {
+    ((:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_6 {
+    ((:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Bulgaria :green) ((:Romania :red) (:Croatia :red))).
+    ((:Romania :red) (:Croatia :red)) :places true.
+    :Bulgaria :neighbours (:Romania :Greece).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_68 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_7 {
+    ((:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_8 {
+    ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Lithuania :red) ((:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Lithuania :neighbours (:Latvia :Poland).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_69 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_9 {
+    ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_10 {
+    ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Latvia :green) ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Latvia :neighbours (:Estonia :Lithuania).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_70 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_11 {
+    ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_12 {
+    ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Estonia :red) ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Estonia :neighbours (:Latvia).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_71 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_13 {
+    ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_14 {
+    ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Slovenia :green) ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Slovenia :neighbours (:Austria :Italy :Hungary :Croatia).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_72 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_15 {
+    ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_16 {
+    ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Slovakia :red) ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Slovakia :neighbours (:Czech_Republic :Poland :Hungary :Austria).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_73 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_17 {
+    ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_18 {
+    ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Czech_Republic :green) ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Czech_Republic :neighbours (:Germany :Poland :Slovakia :Austria).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_74 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_19 {
+    ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_20 {
+    ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Hungary :blue) ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Hungary :neighbours (:Austria :Slovakia :Romania :Croatia :Slovenia).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_75 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_21 {
+    ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_22 {
+    ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Poland :blue) ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Poland :neighbours (:Germany :Czech_Republic :Slovakia :Lithuania).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_76 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_23 {
+    ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_24 {
+    ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Malta :red) ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Malta :neighbours ().
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_77 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_25 {
+    ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_26 {
+    ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Cyprus :red) ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Cyprus :neighbours ().
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_78 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_27 {
+    ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_28 {
+    ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Finland :red) ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Finland :neighbours (:Sweden).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_79 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_29 {
+    ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_30 {
+    ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Sweden :green) ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Sweden :neighbours (:Finland).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_80 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_31 {
+    ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_32 {
+    ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Austria :yellow) ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Austria :neighbours (:Czech_Republic :Germany :Hungary :Italy :Slovenia :Slovakia).
+    (:red :green :blue :yellow) list:member :yellow.
+    (1 _:bng_81 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_33 {
+    ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_34 {
+    ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Portugal :red) ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Portugal :neighbours (:Spain).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_82 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_35 {
+    ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_36 {
+    ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Spain :green) ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Spain :neighbours (:France :Portugal).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_83 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_37 {
+    ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_38 {
+    ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Greece :red) ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Greece :neighbours (:Bulgaria).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_84 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_39 {
+    ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_40 {
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Ireland :red) ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Ireland :neighbours ().
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_85 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_41 {
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_42 {
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Denmark :red) ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Denmark :neighbours (:Germany).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_86 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_43 {
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_44 {
+    ((:Italy :red) (:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Italy :red) ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Italy :neighbours (:France :Austria :Slovenia).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_87 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_45 {
+    ((:Italy :red) (:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_46 {
+    ((:Italy :blue) (:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Italy :blue) ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Italy :neighbours (:France :Austria :Slovenia).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_88 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_47 {
+    ((:Italy :blue) (:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_48 {
+    ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Denmark :green) ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Denmark :neighbours (:Germany).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_89 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_49 {
+    ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_50 {
+    ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Italy :red) ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Italy :neighbours (:France :Austria :Slovenia).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_90 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_51 {
+    ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_52 {
+    ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Germany :red) ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Germany :neighbours (:Netherlands :Belgium :Luxemburg :Denmark :France :Austria :Poland :Czech_Republic).
+    (:red :green :blue :yellow) list:member :red.
+    (1 _:bng_91 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_53 {
+    ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_54 {
+    ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:France :blue) ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :France :neighbours (:Spain :Belgium :Luxemburg :Germany :Italy).
+    (:red :green :blue :yellow) list:member :blue.
+    (1 _:bng_92 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_55 {
+    ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_56 {
+    ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Luxemburg :green) ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Luxemburg :neighbours (:Belgium :France :Germany).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_93 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_57 {
+    ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_58 {
+    ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Netherlands :green) ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Netherlands :neighbours (:Belgium :Germany).
+    (:red :green :blue :yellow) list:member :green.
+    (1 _:bng_94 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_59 {
+    ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_60 {
+    ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:firstRest ((:Belgium :yellow) ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))).
+    ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    :Belgium :neighbours (:France :Netherlands :Luxemburg :Germany).
+    (:red :green :blue :yellow) list:member :yellow.
+    (1 _:bng_95 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+}
+
+_:bng_61 {
+    ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+}
+
+_:bng_62 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_63 {
+    ((var:x_0 var:x_1) _:bng_96 ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red))) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/color.trig>) 1).
+    ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) :places true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_64 {
+    :mapEU :color ((:Belgium :yellow) (:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)).
+}
+
+_:bng_65 {
+    _:bng_8_1 log:query _:bng_8_1.
+}
+
+_:bng_5_1 {
+    var:PLACES :places true.
+}
+
+_:bng_6_1 {
+    var:PLACES list:firstRest ((var:PLACE var:COLOR) var:TAIL).
+    var:TAIL :places true.
+    var:PLACE :neighbours var:NEIGHBOURS.
+    (:red :green :blue :yellow) list:member var:COLOR.
+    (1 _:bng_7_1 ()) log:collectAllIn var:SCOPE.
+}
+
+_:bng_66 {
+    () list:member (var:x_0 :red).
+    (:Slovenia :Hungary) list:member var:x_0.
+}
+
+_:bng_67 {
+    ((:Croatia :red)) list:member (var:x_0 :red).
+    (:Hungary :Bulgaria) list:member var:x_0.
+}
+
+_:bng_68 {
+    ((:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Romania :Greece) list:member var:x_0.
+}
+
+_:bng_69 {
+    ((:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Latvia :Poland) list:member var:x_0.
+}
+
+_:bng_70 {
+    ((:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Estonia :Lithuania) list:member var:x_0.
+}
+
+_:bng_71 {
+    ((:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Latvia) list:member var:x_0.
+}
+
+_:bng_72 {
+    ((:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Austria :Italy :Hungary :Croatia) list:member var:x_0.
+}
+
+_:bng_73 {
+    ((:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Czech_Republic :Poland :Hungary :Austria) list:member var:x_0.
+}
+
+_:bng_74 {
+    ((:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Germany :Poland :Slovakia :Austria) list:member var:x_0.
+}
+
+_:bng_75 {
+    ((:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :blue).
+    (:Austria :Slovakia :Romania :Croatia :Slovenia) list:member var:x_0.
+}
+
+_:bng_76 {
+    ((:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :blue).
+    (:Germany :Czech_Republic :Slovakia :Lithuania) list:member var:x_0.
+}
+
+_:bng_77 {
+    ((:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    () list:member var:x_0.
+}
+
+_:bng_78 {
+    ((:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    () list:member var:x_0.
+}
+
+_:bng_79 {
+    ((:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Sweden) list:member var:x_0.
+}
+
+_:bng_80 {
+    ((:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Finland) list:member var:x_0.
+}
+
+_:bng_81 {
+    ((:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :yellow).
+    (:Czech_Republic :Germany :Hungary :Italy :Slovenia :Slovakia) list:member var:x_0.
+}
+
+_:bng_82 {
+    ((:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Spain) list:member var:x_0.
+}
+
+_:bng_83 {
+    ((:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:France :Portugal) list:member var:x_0.
+}
+
+_:bng_84 {
+    ((:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Bulgaria) list:member var:x_0.
+}
+
+_:bng_85 {
+    ((:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    () list:member var:x_0.
+}
+
+_:bng_86 {
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Germany) list:member var:x_0.
+}
+
+_:bng_87 {
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:France :Austria :Slovenia) list:member var:x_0.
+}
+
+_:bng_88 {
+    ((:Denmark :red) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :blue).
+    (:France :Austria :Slovenia) list:member var:x_0.
+}
+
+_:bng_89 {
+    ((:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Germany) list:member var:x_0.
+}
+
+_:bng_90 {
+    ((:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:France :Austria :Slovenia) list:member var:x_0.
+}
+
+_:bng_91 {
+    ((:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :red).
+    (:Netherlands :Belgium :Luxemburg :Denmark :France :Austria :Poland :Czech_Republic) list:member var:x_0.
+}
+
+_:bng_92 {
+    ((:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :blue).
+    (:Spain :Belgium :Luxemburg :Germany :Italy) list:member var:x_0.
+}
+
+_:bng_93 {
+    ((:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Belgium :France :Germany) list:member var:x_0.
+}
+
+_:bng_94 {
+    ((:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :green).
+    (:Belgium :Germany) list:member var:x_0.
+}
+
+_:bng_95 {
+    ((:Netherlands :green) (:Luxemburg :green) (:France :blue) (:Germany :red) (:Italy :red) (:Denmark :green) (:Ireland :red) (:Greece :red) (:Spain :green) (:Portugal :red) (:Austria :yellow) (:Sweden :green) (:Finland :red) (:Cyprus :red) (:Malta :red) (:Poland :blue) (:Hungary :blue) (:Czech_Republic :green) (:Slovakia :red) (:Slovenia :green) (:Estonia :red) (:Latvia :green) (:Lithuania :red) (:Bulgaria :green) (:Romania :red) (:Croatia :red)) list:member (var:x_0 :yellow).
+    (:France :Netherlands :Luxemburg :Germany) list:member var:x_0.
+}
+
+_:bng_1_1 {
+    var:MAP :color var:PLACES.
+}
+
+_:bng_2_1 {
+    ((var:PLACE var:X) _:bng_3_1 var:PLACES) log:collectAllIn var:SCOPE.
+    var:PLACES :places true.
+    [] rdf:value true; log:callWithCut true.
+}
+
+_:bng_96 {
+    var:x_0 :neighbours var:x_2.
+}
+
+_:bng_8_1 {
+    :mapEU :color var:PLACES.
+}

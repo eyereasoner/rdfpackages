@@ -1,0 +1,113 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:GIRL a :WITCH.
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_7 _:bng_3) log:proves _:bng_8.
+(_:bng_1 _:bng_6) log:proves _:bng_9.
+(_:bng_7 _:bng_9) log:proves _:bng_10.
+(_:bng_11 _:bng_12) log:proves _:bng_13.
+(_:bng_14 _:bng_13) log:proves _:bng_13.
+
+_:bng_1 {
+    _:bng_5_1 log:implies _:bng_6_1.
+}
+
+_:bng_2 {
+    :DUCK a :FLOATS.
+}
+
+_:bng_3 {
+    :DUCK a :ISMADEOFWOOD.
+}
+
+_:bng_4 {
+    _:bng_7_1 log:implies _:bng_8_1.
+}
+
+_:bng_5 {
+    :DUCK a :FLOATS.
+    :DUCK :SAMEWEIGHT :GIRL.
+}
+
+_:bng_6 {
+    :GIRL a :FLOATS.
+}
+
+_:bng_7 {
+    _:bng_3_1 log:implies _:bng_4_1.
+}
+
+_:bng_8 {
+    :DUCK a :BURNS.
+}
+
+_:bng_9 {
+    :GIRL a :ISMADEOFWOOD.
+}
+
+_:bng_10 {
+    :GIRL a :BURNS.
+}
+
+_:bng_11 {
+    _:bng_1_1 log:implies _:bng_2_1.
+}
+
+_:bng_12 {
+    :GIRL a :BURNS.
+    :GIRL a :WOMAN.
+}
+
+_:bng_13 {
+    :GIRL a :WITCH.
+}
+
+_:bng_14 {
+    _:bng_9_1 log:query _:bng_9_1.
+}
+
+_:bng_5_1 {
+    var:x a :FLOATS.
+}
+
+_:bng_6_1 {
+    var:x a :ISMADEOFWOOD.
+}
+
+_:bng_7_1 {
+    var:x a :FLOATS.
+    var:x :SAMEWEIGHT var:y.
+}
+
+_:bng_8_1 {
+    var:y a :FLOATS.
+}
+
+_:bng_3_1 {
+    var:x a :ISMADEOFWOOD.
+}
+
+_:bng_4_1 {
+    var:x a :BURNS.
+}
+
+_:bng_1_1 {
+    var:x a :BURNS.
+    var:x a :WOMAN.
+}
+
+_:bng_2_1 {
+    var:x a :WITCH.
+}
+
+_:bng_9_1 {
+    var:S a :WITCH.
+}

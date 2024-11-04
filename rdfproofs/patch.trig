@@ -1,0 +1,65 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:pers001 :familyName "Garcia".
+:pers001 :givenName "Alex".
+:pers002 :familyName "Cardinale".
+:pers002 :givenName "Claudia".
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves true.
+(_:bng_3 _:bng_4) log:proves _:bng_4.
+(_:bng_3 _:bng_5) log:proves _:bng_5.
+
+_:bng_2_1 {
+    var:person :givenName "Claudia".
+}
+
+_:bng_3_1 {
+    var:person :givenName "Alex".
+}
+
+_:bng_1 {
+    _:bng_1_1 log:implies true.
+}
+
+_:bng_2 {
+    :pers001 :familyName "Garcia".
+    _:bng_6 log:becomes _:bng_7.
+}
+
+_:bng_3 {
+    _:bng_4_1 log:query _:bng_4_1.
+}
+
+_:bng_4 {
+    :pers001 :familyName "Garcia".
+    :pers001 :givenName "Alex".
+}
+
+_:bng_5 {
+    :pers002 :familyName "Cardinale".
+    :pers002 :givenName "Claudia".
+}
+
+_:bng_1_1 {
+    var:person :familyName "Garcia".
+    _:bng_2_1 log:becomes _:bng_3_1.
+}
+
+_:bng_6 {
+    :pers001 :givenName "Claudia".
+}
+
+_:bng_7 {
+    :pers001 :givenName "Alex".
+}
+
+_:bng_4_1 {
+    var:person :familyName var:fname.
+    var:person :givenName var:gname.
+}

@@ -1,0 +1,81 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix graph: <http://www.w3.org/2000/10/swap/graph#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix as: <http://example.org/as#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+:answer :is _:bng_4_1.
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+
+_:bng_1_1 {
+    <https://example.org/Dataset1> a dcat:Dataset.
+}
+
+_:bng_2_1 {
+    <https://example.org/Dataset1#Event1> a as:Create.
+    <https://example.org/Dataset1#Event1> a prov:Activity.
+    <https://example.org/Dataset1#Event1> as:object <https://example.org/Dataset1>.
+    <https://example.org/Dataset1#Event1> as:published "2023-10-01T12:00:00Z"^^xsd:dateTime.
+}
+
+_:bng_7_1 {
+    var:Pol a :Policy.
+}
+
+_:bng_8_1 {
+    var:Pol :target var:Target.
+}
+
+_:bng_3_1 {
+    _:bn_1 a :DataIntegrityProof.
+    _:bn_1 :signature "rCWNBuxBK1In93X8dvuK1ss91LK0rMiA2KzvsNaEhdGt7PTD5aQ0X58TzbvnTOhvl9t5bRGoOHnxfys52Q9bWjnmD4GoljEWVWFSrBnORsLBOLwcAnLRfEtTvz4t0EYV".
+    _:bn_1 :target (_:bng_1_1 _:bng_2_1 _:bng_4_1).
+}
+
+_:bng_4_1 {
+    _:bn_2 a :Policy.
+    _:bn_2 :target (_:bng_1_1 _:bng_2_1 _:bng_3_1).
+    _:bn_2 :duty _:bn_4.
+    _:bn_4 a :RemovalDuty.
+    _:bn_4 :after "P1M".
+}
+
+_:bng_1 {
+    _:bng_5_1 log:query _:bng_6_1.
+}
+
+_:bng_2 {
+    _:bng_4_1 graph:statement _:bng_4_1.
+    _:bng_4_1 log:includes _:bng_4.
+    _:bng_4_1 log:includes _:bng_5.
+}
+
+_:bng_3 {
+    :answer :is _:bng_4_1.
+}
+
+_:bng_5_1 {
+    var:Node graph:statement var:ContentGraph.
+    var:ContentGraph log:includes _:bng_7_1.
+    var:ContentGraph log:includes _:bng_8_1.
+}
+
+_:bng_6_1 {
+    :answer :is var:ContentGraph.
+}
+
+_:bng_4 {
+    _:bn_2 a :Policy.
+}
+
+_:bng_5 {
+    _:bn_2 :target (_:bng_1_1 _:bng_2_1 _:bng_3_1).
+}

@@ -1,0 +1,160 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+
+:test :for :PolicyX.
+:test :is true.
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_7 _:bng_8) log:proves _:bng_9.
+(_:bng_10 _:bng_11) log:proves _:bng_12.
+
+_:bng_3_1 {
+    var:Pol :allOf var:Field.
+}
+
+_:bng_4_1 {
+    var:Test :has var:Field.
+}
+
+_:bng_7_1 {
+    var:Pol :anyOf var:Field.
+    var:Test :has var:Field.
+}
+
+_:bng_10_1 {
+    var:Pol :noneOf var:Field.
+    var:Test :has var:Field.
+}
+
+_:bng_1 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_2 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (_:bng_13 _:bng_14) log:forAllIn ((<https://eyereasoner.github.io/rdfproofs/acp.trig>) 1).
+}
+
+_:bng_3 {
+    :PolicyX :pass :allOfTest.
+}
+
+_:bng_4 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
+}
+
+_:bng_5 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (var:x_0 _:bng_15 (:C)) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/acp.trig>) 1).
+    (:C) list:length 1 .
+    (1) log:notEqualTo (0).
+}
+
+_:bng_6 {
+    :PolicyX :pass :anyOfTest.
+}
+
+_:bng_7 {
+    _:bng_8_1 log:isImpliedBy _:bng_9_1.
+}
+
+_:bng_8 {
+    :test1 :policy :PolicyX.
+    :PolicyX a :Policy.
+    (var:x_0 _:bng_16 ()) log:collectAllIn ((<https://eyereasoner.github.io/rdfproofs/acp.trig>) 1).
+    () list:length 0 .
+    (0) log:equalTo (0).
+}
+
+_:bng_9 {
+    :PolicyX :pass :noneOfTest.
+}
+
+_:bng_10 {
+    _:bng_11_1 log:query _:bng_12_1.
+}
+
+_:bng_11 {
+    :PolicyX a :Policy.
+    :PolicyX :pass :allOfTest.
+    :PolicyX :pass :anyOfTest.
+    :PolicyX :pass :noneOfTest.
+}
+
+_:bng_12 {
+    :test :for :PolicyX.
+    :test :is true.
+}
+
+_:bng_1_1 {
+    var:Pol :pass :allOfTest.
+}
+
+_:bng_2_1 {
+    var:Test :policy var:Pol.
+    var:Pol a :Policy.
+    (_:bng_3_1 _:bng_4_1) log:forAllIn var:X.
+}
+
+_:bng_13 {
+    :PolicyX :allOf var:x_0.
+}
+
+_:bng_14 {
+    :test1 :has var:x_0.
+}
+
+_:bng_5_1 {
+    var:Pol :pass :anyOfTest.
+}
+
+_:bng_6_1 {
+    var:Test :policy var:Pol.
+    var:Pol a :Policy.
+    (var:Field _:bng_7_1 var:List) log:collectAllIn var:X.
+    var:List list:length var:L.
+    (var:L) log:notEqualTo (0).
+}
+
+_:bng_15 {
+    :PolicyX :anyOf var:x_0.
+    :test1 :has var:x_0.
+}
+
+_:bng_8_1 {
+    var:Pol :pass :noneOfTest.
+}
+
+_:bng_9_1 {
+    var:Test :policy var:Pol.
+    var:Pol a :Policy.
+    (var:Field _:bng_10_1 var:List) log:collectAllIn var:X.
+    var:List list:length var:L.
+    (var:L) log:equalTo (0).
+}
+
+_:bng_16 {
+    :PolicyX :noneOf var:x_0.
+    :test1 :has var:x_0.
+}
+
+_:bng_11_1 {
+    var:Pol a :Policy.
+    var:Pol :pass :allOfTest.
+    var:Pol :pass :anyOfTest.
+    var:Pol :pass :noneOfTest.
+}
+
+_:bng_12_1 {
+    :test :for var:Pol.
+    :test :is true.
+}

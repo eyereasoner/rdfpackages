@@ -1,0 +1,712 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+(0 0) :ackermann 1 .
+(0 6) :ackermann 7 .
+(1 2) :ackermann 4 .
+(1 7) :ackermann 9 .
+(2 2) :ackermann 7 .
+(2 9) :ackermann 21 .
+(3 4) :ackermann 125 .
+(3 14) :ackermann 131069 .
+(4 0) :ackermann 13 .
+(4 1) :ackermann 65533 .
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_1 _:bng_7) log:proves _:bng_8.
+(_:bng_4 _:bng_9) log:proves _:bng_10.
+(_:bng_11 _:bng_12) log:proves _:bng_13.
+(_:bng_4 _:bng_14) log:proves _:bng_15.
+(_:bng_11 _:bng_16) log:proves _:bng_17.
+(_:bng_4 _:bng_18) log:proves _:bng_19.
+(_:bng_20 _:bng_21) log:proves _:bng_22.
+(_:bng_4 _:bng_23) log:proves _:bng_24.
+(_:bng_20 _:bng_25) log:proves _:bng_26.
+(_:bng_4 _:bng_27) log:proves _:bng_28.
+(_:bng_20 _:bng_29) log:proves _:bng_30.
+(_:bng_31 _:bng_32) log:proves _:bng_33.
+(_:bng_20 _:bng_34) log:proves _:bng_35.
+(_:bng_31 _:bng_36) log:proves _:bng_37.
+(_:bng_20 _:bng_38) log:proves _:bng_39.
+(_:bng_31 _:bng_40) log:proves _:bng_41.
+(_:bng_20 _:bng_42) log:proves _:bng_43.
+(_:bng_31 _:bng_44) log:proves _:bng_45.
+(_:bng_20 _:bng_46) log:proves _:bng_47.
+(_:bng_31 _:bng_48) log:proves _:bng_49.
+(_:bng_20 _:bng_50) log:proves _:bng_51.
+(_:bng_31 _:bng_52) log:proves _:bng_53.
+(_:bng_20 _:bng_54) log:proves _:bng_55.
+(_:bng_31 _:bng_56) log:proves _:bng_57.
+(_:bng_4 _:bng_58) log:proves _:bng_59.
+(_:bng_20 _:bng_60) log:proves _:bng_61.
+(_:bng_31 _:bng_62) log:proves _:bng_63.
+(_:bng_20 _:bng_64) log:proves _:bng_65.
+(_:bng_31 _:bng_66) log:proves _:bng_67.
+(_:bng_20 _:bng_68) log:proves _:bng_69.
+(_:bng_31 _:bng_70) log:proves _:bng_71.
+(_:bng_20 _:bng_72) log:proves _:bng_73.
+(_:bng_31 _:bng_74) log:proves _:bng_75.
+(_:bng_20 _:bng_76) log:proves _:bng_77.
+(_:bng_31 _:bng_78) log:proves _:bng_79.
+(_:bng_20 _:bng_80) log:proves _:bng_81.
+(_:bng_31 _:bng_82) log:proves _:bng_83.
+(_:bng_20 _:bng_84) log:proves _:bng_85.
+(_:bng_31 _:bng_86) log:proves _:bng_87.
+(_:bng_20 _:bng_88) log:proves _:bng_89.
+(_:bng_31 _:bng_90) log:proves _:bng_91.
+(_:bng_20 _:bng_92) log:proves _:bng_93.
+(_:bng_31 _:bng_94) log:proves _:bng_95.
+(_:bng_20 _:bng_96) log:proves _:bng_97.
+(_:bng_31 _:bng_98) log:proves _:bng_99.
+(_:bng_4 _:bng_100) log:proves _:bng_101.
+(_:bng_31 _:bng_102) log:proves _:bng_103.
+(_:bng_31 _:bng_104) log:proves _:bng_105.
+(_:bng_31 _:bng_106) log:proves _:bng_107.
+(_:bng_4 _:bng_108) log:proves _:bng_109.
+(_:bng_31 _:bng_110) log:proves _:bng_111.
+(_:bng_4 _:bng_112) log:proves _:bng_113.
+(_:bng_114 _:bng_115) log:proves _:bng_115.
+
+_:bng_1 {
+    _:bng_3_1 log:isImpliedBy _:bng_4_1.
+}
+
+_:bng_2 {
+    [] rdf:value true; log:callWithCut true.
+    (3 1) math:sum 4.
+}
+
+_:bng_3 {
+    (0 3 2) :ackermann 4.
+}
+
+_:bng_4 {
+    _:bng_1_1 log:isImpliedBy _:bng_2_1.
+}
+
+_:bng_5 {
+    (0 3) math:sum 3 .
+    (0 3 2) :ackermann 4 .
+    (4 3) math:difference 1.
+}
+
+_:bng_6 {
+    (0 0) :ackermann 1.
+}
+
+_:bng_7 {
+    [] rdf:value true; log:callWithCut true.
+    (9 1) math:sum 10.
+}
+
+_:bng_8 {
+    (0 9 2) :ackermann 10.
+}
+
+_:bng_9 {
+    (6 3) math:sum 9 .
+    (0 9 2) :ackermann 10 .
+    (10 3) math:difference 7.
+}
+
+_:bng_10 {
+    (0 6) :ackermann 7.
+}
+
+_:bng_11 {
+    _:bng_5_1 log:isImpliedBy _:bng_6_1.
+}
+
+_:bng_12 {
+    [] rdf:value true; log:callWithCut true.
+    (5 2) math:sum 7.
+}
+
+_:bng_13 {
+    (1 5 2) :ackermann 7.
+}
+
+_:bng_14 {
+    (2 3) math:sum 5 .
+    (1 5 2) :ackermann 7 .
+    (7 3) math:difference 4.
+}
+
+_:bng_15 {
+    (1 2) :ackermann 4.
+}
+
+_:bng_16 {
+    [] rdf:value true; log:callWithCut true.
+    (10 2) math:sum 12.
+}
+
+_:bng_17 {
+    (1 10 2) :ackermann 12.
+}
+
+_:bng_18 {
+    (7 3) math:sum 10 .
+    (1 10 2) :ackermann 12 .
+    (12 3) math:difference 9.
+}
+
+_:bng_19 {
+    (1 7) :ackermann 9.
+}
+
+_:bng_20 {
+    _:bng_7_1 log:isImpliedBy _:bng_8_1.
+}
+
+_:bng_21 {
+    [] rdf:value true; log:callWithCut true.
+    (5 2) math:product 10.
+}
+
+_:bng_22 {
+    (2 5 2) :ackermann 10.
+}
+
+_:bng_23 {
+    (2 3) math:sum 5 .
+    (2 5 2) :ackermann 10 .
+    (10 3) math:difference 7.
+}
+
+_:bng_24 {
+    (2 2) :ackermann 7.
+}
+
+_:bng_25 {
+    [] rdf:value true; log:callWithCut true.
+    (12 2) math:product 24.
+}
+
+_:bng_26 {
+    (2 12 2) :ackermann 24.
+}
+
+_:bng_27 {
+    (9 3) math:sum 12 .
+    (2 12 2) :ackermann 24 .
+    (24 3) math:difference 21.
+}
+
+_:bng_28 {
+    (2 9) :ackermann 21.
+}
+
+_:bng_29 {
+    [] rdf:value true; log:callWithCut true.
+    (1 2) math:product 2.
+}
+
+_:bng_30 {
+    (2 1 2) :ackermann 2.
+}
+
+_:bng_31 {
+    _:bng_11_1 log:isImpliedBy _:bng_12_1.
+}
+
+_:bng_32 {
+    (1 1) math:difference 0 .
+    (3 0 2) :ackermann 1 .
+    (3 1) math:difference 2 .
+    (2 1 2) :ackermann 2.
+}
+
+_:bng_33 {
+    (3 1 2) :ackermann 2.
+}
+
+_:bng_34 {
+    [] rdf:value true; log:callWithCut true.
+    (2 2) math:product 4.
+}
+
+_:bng_35 {
+    (2 2 2) :ackermann 4.
+}
+
+_:bng_36 {
+    (2 1) math:difference 1 .
+    (3 1 2) :ackermann 2 .
+    (3 1) math:difference 2 .
+    (2 2 2) :ackermann 4.
+}
+
+_:bng_37 {
+    (3 2 2) :ackermann 4.
+}
+
+_:bng_38 {
+    [] rdf:value true; log:callWithCut true.
+    (4 2) math:product 8.
+}
+
+_:bng_39 {
+    (2 4 2) :ackermann 8.
+}
+
+_:bng_40 {
+    (3 1) math:difference 2 .
+    (3 2 2) :ackermann 4 .
+    (3 1) math:difference 2 .
+    (2 4 2) :ackermann 8.
+}
+
+_:bng_41 {
+    (3 3 2) :ackermann 8.
+}
+
+_:bng_42 {
+    [] rdf:value true; log:callWithCut true.
+    (8 2) math:product 16.
+}
+
+_:bng_43 {
+    (2 8 2) :ackermann 16.
+}
+
+_:bng_44 {
+    (4 1) math:difference 3 .
+    (3 3 2) :ackermann 8 .
+    (3 1) math:difference 2 .
+    (2 8 2) :ackermann 16.
+}
+
+_:bng_45 {
+    (3 4 2) :ackermann 16.
+}
+
+_:bng_46 {
+    [] rdf:value true; log:callWithCut true.
+    (16 2) math:product 32.
+}
+
+_:bng_47 {
+    (2 16 2) :ackermann 32.
+}
+
+_:bng_48 {
+    (5 1) math:difference 4 .
+    (3 4 2) :ackermann 16 .
+    (3 1) math:difference 2 .
+    (2 16 2) :ackermann 32.
+}
+
+_:bng_49 {
+    (3 5 2) :ackermann 32.
+}
+
+_:bng_50 {
+    [] rdf:value true; log:callWithCut true.
+    (32 2) math:product 64.
+}
+
+_:bng_51 {
+    (2 32 2) :ackermann 64.
+}
+
+_:bng_52 {
+    (6 1) math:difference 5 .
+    (3 5 2) :ackermann 32 .
+    (3 1) math:difference 2 .
+    (2 32 2) :ackermann 64.
+}
+
+_:bng_53 {
+    (3 6 2) :ackermann 64.
+}
+
+_:bng_54 {
+    [] rdf:value true; log:callWithCut true.
+    (64 2) math:product 128.
+}
+
+_:bng_55 {
+    (2 64 2) :ackermann 128.
+}
+
+_:bng_56 {
+    (7 1) math:difference 6 .
+    (3 6 2) :ackermann 64 .
+    (3 1) math:difference 2 .
+    (2 64 2) :ackermann 128.
+}
+
+_:bng_57 {
+    (3 7 2) :ackermann 128.
+}
+
+_:bng_58 {
+    (4 3) math:sum 7 .
+    (3 7 2) :ackermann 128 .
+    (128 3) math:difference 125.
+}
+
+_:bng_59 {
+    (3 4) :ackermann 125.
+}
+
+_:bng_60 {
+    [] rdf:value true; log:callWithCut true.
+    (128 2) math:product 256.
+}
+
+_:bng_61 {
+    (2 128 2) :ackermann 256.
+}
+
+_:bng_62 {
+    (8 1) math:difference 7 .
+    (3 7 2) :ackermann 128 .
+    (3 1) math:difference 2 .
+    (2 128 2) :ackermann 256.
+}
+
+_:bng_63 {
+    (3 8 2) :ackermann 256.
+}
+
+_:bng_64 {
+    [] rdf:value true; log:callWithCut true.
+    (256 2) math:product 512.
+}
+
+_:bng_65 {
+    (2 256 2) :ackermann 512.
+}
+
+_:bng_66 {
+    (9 1) math:difference 8 .
+    (3 8 2) :ackermann 256 .
+    (3 1) math:difference 2 .
+    (2 256 2) :ackermann 512.
+}
+
+_:bng_67 {
+    (3 9 2) :ackermann 512.
+}
+
+_:bng_68 {
+    [] rdf:value true; log:callWithCut true.
+    (512 2) math:product 1024.
+}
+
+_:bng_69 {
+    (2 512 2) :ackermann 1024.
+}
+
+_:bng_70 {
+    (10 1) math:difference 9 .
+    (3 9 2) :ackermann 512 .
+    (3 1) math:difference 2 .
+    (2 512 2) :ackermann 1024.
+}
+
+_:bng_71 {
+    (3 10 2) :ackermann 1024.
+}
+
+_:bng_72 {
+    [] rdf:value true; log:callWithCut true.
+    (1024 2) math:product 2048.
+}
+
+_:bng_73 {
+    (2 1024 2) :ackermann 2048.
+}
+
+_:bng_74 {
+    (11 1) math:difference 10 .
+    (3 10 2) :ackermann 1024 .
+    (3 1) math:difference 2 .
+    (2 1024 2) :ackermann 2048.
+}
+
+_:bng_75 {
+    (3 11 2) :ackermann 2048.
+}
+
+_:bng_76 {
+    [] rdf:value true; log:callWithCut true.
+    (2048 2) math:product 4096.
+}
+
+_:bng_77 {
+    (2 2048 2) :ackermann 4096.
+}
+
+_:bng_78 {
+    (12 1) math:difference 11 .
+    (3 11 2) :ackermann 2048 .
+    (3 1) math:difference 2 .
+    (2 2048 2) :ackermann 4096.
+}
+
+_:bng_79 {
+    (3 12 2) :ackermann 4096.
+}
+
+_:bng_80 {
+    [] rdf:value true; log:callWithCut true.
+    (4096 2) math:product 8192.
+}
+
+_:bng_81 {
+    (2 4096 2) :ackermann 8192.
+}
+
+_:bng_82 {
+    (13 1) math:difference 12 .
+    (3 12 2) :ackermann 4096 .
+    (3 1) math:difference 2 .
+    (2 4096 2) :ackermann 8192.
+}
+
+_:bng_83 {
+    (3 13 2) :ackermann 8192.
+}
+
+_:bng_84 {
+    [] rdf:value true; log:callWithCut true.
+    (8192 2) math:product 16384.
+}
+
+_:bng_85 {
+    (2 8192 2) :ackermann 16384.
+}
+
+_:bng_86 {
+    (14 1) math:difference 13 .
+    (3 13 2) :ackermann 8192 .
+    (3 1) math:difference 2 .
+    (2 8192 2) :ackermann 16384.
+}
+
+_:bng_87 {
+    (3 14 2) :ackermann 16384.
+}
+
+_:bng_88 {
+    [] rdf:value true; log:callWithCut true.
+    (16384 2) math:product 32768.
+}
+
+_:bng_89 {
+    (2 16384 2) :ackermann 32768.
+}
+
+_:bng_90 {
+    (15 1) math:difference 14 .
+    (3 14 2) :ackermann 16384 .
+    (3 1) math:difference 2 .
+    (2 16384 2) :ackermann 32768.
+}
+
+_:bng_91 {
+    (3 15 2) :ackermann 32768.
+}
+
+_:bng_92 {
+    [] rdf:value true; log:callWithCut true.
+    (32768 2) math:product 65536.
+}
+
+_:bng_93 {
+    (2 32768 2) :ackermann 65536.
+}
+
+_:bng_94 {
+    (16 1) math:difference 15 .
+    (3 15 2) :ackermann 32768 .
+    (3 1) math:difference 2 .
+    (2 32768 2) :ackermann 65536.
+}
+
+_:bng_95 {
+    (3 16 2) :ackermann 65536.
+}
+
+_:bng_96 {
+    [] rdf:value true; log:callWithCut true.
+    (65536 2) math:product 131072.
+}
+
+_:bng_97 {
+    (2 65536 2) :ackermann 131072.
+}
+
+_:bng_98 {
+    (17 1) math:difference 16 .
+    (3 16 2) :ackermann 65536 .
+    (3 1) math:difference 2 .
+    (2 65536 2) :ackermann 131072.
+}
+
+_:bng_99 {
+    (3 17 2) :ackermann 131072.
+}
+
+_:bng_100 {
+    (14 3) math:sum 17 .
+    (3 17 2) :ackermann 131072 .
+    (131072 3) math:difference 131069.
+}
+
+_:bng_101 {
+    (3 14) :ackermann 131069.
+}
+
+_:bng_102 {
+    (1 1) math:difference 0 .
+    (4 0 2) :ackermann 1 .
+    (4 1) math:difference 3 .
+    (3 1 2) :ackermann 2.
+}
+
+_:bng_103 {
+    (4 1 2) :ackermann 2.
+}
+
+_:bng_104 {
+    (2 1) math:difference 1 .
+    (4 1 2) :ackermann 2 .
+    (4 1) math:difference 3 .
+    (3 2 2) :ackermann 4.
+}
+
+_:bng_105 {
+    (4 2 2) :ackermann 4.
+}
+
+_:bng_106 {
+    (3 1) math:difference 2 .
+    (4 2 2) :ackermann 4 .
+    (4 1) math:difference 3 .
+    (3 4 2) :ackermann 16.
+}
+
+_:bng_107 {
+    (4 3 2) :ackermann 16.
+}
+
+_:bng_108 {
+    (0 3) math:sum 3 .
+    (4 3 2) :ackermann 16 .
+    (16 3) math:difference 13.
+}
+
+_:bng_109 {
+    (4 0) :ackermann 13.
+}
+
+_:bng_110 {
+    (4 1) math:difference 3 .
+    (4 3 2) :ackermann 16 .
+    (4 1) math:difference 3 .
+    (3 16 2) :ackermann 65536.
+}
+
+_:bng_111 {
+    (4 4 2) :ackermann 65536.
+}
+
+_:bng_112 {
+    (1 3) math:sum 4 .
+    (4 4 2) :ackermann 65536 .
+    (65536 3) math:difference 65533.
+}
+
+_:bng_113 {
+    (4 1) :ackermann 65533.
+}
+
+_:bng_114 {
+    _:bng_14_1 log:query _:bng_14_1.
+}
+
+_:bng_115 {
+    (0 0) :ackermann 1 .
+    (0 6) :ackermann 7 .
+    (1 2) :ackermann 4 .
+    (1 7) :ackermann 9 .
+    (2 2) :ackermann 7 .
+    (2 9) :ackermann 21 .
+    (3 4) :ackermann 125 .
+    (3 14) :ackermann 131069 .
+    (4 0) :ackermann 13 .
+    (4 1) :ackermann 65533.
+}
+
+_:bng_3_1 {
+    (0 var:Y var:Z) :ackermann var:A.
+}
+
+_:bng_4_1 {
+    [] rdf:value true; log:callWithCut true.
+    (var:Y 1) math:sum var:A.
+}
+
+_:bng_1_1 {
+    (var:X var:Y) :ackermann var:A.
+}
+
+_:bng_2_1 {
+    (var:Y 3) math:sum var:B.
+    (var:X var:B 2) :ackermann var:C.
+    (var:C 3) math:difference var:A.
+}
+
+_:bng_5_1 {
+    (1 var:Y var:Z) :ackermann var:A.
+}
+
+_:bng_6_1 {
+    [] rdf:value true; log:callWithCut true.
+    (var:Y var:Z) math:sum var:A.
+}
+
+_:bng_7_1 {
+    (2 var:Y var:Z) :ackermann var:A.
+}
+
+_:bng_8_1 {
+    [] rdf:value true; log:callWithCut true.
+    (var:Y var:Z) math:product var:A.
+}
+
+_:bng_11_1 {
+    (var:X var:Y var:Z) :ackermann var:A.
+}
+
+_:bng_12_1 {
+    (var:Y 1) math:difference var:B.
+    (var:X var:B var:Z) :ackermann var:C.
+    (var:X 1) math:difference var:D.
+    (var:D var:C var:Z) :ackermann var:A.
+}
+
+_:bng_14_1 {
+    (0 0) :ackermann var:A0.
+    (0 6) :ackermann var:A1.
+    (1 2) :ackermann var:A2.
+    (1 7) :ackermann var:A3.
+    (2 2) :ackermann var:A4.
+    (2 9) :ackermann var:A5.
+    (3 4) :ackermann var:A6.
+    (3 14) :ackermann var:A7.
+    (4 0) :ackermann var:A8.
+    (4 1) :ackermann var:A9.
+}

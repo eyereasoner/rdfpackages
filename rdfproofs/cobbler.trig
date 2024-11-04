@@ -1,0 +1,23 @@
+@prefix : <http://example.org/#>.
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+@prefix var: <http://www.w3.org/2000/10/swap/var#>.
+
+_:e_x_1 :is (:good :Cobbler).
+
+#
+# RDF Proofs
+#
+
+(_:bng_1 _:bng_2) log:proves _:bng_2.
+
+_:bng_1 {
+    _:bng_1_1 log:query _:bng_1_1.
+}
+
+_:bng_2 {
+    _:e_x_1 :is (:good :Cobbler).
+}
+
+_:bng_1_1 {
+    var:x :is (:good var:y).
+}
