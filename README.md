@@ -1,6 +1,6 @@
 # rdfpackages
 
-rdfpackages are proofs described in RDF supported by logic described in RDF.
+rdfpackages can contain data, logic and proofs described in RDF.
 
 ## forward rules described in RDF
 e.g.

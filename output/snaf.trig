@@ -20,7 +20,7 @@ _:bng_1 {
 }
 
 _:bng_2 {
-    ((<https://eyereasoner.github.io/rdfproofs/snaf.trig>) 1) log:notIncludes _:bng_4.
+    ((<https://eyereasoner.github.io/rdfpackages/snaf.trig>) 1) log:notIncludes _:bng_4.
     :Bob a :Person.
 }
 
