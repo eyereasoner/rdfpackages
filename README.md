@@ -1,8 +1,8 @@
-# RDF Proofs
+# rdfpackages
 
-RDF Proofs are proofs described in RDF supported by logic described in RDF.
+rdfpackages are proofs described in RDF supported by logic described in RDF.
 
-## Forward rules described in RDF
+## forward rules described in RDF
 e.g.
 ```
 # rdfs subclass
@@ -18,7 +18,7 @@ _:bng_2 {
 }
 ```
 
-## Backward rules described in RDF
+## backward rules described in RDF
 e.g.
 ```
 # is the age of a person above some duration?
@@ -36,7 +36,7 @@ _:bng_2 {
 }
 ```
 
-## Queries described in RDF
+## queries described in RDF
 e.g.
 ```
 # query for people above 80 years old
@@ -47,7 +47,7 @@ _:bng_3 {
 }
 ```
 
-## Proofs described in RDF
+## proofs described in RDF
 e.g.
 ```
 # (rule instantiated_premise) log:proves instantiated_conclusion.
