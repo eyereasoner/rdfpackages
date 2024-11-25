@@ -8,11 +8,13 @@
 :pers002 :givenName "Claudia".
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves true.
+
 (_:bng_3 _:bng_4) log:proves _:bng_4.
+
 (_:bng_3 _:bng_5) log:proves _:bng_5.
 
 _:bng_2_1 {

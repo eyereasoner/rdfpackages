@@ -7,10 +7,11 @@
 [] rdf:value 5; :moreInterestingThan 3 .
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3_1.
+
 (_:bng_3 _:bng_3_1) log:proves _:bng_3_1.
 
 _:bng_1 {

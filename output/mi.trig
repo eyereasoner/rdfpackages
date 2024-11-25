@@ -6,79 +6,149 @@
 () :natnum (:s (:s (:s (:s (:s (0)))))).
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_1 _:bng_4) log:proves _:bng_5.
+
 (_:bng_6 _:bng_5) log:proves _:bng_7.
+
 (_:bng_1 _:bng_8) log:proves _:bng_9.
+
 (_:bng_10 _:bng_11) log:proves _:bng_12.
+
 (_:bng_6 _:bng_12) log:proves _:bng_13.
+
 (_:bng_6 _:bng_13) log:proves _:bng_14.
+
 (_:bng_1 _:bng_15) log:proves _:bng_16.
+
 (_:bng_1 _:bng_17) log:proves _:bng_18.
+
 (_:bng_6 _:bng_18) log:proves _:bng_19.
+
 (_:bng_1 _:bng_20) log:proves _:bng_21.
+
 (_:bng_10 _:bng_22) log:proves _:bng_23.
+
 (_:bng_6 _:bng_23) log:proves _:bng_24.
+
 (_:bng_6 _:bng_24) log:proves _:bng_25.
+
 (_:bng_1 _:bng_26) log:proves _:bng_27.
+
 (_:bng_1 _:bng_28) log:proves _:bng_29.
+
 (_:bng_6 _:bng_29) log:proves _:bng_30.
+
 (_:bng_1 _:bng_31) log:proves _:bng_32.
+
 (_:bng_10 _:bng_33) log:proves _:bng_34.
+
 (_:bng_6 _:bng_34) log:proves _:bng_35.
+
 (_:bng_6 _:bng_35) log:proves _:bng_36.
+
 (_:bng_1 _:bng_37) log:proves _:bng_38.
+
 (_:bng_1 _:bng_39) log:proves _:bng_40.
+
 (_:bng_6 _:bng_40) log:proves _:bng_41.
+
 (_:bng_1 _:bng_42) log:proves _:bng_43.
+
 (_:bng_10 _:bng_44) log:proves _:bng_45.
+
 (_:bng_6 _:bng_45) log:proves _:bng_46.
+
 (_:bng_6 _:bng_46) log:proves _:bng_47.
+
 (_:bng_1 _:bng_48) log:proves _:bng_49.
+
 (_:bng_1 _:bng_50) log:proves _:bng_51.
+
 (_:bng_6 _:bng_51) log:proves _:bng_52.
+
 (_:bng_1 _:bng_53) log:proves _:bng_54.
+
 (_:bng_10 _:bng_55) log:proves _:bng_56.
+
 (_:bng_6 _:bng_56) log:proves _:bng_57.
+
 (_:bng_6 _:bng_57) log:proves _:bng_58.
+
 (_:bng_1 _:bng_59) log:proves _:bng_60.
+
 (_:bng_1 _:bng_61) log:proves _:bng_62.
+
 (_:bng_6 _:bng_62) log:proves _:bng_63.
+
 (_:bng_1 _:bng_64) log:proves _:bng_65.
+
 (_:bng_6 _:bng_66) log:proves _:bng_67.
+
 (_:bng_6 _:bng_67) log:proves _:bng_68.
+
 (_:bng_1 _:bng_69) log:proves _:bng_70.
+
 (_:bng_6 _:bng_71) log:proves _:bng_72.
+
 (_:bng_73 _:bng_74) log:proves _:bng_75.
+
 (_:bng_73 _:bng_76) log:proves _:bng_77.
+
 (_:bng_73 _:bng_78) log:proves _:bng_79.
+
 (_:bng_73 _:bng_80) log:proves _:bng_81.
+
 (_:bng_73 _:bng_82) log:proves _:bng_83.
+
 (_:bng_73 _:bng_84) log:proves _:bng_85.
+
 (_:bng_73 _:bng_86) log:proves _:bng_87.
+
 (_:bng_73 _:bng_88) log:proves _:bng_89.
+
 (_:bng_73 _:bng_90) log:proves _:bng_91.
+
 (_:bng_73 _:bng_92) log:proves _:bng_93.
+
 (_:bng_73 _:bng_94) log:proves _:bng_95.
+
 (_:bng_73 _:bng_96) log:proves _:bng_97.
+
 (_:bng_73 _:bng_98) log:proves _:bng_99.
+
 (_:bng_73 _:bng_100) log:proves _:bng_101.
+
 (_:bng_73 _:bng_102) log:proves _:bng_103.
+
 (_:bng_73 _:bng_104) log:proves _:bng_105.
+
 (_:bng_73 _:bng_106) log:proves _:bng_107.
+
 (_:bng_73 _:bng_108) log:proves _:bng_109.
+
 (_:bng_73 _:bng_110) log:proves _:bng_111.
+
 (_:bng_73 _:bng_112) log:proves _:bng_113.
+
 (_:bng_73 _:bng_114) log:proves _:bng_115.
+
 (_:bng_73 _:bng_116) log:proves _:bng_117.
+
 (_:bng_73 _:bng_118) log:proves _:bng_119.
+
 (_:bng_73 _:bng_120) log:proves _:bng_121.
+
 (_:bng_73 _:bng_122) log:proves _:bng_123.
+
 (_:bng_73 _:bng_124) log:proves _:bng_125.
+
 (_:bng_73 _:bng_126) log:proves _:bng_127.
+
 (_:bng_128 _:bng_127) log:proves _:e_question_graph3_1.
 
 _:e_hb_rule2_head_graph1_1 {

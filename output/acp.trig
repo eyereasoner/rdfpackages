@@ -7,12 +7,15 @@
 :test :is true.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_4 _:bng_5) log:proves _:bng_6.
+
 (_:bng_7 _:bng_8) log:proves _:bng_9.
+
 (_:bng_10 _:bng_11) log:proves _:bng_12.
 
 _:bng_3_1 {

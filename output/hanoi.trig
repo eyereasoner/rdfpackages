@@ -7,21 +7,33 @@
 (6 :left :right :center) :moves ((:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right)).
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_1 _:bng_4) log:proves _:bng_5.
+
 (_:bng_1 _:bng_6) log:proves _:bng_7.
+
 (_:bng_1 _:bng_8) log:proves _:bng_9.
+
 (_:bng_1 _:bng_10) log:proves _:bng_11.
+
 (_:bng_1 _:bng_12) log:proves _:bng_13.
+
 (_:bng_1 _:bng_14) log:proves _:bng_15.
+
 (_:bng_1 _:bng_16) log:proves _:bng_17.
+
 (_:bng_1 _:bng_18) log:proves _:bng_19.
+
 (_:bng_1 _:bng_20) log:proves _:bng_21.
+
 (_:bng_1 _:bng_22) log:proves _:bng_23.
+
 (_:bng_1 _:bng_24) log:proves _:bng_25.
+
 (_:bng_26 _:bng_25) log:proves _:bng_25.
 
 _:bng_1 {

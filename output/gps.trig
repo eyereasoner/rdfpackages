@@ -9,39 +9,69 @@
 :i1 gps:path ((:drive_gent_kortrijk :drive_kortrijk_brugge :drive_brugge_oostende) 4100.0 0.018000000000000002 0.903168 0.9801).
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_4 _:bng_5) log:proves _:bng_6.
+
 (_:bng_1 _:bng_7) log:proves _:bng_3.
+
 (_:bng_4 _:bng_8) log:proves _:bng_9.
+
 (_:bng_10 _:bng_7) log:proves _:bng_11.
+
 (_:bng_12 _:bng_7) log:proves _:bng_13.
+
 (_:bng_14 _:bng_7) log:proves _:bng_15.
+
 (_:bng_16 _:bng_17) log:proves _:bng_18.
+
 (_:bng_19 _:bng_20) log:proves _:bng_21.
+
 (_:bng_19 _:bng_22) log:proves _:bng_23.
+
 (_:bng_24 _:bng_23) log:proves _:bng_25.
+
 (_:bng_26 _:bng_25) log:proves _:bng_27.
+
 (_:bng_1 _:bng_28) log:proves _:bng_3.
+
 (_:bng_4 _:bng_29) log:proves _:bng_30.
+
 (_:bng_10 _:bng_28) log:proves _:bng_11.
+
 (_:bng_12 _:bng_28) log:proves _:bng_13.
+
 (_:bng_14 _:bng_28) log:proves _:bng_15.
+
 (_:bng_10 _:bng_2) log:proves _:bng_11.
+
 (_:bng_1 _:bng_31) log:proves _:bng_3.
+
 (_:bng_10 _:bng_31) log:proves _:bng_11.
+
 (_:bng_12 _:bng_31) log:proves _:bng_13.
+
 (_:bng_16 _:bng_17) log:proves _:bng_32.
+
 (_:bng_19 _:bng_33) log:proves _:bng_34.
+
 (_:bng_19 _:bng_35) log:proves _:bng_36.
+
 (_:bng_19 _:bng_37) log:proves _:bng_38.
+
 (_:bng_24 _:bng_38) log:proves _:bng_39.
+
 (_:bng_26 _:bng_39) log:proves _:bng_40.
+
 (_:bng_4 _:bng_41) log:proves _:bng_42.
+
 (_:bng_14 _:bng_31) log:proves _:bng_15.
+
 (_:bng_12 _:bng_2) log:proves _:bng_13.
+
 (_:bng_14 _:bng_2) log:proves _:bng_15.
 
 _:bng_18_1 {

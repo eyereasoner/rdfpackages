@@ -5,7 +5,7 @@
 _:e_x_1 :is (:good :Cobbler).
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_2.

@@ -9,12 +9,15 @@
 skolem:t_0 :is :lonely.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_6_1) log:proves _:bng_6_1.
+
 (_:bng_2 _:bng_3) log:proves _:bng_4.
+
 (_:bng_5 _:bng_3) log:proves _:bng_6.
+
 (_:bng_7 _:bng_8) log:proves _:bng_8.
 
 _:bng_1 {

@@ -8,10 +8,11 @@
 :patH :ageAbove "P80Y"^^xsd:duration.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_4 _:bng_3) log:proves _:bng_3.
 
 _:bng_1 {

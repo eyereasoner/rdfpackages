@@ -10,7 +10,7 @@
 :Bob vcard:bday "2000-01-01T09:00:00.000Z"^^xsd:dateTime.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_2_1.

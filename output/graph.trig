@@ -8,40 +8,71 @@
 :paris :path :nantes.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_1 _:bng_4) log:proves _:bng_5.
+
 (_:bng_1 _:bng_6) log:proves _:bng_7.
+
 (_:bng_1 _:bng_8) log:proves _:bng_9.
+
 (_:bng_1 _:bng_10) log:proves _:bng_11.
+
 (_:bng_1 _:bng_12) log:proves _:bng_13.
+
 (_:bng_1 _:bng_14) log:proves _:bng_15.
+
 (_:bng_1 _:bng_16) log:proves _:bng_17.
+
 (_:bng_1 _:bng_18) log:proves _:bng_19.
+
 (_:bng_1 _:bng_20) log:proves _:bng_21.
+
 (_:bng_22 _:bng_23) log:proves _:bng_24.
+
 (_:bng_22 _:bng_25) log:proves _:bng_26.
+
 (_:bng_22 _:bng_27) log:proves _:bng_28.
+
 (_:bng_22 _:bng_29) log:proves _:bng_30.
+
 (_:bng_22 _:bng_31) log:proves _:bng_32.
+
 (_:bng_22 _:bng_33) log:proves _:bng_34.
+
 (_:bng_22 _:bng_35) log:proves _:bng_36.
+
 (_:bng_37 _:bng_21) log:proves _:bng_21.
+
 (_:bng_37 _:bng_36) log:proves _:bng_36.
+
 (_:bng_22 _:bng_38) log:proves _:bng_39.
+
 (_:bng_22 _:bng_40) log:proves _:bng_41.
+
 (_:bng_22 _:bng_42) log:proves _:bng_39.
+
 (_:bng_22 _:bng_43) log:proves _:bng_44.
+
 (_:bng_22 _:bng_45) log:proves _:bng_39.
+
 (_:bng_22 _:bng_46) log:proves _:bng_41.
+
 (_:bng_22 _:bng_47) log:proves _:bng_39.
+
 (_:bng_22 _:bng_48) log:proves _:bng_49.
+
 (_:bng_22 _:bng_50) log:proves _:bng_44.
+
 (_:bng_37 _:bng_44) log:proves _:bng_44.
+
 (_:bng_37 _:bng_49) log:proves _:bng_49.
+
 (_:bng_22 _:bng_51) log:proves _:bng_49.
+
 (_:bng_22 _:bng_52) log:proves _:bng_49.
 
 _:bng_1 {

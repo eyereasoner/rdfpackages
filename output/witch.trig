@@ -5,15 +5,21 @@
 :GIRL a :WITCH.
 
 #
-# RDF Proofs
+# Proof Explanation
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
+
 (_:bng_4 _:bng_5) log:proves _:bng_6.
+
 (_:bng_7 _:bng_3) log:proves _:bng_8.
+
 (_:bng_1 _:bng_6) log:proves _:bng_9.
+
 (_:bng_7 _:bng_9) log:proves _:bng_10.
+
 (_:bng_11 _:bng_12) log:proves _:bng_13.
+
 (_:bng_14 _:bng_13) log:proves _:bng_13.
 
 _:bng_1 {
