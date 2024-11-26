@@ -7,7 +7,7 @@
 :northStar :notNecessarilyA :gold.
 
 #
-# Proof Explanation
+# Explain the reasoning
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

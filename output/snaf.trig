@@ -5,7 +5,7 @@
 :Alice :hates :Nobody.
 
 #
-# Proof Explanation
+# Explain the reasoning
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_2_1.

@@ -33,7 +33,7 @@
 [] rdf:value 2050; :easter (10 4).
 
 #
-# Proof Explanation
+# Explain the reasoning
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

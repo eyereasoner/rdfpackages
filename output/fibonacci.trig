@@ -11,7 +11,7 @@
 [] rdf:value 283; :fibonacci 62232491515607091882574410635924603070626544377175485625797 .
 
 #
-# Proof Explanation
+# Explain the reasoning
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.

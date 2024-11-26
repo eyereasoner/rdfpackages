@@ -7,7 +7,7 @@
 (6 :left :right :center) :moves ((:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:right :center) (:left :center) (:right :left) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right) (:left :center) (:right :left) (:right :center) (:left :center) (:left :right) (:center :right) (:center :left) (:right :left) (:center :right) (:left :center) (:left :right) (:center :right)).
 
 #
-# Proof Explanation
+# Explain the reasoning
 #
 
 (_:bng_1 _:bng_2) log:proves _:bng_3.
