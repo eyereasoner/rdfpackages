@@ -50,8 +50,8 @@ _:bng_3 {
 ## proofs described in RDF
 e.g.
 ```
-# (rule instantiated_premise) log:proves instantiated_conclusion.
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+# (rule instantiated_premise) log:explains instantiated_conclusion.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
 _:bng_1 {
     _:bng_1_1 log:implies _:bng_2_1.
