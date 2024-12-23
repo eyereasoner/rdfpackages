@@ -13,7 +13,7 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_2_1.
+(_:bng_1 _:bng_2) log:explains _:bng_2_1.
 
 _:bng_4_1 {
     var:N pack:content var:C.

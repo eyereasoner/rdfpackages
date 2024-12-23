@@ -7,7 +7,7 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_6_1.
+(_:bng_1 _:bng_2) log:explains _:bng_6_1.
 
 _:bng_1_1 {
     :A :B :C.

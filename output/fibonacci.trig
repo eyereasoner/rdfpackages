@@ -14,771 +14,771 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
-(_:bng_1 _:bng_4) log:proves _:bng_5.
+(_:bng_1 _:bng_4) log:explains _:bng_5.
 
-(_:bng_6 _:bng_7) log:proves _:bng_8.
+(_:bng_6 _:bng_7) log:explains _:bng_8.
 
-(_:bng_6 _:bng_9) log:proves _:bng_10.
+(_:bng_6 _:bng_9) log:explains _:bng_10.
 
-(_:bng_6 _:bng_11) log:proves _:bng_12.
+(_:bng_6 _:bng_11) log:explains _:bng_12.
 
-(_:bng_6 _:bng_13) log:proves _:bng_14.
+(_:bng_6 _:bng_13) log:explains _:bng_14.
 
-(_:bng_6 _:bng_15) log:proves _:bng_16.
+(_:bng_6 _:bng_15) log:explains _:bng_16.
 
-(_:bng_1 _:bng_16) log:proves _:bng_17.
+(_:bng_1 _:bng_16) log:explains _:bng_17.
 
-(_:bng_6 _:bng_18) log:proves _:bng_19.
+(_:bng_6 _:bng_18) log:explains _:bng_19.
 
-(_:bng_6 _:bng_20) log:proves _:bng_21.
+(_:bng_6 _:bng_20) log:explains _:bng_21.
 
-(_:bng_6 _:bng_22) log:proves _:bng_23.
+(_:bng_6 _:bng_22) log:explains _:bng_23.
 
-(_:bng_6 _:bng_24) log:proves _:bng_25.
+(_:bng_6 _:bng_24) log:explains _:bng_25.
 
-(_:bng_6 _:bng_26) log:proves _:bng_27.
+(_:bng_6 _:bng_26) log:explains _:bng_27.
 
-(_:bng_6 _:bng_28) log:proves _:bng_29.
+(_:bng_6 _:bng_28) log:explains _:bng_29.
 
-(_:bng_6 _:bng_30) log:proves _:bng_31.
+(_:bng_6 _:bng_30) log:explains _:bng_31.
 
-(_:bng_6 _:bng_32) log:proves _:bng_33.
+(_:bng_6 _:bng_32) log:explains _:bng_33.
 
-(_:bng_6 _:bng_34) log:proves _:bng_35.
+(_:bng_6 _:bng_34) log:explains _:bng_35.
 
-(_:bng_6 _:bng_36) log:proves _:bng_37.
+(_:bng_6 _:bng_36) log:explains _:bng_37.
 
-(_:bng_6 _:bng_38) log:proves _:bng_39.
+(_:bng_6 _:bng_38) log:explains _:bng_39.
 
-(_:bng_6 _:bng_40) log:proves _:bng_41.
+(_:bng_6 _:bng_40) log:explains _:bng_41.
 
-(_:bng_6 _:bng_42) log:proves _:bng_43.
+(_:bng_6 _:bng_42) log:explains _:bng_43.
 
-(_:bng_6 _:bng_44) log:proves _:bng_45.
+(_:bng_6 _:bng_44) log:explains _:bng_45.
 
-(_:bng_6 _:bng_46) log:proves _:bng_47.
+(_:bng_6 _:bng_46) log:explains _:bng_47.
 
-(_:bng_6 _:bng_48) log:proves _:bng_49.
+(_:bng_6 _:bng_48) log:explains _:bng_49.
 
-(_:bng_6 _:bng_50) log:proves _:bng_51.
+(_:bng_6 _:bng_50) log:explains _:bng_51.
 
-(_:bng_6 _:bng_52) log:proves _:bng_53.
+(_:bng_6 _:bng_52) log:explains _:bng_53.
 
-(_:bng_6 _:bng_54) log:proves _:bng_55.
+(_:bng_6 _:bng_54) log:explains _:bng_55.
 
-(_:bng_6 _:bng_56) log:proves _:bng_57.
+(_:bng_6 _:bng_56) log:explains _:bng_57.
 
-(_:bng_6 _:bng_58) log:proves _:bng_59.
+(_:bng_6 _:bng_58) log:explains _:bng_59.
 
-(_:bng_6 _:bng_60) log:proves _:bng_61.
+(_:bng_6 _:bng_60) log:explains _:bng_61.
 
-(_:bng_6 _:bng_62) log:proves _:bng_63.
+(_:bng_6 _:bng_62) log:explains _:bng_63.
 
-(_:bng_6 _:bng_64) log:proves _:bng_65.
+(_:bng_6 _:bng_64) log:explains _:bng_65.
 
-(_:bng_6 _:bng_66) log:proves _:bng_67.
+(_:bng_6 _:bng_66) log:explains _:bng_67.
 
-(_:bng_6 _:bng_68) log:proves _:bng_69.
+(_:bng_6 _:bng_68) log:explains _:bng_69.
 
-(_:bng_6 _:bng_70) log:proves _:bng_71.
+(_:bng_6 _:bng_70) log:explains _:bng_71.
 
-(_:bng_6 _:bng_72) log:proves _:bng_73.
+(_:bng_6 _:bng_72) log:explains _:bng_73.
 
-(_:bng_6 _:bng_74) log:proves _:bng_75.
+(_:bng_6 _:bng_74) log:explains _:bng_75.
 
-(_:bng_6 _:bng_76) log:proves _:bng_77.
+(_:bng_6 _:bng_76) log:explains _:bng_77.
 
-(_:bng_6 _:bng_78) log:proves _:bng_79.
+(_:bng_6 _:bng_78) log:explains _:bng_79.
 
-(_:bng_6 _:bng_80) log:proves _:bng_81.
+(_:bng_6 _:bng_80) log:explains _:bng_81.
 
-(_:bng_6 _:bng_82) log:proves _:bng_83.
+(_:bng_6 _:bng_82) log:explains _:bng_83.
 
-(_:bng_6 _:bng_84) log:proves _:bng_85.
+(_:bng_6 _:bng_84) log:explains _:bng_85.
 
-(_:bng_6 _:bng_86) log:proves _:bng_87.
+(_:bng_6 _:bng_86) log:explains _:bng_87.
 
-(_:bng_6 _:bng_88) log:proves _:bng_89.
+(_:bng_6 _:bng_88) log:explains _:bng_89.
 
-(_:bng_6 _:bng_90) log:proves _:bng_91.
+(_:bng_6 _:bng_90) log:explains _:bng_91.
 
-(_:bng_6 _:bng_92) log:proves _:bng_93.
+(_:bng_6 _:bng_92) log:explains _:bng_93.
 
-(_:bng_6 _:bng_94) log:proves _:bng_95.
+(_:bng_6 _:bng_94) log:explains _:bng_95.
 
-(_:bng_6 _:bng_96) log:proves _:bng_97.
+(_:bng_6 _:bng_96) log:explains _:bng_97.
 
-(_:bng_6 _:bng_98) log:proves _:bng_99.
+(_:bng_6 _:bng_98) log:explains _:bng_99.
 
-(_:bng_6 _:bng_100) log:proves _:bng_101.
+(_:bng_6 _:bng_100) log:explains _:bng_101.
 
-(_:bng_6 _:bng_102) log:proves _:bng_103.
+(_:bng_6 _:bng_102) log:explains _:bng_103.
 
-(_:bng_6 _:bng_104) log:proves _:bng_105.
+(_:bng_6 _:bng_104) log:explains _:bng_105.
 
-(_:bng_6 _:bng_106) log:proves _:bng_107.
+(_:bng_6 _:bng_106) log:explains _:bng_107.
 
-(_:bng_6 _:bng_108) log:proves _:bng_109.
+(_:bng_6 _:bng_108) log:explains _:bng_109.
 
-(_:bng_6 _:bng_110) log:proves _:bng_111.
+(_:bng_6 _:bng_110) log:explains _:bng_111.
 
-(_:bng_6 _:bng_112) log:proves _:bng_113.
+(_:bng_6 _:bng_112) log:explains _:bng_113.
 
-(_:bng_6 _:bng_114) log:proves _:bng_115.
+(_:bng_6 _:bng_114) log:explains _:bng_115.
 
-(_:bng_6 _:bng_116) log:proves _:bng_117.
+(_:bng_6 _:bng_116) log:explains _:bng_117.
 
-(_:bng_6 _:bng_118) log:proves _:bng_119.
+(_:bng_6 _:bng_118) log:explains _:bng_119.
 
-(_:bng_6 _:bng_120) log:proves _:bng_121.
+(_:bng_6 _:bng_120) log:explains _:bng_121.
 
-(_:bng_6 _:bng_122) log:proves _:bng_123.
+(_:bng_6 _:bng_122) log:explains _:bng_123.
 
-(_:bng_6 _:bng_124) log:proves _:bng_125.
+(_:bng_6 _:bng_124) log:explains _:bng_125.
 
-(_:bng_6 _:bng_126) log:proves _:bng_127.
+(_:bng_6 _:bng_126) log:explains _:bng_127.
 
-(_:bng_6 _:bng_128) log:proves _:bng_129.
+(_:bng_6 _:bng_128) log:explains _:bng_129.
 
-(_:bng_6 _:bng_130) log:proves _:bng_131.
+(_:bng_6 _:bng_130) log:explains _:bng_131.
 
-(_:bng_6 _:bng_132) log:proves _:bng_133.
+(_:bng_6 _:bng_132) log:explains _:bng_133.
 
-(_:bng_6 _:bng_134) log:proves _:bng_135.
+(_:bng_6 _:bng_134) log:explains _:bng_135.
 
-(_:bng_6 _:bng_136) log:proves _:bng_137.
+(_:bng_6 _:bng_136) log:explains _:bng_137.
 
-(_:bng_6 _:bng_138) log:proves _:bng_139.
+(_:bng_6 _:bng_138) log:explains _:bng_139.
 
-(_:bng_6 _:bng_140) log:proves _:bng_141.
+(_:bng_6 _:bng_140) log:explains _:bng_141.
 
-(_:bng_6 _:bng_142) log:proves _:bng_143.
+(_:bng_6 _:bng_142) log:explains _:bng_143.
 
-(_:bng_6 _:bng_144) log:proves _:bng_145.
+(_:bng_6 _:bng_144) log:explains _:bng_145.
 
-(_:bng_6 _:bng_146) log:proves _:bng_147.
+(_:bng_6 _:bng_146) log:explains _:bng_147.
 
-(_:bng_6 _:bng_148) log:proves _:bng_149.
+(_:bng_6 _:bng_148) log:explains _:bng_149.
 
-(_:bng_6 _:bng_150) log:proves _:bng_151.
+(_:bng_6 _:bng_150) log:explains _:bng_151.
 
-(_:bng_6 _:bng_152) log:proves _:bng_153.
+(_:bng_6 _:bng_152) log:explains _:bng_153.
 
-(_:bng_6 _:bng_154) log:proves _:bng_155.
+(_:bng_6 _:bng_154) log:explains _:bng_155.
 
-(_:bng_6 _:bng_156) log:proves _:bng_157.
+(_:bng_6 _:bng_156) log:explains _:bng_157.
 
-(_:bng_6 _:bng_158) log:proves _:bng_159.
+(_:bng_6 _:bng_158) log:explains _:bng_159.
 
-(_:bng_6 _:bng_160) log:proves _:bng_161.
+(_:bng_6 _:bng_160) log:explains _:bng_161.
 
-(_:bng_6 _:bng_162) log:proves _:bng_163.
+(_:bng_6 _:bng_162) log:explains _:bng_163.
 
-(_:bng_6 _:bng_164) log:proves _:bng_165.
+(_:bng_6 _:bng_164) log:explains _:bng_165.
 
-(_:bng_6 _:bng_166) log:proves _:bng_167.
+(_:bng_6 _:bng_166) log:explains _:bng_167.
 
-(_:bng_6 _:bng_168) log:proves _:bng_169.
+(_:bng_6 _:bng_168) log:explains _:bng_169.
 
-(_:bng_6 _:bng_170) log:proves _:bng_171.
+(_:bng_6 _:bng_170) log:explains _:bng_171.
 
-(_:bng_6 _:bng_172) log:proves _:bng_173.
+(_:bng_6 _:bng_172) log:explains _:bng_173.
 
-(_:bng_6 _:bng_174) log:proves _:bng_175.
+(_:bng_6 _:bng_174) log:explains _:bng_175.
 
-(_:bng_6 _:bng_176) log:proves _:bng_177.
+(_:bng_6 _:bng_176) log:explains _:bng_177.
 
-(_:bng_6 _:bng_178) log:proves _:bng_179.
+(_:bng_6 _:bng_178) log:explains _:bng_179.
 
-(_:bng_6 _:bng_180) log:proves _:bng_181.
+(_:bng_6 _:bng_180) log:explains _:bng_181.
 
-(_:bng_6 _:bng_182) log:proves _:bng_183.
+(_:bng_6 _:bng_182) log:explains _:bng_183.
 
-(_:bng_6 _:bng_184) log:proves _:bng_185.
+(_:bng_6 _:bng_184) log:explains _:bng_185.
 
-(_:bng_6 _:bng_186) log:proves _:bng_187.
+(_:bng_6 _:bng_186) log:explains _:bng_187.
 
-(_:bng_6 _:bng_188) log:proves _:bng_189.
+(_:bng_6 _:bng_188) log:explains _:bng_189.
 
-(_:bng_6 _:bng_190) log:proves _:bng_191.
+(_:bng_6 _:bng_190) log:explains _:bng_191.
 
-(_:bng_6 _:bng_192) log:proves _:bng_193.
+(_:bng_6 _:bng_192) log:explains _:bng_193.
 
-(_:bng_6 _:bng_194) log:proves _:bng_195.
+(_:bng_6 _:bng_194) log:explains _:bng_195.
 
-(_:bng_6 _:bng_196) log:proves _:bng_197.
+(_:bng_6 _:bng_196) log:explains _:bng_197.
 
-(_:bng_1 _:bng_197) log:proves _:bng_198.
+(_:bng_1 _:bng_197) log:explains _:bng_198.
 
-(_:bng_6 _:bng_199) log:proves _:bng_200.
+(_:bng_6 _:bng_199) log:explains _:bng_200.
 
-(_:bng_6 _:bng_201) log:proves _:bng_202.
+(_:bng_6 _:bng_201) log:explains _:bng_202.
 
-(_:bng_6 _:bng_203) log:proves _:bng_204.
+(_:bng_6 _:bng_203) log:explains _:bng_204.
 
-(_:bng_6 _:bng_205) log:proves _:bng_206.
+(_:bng_6 _:bng_205) log:explains _:bng_206.
 
-(_:bng_6 _:bng_207) log:proves _:bng_208.
+(_:bng_6 _:bng_207) log:explains _:bng_208.
 
-(_:bng_6 _:bng_209) log:proves _:bng_210.
+(_:bng_6 _:bng_209) log:explains _:bng_210.
 
-(_:bng_6 _:bng_211) log:proves _:bng_212.
+(_:bng_6 _:bng_211) log:explains _:bng_212.
 
-(_:bng_6 _:bng_213) log:proves _:bng_214.
+(_:bng_6 _:bng_213) log:explains _:bng_214.
 
-(_:bng_6 _:bng_215) log:proves _:bng_216.
+(_:bng_6 _:bng_215) log:explains _:bng_216.
 
-(_:bng_6 _:bng_217) log:proves _:bng_218.
+(_:bng_6 _:bng_217) log:explains _:bng_218.
 
-(_:bng_6 _:bng_219) log:proves _:bng_220.
+(_:bng_6 _:bng_219) log:explains _:bng_220.
 
-(_:bng_6 _:bng_221) log:proves _:bng_222.
+(_:bng_6 _:bng_221) log:explains _:bng_222.
 
-(_:bng_6 _:bng_223) log:proves _:bng_224.
+(_:bng_6 _:bng_223) log:explains _:bng_224.
 
-(_:bng_6 _:bng_225) log:proves _:bng_226.
+(_:bng_6 _:bng_225) log:explains _:bng_226.
 
-(_:bng_6 _:bng_227) log:proves _:bng_228.
+(_:bng_6 _:bng_227) log:explains _:bng_228.
 
-(_:bng_6 _:bng_229) log:proves _:bng_230.
+(_:bng_6 _:bng_229) log:explains _:bng_230.
 
-(_:bng_6 _:bng_231) log:proves _:bng_232.
+(_:bng_6 _:bng_231) log:explains _:bng_232.
 
-(_:bng_6 _:bng_233) log:proves _:bng_234.
+(_:bng_6 _:bng_233) log:explains _:bng_234.
 
-(_:bng_6 _:bng_235) log:proves _:bng_236.
+(_:bng_6 _:bng_235) log:explains _:bng_236.
 
-(_:bng_6 _:bng_237) log:proves _:bng_238.
+(_:bng_6 _:bng_237) log:explains _:bng_238.
 
-(_:bng_6 _:bng_239) log:proves _:bng_240.
+(_:bng_6 _:bng_239) log:explains _:bng_240.
 
-(_:bng_6 _:bng_241) log:proves _:bng_242.
+(_:bng_6 _:bng_241) log:explains _:bng_242.
 
-(_:bng_6 _:bng_243) log:proves _:bng_244.
+(_:bng_6 _:bng_243) log:explains _:bng_244.
 
-(_:bng_6 _:bng_245) log:proves _:bng_246.
+(_:bng_6 _:bng_245) log:explains _:bng_246.
 
-(_:bng_6 _:bng_247) log:proves _:bng_248.
+(_:bng_6 _:bng_247) log:explains _:bng_248.
 
-(_:bng_6 _:bng_249) log:proves _:bng_250.
+(_:bng_6 _:bng_249) log:explains _:bng_250.
 
-(_:bng_6 _:bng_251) log:proves _:bng_252.
+(_:bng_6 _:bng_251) log:explains _:bng_252.
 
-(_:bng_6 _:bng_253) log:proves _:bng_254.
+(_:bng_6 _:bng_253) log:explains _:bng_254.
 
-(_:bng_6 _:bng_255) log:proves _:bng_256.
+(_:bng_6 _:bng_255) log:explains _:bng_256.
 
-(_:bng_6 _:bng_257) log:proves _:bng_258.
+(_:bng_6 _:bng_257) log:explains _:bng_258.
 
-(_:bng_6 _:bng_259) log:proves _:bng_260.
+(_:bng_6 _:bng_259) log:explains _:bng_260.
 
-(_:bng_6 _:bng_261) log:proves _:bng_262.
+(_:bng_6 _:bng_261) log:explains _:bng_262.
 
-(_:bng_6 _:bng_263) log:proves _:bng_264.
+(_:bng_6 _:bng_263) log:explains _:bng_264.
 
-(_:bng_6 _:bng_265) log:proves _:bng_266.
+(_:bng_6 _:bng_265) log:explains _:bng_266.
 
-(_:bng_6 _:bng_267) log:proves _:bng_268.
+(_:bng_6 _:bng_267) log:explains _:bng_268.
 
-(_:bng_6 _:bng_269) log:proves _:bng_270.
+(_:bng_6 _:bng_269) log:explains _:bng_270.
 
-(_:bng_6 _:bng_271) log:proves _:bng_272.
+(_:bng_6 _:bng_271) log:explains _:bng_272.
 
-(_:bng_6 _:bng_273) log:proves _:bng_274.
+(_:bng_6 _:bng_273) log:explains _:bng_274.
 
-(_:bng_6 _:bng_275) log:proves _:bng_276.
+(_:bng_6 _:bng_275) log:explains _:bng_276.
 
-(_:bng_6 _:bng_277) log:proves _:bng_278.
+(_:bng_6 _:bng_277) log:explains _:bng_278.
 
-(_:bng_6 _:bng_279) log:proves _:bng_280.
+(_:bng_6 _:bng_279) log:explains _:bng_280.
 
-(_:bng_6 _:bng_281) log:proves _:bng_282.
+(_:bng_6 _:bng_281) log:explains _:bng_282.
 
-(_:bng_6 _:bng_283) log:proves _:bng_284.
+(_:bng_6 _:bng_283) log:explains _:bng_284.
 
-(_:bng_6 _:bng_285) log:proves _:bng_286.
+(_:bng_6 _:bng_285) log:explains _:bng_286.
 
-(_:bng_6 _:bng_287) log:proves _:bng_288.
+(_:bng_6 _:bng_287) log:explains _:bng_288.
 
-(_:bng_6 _:bng_289) log:proves _:bng_290.
+(_:bng_6 _:bng_289) log:explains _:bng_290.
 
-(_:bng_6 _:bng_291) log:proves _:bng_292.
+(_:bng_6 _:bng_291) log:explains _:bng_292.
 
-(_:bng_6 _:bng_293) log:proves _:bng_294.
+(_:bng_6 _:bng_293) log:explains _:bng_294.
 
-(_:bng_6 _:bng_295) log:proves _:bng_296.
+(_:bng_6 _:bng_295) log:explains _:bng_296.
 
-(_:bng_6 _:bng_297) log:proves _:bng_298.
+(_:bng_6 _:bng_297) log:explains _:bng_298.
 
-(_:bng_6 _:bng_299) log:proves _:bng_300.
+(_:bng_6 _:bng_299) log:explains _:bng_300.
 
-(_:bng_6 _:bng_301) log:proves _:bng_302.
+(_:bng_6 _:bng_301) log:explains _:bng_302.
 
-(_:bng_6 _:bng_303) log:proves _:bng_304.
+(_:bng_6 _:bng_303) log:explains _:bng_304.
 
-(_:bng_6 _:bng_305) log:proves _:bng_306.
+(_:bng_6 _:bng_305) log:explains _:bng_306.
 
-(_:bng_6 _:bng_307) log:proves _:bng_308.
+(_:bng_6 _:bng_307) log:explains _:bng_308.
 
-(_:bng_6 _:bng_309) log:proves _:bng_310.
+(_:bng_6 _:bng_309) log:explains _:bng_310.
 
-(_:bng_6 _:bng_311) log:proves _:bng_312.
+(_:bng_6 _:bng_311) log:explains _:bng_312.
 
-(_:bng_6 _:bng_313) log:proves _:bng_314.
+(_:bng_6 _:bng_313) log:explains _:bng_314.
 
-(_:bng_6 _:bng_315) log:proves _:bng_316.
+(_:bng_6 _:bng_315) log:explains _:bng_316.
 
-(_:bng_6 _:bng_317) log:proves _:bng_318.
+(_:bng_6 _:bng_317) log:explains _:bng_318.
 
-(_:bng_6 _:bng_319) log:proves _:bng_320.
+(_:bng_6 _:bng_319) log:explains _:bng_320.
 
-(_:bng_6 _:bng_321) log:proves _:bng_322.
+(_:bng_6 _:bng_321) log:explains _:bng_322.
 
-(_:bng_6 _:bng_323) log:proves _:bng_324.
+(_:bng_6 _:bng_323) log:explains _:bng_324.
 
-(_:bng_6 _:bng_325) log:proves _:bng_326.
+(_:bng_6 _:bng_325) log:explains _:bng_326.
 
-(_:bng_6 _:bng_327) log:proves _:bng_328.
+(_:bng_6 _:bng_327) log:explains _:bng_328.
 
-(_:bng_6 _:bng_329) log:proves _:bng_330.
+(_:bng_6 _:bng_329) log:explains _:bng_330.
 
-(_:bng_6 _:bng_331) log:proves _:bng_332.
+(_:bng_6 _:bng_331) log:explains _:bng_332.
 
-(_:bng_6 _:bng_333) log:proves _:bng_334.
+(_:bng_6 _:bng_333) log:explains _:bng_334.
 
-(_:bng_6 _:bng_335) log:proves _:bng_336.
+(_:bng_6 _:bng_335) log:explains _:bng_336.
 
-(_:bng_6 _:bng_337) log:proves _:bng_338.
+(_:bng_6 _:bng_337) log:explains _:bng_338.
 
-(_:bng_6 _:bng_339) log:proves _:bng_340.
+(_:bng_6 _:bng_339) log:explains _:bng_340.
 
-(_:bng_6 _:bng_341) log:proves _:bng_342.
+(_:bng_6 _:bng_341) log:explains _:bng_342.
 
-(_:bng_6 _:bng_343) log:proves _:bng_344.
+(_:bng_6 _:bng_343) log:explains _:bng_344.
 
-(_:bng_6 _:bng_345) log:proves _:bng_346.
+(_:bng_6 _:bng_345) log:explains _:bng_346.
 
-(_:bng_6 _:bng_347) log:proves _:bng_348.
+(_:bng_6 _:bng_347) log:explains _:bng_348.
 
-(_:bng_6 _:bng_349) log:proves _:bng_350.
+(_:bng_6 _:bng_349) log:explains _:bng_350.
 
-(_:bng_6 _:bng_351) log:proves _:bng_352.
+(_:bng_6 _:bng_351) log:explains _:bng_352.
 
-(_:bng_6 _:bng_353) log:proves _:bng_354.
+(_:bng_6 _:bng_353) log:explains _:bng_354.
 
-(_:bng_6 _:bng_355) log:proves _:bng_356.
+(_:bng_6 _:bng_355) log:explains _:bng_356.
 
-(_:bng_6 _:bng_357) log:proves _:bng_358.
+(_:bng_6 _:bng_357) log:explains _:bng_358.
 
-(_:bng_6 _:bng_359) log:proves _:bng_360.
+(_:bng_6 _:bng_359) log:explains _:bng_360.
 
-(_:bng_6 _:bng_361) log:proves _:bng_362.
+(_:bng_6 _:bng_361) log:explains _:bng_362.
 
-(_:bng_6 _:bng_363) log:proves _:bng_364.
+(_:bng_6 _:bng_363) log:explains _:bng_364.
 
-(_:bng_6 _:bng_365) log:proves _:bng_366.
+(_:bng_6 _:bng_365) log:explains _:bng_366.
 
-(_:bng_6 _:bng_367) log:proves _:bng_368.
+(_:bng_6 _:bng_367) log:explains _:bng_368.
 
-(_:bng_6 _:bng_369) log:proves _:bng_370.
+(_:bng_6 _:bng_369) log:explains _:bng_370.
 
-(_:bng_6 _:bng_371) log:proves _:bng_372.
+(_:bng_6 _:bng_371) log:explains _:bng_372.
 
-(_:bng_6 _:bng_373) log:proves _:bng_374.
+(_:bng_6 _:bng_373) log:explains _:bng_374.
 
-(_:bng_6 _:bng_375) log:proves _:bng_376.
+(_:bng_6 _:bng_375) log:explains _:bng_376.
 
-(_:bng_6 _:bng_377) log:proves _:bng_378.
+(_:bng_6 _:bng_377) log:explains _:bng_378.
 
-(_:bng_6 _:bng_379) log:proves _:bng_380.
+(_:bng_6 _:bng_379) log:explains _:bng_380.
 
-(_:bng_6 _:bng_381) log:proves _:bng_382.
+(_:bng_6 _:bng_381) log:explains _:bng_382.
 
-(_:bng_6 _:bng_383) log:proves _:bng_384.
+(_:bng_6 _:bng_383) log:explains _:bng_384.
 
-(_:bng_6 _:bng_385) log:proves _:bng_386.
+(_:bng_6 _:bng_385) log:explains _:bng_386.
 
-(_:bng_6 _:bng_387) log:proves _:bng_388.
+(_:bng_6 _:bng_387) log:explains _:bng_388.
 
-(_:bng_6 _:bng_389) log:proves _:bng_390.
+(_:bng_6 _:bng_389) log:explains _:bng_390.
 
-(_:bng_6 _:bng_391) log:proves _:bng_392.
+(_:bng_6 _:bng_391) log:explains _:bng_392.
 
-(_:bng_6 _:bng_393) log:proves _:bng_394.
+(_:bng_6 _:bng_393) log:explains _:bng_394.
 
-(_:bng_6 _:bng_395) log:proves _:bng_396.
+(_:bng_6 _:bng_395) log:explains _:bng_396.
 
-(_:bng_6 _:bng_397) log:proves _:bng_398.
+(_:bng_6 _:bng_397) log:explains _:bng_398.
 
-(_:bng_6 _:bng_399) log:proves _:bng_400.
+(_:bng_6 _:bng_399) log:explains _:bng_400.
 
-(_:bng_6 _:bng_401) log:proves _:bng_402.
+(_:bng_6 _:bng_401) log:explains _:bng_402.
 
-(_:bng_6 _:bng_403) log:proves _:bng_404.
+(_:bng_6 _:bng_403) log:explains _:bng_404.
 
-(_:bng_6 _:bng_405) log:proves _:bng_406.
+(_:bng_6 _:bng_405) log:explains _:bng_406.
 
-(_:bng_6 _:bng_407) log:proves _:bng_408.
+(_:bng_6 _:bng_407) log:explains _:bng_408.
 
-(_:bng_6 _:bng_409) log:proves _:bng_410.
+(_:bng_6 _:bng_409) log:explains _:bng_410.
 
-(_:bng_6 _:bng_411) log:proves _:bng_412.
+(_:bng_6 _:bng_411) log:explains _:bng_412.
 
-(_:bng_6 _:bng_413) log:proves _:bng_414.
+(_:bng_6 _:bng_413) log:explains _:bng_414.
 
-(_:bng_6 _:bng_415) log:proves _:bng_416.
+(_:bng_6 _:bng_415) log:explains _:bng_416.
 
-(_:bng_6 _:bng_417) log:proves _:bng_418.
+(_:bng_6 _:bng_417) log:explains _:bng_418.
 
-(_:bng_6 _:bng_419) log:proves _:bng_420.
+(_:bng_6 _:bng_419) log:explains _:bng_420.
 
-(_:bng_6 _:bng_421) log:proves _:bng_422.
+(_:bng_6 _:bng_421) log:explains _:bng_422.
 
-(_:bng_6 _:bng_423) log:proves _:bng_424.
+(_:bng_6 _:bng_423) log:explains _:bng_424.
 
-(_:bng_6 _:bng_425) log:proves _:bng_426.
+(_:bng_6 _:bng_425) log:explains _:bng_426.
 
-(_:bng_6 _:bng_427) log:proves _:bng_428.
+(_:bng_6 _:bng_427) log:explains _:bng_428.
 
-(_:bng_6 _:bng_429) log:proves _:bng_430.
+(_:bng_6 _:bng_429) log:explains _:bng_430.
 
-(_:bng_6 _:bng_431) log:proves _:bng_432.
+(_:bng_6 _:bng_431) log:explains _:bng_432.
 
-(_:bng_6 _:bng_433) log:proves _:bng_434.
+(_:bng_6 _:bng_433) log:explains _:bng_434.
 
-(_:bng_6 _:bng_435) log:proves _:bng_436.
+(_:bng_6 _:bng_435) log:explains _:bng_436.
 
-(_:bng_6 _:bng_437) log:proves _:bng_438.
+(_:bng_6 _:bng_437) log:explains _:bng_438.
 
-(_:bng_6 _:bng_439) log:proves _:bng_440.
+(_:bng_6 _:bng_439) log:explains _:bng_440.
 
-(_:bng_6 _:bng_441) log:proves _:bng_442.
+(_:bng_6 _:bng_441) log:explains _:bng_442.
 
-(_:bng_6 _:bng_443) log:proves _:bng_444.
+(_:bng_6 _:bng_443) log:explains _:bng_444.
 
-(_:bng_6 _:bng_445) log:proves _:bng_446.
+(_:bng_6 _:bng_445) log:explains _:bng_446.
 
-(_:bng_6 _:bng_447) log:proves _:bng_448.
+(_:bng_6 _:bng_447) log:explains _:bng_448.
 
-(_:bng_6 _:bng_449) log:proves _:bng_450.
+(_:bng_6 _:bng_449) log:explains _:bng_450.
 
-(_:bng_6 _:bng_451) log:proves _:bng_452.
+(_:bng_6 _:bng_451) log:explains _:bng_452.
 
-(_:bng_6 _:bng_453) log:proves _:bng_454.
+(_:bng_6 _:bng_453) log:explains _:bng_454.
 
-(_:bng_6 _:bng_455) log:proves _:bng_456.
+(_:bng_6 _:bng_455) log:explains _:bng_456.
 
-(_:bng_6 _:bng_457) log:proves _:bng_458.
+(_:bng_6 _:bng_457) log:explains _:bng_458.
 
-(_:bng_6 _:bng_459) log:proves _:bng_460.
+(_:bng_6 _:bng_459) log:explains _:bng_460.
 
-(_:bng_6 _:bng_461) log:proves _:bng_462.
+(_:bng_6 _:bng_461) log:explains _:bng_462.
 
-(_:bng_6 _:bng_463) log:proves _:bng_464.
+(_:bng_6 _:bng_463) log:explains _:bng_464.
 
-(_:bng_6 _:bng_465) log:proves _:bng_466.
+(_:bng_6 _:bng_465) log:explains _:bng_466.
 
-(_:bng_6 _:bng_467) log:proves _:bng_468.
+(_:bng_6 _:bng_467) log:explains _:bng_468.
 
-(_:bng_6 _:bng_469) log:proves _:bng_470.
+(_:bng_6 _:bng_469) log:explains _:bng_470.
 
-(_:bng_6 _:bng_471) log:proves _:bng_472.
+(_:bng_6 _:bng_471) log:explains _:bng_472.
 
-(_:bng_6 _:bng_473) log:proves _:bng_474.
+(_:bng_6 _:bng_473) log:explains _:bng_474.
 
-(_:bng_6 _:bng_475) log:proves _:bng_476.
+(_:bng_6 _:bng_475) log:explains _:bng_476.
 
-(_:bng_6 _:bng_477) log:proves _:bng_478.
+(_:bng_6 _:bng_477) log:explains _:bng_478.
 
-(_:bng_6 _:bng_479) log:proves _:bng_480.
+(_:bng_6 _:bng_479) log:explains _:bng_480.
 
-(_:bng_6 _:bng_481) log:proves _:bng_482.
+(_:bng_6 _:bng_481) log:explains _:bng_482.
 
-(_:bng_6 _:bng_483) log:proves _:bng_484.
+(_:bng_6 _:bng_483) log:explains _:bng_484.
 
-(_:bng_6 _:bng_485) log:proves _:bng_486.
+(_:bng_6 _:bng_485) log:explains _:bng_486.
 
-(_:bng_6 _:bng_487) log:proves _:bng_488.
+(_:bng_6 _:bng_487) log:explains _:bng_488.
 
-(_:bng_6 _:bng_489) log:proves _:bng_490.
+(_:bng_6 _:bng_489) log:explains _:bng_490.
 
-(_:bng_6 _:bng_491) log:proves _:bng_492.
+(_:bng_6 _:bng_491) log:explains _:bng_492.
 
-(_:bng_6 _:bng_493) log:proves _:bng_494.
+(_:bng_6 _:bng_493) log:explains _:bng_494.
 
-(_:bng_6 _:bng_495) log:proves _:bng_496.
+(_:bng_6 _:bng_495) log:explains _:bng_496.
 
-(_:bng_6 _:bng_497) log:proves _:bng_498.
+(_:bng_6 _:bng_497) log:explains _:bng_498.
 
-(_:bng_6 _:bng_499) log:proves _:bng_500.
+(_:bng_6 _:bng_499) log:explains _:bng_500.
 
-(_:bng_6 _:bng_501) log:proves _:bng_502.
+(_:bng_6 _:bng_501) log:explains _:bng_502.
 
-(_:bng_6 _:bng_503) log:proves _:bng_504.
+(_:bng_6 _:bng_503) log:explains _:bng_504.
 
-(_:bng_6 _:bng_505) log:proves _:bng_506.
+(_:bng_6 _:bng_505) log:explains _:bng_506.
 
-(_:bng_6 _:bng_507) log:proves _:bng_508.
+(_:bng_6 _:bng_507) log:explains _:bng_508.
 
-(_:bng_6 _:bng_509) log:proves _:bng_510.
+(_:bng_6 _:bng_509) log:explains _:bng_510.
 
-(_:bng_6 _:bng_511) log:proves _:bng_512.
+(_:bng_6 _:bng_511) log:explains _:bng_512.
 
-(_:bng_6 _:bng_513) log:proves _:bng_514.
+(_:bng_6 _:bng_513) log:explains _:bng_514.
 
-(_:bng_6 _:bng_515) log:proves _:bng_516.
+(_:bng_6 _:bng_515) log:explains _:bng_516.
 
-(_:bng_6 _:bng_517) log:proves _:bng_518.
+(_:bng_6 _:bng_517) log:explains _:bng_518.
 
-(_:bng_6 _:bng_519) log:proves _:bng_520.
+(_:bng_6 _:bng_519) log:explains _:bng_520.
 
-(_:bng_6 _:bng_521) log:proves _:bng_522.
+(_:bng_6 _:bng_521) log:explains _:bng_522.
 
-(_:bng_6 _:bng_523) log:proves _:bng_524.
+(_:bng_6 _:bng_523) log:explains _:bng_524.
 
-(_:bng_6 _:bng_525) log:proves _:bng_526.
+(_:bng_6 _:bng_525) log:explains _:bng_526.
 
-(_:bng_6 _:bng_527) log:proves _:bng_528.
+(_:bng_6 _:bng_527) log:explains _:bng_528.
 
-(_:bng_6 _:bng_529) log:proves _:bng_530.
+(_:bng_6 _:bng_529) log:explains _:bng_530.
 
-(_:bng_6 _:bng_531) log:proves _:bng_532.
+(_:bng_6 _:bng_531) log:explains _:bng_532.
 
-(_:bng_6 _:bng_533) log:proves _:bng_534.
+(_:bng_6 _:bng_533) log:explains _:bng_534.
 
-(_:bng_6 _:bng_535) log:proves _:bng_536.
+(_:bng_6 _:bng_535) log:explains _:bng_536.
 
-(_:bng_6 _:bng_537) log:proves _:bng_538.
+(_:bng_6 _:bng_537) log:explains _:bng_538.
 
-(_:bng_6 _:bng_539) log:proves _:bng_540.
+(_:bng_6 _:bng_539) log:explains _:bng_540.
 
-(_:bng_6 _:bng_541) log:proves _:bng_542.
+(_:bng_6 _:bng_541) log:explains _:bng_542.
 
-(_:bng_6 _:bng_543) log:proves _:bng_544.
+(_:bng_6 _:bng_543) log:explains _:bng_544.
 
-(_:bng_6 _:bng_545) log:proves _:bng_546.
+(_:bng_6 _:bng_545) log:explains _:bng_546.
 
-(_:bng_6 _:bng_547) log:proves _:bng_548.
+(_:bng_6 _:bng_547) log:explains _:bng_548.
 
-(_:bng_6 _:bng_549) log:proves _:bng_550.
+(_:bng_6 _:bng_549) log:explains _:bng_550.
 
-(_:bng_6 _:bng_551) log:proves _:bng_552.
+(_:bng_6 _:bng_551) log:explains _:bng_552.
 
-(_:bng_6 _:bng_553) log:proves _:bng_554.
+(_:bng_6 _:bng_553) log:explains _:bng_554.
 
-(_:bng_6 _:bng_555) log:proves _:bng_556.
+(_:bng_6 _:bng_555) log:explains _:bng_556.
 
-(_:bng_6 _:bng_557) log:proves _:bng_558.
+(_:bng_6 _:bng_557) log:explains _:bng_558.
 
-(_:bng_6 _:bng_559) log:proves _:bng_560.
+(_:bng_6 _:bng_559) log:explains _:bng_560.
 
-(_:bng_6 _:bng_561) log:proves _:bng_562.
+(_:bng_6 _:bng_561) log:explains _:bng_562.
 
-(_:bng_6 _:bng_563) log:proves _:bng_564.
+(_:bng_6 _:bng_563) log:explains _:bng_564.
 
-(_:bng_6 _:bng_565) log:proves _:bng_566.
+(_:bng_6 _:bng_565) log:explains _:bng_566.
 
-(_:bng_6 _:bng_567) log:proves _:bng_568.
+(_:bng_6 _:bng_567) log:explains _:bng_568.
 
-(_:bng_6 _:bng_569) log:proves _:bng_570.
+(_:bng_6 _:bng_569) log:explains _:bng_570.
 
-(_:bng_6 _:bng_571) log:proves _:bng_572.
+(_:bng_6 _:bng_571) log:explains _:bng_572.
 
-(_:bng_6 _:bng_573) log:proves _:bng_574.
+(_:bng_6 _:bng_573) log:explains _:bng_574.
 
-(_:bng_6 _:bng_575) log:proves _:bng_576.
+(_:bng_6 _:bng_575) log:explains _:bng_576.
 
-(_:bng_6 _:bng_577) log:proves _:bng_578.
+(_:bng_6 _:bng_577) log:explains _:bng_578.
 
-(_:bng_6 _:bng_579) log:proves _:bng_580.
+(_:bng_6 _:bng_579) log:explains _:bng_580.
 
-(_:bng_6 _:bng_581) log:proves _:bng_582.
+(_:bng_6 _:bng_581) log:explains _:bng_582.
 
-(_:bng_6 _:bng_583) log:proves _:bng_584.
+(_:bng_6 _:bng_583) log:explains _:bng_584.
 
-(_:bng_6 _:bng_585) log:proves _:bng_586.
+(_:bng_6 _:bng_585) log:explains _:bng_586.
 
-(_:bng_6 _:bng_587) log:proves _:bng_588.
+(_:bng_6 _:bng_587) log:explains _:bng_588.
 
-(_:bng_6 _:bng_589) log:proves _:bng_590.
+(_:bng_6 _:bng_589) log:explains _:bng_590.
 
-(_:bng_6 _:bng_591) log:proves _:bng_592.
+(_:bng_6 _:bng_591) log:explains _:bng_592.
 
-(_:bng_6 _:bng_593) log:proves _:bng_594.
+(_:bng_6 _:bng_593) log:explains _:bng_594.
 
-(_:bng_6 _:bng_595) log:proves _:bng_596.
+(_:bng_6 _:bng_595) log:explains _:bng_596.
 
-(_:bng_6 _:bng_597) log:proves _:bng_598.
+(_:bng_6 _:bng_597) log:explains _:bng_598.
 
-(_:bng_6 _:bng_599) log:proves _:bng_600.
+(_:bng_6 _:bng_599) log:explains _:bng_600.
 
-(_:bng_6 _:bng_601) log:proves _:bng_602.
+(_:bng_6 _:bng_601) log:explains _:bng_602.
 
-(_:bng_6 _:bng_603) log:proves _:bng_604.
+(_:bng_6 _:bng_603) log:explains _:bng_604.
 
-(_:bng_6 _:bng_605) log:proves _:bng_606.
+(_:bng_6 _:bng_605) log:explains _:bng_606.
 
-(_:bng_6 _:bng_607) log:proves _:bng_608.
+(_:bng_6 _:bng_607) log:explains _:bng_608.
 
-(_:bng_6 _:bng_609) log:proves _:bng_610.
+(_:bng_6 _:bng_609) log:explains _:bng_610.
 
-(_:bng_6 _:bng_611) log:proves _:bng_612.
+(_:bng_6 _:bng_611) log:explains _:bng_612.
 
-(_:bng_6 _:bng_613) log:proves _:bng_614.
+(_:bng_6 _:bng_613) log:explains _:bng_614.
 
-(_:bng_6 _:bng_615) log:proves _:bng_616.
+(_:bng_6 _:bng_615) log:explains _:bng_616.
 
-(_:bng_6 _:bng_617) log:proves _:bng_618.
+(_:bng_6 _:bng_617) log:explains _:bng_618.
 
-(_:bng_6 _:bng_619) log:proves _:bng_620.
+(_:bng_6 _:bng_619) log:explains _:bng_620.
 
-(_:bng_6 _:bng_621) log:proves _:bng_622.
+(_:bng_6 _:bng_621) log:explains _:bng_622.
 
-(_:bng_6 _:bng_623) log:proves _:bng_624.
+(_:bng_6 _:bng_623) log:explains _:bng_624.
 
-(_:bng_6 _:bng_625) log:proves _:bng_626.
+(_:bng_6 _:bng_625) log:explains _:bng_626.
 
-(_:bng_6 _:bng_627) log:proves _:bng_628.
+(_:bng_6 _:bng_627) log:explains _:bng_628.
 
-(_:bng_6 _:bng_629) log:proves _:bng_630.
+(_:bng_6 _:bng_629) log:explains _:bng_630.
 
-(_:bng_6 _:bng_631) log:proves _:bng_632.
+(_:bng_6 _:bng_631) log:explains _:bng_632.
 
-(_:bng_6 _:bng_633) log:proves _:bng_634.
+(_:bng_6 _:bng_633) log:explains _:bng_634.
 
-(_:bng_6 _:bng_635) log:proves _:bng_636.
+(_:bng_6 _:bng_635) log:explains _:bng_636.
 
-(_:bng_6 _:bng_637) log:proves _:bng_638.
+(_:bng_6 _:bng_637) log:explains _:bng_638.
 
-(_:bng_6 _:bng_639) log:proves _:bng_640.
+(_:bng_6 _:bng_639) log:explains _:bng_640.
 
-(_:bng_6 _:bng_641) log:proves _:bng_642.
+(_:bng_6 _:bng_641) log:explains _:bng_642.
 
-(_:bng_6 _:bng_643) log:proves _:bng_644.
+(_:bng_6 _:bng_643) log:explains _:bng_644.
 
-(_:bng_6 _:bng_645) log:proves _:bng_646.
+(_:bng_6 _:bng_645) log:explains _:bng_646.
 
-(_:bng_6 _:bng_647) log:proves _:bng_648.
+(_:bng_6 _:bng_647) log:explains _:bng_648.
 
-(_:bng_6 _:bng_649) log:proves _:bng_650.
+(_:bng_6 _:bng_649) log:explains _:bng_650.
 
-(_:bng_6 _:bng_651) log:proves _:bng_652.
+(_:bng_6 _:bng_651) log:explains _:bng_652.
 
-(_:bng_6 _:bng_653) log:proves _:bng_654.
+(_:bng_6 _:bng_653) log:explains _:bng_654.
 
-(_:bng_6 _:bng_655) log:proves _:bng_656.
+(_:bng_6 _:bng_655) log:explains _:bng_656.
 
-(_:bng_6 _:bng_657) log:proves _:bng_658.
+(_:bng_6 _:bng_657) log:explains _:bng_658.
 
-(_:bng_6 _:bng_659) log:proves _:bng_660.
+(_:bng_6 _:bng_659) log:explains _:bng_660.
 
-(_:bng_6 _:bng_661) log:proves _:bng_662.
+(_:bng_6 _:bng_661) log:explains _:bng_662.
 
-(_:bng_6 _:bng_663) log:proves _:bng_664.
+(_:bng_6 _:bng_663) log:explains _:bng_664.
 
-(_:bng_6 _:bng_665) log:proves _:bng_666.
+(_:bng_6 _:bng_665) log:explains _:bng_666.
 
-(_:bng_6 _:bng_667) log:proves _:bng_668.
+(_:bng_6 _:bng_667) log:explains _:bng_668.
 
-(_:bng_6 _:bng_669) log:proves _:bng_670.
+(_:bng_6 _:bng_669) log:explains _:bng_670.
 
-(_:bng_6 _:bng_671) log:proves _:bng_672.
+(_:bng_6 _:bng_671) log:explains _:bng_672.
 
-(_:bng_6 _:bng_673) log:proves _:bng_674.
+(_:bng_6 _:bng_673) log:explains _:bng_674.
 
-(_:bng_6 _:bng_675) log:proves _:bng_676.
+(_:bng_6 _:bng_675) log:explains _:bng_676.
 
-(_:bng_6 _:bng_677) log:proves _:bng_678.
+(_:bng_6 _:bng_677) log:explains _:bng_678.
 
-(_:bng_6 _:bng_679) log:proves _:bng_680.
+(_:bng_6 _:bng_679) log:explains _:bng_680.
 
-(_:bng_6 _:bng_681) log:proves _:bng_682.
+(_:bng_6 _:bng_681) log:explains _:bng_682.
 
-(_:bng_6 _:bng_683) log:proves _:bng_684.
+(_:bng_6 _:bng_683) log:explains _:bng_684.
 
-(_:bng_6 _:bng_685) log:proves _:bng_686.
+(_:bng_6 _:bng_685) log:explains _:bng_686.
 
-(_:bng_6 _:bng_687) log:proves _:bng_688.
+(_:bng_6 _:bng_687) log:explains _:bng_688.
 
-(_:bng_6 _:bng_689) log:proves _:bng_690.
+(_:bng_6 _:bng_689) log:explains _:bng_690.
 
-(_:bng_6 _:bng_691) log:proves _:bng_692.
+(_:bng_6 _:bng_691) log:explains _:bng_692.
 
-(_:bng_6 _:bng_693) log:proves _:bng_694.
+(_:bng_6 _:bng_693) log:explains _:bng_694.
 
-(_:bng_6 _:bng_695) log:proves _:bng_696.
+(_:bng_6 _:bng_695) log:explains _:bng_696.
 
-(_:bng_6 _:bng_697) log:proves _:bng_698.
+(_:bng_6 _:bng_697) log:explains _:bng_698.
 
-(_:bng_6 _:bng_699) log:proves _:bng_700.
+(_:bng_6 _:bng_699) log:explains _:bng_700.
 
-(_:bng_6 _:bng_701) log:proves _:bng_702.
+(_:bng_6 _:bng_701) log:explains _:bng_702.
 
-(_:bng_6 _:bng_703) log:proves _:bng_704.
+(_:bng_6 _:bng_703) log:explains _:bng_704.
 
-(_:bng_6 _:bng_705) log:proves _:bng_706.
+(_:bng_6 _:bng_705) log:explains _:bng_706.
 
-(_:bng_6 _:bng_707) log:proves _:bng_708.
+(_:bng_6 _:bng_707) log:explains _:bng_708.
 
-(_:bng_6 _:bng_709) log:proves _:bng_710.
+(_:bng_6 _:bng_709) log:explains _:bng_710.
 
-(_:bng_6 _:bng_711) log:proves _:bng_712.
+(_:bng_6 _:bng_711) log:explains _:bng_712.
 
-(_:bng_6 _:bng_713) log:proves _:bng_714.
+(_:bng_6 _:bng_713) log:explains _:bng_714.
 
-(_:bng_6 _:bng_715) log:proves _:bng_716.
+(_:bng_6 _:bng_715) log:explains _:bng_716.
 
-(_:bng_6 _:bng_717) log:proves _:bng_718.
+(_:bng_6 _:bng_717) log:explains _:bng_718.
 
-(_:bng_6 _:bng_719) log:proves _:bng_720.
+(_:bng_6 _:bng_719) log:explains _:bng_720.
 
-(_:bng_6 _:bng_721) log:proves _:bng_722.
+(_:bng_6 _:bng_721) log:explains _:bng_722.
 
-(_:bng_6 _:bng_723) log:proves _:bng_724.
+(_:bng_6 _:bng_723) log:explains _:bng_724.
 
-(_:bng_6 _:bng_725) log:proves _:bng_726.
+(_:bng_6 _:bng_725) log:explains _:bng_726.
 
-(_:bng_6 _:bng_727) log:proves _:bng_728.
+(_:bng_6 _:bng_727) log:explains _:bng_728.
 
-(_:bng_6 _:bng_729) log:proves _:bng_730.
+(_:bng_6 _:bng_729) log:explains _:bng_730.
 
-(_:bng_6 _:bng_731) log:proves _:bng_732.
+(_:bng_6 _:bng_731) log:explains _:bng_732.
 
-(_:bng_6 _:bng_733) log:proves _:bng_734.
+(_:bng_6 _:bng_733) log:explains _:bng_734.
 
-(_:bng_6 _:bng_735) log:proves _:bng_736.
+(_:bng_6 _:bng_735) log:explains _:bng_736.
 
-(_:bng_6 _:bng_737) log:proves _:bng_738.
+(_:bng_6 _:bng_737) log:explains _:bng_738.
 
-(_:bng_6 _:bng_739) log:proves _:bng_740.
+(_:bng_6 _:bng_739) log:explains _:bng_740.
 
-(_:bng_6 _:bng_741) log:proves _:bng_742.
+(_:bng_6 _:bng_741) log:explains _:bng_742.
 
-(_:bng_6 _:bng_743) log:proves _:bng_744.
+(_:bng_6 _:bng_743) log:explains _:bng_744.
 
-(_:bng_6 _:bng_745) log:proves _:bng_746.
+(_:bng_6 _:bng_745) log:explains _:bng_746.
 
-(_:bng_6 _:bng_747) log:proves _:bng_748.
+(_:bng_6 _:bng_747) log:explains _:bng_748.
 
-(_:bng_6 _:bng_749) log:proves _:bng_750.
+(_:bng_6 _:bng_749) log:explains _:bng_750.
 
-(_:bng_6 _:bng_751) log:proves _:bng_752.
+(_:bng_6 _:bng_751) log:explains _:bng_752.
 
-(_:bng_6 _:bng_753) log:proves _:bng_754.
+(_:bng_6 _:bng_753) log:explains _:bng_754.
 
-(_:bng_6 _:bng_755) log:proves _:bng_756.
+(_:bng_6 _:bng_755) log:explains _:bng_756.
 
-(_:bng_6 _:bng_757) log:proves _:bng_758.
+(_:bng_6 _:bng_757) log:explains _:bng_758.
 
-(_:bng_6 _:bng_759) log:proves _:bng_760.
+(_:bng_6 _:bng_759) log:explains _:bng_760.
 
-(_:bng_6 _:bng_761) log:proves _:bng_762.
+(_:bng_6 _:bng_761) log:explains _:bng_762.
 
-(_:bng_1 _:bng_762) log:proves _:bng_763.
+(_:bng_1 _:bng_762) log:explains _:bng_763.
 
-(_:bng_764 _:bng_765) log:proves _:bng_765.
+(_:bng_764 _:bng_765) log:explains _:bng_765.
 
 _:bng_1 {
     _:bng_1_1 log:isImpliedBy _:bng_2_1.

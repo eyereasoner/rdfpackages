@@ -10,65 +10,65 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
-(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_4 _:bng_5) log:explains _:bng_6.
 
-(_:bng_7 _:bng_8) log:proves _:bng_9.
+(_:bng_7 _:bng_8) log:explains _:bng_9.
 
-(_:bng_1 _:bng_10) log:proves _:bng_11.
+(_:bng_1 _:bng_10) log:explains _:bng_11.
 
-(_:bng_7 _:bng_12) log:proves _:bng_13.
+(_:bng_7 _:bng_12) log:explains _:bng_13.
 
-(_:bng_1 _:bng_14) log:proves _:bng_15.
+(_:bng_1 _:bng_14) log:explains _:bng_15.
 
-(_:bng_4 _:bng_16) log:proves _:bng_17.
+(_:bng_4 _:bng_16) log:explains _:bng_17.
 
-(_:bng_7 _:bng_18) log:proves _:bng_19.
+(_:bng_7 _:bng_18) log:explains _:bng_19.
 
-(_:bng_1 _:bng_20) log:proves _:bng_21.
+(_:bng_1 _:bng_20) log:explains _:bng_21.
 
-(_:bng_7 _:bng_22) log:proves _:bng_23.
+(_:bng_7 _:bng_22) log:explains _:bng_23.
 
-(_:bng_1 _:bng_24) log:proves _:bng_25.
+(_:bng_1 _:bng_24) log:explains _:bng_25.
 
-(_:bng_4 _:bng_26) log:proves _:bng_27.
+(_:bng_4 _:bng_26) log:explains _:bng_27.
 
-(_:bng_7 _:bng_28) log:proves _:bng_29.
+(_:bng_7 _:bng_28) log:explains _:bng_29.
 
-(_:bng_1 _:bng_30) log:proves _:bng_31.
+(_:bng_1 _:bng_30) log:explains _:bng_31.
 
-(_:bng_7 _:bng_32) log:proves _:bng_33.
+(_:bng_7 _:bng_32) log:explains _:bng_33.
 
-(_:bng_1 _:bng_34) log:proves _:bng_35.
+(_:bng_1 _:bng_34) log:explains _:bng_35.
 
-(_:bng_4 _:bng_36) log:proves _:bng_37.
+(_:bng_4 _:bng_36) log:explains _:bng_37.
 
-(_:bng_7 _:bng_38) log:proves _:bng_39.
+(_:bng_7 _:bng_38) log:explains _:bng_39.
 
-(_:bng_1 _:bng_40) log:proves _:bng_41.
+(_:bng_1 _:bng_40) log:explains _:bng_41.
 
-(_:bng_7 _:bng_42) log:proves _:bng_43.
+(_:bng_7 _:bng_42) log:explains _:bng_43.
 
-(_:bng_44 _:bng_45) log:proves _:bng_46.
+(_:bng_44 _:bng_45) log:explains _:bng_46.
 
-(_:bng_44 _:bng_47) log:proves _:bng_48.
+(_:bng_44 _:bng_47) log:explains _:bng_48.
 
-(_:bng_44 _:bng_49) log:proves _:bng_50.
+(_:bng_44 _:bng_49) log:explains _:bng_50.
 
-(_:bng_44 _:bng_51) log:proves _:bng_52.
+(_:bng_44 _:bng_51) log:explains _:bng_52.
 
-(_:bng_44 _:bng_53) log:proves _:bng_54.
+(_:bng_44 _:bng_53) log:explains _:bng_54.
 
-(_:bng_44 _:bng_55) log:proves _:bng_56.
+(_:bng_44 _:bng_55) log:explains _:bng_56.
 
-(_:bng_44 _:bng_57) log:proves _:bng_58.
+(_:bng_44 _:bng_57) log:explains _:bng_58.
 
-(_:bng_44 _:bng_59) log:proves _:bng_60.
+(_:bng_44 _:bng_59) log:explains _:bng_60.
 
-(_:bng_44 _:bng_61) log:proves _:bng_62.
+(_:bng_44 _:bng_61) log:explains _:bng_62.
 
-(_:bng_63 _:bng_62) log:proves _:bng_62.
+(_:bng_63 _:bng_62) log:explains _:bng_62.
 
 _:bng_1 {
     _:bng_5_1 log:isImpliedBy _:bng_6_1.

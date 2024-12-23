@@ -10,7 +10,7 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
 _:bng_3_1 {
     :Let :param var:param.

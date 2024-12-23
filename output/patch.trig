@@ -11,11 +11,11 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves true.
+(_:bng_1 _:bng_2) log:explains true.
 
-(_:bng_3 _:bng_4) log:proves _:bng_4.
+(_:bng_3 _:bng_4) log:explains _:bng_4.
 
-(_:bng_3 _:bng_5) log:proves _:bng_5.
+(_:bng_3 _:bng_5) log:explains _:bng_5.
 
 _:bng_2_1 {
     var:person :givenName "Claudia".

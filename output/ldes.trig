@@ -13,7 +13,7 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
 _:bng_1_1 {
     <https://example.org/Dataset1> a dcat:Dataset.

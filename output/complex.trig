@@ -14,31 +14,31 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
-(_:bng_4 _:bng_5) log:proves _:bng_6.
+(_:bng_4 _:bng_5) log:explains _:bng_6.
 
-(_:bng_7 _:bng_8) log:proves _:bng_9.
+(_:bng_7 _:bng_8) log:explains _:bng_9.
 
-(_:bng_10 _:bng_11) log:proves _:bng_12.
+(_:bng_10 _:bng_11) log:explains _:bng_12.
 
-(_:bng_4 _:bng_13) log:proves _:bng_14.
+(_:bng_4 _:bng_13) log:explains _:bng_14.
 
-(_:bng_7 _:bng_15) log:proves _:bng_16.
+(_:bng_7 _:bng_15) log:explains _:bng_16.
 
-(_:bng_10 _:bng_17) log:proves _:bng_18.
+(_:bng_10 _:bng_17) log:explains _:bng_18.
 
-(_:bng_4 _:bng_19) log:proves _:bng_20.
+(_:bng_4 _:bng_19) log:explains _:bng_20.
 
-(_:bng_7 _:bng_21) log:proves _:bng_22.
+(_:bng_7 _:bng_21) log:explains _:bng_22.
 
-(_:bng_7 _:bng_23) log:proves _:bng_24.
+(_:bng_7 _:bng_23) log:explains _:bng_24.
 
-(_:bng_25 _:bng_26) log:proves _:bng_27.
+(_:bng_25 _:bng_26) log:explains _:bng_27.
 
-(_:bng_28 _:bng_29) log:proves _:bng_30.
+(_:bng_28 _:bng_29) log:explains _:bng_30.
 
-(_:bng_31 _:bng_32) log:proves _:bng_32.
+(_:bng_31 _:bng_32) log:explains _:bng_32.
 
 _:bng_1 {
     _:bng_11_1 log:isImpliedBy _:bng_12_1.

@@ -8,11 +8,11 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
-(_:bng_1 _:bng_4) log:proves _:bng_3.
+(_:bng_1 _:bng_4) log:explains _:bng_3.
 
-(_:bng_5 _:bng_4_1) log:proves _:bng_4_1.
+(_:bng_5 _:bng_4_1) log:explains _:bng_4_1.
 
 _:bng_3_1 {
     var:dog a :Dog.

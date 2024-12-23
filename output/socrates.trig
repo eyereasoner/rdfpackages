@@ -9,9 +9,9 @@
 # Explain the reasoning
 #
 
-(_:bng_1 _:bng_2) log:proves _:bng_3.
+(_:bng_1 _:bng_2) log:explains _:bng_3.
 
-(_:bng_4 _:bng_3) log:proves _:bng_3.
+(_:bng_4 _:bng_3) log:explains _:bng_3.
 
 _:bng_1 {
     _:bng_1_1 log:implies _:bng_2_1.
