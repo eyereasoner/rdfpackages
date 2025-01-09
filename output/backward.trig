@@ -1,39 +1,4 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix : <http://example.org/#>.
-@prefix log: <http://www.w3.org/2000/10/swap/log#>.
-@prefix math: <http://www.w3.org/2000/10/swap/math#>.
-@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 [] rdf:value 5; :moreInterestingThan 3 .
-
-#
-# Explain the reasoning
-#
-
-(_:bng_1 _:bng_2) log:explains _:bng_3_1.
-
-(_:bng_3 _:bng_3_1) log:explains _:bng_3_1.
-
-_:bng_1 {
-    _:bng_1_1 log:isImpliedBy _:bng_2_1.
-}
-
-_:bng_2 {
-    [] rdf:value 5; math:greaterThan 3.
-}
-
-_:bng_3_1 {
-    [] rdf:value 5; :moreInterestingThan 3.
-}
-
-_:bng_3 {
-    _:bng_3_1 log:query _:bng_3_1.
-}
-
-_:bng_1_1 {
-    var:X :moreInterestingThan var:Y.
-}
-
-_:bng_2_1 {
-    var:X math:greaterThan var:Y.
-}

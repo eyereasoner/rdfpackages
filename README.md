@@ -47,35 +47,6 @@ _:bng_3 {
 }
 ```
 
-## proofs described in RDF
-e.g.
-```
-# (rule instantiated_premise) log:explains instantiated_conclusion.
-(_:bng_1 _:bng_2) log:explains _:bng_3.
-
-_:bng_1 {
-    _:bng_1_1 log:implies _:bng_2_1.
-}
-
-_:bng_2 {
-    :Human rdfs:subClassOf :Mortal.
-    :Socrates a :Human.
-}
-
-_:bng_3 {
-    :Socrates a :Mortal.
-}
-
-_:bng_1_1 {
-    var:A rdfs:subClassOf var:B.
-    var:S a var:A.
-}
-
-_:bng_2_1 {
-    var:S a var:B.
-}
-```
-
 For any rdfpackage with graph statement `N G` the graph term `G` is closed.
 
 The `var:` prefix is `<http://www.w3.org/2000/10/swap/var#>` and is used for

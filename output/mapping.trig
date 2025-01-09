@@ -1,52 +1,6 @@
 @prefix : <http://example.org/#>.
 @prefix schema: <http://schema.org/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix log: <http://www.w3.org/2000/10/swap/log#>.
-@prefix var: <http://www.w3.org/2000/10/swap/var#>.
 
 :Pat a schema:Person.
 :Pat a foaf:Person.
-
-#
-# Explain the reasoning
-#
-
-(_:bng_1 _:bng_2) log:explains _:bng_3.
-
-(_:bng_4 _:bng_2) log:explains _:bng_2.
-
-(_:bng_4 _:bng_3) log:explains _:bng_3.
-
-(_:bng_5 _:bng_3) log:explains _:bng_2.
-
-_:bng_1 {
-    _:bng_2_1 log:implies _:bng_1_1.
-}
-
-_:bng_2 {
-    :Pat a schema:Person.
-}
-
-_:bng_3 {
-    :Pat a foaf:Person.
-}
-
-_:bng_4 {
-    _:bng_3_1 log:query _:bng_3_1.
-}
-
-_:bng_5 {
-    _:bng_1_1 log:implies _:bng_2_1.
-}
-
-_:bng_2_1 {
-    var:S a schema:Person.
-}
-
-_:bng_1_1 {
-    var:S a foaf:Person.
-}
-
-_:bng_3_1 {
-    var:WHO a var:WHAT.
-}
